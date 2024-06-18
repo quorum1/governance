@@ -6,7 +6,7 @@ It's important to note that not all governance-related information should necess
 
 ## Making Changes to Docs
 
-Any time a change is made to the governance repo it must be in compliance with all applicable flows, based on the scopes defined in the flows section of the governance repo: [/flows](./flows/).
+Any time a change is made to the governance repo it must be in compliance with all applicable flows, based on the scopes defined in the flows section of the governance repo: [/flows](../flows/).
 
 Any changes which are later determined to have been made out of compliance with one or more of the in-scope flows as defined at the time of the change will be considered invalid and must be re-processed in accordance with the currently in-scope flows.
 
