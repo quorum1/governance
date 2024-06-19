@@ -20,7 +20,8 @@ This is Release 1. It is a work in progress. Release 1 represents the first holi
 Checklist for this release:
 - [x] Create folder structure & document with readmes
 - [x] Build core q-git flow & define its scope
-- [ ] Load financial model v2 into repo
+- [x] Load Financial Model v2 into repo from Notion export
+- [ ] Clean up and resolve any Notion export issues
 - [ ] Build financial model change flow
 - [ ] Initial review & cleanup
 - [ ] Final cleanup (REMOVE THIS CHECKLIST)
