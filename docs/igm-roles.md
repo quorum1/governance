@@ -2,7 +2,7 @@
 
 _**Dependencies:** None_
 
-This doc defines key roles in Quorum1's governance processes.
+This doc defines what Quorum1's Informal Governance Processes is, how it relates to our Formal Governance Process, and what key roles are involved.
 
 ## Note on Informal Governance Model
 
