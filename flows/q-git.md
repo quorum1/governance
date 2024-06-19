@@ -26,21 +26,23 @@ The Q-Git Flow (QGF for short) is our primary governance change flow.
 The process through which Working Releases are created and eventually launched.
 
 1. **Creation:** A new Working Release is created.
-2. **Development:** The Development Process is followed to gather and approve contributions to the Working Release.
+2. **Development:** The Development Process is followed to gather and approve Contributions to the Working Release.
 3. **Finalization:** The Working Release is reviewed, edited, submitted for various levels of feedback & approval, and ultimately either approved or returned for another round of development.
 4. **Launch:** After final approval, a Working Release becomes the new Live Release.
 
 ### Development Process
 
-The process through which contributions and drafted and eventually approved for inclusion in a Working Release.
+The process through which Contributions and drafted and eventually approved for inclusion in a Working Release.
 
-1. **Drafting:** A contribution is drafted.
-2. **Iteration:** A contribution is submitted for inclusion in a Working Release, and iterated upon with one or more Sponsors.
-3. **Merges:** A contribution may optionally be merged with other contributions.
-4. **Approvals:** A contribution is either approved or rejected for inclusion in a Working Release.
+1. **Drafting:** A Contribution is drafted.
+2. **Iteration:** A Contribution is submitted for inclusion in a Working Release, and iterated upon with one or more Sponsors.
+3. **Merges:** A Contribution may optionally be merged with other Contributions.
+4. **Approvals:** A Contribution is either approved or rejected for inclusion in a Working Release.
 
 
 ## Release Process Detail
+
+This process is structured with a higher level of formality because it is our primary safeguard ensuring that only high quality, well-considered changes make it into our governance repo.
 
 ### Release Roles
 
@@ -100,6 +102,7 @@ The finalization process is critical to the overall Release Process. Here are th
   - Partners can bring up questions and discuss concerns. They may also share any concerns which would cause them to vote to reject this Release.
   - The final review is complete when all resolutions and open questions have been discussed and when partners have agreed on the duration of the approval voting period.
 - **Step 3f - Partner Approval:** An asynchronous vote is held.
+  - The votes must produce a permanent verifiable audit trail.
   - Partners may vote to approve or reject the Release:
     - Votes to reject must contain a list of specific Issues to Resolve which would need to be addressed in order for them to approve again in the future.
     - Votes to approve may optionally contain a list of specific Future Issues which the Partner thinks should be addressed in future Releases.
@@ -130,28 +133,62 @@ Once the Working Release is merged into the `main` branch, it is considered the 
 
 ## Development Process Detail
 
+This process is structured with less formality and more flexibility because it is intended to support stigmergic contributions and emergent innovation.
+
+Members are encouraged to innovate on top of the basic process outlined below, perhaps experimenting with additional structures and collaboration mechanisms which encourage more creative and thoughtful contributions, generate more work joy, or achieve other desirable outcomes.
+
 ### Development Roles
 
-Each contribution has the following roles associated with it.
+Each Contribution has the following roles associated with it, collectively referred to as the **Contribution Team**.
 
-- **Drafters:** One or more Contributors who help draft and iterate the contribution.
-- **Supporters:** One or more Members who help advice and support the process, but do not directly contribute.
-- **Sponsors:** One or more Partners who guide the contribution through the approval process.
+- **Drafters:** One or more Contributors who help draft and iterate the Contribution.
+- **Supporters:** One or more Members who help advise and support the process, but do not directly contribute.
+- **Sponsors:** One or more Partners who guide the Contribution through the approval process.
 
 ### Step 1 - Drafting
 
-...
+Any group of Drafters may team up to draft a Contribution by creating a Contribution Branch.
+
+Any Contributors who are not confident enough with Github to draft a Contribution themselves are encouraged to team up with other Contributors who are skilled with Github. Non-Contributor Members cannot be Drafters themselves but they are encouraged to be Supporters or to become Contributors.
+
+At any point in the drafting process, Drafters may seek to find one or more Partners to Sponsor their Contribution. At least one Sponsor is needed to move to the next step.
 
 ### Step 2 - Iteration
 
-...
+Once the initial drafting is complete and at least one Sponsor has agreed to support the contribution, the iteration step begins.
+
+This step can proceed however the the Contribution Team desires, but the basic idea is that they should all work together to iterate on the contribution until the Sponsors feel that it's ready to proceed towards approval.
 
 ### Step 3 - Merges
 
-...
+This is an optional step which the Sponsors may request (or potentially require) in order to effectively manage Partner bandwidth. Because the approval step requires partner voting, it may often be desireable to merge many contributions into a single contribution.
+
+The precise process of designing a merge is up to the Contribution Team. The logistics are that multiple Contribution Branches are merged into a single Contribution Branch.
+
+If used, this step will also result in merging the Contribution Teams.
 
 ### Step 4 - Approvals
 
-...
+The final step is for the Sponsors to formally submit the Contribution for Partner approval. 
 
+The precise method of this submission, and the review process itself is defined by the Release Point as part of their workflow design. But it must meet the following criteria:
+- The Sponsors should create a pull request from the Contribution Branch into the Working Release Branch. The pull request should include:
+  - All requisite context needed in order for Partners to render an informed vote.
+  - A short video walkthrough which explains the reasoning behind the contribution and walks through the changes.
+  - Important Note: Any videos & supporting materials which are stored outside of Github *must* be stored in a place where they can be maintained indefinitely, and in a manner which is aligned with the RP's workflow design for the Release. Cloud-based apps which are not part of Quorum1's long-term systems plan (such as Loom) are not acceptable.
+- Partners must be able to vote in a manner aligned with these requirements:
+  - Voting is asynchronous (though synchronous sessions can be supported as long as they are optional)
+  - Votes must produce a permanent verifiable audit trail
+  - Partners may vote to approve or reject the Contribution
+    - Votes to reject must contain a list of specific Issues to Resolve which would need to be addressed in order for them to approve this Contribution in the future.
+    - Votes to approve may optionally contain a list of specific Future Issues which the Partner thinks should be addressed in future Contributions.
+  - All Partners must either vote or delegate their vote to another partner. Voting or delegating is mandatory.
+  - The duration of the voting period for Contributions should be made clear to Partners ahead of time.
+  - The Chief Maintainer may unilaterally veto any Contribution, but they must invite asynchronous feedback from any interested Members and must respond to the feedback. They may retract their veto at any point.
+  - Once all votes are cast:
+    - The full details of the vote must be recorded on the pull request.
+    - 75% or greater approval causes the Contribution to be approved.
+    - Less than 75% approval (or a veto from the CM) causes the Contribution to be rejected.
+- Rejected Contributions have their pull request closed. They may be tweaked and resubmitted later.
+- Approved Contributions have their pull request approved (by both the Release Point and the Chief Maintainer) and are then merged into the Working Release Branch.
 

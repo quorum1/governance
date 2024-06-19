@@ -14,7 +14,7 @@ We have set a high bar for FGM and will utilize the diverse expertise and resour
 
 While we're in IGM we are purposely keeping certain parts of our structure simple. We are leaning on simpler, more centralized trust structures in the place of more complex participatory structures. The broad inspiration for IGM is the "chief maintainer" (or "strong steward") approach sometimes seen within open source communities. This approach utilizes a single highly-trusted individual with the authority to veto any changes, but not the authority to unilaterally enact changes.
 
-During IGM our focus is on creating simple structures that are able to support our efforts to make it to FGM successfully, with a strong anti-complexity bias.
+During IGM our focus is on creating simple, efficient, clearly-defined structures that are able to support our efforts to make it to FGM successfully.
 
 ## Governance Roles
 
