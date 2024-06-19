@@ -1,0 +1,3 @@
+# This file defines which types of files are excluded from Git
+
+.vscode/

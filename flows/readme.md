@@ -10,8 +10,8 @@ Any time a change is made to the governance repo it must be in compliance with a
 
 Any changes which are later determined to have been made out of compliance with one or more of the in-scope flows as defined at the time of the change will be considered invalid and must be re-processed in accordance with the currently in-scope flows.
 
----
+### Q-Git Flow
 
-**⚠️ WORK IN PROGRESS ⚠️**
+**Scope:** All changes to the governance repo are in-scope for this flow, unless otherwise specified.
 
-To do: Add the actual flows.
+The Q-Git Flow (QGF) is our base change flow. For now, all of our other flows inherit from this flow and build on top of it, though that may change in the future.

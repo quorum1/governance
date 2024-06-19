@@ -20,7 +20,6 @@ This is Release 1. It is a work in progress. Release 1 represents the first holi
 Checklist for this release:
 - [x] Create folder structure & document with readmes
 - [ ] Build core q-git flow & define its scope
-- [ ] If needed: Define q-git change flow (changing the q-git flow itself)
 - [ ] Load financial model v2 into repo
 - [ ] Build financial model change flow
 - [ ] Initial review & cleanup
