@@ -4,10 +4,6 @@ This agreement defines how Quorum1 (also referred to as “the quorum”) handle
 
 ---
 
-**Table of Contents**
-
----
-
 # Governance
 
 This document is formally referred to as the **Quorum1 Financial Model Definition**, or more casually as the **Financial Model**. 
@@ -221,7 +217,7 @@ It is allowed for a bonus fund to begin accruing money without having an incenti
 
 An investment fund is a special type of fund which can receive investment income, create rev tokens, create rev points, and share revenue passed from other funds back with active rev token recipients and rev point holders.
 
-For more information on investment funds refer to the [Investment Funds](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21) section. The full details on the quorum’s investment mechanisms are outlined in the [Investment](https://www.notion.so/Investment-d551a5c88be346c690f4ba58eb65526c?pvs=21) section.
+For more information on investment funds refer to the [Investment Funds Detail](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21) section. The full details on the quorum’s investment mechanisms are outlined in the [Investment](https://www.notion.so/Investment-d551a5c88be346c690f4ba58eb65526c?pvs=21) section.
 
 ## Standard Funds
 
@@ -461,7 +457,7 @@ Money investment takes two forms:
 - **Formal investment** is money investment associated with a specific investment round. Investment rounds are part of the fund’s rev token plan and are managed in accordance with the fund’s governance process.
 - **Informal investment** is ad-hoc money investment not associated with a specific investment round. Informal investment can be used for “cash calls” to cover expenses or other purposes. Participation in informal investment is considered an earned privilege and is restricted to a members who meet the criteria outlined in the fund’s rev token plan. (For instance, informal org investment is limited to partners.)
 
-## Investment Funds
+## Investment Funds Detail
 
 All investment in the quorum is managed through investment funds (one of our [Fund Types](https://www.notion.so/Fund-Types-3bcbf3bd51f54dd49e9f11f647b56269?pvs=21) ). An investment fund is a special type of fund which can receive investment income, create rev tokens and rev points, and share revenue passed from other funds back with active rev token recipients and rev point holders.
 
@@ -965,7 +961,7 @@ The standard income allocation table should match the basic format outlined in t
 
 ***Must align with:** [Org Investment Fund Design Guidelines](https://www.notion.so/Org-Investment-Fund-Design-Guidelines-bf1e995e976046dc92137c0f0125d0f4?pvs=21)* 
 
-The org investment fund design defines all of the properties of the org investment fund, as outlined in [Investment Funds](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21) section. It must meet all guidelines outlined in [Org Investment Fund Design Guidelines](https://www.notion.so/Org-Investment-Fund-Design-Guidelines-bf1e995e976046dc92137c0f0125d0f4?pvs=21).
+The org investment fund design defines all of the properties of the org investment fund, as outlined in [Investment Funds Detail](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21) section. It must meet all guidelines outlined in [Org Investment Fund Design Guidelines](https://www.notion.so/Org-Investment-Fund-Design-Guidelines-bf1e995e976046dc92137c0f0125d0f4?pvs=21).
 
 ## Required Process Definitions
 
@@ -1033,7 +1029,7 @@ The Foundation may opt to impose security requirements on debit card holders to 
 
 ### Investment Fund Management Process
 
-***Referenced in:** [Investment Funds](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21), [Standard Process for Designing an Investment Fund](https://www.notion.so/Standard-Process-for-Designing-an-Investment-Fund-ef6107049ce249628c34f43dbfb146ad?pvs=21)*
+***Referenced in:** [Investment Funds Detail](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21), [Standard Process for Designing an Investment Fund](https://www.notion.so/Standard-Process-for-Designing-an-Investment-Fund-ef6107049ce249628c34f43dbfb146ad?pvs=21)*
 
 ***Must align with:** [Standard Process for Designing an Investment Fund](https://www.notion.so/Standard-Process-for-Designing-an-Investment-Fund-ef6107049ce249628c34f43dbfb146ad?pvs=21)*
 
