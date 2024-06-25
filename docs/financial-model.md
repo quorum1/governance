@@ -483,9 +483,7 @@ The exact process for creating a new investment fund is part of the [Investment 
         
     7. The total full value of the fund can then be determined thusly. (For our example: Total Full Value is $400M)
         
-        $$
-        \{TotalFullValue\} = \{TotalFaceValue\} * \{AverageMultiple\}
-        $$
+        $$ \{TotalFullValue\} = \{TotalFaceValue\} * \{AverageMultiple\} $$
         
 2. **Design Cohorts:** Put together the initial rev token cohorts.
     1. **Legacy Cohorts:** You will likely start with one or more “legacy cohorts” for the time and money invested before the fund existed. The recommendation is to create one per year. Amongst the participants in each cohort you’ll want to align on the following:
