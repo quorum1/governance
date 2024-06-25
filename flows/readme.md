@@ -15,3 +15,10 @@ Any changes which are later determined to have been made out of compliance with 
 **Scope:** All changes to the governance repo are in-scope for this flow, unless otherwise specified.
 
 The Q-Git Flow (QGF) is our base change flow. For now, all of our other flows inherit from this flow and build on top of it, though that may change in the future.
+
+### Financial Model Change Flow
+
+**Scope:** Only changes to the `/docs/financial-model.md` are in-scope for this flow.
+
+Specifies additional steps required for changing the Financial Model.
+

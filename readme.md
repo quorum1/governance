@@ -22,7 +22,7 @@ Checklist for this release:
 - [x] Build core q-git flow & define its scope
 - [x] Load Financial Model v2 into repo from Notion export
 - [x] Clean up and resolve any Notion export issues
-- [ ] Build financial model change flow
+- [x] Build financial model change flow
 - [ ] Initial review & cleanup
 - [ ] Final cleanup (REMOVE THIS CHECKLIST)
 
