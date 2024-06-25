@@ -21,3 +21,5 @@ The Release Point & Chief Maintainer must sign a document (e-signature is accept
 2. To the best of their knowledge, the updates were in all due compliance with the procedures outlined in Quorum1's Governance Repo.
 
 The document should also include a full copy of the latest release of the Financial Model.
+
+After signing, the document should be stored in the Q1 Legal shared drive.
