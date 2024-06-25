@@ -8,9 +8,9 @@ This agreement defines how Quorum1 (also referred to as “the quorum”) handle
 
 This document is formally referred to as the **Quorum1 Financial Model Definition**, or more casually as the **Financial Model**. 
 
-The **Financial Model** is a living document. Changes to the Quorum1 Financial Model Definition are governed by the [Change Process for Financial Model Definition](https://www.notion.so/Change-Process-for-Financial-Model-Definition-14013ada6ea341ab893d196cf16723ac?pvs=21).
+The **Financial Model** is a living document. Changes to the Quorum1 Financial Model Definition are governed by the [Change Process for Financial Model Definition](#change-process-for-financial-model-definition).
 
-The operational implementation of the Financial Model is referred to as the **Financial Operations Plan**. Any details that are not defined in the Financial Model can be defined in the Financial Operations Plan. The Financial Operations Plan is managed more fluidly than the Financial Model itself and is documented separately. It must comply with the [Required Components of Financial Operations Plan](https://www.notion.so/Required-Components-of-Financial-Operations-Plan-dc941e2a278042f6bbb533b74bab6469?pvs=21). Changes are governed by the [Change Process for Financial Operations Plan](https://www.notion.so/Change-Process-for-Financial-Operations-Plan-6002fe65a64b411381a06fb7410ca172?pvs=21).
+The operational implementation of the Financial Model is referred to as the **Financial Operations Plan**. Any details that are not defined in the Financial Model can be defined in the Financial Operations Plan. The Financial Operations Plan is managed more fluidly than the Financial Model itself and is documented separately. It must comply with the [Required Components of Financial Operations Plan](#required-components-of-financial-operations-plan). Changes are governed by the [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
 
 ---
 
@@ -62,7 +62,7 @@ The Foundation is led by the Managing Partners, a group of up to three members. 
 
 The Platform also serves to host other “virtual” business entities which exist in order support entrepreneurial innovation and revenue generation. These Hosted Entities operate with a high degree of financial and creative autonomy and contribute financial support back to the Org and the Foundation.
 
-The types of hosted entities are listed below. The process for creating, changing, and retiring hosted entities is defined by the [Hosted Entity Management Process](https://www.notion.so/Hosted-Entity-Management-Process-9eecfc73da1b46288f963a2aa752e922?pvs=21). Hosted entities will be established as separate legal entities as needed.
+The types of hosted entities are listed below. The process for creating, changing, and retiring hosted entities is defined by the [Hosted Entity Management Process](#hosted-entity-management-process). Hosted entities will be established as separate legal entities as needed.
 
 Each hosted entity is also considered a quorum, has a triad and a point, and is able to define its own governance process.
 
@@ -107,9 +107,9 @@ In the case of a rev token purchase and rev point liquidation, the purchaser wou
 
 Funds are Quorum1’s financial accounts. Funds have inflows of money and rev points, can hold money and rev points, and have outflows of money and rev points. Funds can also award rev points.
 
-The fund management infrastructure is maintained by Team Finance. There are a fixed set of [Standard Funds](https://www.notion.so/Standard-Funds-4a55b0d6189447f0b43b7f98630e1380?pvs=21) set out in this document, but the full database of funds will evolve organically over time, supporting an emergent financial design for the quorum. 
+The fund management infrastructure is maintained by Team Finance. There are a fixed set of [Standard Funds](#standard-funds) set out in this document, but the full database of funds will evolve organically over time, supporting an emergent financial design for the quorum. 
 
-Team Finance manages the working database of all funds and defines clear processes for creating, changing, and retiring funds (the [Fund Management Process](https://www.notion.so/Fund-Management-Process-6e1fc4ad5b924792b59d3725e88537bb?pvs=21)). Team Finance is also responsible for maintaining permanent audit trails of all funds, changes to funds, and fund activity.
+Team Finance manages the working database of all funds and defines clear processes for creating, changing, and retiring funds (the [Fund Management Process](#fund-management-process)). Team Finance is also responsible for maintaining permanent audit trails of all funds, changes to funds, and fund activity.
 
 ## Key Properties of a Fund
 
@@ -123,21 +123,21 @@ Below are some of the most important properties that make up a fund’s design.
 - **Receivable / Non-Receivable:** Only receivable funds are able to receive external income directly. Non-receivable funds only receive money through cross-fund outflows.
 - **Rev Point Pool:** Funds are able to receive unawarded rev points through various mechanisms. These rev points sit in the fund’s rev point pool until awarded to a member or transferred to another fund’s rev point pool.
 - **Rev Point Plan:** Describes how rev points from the rev point pool are awarded.
-- **Rev Token Cohorts:** Only for investment funds, outlined in more detail in the [Investment Fund Rev Token Cohorts](https://www.notion.so/Investment-Fund-Rev-Token-Cohorts-423f76c0c5fd47548076ddfe8c3444e4?pvs=21) section.
+- **Rev Token Cohorts:** Only for investment funds, outlined in more detail in the [Investment Fund Rev Token Cohorts](#investment-fund-rev-token-cohorts) section.
 
 ## Allocation Models
 
-A fund’s allocation model describes the fund’s outflows, meaning how money flows out of the fund. The exact format of the allocation model is defined by the [Allocation Model Templates](https://www.notion.so/Allocation-Model-Templates-7d20194da02e451dbe905efe99e467cf?pvs=21) and is standardized for each fund type. All allocation models, however, are essentially lists of outflows. 
+A fund’s allocation model describes the fund’s outflows, meaning how money flows out of the fund. The exact format of the allocation model is defined by the [Allocation Model Templates](#allocation-model-templates) and is standardized for each fund type. All allocation models, however, are essentially lists of outflows. 
 
-Each outflow has a single allocation target and specifies how much money should flow to that allocation target. The types of valid allocation targets are described in detail in the [Outflows](https://www.notion.so/Outflows-3edff516287d4058bb1c4441b190362a?pvs=21) section, but at a high level: internal outflows allow funds to pass money on to other funds or [Workstream Wallets](https://www.notion.so/Workstream-Wallets-29c4d02f5e904a27a059313274479852?pvs=21), while external outflows allow funds to send money out of the quorum. 
+Each outflow has a single allocation target and specifies how much money should flow to that allocation target. The types of valid allocation targets are described in detail in the [Outflows](#outflows) section, but at a high level: internal outflows allow funds to pass money on to other funds or [Workstream Wallets](#workstream-wallets), while external outflows allow funds to send money out of the quorum. 
 
-For receivable funds, the allocation model must include certain required allocations based on the type of income they receive. The details of this are outlined in the [Standard Income Allocations](https://www.notion.so/Standard-Income-Allocations-872f5b51c17f4fb49de605fff8295bc3?pvs=21) section.
+For receivable funds, the allocation model must include certain required allocations based on the type of income they receive. The details of this are outlined in the [Standard Income Allocations](#standard-income-allocations) section.
 
 ## Rev Point Pools & Plans
 
 Funds are able to receive unawarded rev points and hold them in their fund rev point pool. The points are intended to be awarded to reward and incentivize contributions. Not all funds will have rev points in their rev point pool.
 
-There are two ways to award rev points: (1) By designing a rev point plan and (2) by transferring rev points to [Workstream Wallets](https://www.notion.so/Workstream-Wallets-29c4d02f5e904a27a059313274479852?pvs=21) via an allocation model outflow. The rest of this sub-section is focused on the former method.
+There are two ways to award rev points: (1) By designing a rev point plan and (2) by transferring rev points to [Workstream Wallets](#workstream-wallets) via an allocation model outflow. The rest of this sub-section is focused on the former method.
 
 To award rev points directly to members, a fund must create a rev point plan outlining how the rev points will be awarded. The rev point plan must clearly define the parameters of how rev points are to be awarded including: who is able to participate, the earning cycle, the specific data that will be delivered, how the point earnings are calculated based on the data, what happens when there’s not enough rev points in the pool to cover all of the earnings in an earning cycle, and all other details required to properly administer the program.
 
@@ -147,7 +147,7 @@ Team Finance is responsible for administering the awarding of rev points as outl
 
 Unawarded rev points may be transferred to another rev point pool by the fund manager. Unawarded rev points may also be subject to reallocation by the source investment fund if they remain unawarded for a protracted period of time, according to the investment fund’s rev point plan.
 
-Rev points and their related processes are outlined in more detail in the [Investment](https://www.notion.so/Investment-d551a5c88be346c690f4ba58eb65526c?pvs=21) section.
+Rev points and their related processes are outlined in more detail in the [Investment](#investment) section.
 
 ## Fund Types
 
@@ -169,7 +169,7 @@ Fulfillment funds keep track of how much revenue has been fulfilled and produce 
 
 There are two types of fulfillment funds:
 
-- **Hourly** fulfillment funds are fulfilled by line item hours being tracked and verified in the [Time Tracking System](https://www.notion.so/Time-Tracking-System-7d10573a73574798b86cc938b3237919?pvs=21).
+- **Hourly** fulfillment funds are fulfilled by line item hours being tracked and verified in the [Time Tracking System](#time-tracking-system).
 - **Percentage** fulfillment funds are fulfilled based on verified completion percentages for each line item. These can also be used to implement recurring payments in fixed amounts.
 
 The allocation model of a fulfillment fund is also referred to as a “project cost model”. The project cost model defines two lists of allocation targets: 
@@ -179,13 +179,13 @@ The allocation model of a fulfillment fund is also referred to as a “project c
 
 ### Expense Funds
 
-Expense funds hold money intended to pay for vendor expenses. Expense funds may have one or more virtual or physical debit cards linked to them, according to the [Debit Card Management Process](https://www.notion.so/Debit-Card-Management-Process-2776b69e563642c2aae16694a926a801?pvs=21).
+Expense funds hold money intended to pay for vendor expenses. Expense funds may have one or more virtual or physical debit cards linked to them, according to the [Debit Card Management Process](#debit-card-management-process).
 
 Expense funds may only be used to pay for the following types of outflows:
 
 - One-time payments to registered vendors, requiring a corresponding invoice
-- Recurring payments to registered vendors, via the [Recurring Expense Management Process](https://www.notion.so/Recurring-Expense-Management-Process-297dd20a07a841f0ae3139e075f25945?pvs=21)
-- Reimbursement requests from members, via the [Expense Reimbursement Process](https://www.notion.so/Expense-Reimbursement-Process-640064ff94c8404fa8cf9285350c33a5?pvs=21)
+- Recurring payments to registered vendors, via the [Recurring Expense Management Process](#recurring-expense-management-process)
+- Reimbursement requests from members, via the [Expense Reimbursement Process](#expense-reimbursement-process)
 
 The fund manager is expected to maintain a viable level for the expense fund to ensure a reasonable runway to cover recurring expenses. Team Finance is responsible for providing fund managers with the tools and visibility needed to manage the levels in the fund. Overdrafts or shortfalls in an expense fund may result in Team Finance retiring the fund or requiring a different fund manager.
 
@@ -205,7 +205,7 @@ Before the running of a collaborative funding process, the process itself must b
 
 Bonus funds hold money used to award bonuses for certain activities which are part of a well-defined incentivization program. This includes sales & marketing commissions, client referral fees, new member recruiting bonuses, and other similar programs. 
 
-Note that, like all funds, bonus funds may only direct outflows to valid [Fund Outflows & Allocation Targets](https://www.notion.so/Fund-Outflows-Allocation-Targets-4e231c6f40714d828df404ca995dbbf4?pvs=21). This means that community members are not able to receive bonus payouts directly.
+Note that, like all funds, bonus funds may only direct outflows to valid [Fund Outflows & Allocation Targets](#fund-outflows--allocation-targets). This means that community members are not able to receive bonus payouts directly.
 
 Team Finance is responsible for administering the calculation and disbursement of bonuses based on data provided by the fund manager. The fund manager must work with Team Finance to ensure that the bonus fund design makes sense and is feasible to administer.
 
@@ -217,13 +217,13 @@ It is allowed for a bonus fund to begin accruing money without having an incenti
 
 An investment fund is a special type of fund which can receive investment income, create rev tokens, create rev points, and share revenue passed from other funds back with active rev token recipients and rev point holders.
 
-For more information on investment funds refer to the [Investment Funds Detail](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21) section. The full details on the quorum’s investment mechanisms are outlined in the [Investment](https://www.notion.so/Investment-d551a5c88be346c690f4ba58eb65526c?pvs=21) section.
+For more information on investment funds refer to the [Investment Funds Detail](#investment-funds-detail) section. The full details on the quorum’s investment mechanisms are outlined in the [Investment](#investment) section.
 
 ## Standard Funds
 
 This section lists the set of standard funds that are mandatory and exist to serve key functions for operating and supporting Quorum1 holistically. These funds must always exist and are administered directly by Team Finance and managed either by the Managing Partners or by a foundation team appointed by Managing Partners. The fund manager of each standard fund is appointed by the team responsible for managing the fund.
 
-The allocation models of each standard fund are part of the Financial Operations Plan and managed according to the [Change Process for Financial Operations Plan](https://www.notion.so/Change-Process-for-Financial-Operations-Plan-6002fe65a64b411381a06fb7410ca172?pvs=21).
+The allocation models of each standard fund are part of the Financial Operations Plan and managed according to the [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
 
 ### Core Fund
 
@@ -243,13 +243,13 @@ Ideally this fund should target a balance sufficient to cover 2 to 3 months of f
 
 ### Foundation Operations Fund
 
-The foundation operations fund is a pass-through fund intended to pay for everything required to keep the Foundation Team running and to provide operating capital for ongoing maintenance and investment in continued innovation of the quorum platform. This fund should be used to pay for Foundation Team salaries and contracts, and to allocate money to [Workstream Wallets](https://www.notion.so/Workstream-Wallets-29c4d02f5e904a27a059313274479852?pvs=21) to support maintenance and innovation of the systems managed by the Foundation Team. This fund may also be used to fund any other efforts that are related to the support, maintenance, improvement, promotion, and improvement of Quorum1.
+The foundation operations fund is a pass-through fund intended to pay for everything required to keep the Foundation Team running and to provide operating capital for ongoing maintenance and investment in continued innovation of the quorum platform. This fund should be used to pay for Foundation Team salaries and contracts, and to allocate money to [Workstream Wallets](#workstream-wallets) to support maintenance and innovation of the systems managed by the Foundation Team. This fund may also be used to fund any other efforts that are related to the support, maintenance, improvement, promotion, and improvement of Quorum1.
 
 ### Org Investment Fund
 
 The org investment fund is our primary investment fund and is maintained by Quorum1 for the org as a whole. Rev tokens in the org investment fund are exchanged with investors of both time and money. Prioritization, allocation, and other decision-making processes around the org investment fund must always be participatory and democratic in accordance with Quorum1’s established best practices as they evolve.
 
-This fund and the linked rev tokens are a critical part of Quorum1’s financial infrastructure. More details are outlined in the [Investment](https://www.notion.so/Investment-d551a5c88be346c690f4ba58eb65526c?pvs=21) section, the fund design is part of the Financial Operations Plan as outlined here: [Org Investment Fund Design](https://www.notion.so/Org-Investment-Fund-Design-9a3f7dc21fab4da4b2d473abe4a457a5?pvs=21).
+This fund and the linked rev tokens are a critical part of Quorum1’s financial infrastructure. More details are outlined in the [Investment](#investment) section, the fund design is part of the Financial Operations Plan as outlined here: [Org Investment Fund Design](#org-investment-fund-design).
 
 In the event of the full fund liquidation of the org investment fund for any reason, all token holders must convert at the same discount rate, weighting, or liquidation preference.
 
@@ -271,13 +271,13 @@ There are technically two types of inflows: internal inflows (from other funds) 
 
 ## Internal Inflows
 
-Internal inflows are money that flows into a fund from another fund, through a cross-fund outflow. These are described in more detail in the [Cross-Fund Outflows](https://www.notion.so/Cross-Fund-Outflows-ba2b7f9ebfa84b129f14dfe8a9cdca49?pvs=21) section.
+Internal inflows are money that flows into a fund from another fund, through a cross-fund outflow. These are described in more detail in the [Cross-Fund Outflows](#cross-fund-outflows) section.
 
 ## Income (External Inflows)
 
 External inflows are our income. Income is money that flows into Quorum1 from external sources. Each incoming payment is associated with a specific receivable fund and the money flows according to the fund’s allocation model.
 
-Income may only flow into funds which are designated as being “receivable”. In order to be receivable, a fund must comply with the [Receivable Fund Requirements](https://www.notion.so/Receivable-Fund-Requirements-17816a4b00ab4c01bc0867a7b9ffdcbf?pvs=21). For example, a receivable fulfillment fund for a client project may require a signed SOW.
+Income may only flow into funds which are designated as being “receivable”. In order to be receivable, a fund must comply with the [Receivable Fund Requirements](#receivable-fund-requirements). For example, a receivable fulfillment fund for a client project may require a signed SOW.
 
 ### Income Types
 
@@ -287,20 +287,20 @@ All income must be categorized as a single income type. Payments which contain m
 
 - **Service** income comes from professional services work performed for clients.
 - **Product** income comes from fees charged for physical or virtual products, including “Software-as-a-Service” fees and other product subscription fees. For now we are far more likely to sell software products rather than hardware products.
-- **Investment** income (which is not considered “income” in the traditional sense, but which is an external inflow and thus “income” as defined in this document) comes from purchases of rev tokens as outlined in the [Investment](https://www.notion.so/Investment-d551a5c88be346c690f4ba58eb65526c?pvs=21)  section.
-- **Marketplace** income comes from money loaded into a quorum-operated marketplace. This income type is still experimental and, for now, will only come from payments between [Workstream Wallets](https://www.notion.so/Workstream-Wallets-29c4d02f5e904a27a059313274479852?pvs=21). Revenue may not be recognized until the money loaded into a wallet is actually transacted via the workstream.
+- **Investment** income (which is not considered “income” in the traditional sense, but which is an external inflow and thus “income” as defined in this document) comes from purchases of rev tokens as outlined in the [Investment](#investment)  section.
+- **Marketplace** income comes from money loaded into a quorum-operated marketplace. This income type is still experimental and, for now, will only come from payments between [Workstream Wallets](#workstream-wallets). Revenue may not be recognized until the money loaded into a wallet is actually transacted via the workstream.
 - **Other Income** which does not fit the above categories is processed and allocated ad hoc by Team Finance.
 
 ### Standard Income Allocations
 
 All receivable funds must include the following standard income allocations, as relevant:
 
-1. All income must allocate a required percentage to the **core fund.** The required percentage is defined by the [Standard Income Allocation Table](https://www.notion.so/Standard-Income-Allocation-Table-8e98c5527a364019a8ed9d3178a2d543?pvs=21), part of the Financial Operations Plan.
+1. All income must allocate a required percentage to the **core fund.** The required percentage is defined by the [Standard Income Allocation Table](#standard-income-allocation-table), part of the Financial Operations Plan.
 2. Income linked to a hosted entity must allocate a required percentage to its corresponding **hosted entity fund**. The required percentage is defined by the hosted entity in accordance to its governance process.
 
 **Standard Income Allocation Table Format and Default Values:**
 
-The [Standard Income Allocation Table](https://www.notion.so/Standard-Income-Allocation-Table-8e98c5527a364019a8ed9d3178a2d543?pvs=21) is part of the Financial Operations Plan, not the Financial Model and may be changed without updating this doc. 
+The [Standard Income Allocation Table](#standard-income-allocation-table) is part of the Financial Operations Plan, not the Financial Model and may be changed without updating this doc. 
 
 The standard income allocation table defines the required percentage of recognized income that must be allocated to the core fund for each type of income based on various parameters, including whether the income is associated with a hosted entity and whether it uses the Quorum1 brand. 
 
@@ -323,7 +323,7 @@ In the interim period before an official standard income allocation table is fin
 
 ¹ Projects operated under the Quorum1 brand and not associated with a hosted entity have a default core fund allocation of 20%. But when led by partner members, they may optionally allocation a lower amount, as low as 15%.
 
-² Marketplace income is experimental for now and only pertains to transaction fees related to [Workstream Wallets](https://www.notion.so/Workstream-Wallets-29c4d02f5e904a27a059313274479852?pvs=21).
+² Marketplace income is experimental for now and only pertains to transaction fees related to [Workstream Wallets](#workstream-wallets).
 
 ### Available Fund Types by Income Type
 
@@ -341,13 +341,13 @@ Each type of income may only be received by certain types of receivable funds.
 
 Team Finance is responsible for reconciling each incoming payment. Only after a payment is reconciled does it become income. Any payments which cannot be reconciled may need to be refunded or held in escrow until they can be reconciled.
 
-The income reconciliation process involves matching an incoming payment with a specific fund and verifying that the required documentation is complete. The [Required Income Documentation Checklist](https://www.notion.so/Required-Income-Documentation-Checklist-e7d2127830004171ac9d11f2228207e3?pvs=21) is part of the Financial Operations Plan.
+The income reconciliation process involves matching an incoming payment with a specific fund and verifying that the required documentation is complete. The [Required Income Documentation Checklist](#required-income-documentation-checklist) is part of the Financial Operations Plan.
 
 ### Fulfillment, Recognition, & Refunds
 
-Most quorum income is recognized as revenue immediately upon receipt. But receivable fulfillment funds are unique in that they do not recognize revenue until it is fulfilled as defined by the fund’s project cost model. (More details on this fund type: [Fulfillment Funds](https://www.notion.so/Fulfillment-Funds-45fe2b7ef5564fba90559d7274927755?pvs=21))
+Most quorum income is recognized as revenue immediately upon receipt. But receivable fulfillment funds are unique in that they do not recognize revenue until it is fulfilled as defined by the fund’s project cost model. (More details on this fund type: [Fulfillment Funds](#fulfillment-funds))
 
-Unfulfilled (and therefore unrecognized) revenue in a fulfillment fund may be refunded in accordance to the [Refund Process](https://www.notion.so/Refund-Process-2049a42276104cf9b760f804e72b7da9?pvs=21).
+Unfulfilled (and therefore unrecognized) revenue in a fulfillment fund may be refunded in accordance to the [Refund Process](#refund-process).
 
 ---
 
@@ -369,7 +369,7 @@ Cross-fund outflows may optionally include usage requests that specify how the m
 
 ### Workstream Wallet Outflows
 
-Workstream wallet outflows allow funds to move money or rev points into specific [Workstream Wallets](https://www.notion.so/Workstream-Wallets-29c4d02f5e904a27a059313274479852?pvs=21). This in turn enables more agile work structures and gives the wallet managers the ability to source help from the full quorum membership.
+Workstream wallet outflows allow funds to move money or rev points into specific [Workstream Wallets](#workstream-wallets). This in turn enables more agile work structures and gives the wallet managers the ability to source help from the full quorum membership.
 
 ## External Outflows
 
@@ -377,15 +377,15 @@ External outflows are money that flows to allocation targets which are outside o
 
 ### Member Outflows
 
-Contributor and partner members are valid allocation targets based on their eligibility according to the [Member Payment Eligibility Process](https://www.notion.so/Member-Payment-Eligibility-Process-b8d9615c6ddc4103b024764a76ef6b4f?pvs=21). If members have joined the quorum via a corporate entity, then their payments are directed to their registered corporate entity.
+Contributor and partner members are valid allocation targets based on their eligibility according to the [Member Payment Eligibility Process](#member-payment-eligibility-process). If members have joined the quorum via a corporate entity, then their payments are directed to their registered corporate entity.
 
 ### Vendor Company Outflows
 
-Vendor company outflows send money to vendors that have been registered according to the [Vendor Registration Process](https://www.notion.so/Vendor-Registration-Process-84d8c980f5b7426e9d99b7938e23db7f?pvs=21). These types of outflows may be subject to additional requirements, such as needing copies of invoices or receipts.
+Vendor company outflows send money to vendors that have been registered according to the [Vendor Registration Process](#vendor-registration-process). These types of outflows may be subject to additional requirements, such as needing copies of invoices or receipts.
 
 ### Rev Token Outflows
 
-Rev token outflows are only available to investment funds. These outflows send money to the fund’s active rev token recipients. This process is outline in the [Investment](https://www.notion.so/Investment-d551a5c88be346c690f4ba58eb65526c?pvs=21) section. 
+Rev token outflows are only available to investment funds. These outflows send money to the fund’s active rev token recipients. This process is outline in the [Investment](#investment) section. 
 
 ---
 
@@ -393,7 +393,7 @@ Rev token outflows are only available to investment funds. These outflows send m
 
 We believe that Quorum1 has the potential to generate tremendous wealth over the coming years. If achieved, it is critical to our mission that this wealth be both re-invested in nurturing future success *and* shared equitably with the individuals and organizations that helped build the wealth engine. This is our dual investment mission: To balance our support of future innovation with our returns to our ever-growing community of investors.
 
-The former goal of re-investment is achieved via the [Org Collaborative Fund](https://www.notion.so/Org-Collaborative-Fund-df683fb453c64471a909bf4d7adcec6d?pvs=21), and the other [Collaborative Funds](https://www.notion.so/Collaborative-Funds-f79a8aff430b43319b46eb4cca3902af?pvs=21) which will emerge over time, as well as through the emergent properties intrinsic to our unique organizing model.
+The former goal of re-investment is achieved via the [Org Collaborative Fund](#org-collaborative-fund), and the other [Collaborative Funds](#collaborative-funds) which will emerge over time, as well as through the emergent properties intrinsic to our unique organizing model.
 
 The latter goal of equitably sharing wealth with our investors—of both time and money—is addressed in this section.
 
@@ -450,7 +450,7 @@ It’s worth noting that it’s not always possible to comply with time valuatio
 
 ### Money Investment
 
-Money investment in Quorum1 is the process of issuing rev tokens to investors in exchange for money. Each investor must be onboarded as defined by the [Investor Management Process](https://www.notion.so/Investor-Management-Process-33998c41e0a648c78e585e8359a1f065?pvs=21). The face value of money investment rev tokens is always equal to the amount paid by the investor.
+Money investment in Quorum1 is the process of issuing rev tokens to investors in exchange for money. Each investor must be onboarded as defined by the [Investor Management Process](#investor-management-process). The face value of money investment rev tokens is always equal to the amount paid by the investor.
 
 Money investment takes two forms:
 
@@ -459,15 +459,15 @@ Money investment takes two forms:
 
 ## Investment Funds Detail
 
-All investment in the quorum is managed through investment funds (one of our [Fund Types](https://www.notion.so/Fund-Types-3bcbf3bd51f54dd49e9f11f647b56269?pvs=21) ). An investment fund is a special type of fund which can receive investment income, create rev tokens and rev points, and share revenue passed from other funds back with active rev token recipients and rev point holders.
+All investment in the quorum is managed through investment funds (one of our [Fund Types](#fund-types) ). An investment fund is a special type of fund which can receive investment income, create rev tokens and rev points, and share revenue passed from other funds back with active rev token recipients and rev point holders.
 
-The [Org Investment Fund](https://www.notion.so/Org-Investment-Fund-88a9b86e5ab64e85b33ed046cd2716b2?pvs=21) is our standard investment fund and must maintain ongoing continuity, but other investment funds may be created and changed over time according to the [Investment Fund Management Process](https://www.notion.so/Investment-Fund-Management-Process-a510c1c9cb5d40a6a1d6d728cc5a4afc?pvs=21). Investment funds are necessarily complex, involving special legal contracts and, in some cases, custom technology to facilitate their ongoing operations. Each investment fund may also present unique regulatory and compliance challenges. This means that rev share funds require the support and alignment of Team Finance, Team Legal, Team Ops, Team Build, and the Managing Partners.
+The [Org Investment Fund](#org-investment-fund) is our standard investment fund and must maintain ongoing continuity, but other investment funds may be created and changed over time according to the [Investment Fund Management Process](#investment-fund-management-process). Investment funds are necessarily complex, involving special legal contracts and, in some cases, custom technology to facilitate their ongoing operations. Each investment fund may also present unique regulatory and compliance challenges. This means that rev share funds require the support and alignment of Team Finance, Team Legal, Team Ops, Team Build, and the Managing Partners.
 
 The org investment fund may be used to reward and incentivize investment in any part of Quorum1 or in areas deemed important by the quorum. Other investment funds will have their own design, limitations, and participation, defined by the members and leaders of each fund.
 
 ### Standard Process for Designing an Investment Fund
 
-The exact process for creating a new investment fund is part of the [Investment Fund Management Process](https://www.notion.so/Investment-Fund-Management-Process-a510c1c9cb5d40a6a1d6d728cc5a4afc?pvs=21) defined in the Financial Operations Plan. But it must align mostly with this standard process.
+The exact process for creating a new investment fund is part of the [Investment Fund Management Process](#investment-fund-management-process) defined in the Financial Operations Plan. But it must align mostly with this standard process.
 
 1. **Establish the Budget:** An investment fund is essentially a collection of loans (rev tokens) and can be thought of as one big loan with the average terms across all the rev tokens. So the first step is to determine the size of the entire loan. To do that we follow the steps below:
     1. Determine target “break-even” return for all investors. Something lower than the full multiple but good enough to count as a type of success. (For example: `BreakEvenReturn` = 5x.)
@@ -512,7 +512,7 @@ We believe, however, that the implementation of this model will ultimately succe
 
 It is important to note, though, that in the most severe case it is possible that the entire rev token and rev points structure may prove fundamentally infeasible. For that reason, every investment fund created before the finalization of the implementation details must include a “failsafe equity conversion” governance process. This process outlines the steps to be followed only in the case that rev token and rev point structures are considered to be fundamentally infeasible to implement.
 
-This is outlined in more detail in this section: [Key Governance Process: Failsafe Equity Conversion](https://www.notion.so/Key-Governance-Process-Failsafe-Equity-Conversion-20cee16cb7314a84b2343cc3f97a0468?pvs=21).
+This is outlined in more detail in this section: [Key Governance Process: Failsafe Equity Conversion](#key-governance-process-failsafe-equity-conversion).
 
 ### Investment Fund Inflows & Outflows
 
@@ -527,11 +527,11 @@ Investment funds have the following outflows:
 - **Rev token payments²** allocate rev share inflows to rev token recipients.
 - **Rev point payments³** allocate the rev token payments from the time investment pool to rev point holders
 
-***¹ Investment income:** Each investor must be onboarded as defined by the [Investor Management Process](https://www.notion.so/Investor-Management-Process-33998c41e0a648c78e585e8359a1f065?pvs=21). Formal money investment is associated with an investment round, informal money investment is not associated with an investment round.*
+***¹ Investment income:** Each investor must be onboarded as defined by the [Investor Management Process](#investor-management-process). Formal money investment is associated with an investment round, informal money investment is not associated with an investment round.*
 
-***² Rev token payments:** Rev share inflows are passed through to the active rev token recipients as outlined in the [Rev Token Payments](https://www.notion.so/Rev-Token-Payments-521bf8530ea04e8995087611ea0f66d3?pvs=21) section.*
+***² Rev token payments:** Rev share inflows are passed through to the active rev token recipients as outlined in the [Rev Token Payments](#rev-token-payments) section.*
 
-*³ **Rev token payments:** Time investment pool rev token payments are passed through to the rev point holders as outlined in the [Rev Point Payments](https://www.notion.so/Rev-Point-Payments-21688f1389eb44a285e659b36d5d6be3?pvs=21) section.*
+*³ **Rev token payments:** Time investment pool rev token payments are passed through to the rev point holders as outlined in the [Rev Point Payments](#rev-point-payments) section.*
 
 ### Investment Fund Core Parameters
 
@@ -547,7 +547,7 @@ Each rev token in an investment fund is part of a rev token cohort. Each rev tok
 
 1. **Formal Investment Pool:** Unissued rev tokens ready to be sold to money investors via formal investment rounds.
 2. **Informal Investment Pool:** Unissued rev tokens ready to be sold to money investors as part of informal investments as outlined in the fund’s governance process.
-3. **Time Investment Pool:** A pool of rev tokens (and a corresponding pool of rev points with quantity equal to the full value of the underlying rev tokens) which are issued right away, but held by Quorum1 with rev token payments being received by the fund’s rev points program. Details defined in the [Rev Points](https://www.notion.so/Rev-Points-aed1941ff9f646abbdd6891326520e38?pvs=21) section.
+3. **Time Investment Pool:** A pool of rev tokens (and a corresponding pool of rev points with quantity equal to the full value of the underlying rev tokens) which are issued right away, but held by Quorum1 with rev token payments being received by the fund’s rev points program. Details defined in the [Rev Points](#rev-points) section.
 
 Each investment fund’s design must include a special section defining the rev token cohorts, including for each:
 
@@ -578,8 +578,8 @@ The allocation model of an investment fund must define:
 - **Formal Investment Targets:** A list of one or more funds which may be targeted by formal money investors
 - **Informal Investment Targets:** How informal money investment may be targeted
 - **Top-Line Allocations:** Other allocation targets to include when allocating investment income (such as the core fund, a bonus fund for commissions, etc). Each investment round can also include its own top-line allocations.
-- **Rev Token Weighting:** Defines the weighting algorithm used to calculate how much each active rev token recipient receives during rev token payment. Details outlined in [Rev Token Payments](https://www.notion.so/Rev-Token-Payments-521bf8530ea04e8995087611ea0f66d3?pvs=21) section.
-- **Rev Point Weighting:** Defines the weighting algorithm used to calculate how much each rev point holder receives during rev point payment. Details outlined in [Rev Point Payments](https://www.notion.so/Rev-Point-Payments-21688f1389eb44a285e659b36d5d6be3?pvs=21) section.
+- **Rev Token Weighting:** Defines the weighting algorithm used to calculate how much each active rev token recipient receives during rev token payment. Details outlined in [Rev Token Payments](#rev-token-payments) section.
+- **Rev Point Weighting:** Defines the weighting algorithm used to calculate how much each rev point holder receives during rev point payment. Details outlined in [Rev Point Payments](#rev-point-payments) section.
 
 ### Investment Fund Governance Processes
 
@@ -613,7 +613,7 @@ A token downgrade involves selecting a downgrade factor (a decimal number betwee
 
 ### Key Governance Process: Failsafe Equity Conversion
 
-As outlined in the [Investment Fund Implementation Details & Risk](https://www.notion.so/Investment-Fund-Implementation-Details-Risk-8108e8d4e02f472e97f7787d65f72060?pvs=21) section, in the case that the entire rev token and rev points structure is ultimately deemed to be fundamentally infeasible to implement, each investment fund must include in its governance process design a “failsafe equity conversion” process.
+As outlined in the [Investment Fund Implementation Details & Risk](#investment-fund-implementation-details--risk) section, in the case that the entire rev token and rev points structure is ultimately deemed to be fundamentally infeasible to implement, each investment fund must include in its governance process design a “failsafe equity conversion” process.
 
 This process should outline steps that will result in issuing traditional equity in Quorum1 or an affiliated legal entity, proportionally based on rev tokens and rev points.
 
@@ -623,7 +623,7 @@ Rev tokens are a type of debt instrument linked to a particular investment fund,
 
 Rev tokens are an owned asset entitling the owner to a portion of the rev share inflows of the linked investment fund until the total payments received reach a certain value. Quorum1 facilitates investment by issuing rev tokens to our investors. 
 
-For money investors, rev tokens are issued in exchange for money. For time investors, rev tokens are instead issued to and held by Quorum1 and used to power a [Rev Points](https://www.notion.so/Rev-Points-aed1941ff9f646abbdd6891326520e38?pvs=21) program.
+For money investors, rev tokens are issued in exchange for money. For time investors, rev tokens are instead issued to and held by Quorum1 and used to power a [Rev Points](#rev-points) program.
 
 Rev tokens may be owned by individuals or by other legal entities.
 
@@ -649,11 +649,11 @@ An **Inactive** token is still in its cliff period and is not yet receiving paym
 
 Once a token passes its cliff it becomes **Active** and begins receiving payments.
 
-When a token’s received value reaches its full value it becomes **Retired.** Retired tokens no longer receive payments and may never become active again. A token may also be prematurely retired, only by its owner, as outlined in the [Rev Token Ownership Processes](https://www.notion.so/Rev-Token-Ownership-Processes-6005ffe4a6104dd38eea1661ff796bcf?pvs=21).
+When a token’s received value reaches its full value it becomes **Retired.** Retired tokens no longer receive payments and may never become active again. A token may also be prematurely retired, only by its owner, as outlined in the [Rev Token Ownership Processes](#rev-token-ownership-processes).
 
 ### Rev Token Transfers
 
-The owner of a rev token may sell it or otherwise transfer it to a new owner as outlined in the [Rev Token Ownership Processes](https://www.notion.so/Rev-Token-Ownership-Processes-6005ffe4a6104dd38eea1661ff796bcf?pvs=21). The transfer process is permanent.
+The owner of a rev token may sell it or otherwise transfer it to a new owner as outlined in the [Rev Token Ownership Processes](#rev-token-ownership-processes). The transfer process is permanent.
 
 ### Rev Token Payments
 
@@ -677,7 +677,7 @@ The v1 implementation will be a key priority for the Foundation and should be a 
 
 ### Rev Token Downgrades
 
-It is possible for the multiples of rev tokens to decrease (but not increase) over time via the [Key Governance Process: Token Downgrade](https://www.notion.so/Key-Governance-Process-Token-Downgrade-41c4fa60032247abb10e8fc4fca7127a?pvs=21) of the linked investment fund. This should be a rare event, but a possibility of which all investors should be aware. The precise governance process surrounding token downgrades is defined by the fund’s governance process.
+It is possible for the multiples of rev tokens to decrease (but not increase) over time via the [Key Governance Process: Token Downgrade](#key-governance-process-token-downgrade) of the linked investment fund. This should be a rare event, but a possibility of which all investors should be aware. The precise governance process surrounding token downgrades is defined by the fund’s governance process.
 
 In the event of a token downgrade, all rev token multiples are decreased by the same factor(a decimal number between zero and one) while respecting the core parameters of the investment fund, specifically the min multiple and max multiple downgrade. This may mean that there are slight variances in the effective downgrade factor across rev tokens to protect them from over-downgrading.
 
@@ -713,7 +713,7 @@ Changes in rev point balances are only allowed for the transaction types listed 
 - **Retraction:** Rev points awarded in error due to administrative errors or data quality problems may be retracted at a later date. Rev points may never be retracted for other reasons.
 - **Transfer:** A member may transfer some of their rev points to another member.
 - **Payment:** Each rev point payment received by a member reduces their balance, with each $1 USD received reducing the balance by 1 rev point.
-- **Downgrade:** In the case of [Rev Point Downgrades](https://www.notion.so/Rev-Point-Downgrades-fc25308bfd6c4fc5907bdcb63c1d88f4?pvs=21), all member rev point balances are decreased by the same factor.
+- **Downgrade:** In the case of [Rev Point Downgrades](#rev-point-downgrades), all member rev point balances are decreased by the same factor.
 
 ### Rev Point Payments
 
@@ -721,7 +721,7 @@ Rev point payments are offered to each rev point holder on a regular basis.
 
 Rev point payments pass the rev token payments received by the rev tokens in the investment fund’s time investment pool through to all holders of rev points linked to the fund. Team Finance administers these payments and should seek to increase their frequency over time until they are able to go out on a monthly basis, but it may take some time to reach that frequency.
 
-Each active and eligible rev point holder is offered a payment according to the rev point weighting algorithm defined in the investment fund’s allocation model. The algorithm must not use the rev point holder’s identity as a parameter and must offer at least some revenue to each active and eligible rev point holder. (Eligibility is defined by the [Member Rev Point Payment Requirements](https://www.notion.so/Member-Rev-Point-Payment-Requirements-e67ca3626446498d93c4abf66976bf06?pvs=21) in the Financial Operations Plan.)
+Each active and eligible rev point holder is offered a payment according to the rev point weighting algorithm defined in the investment fund’s allocation model. The algorithm must not use the rev point holder’s identity as a parameter and must offer at least some revenue to each active and eligible rev point holder. (Eligibility is defined by the [Member Rev Point Payment Requirements](#member-rev-point-payment-requirements) in the Financial Operations Plan.)
 
 The rev point payment process and rev point weighting algorithm should be designed to allow each rev point holder to opt-in or opt-out of each rev point payment. If a rev point holder opts-out of a particular payment, their rev point balance does not decrease and they should be offered a benefit as a reward for not exercising their liquidity. Some or all of their non-exercised payment should then be made available to increase the rev point payments of other members.
 
@@ -731,7 +731,7 @@ Aside from the administration percentage, all of the rev token payments received
 
 ### Rev Point Rights & Restrictions
 
-Only Quorum1 members may receive rev point payments and members must meet the [Member Rev Point Payment Requirements](https://www.notion.so/Member-Rev-Point-Payment-Requirements-e67ca3626446498d93c4abf66976bf06?pvs=21) defined in the Financial Operations Plan in order to receive payments. 
+Only Quorum1 members may receive rev point payments and members must meet the [Member Rev Point Payment Requirements](#member-rev-point-payment-requirements) defined in the Financial Operations Plan in order to receive payments. 
 
 The member rev point payment requirements and all other aspects of the rev point program implementation must align with the rights & restrictions outlined in this sub-section.
 
@@ -757,27 +757,27 @@ The member rev point payment requirements and all other aspects of the rev point
 
 The implementation of the rev token system must be legally compliant, technically reliable, auditable, secure, and transparent to members. It is particularly critical that the rev point implementation be compliant with the spirit and letter of tax regulations such that the awarding of rev points is not a form of income. The regular rev point payments should be structured as taxable independent contractor income.
 
-The initial implementation will utilize traditional business systems and tools and the manual effort of the Foundation team. It is likely, but not mandatory, that the initial implementation will be built using [Workstream Wallets](https://www.notion.so/Workstream-Wallets-29c4d02f5e904a27a059313274479852?pvs=21).
+The initial implementation will utilize traditional business systems and tools and the manual effort of the Foundation team. It is likely, but not mandatory, that the initial implementation will be built using [Workstream Wallets](#workstream-wallets).
 
 The improvement and increased automation of the rev point implementation will be a key priority for the Foundation. There is no immediate plan for utilizing blockchain in the rev point implementation, since liquidity and external audibility are not critical requirements. But the Foundation is free to consider a blockchain-based implementation if it is deemed to be beneficial.
 
 ### Rev Point Downgrades
 
-It is possible for the multiples of rev tokens to decrease (but not increase) over time via the [Key Governance Process: Token Downgrade](https://www.notion.so/Key-Governance-Process-Token-Downgrade-41c4fa60032247abb10e8fc4fca7127a?pvs=21) of the linked investment fund. This should be a rare event, but a possibility of which all investors should be aware. The precise governance process surrounding token downgrades is defined by the fund’s governance process.
+It is possible for the multiples of rev tokens to decrease (but not increase) over time via the [Key Governance Process: Token Downgrade](#key-governance-process-token-downgrade) of the linked investment fund. This should be a rare event, but a possibility of which all investors should be aware. The precise governance process surrounding token downgrades is defined by the fund’s governance process.
 
 In the event of a token downgrade, all member rev point balances are decreased by the same factor while respecting the core parameters of the investment fund, specifically the min multiple and max multiple downgrade. This may mean that there are slight variances in the effective downgrade factor across members to protect them from over-downgrading.
 
 ## Org Investment Fund Design Guidelines
 
-The [Org Investment Fund](https://www.notion.so/Org-Investment-Fund-88a9b86e5ab64e85b33ed046cd2716b2?pvs=21) is the only investment fund mandated by the Financial Model. The [Core Fund](https://www.notion.so/Core-Fund-8ddc3c62d7564a479a296033aad69546?pvs=21) includes a mandatory allocation to the org investment fund, meaning that a share of all Quorum1 revenue will pass through to this fund. This fund is a critical part of Quorum1’s financial infrastructure and key to our long-term sustainability. As such, the design of the org investment fund must meet our highest standard.
+The [Org Investment Fund](#org-investment-fund) is the only investment fund mandated by the Financial Model. The [Core Fund](#core-fund) includes a mandatory allocation to the org investment fund, meaning that a share of all Quorum1 revenue will pass through to this fund. This fund is a critical part of Quorum1’s financial infrastructure and key to our long-term sustainability. As such, the design of the org investment fund must meet our highest standard.
 
-The org investment fund design itself is officially considered part of the Financial Operations Plan and is thus changed according to the more streamlined [Change Process for Financial Operations Plan](https://www.notion.so/Change-Process-for-Financial-Operations-Plan-6002fe65a64b411381a06fb7410ca172?pvs=21).
+The org investment fund design itself is officially considered part of the Financial Operations Plan and is thus changed according to the more streamlined [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
 
-However, the Financial Model does impose some guidelines on the org investment fund design. This section outlines those guidelines. Making changes to any of these guidelines requires modifying this doc in accordance with the [Change Process for Financial Model Definition](https://www.notion.so/Change-Process-for-Financial-Model-Definition-14013ada6ea341ab893d196cf16723ac?pvs=21). 
+However, the Financial Model does impose some guidelines on the org investment fund design. This section outlines those guidelines. Making changes to any of these guidelines requires modifying this doc in accordance with the [Change Process for Financial Model Definition](#change-process-for-financial-model-definition). 
 
 ### Guideline 0 - Launching the Fund
 
-At the time of writing and approving this Financial Model, the org investment fund has yet to be launched. The initial launch should align with the guidelines outlined in this section and should follow the [Standard Process for Designing an Investment Fund](https://www.notion.so/Standard-Process-for-Designing-an-Investment-Fund-ef6107049ce249628c34f43dbfb146ad?pvs=21).
+At the time of writing and approving this Financial Model, the org investment fund has yet to be launched. The initial launch should align with the guidelines outlined in this section and should follow the [Standard Process for Designing an Investment Fund](#standard-process-for-designing-an-investment-fund).
 
 ### Guideline 1 - Core Parameters
 
@@ -796,7 +796,7 @@ The core parameters must match the following.
 
 The precise rev token payment amount in any future year will depend on both the amount of org revenue and the “org rev share allocation” (the net allocation to org investment fund rev token payments as a portion of overall revenue).
 
-The org rev share allocation percentage in a year will be a factor of (1) the average core fund allocation percentage across the blend of revenue sources (refer to [Standard Income Allocations](https://www.notion.so/Standard-Income-Allocations-872f5b51c17f4fb49de605fff8295bc3?pvs=21)) in that year and (2) the average percentage allocated by the [Core Fund](https://www.notion.so/Core-Fund-8ddc3c62d7564a479a296033aad69546?pvs=21) to the [Org Investment Fund](https://www.notion.so/Org-Investment-Fund-88a9b86e5ab64e85b33ed046cd2716b2?pvs=21) over the year. This means that if the quorum is able to grow higher-margin revenue sources the org rev share allocation will generally increase, but also that the Foundation may impact the the org rev share allocation through the way it manages the core fund allocation model.
+The org rev share allocation percentage in a year will be a factor of (1) the average core fund allocation percentage across the blend of revenue sources (refer to [Standard Income Allocations](#standard-income-allocations)) in that year and (2) the average percentage allocated by the [Core Fund](#core-fund) to the [Org Investment Fund](#org-investment-fund) over the year. This means that if the quorum is able to grow higher-margin revenue sources the org rev share allocation will generally increase, but also that the Foundation may impact the the org rev share allocation through the way it manages the core fund allocation model.
 
 ### Guideline 2 - Rev Token Cohorts
 
@@ -811,11 +811,11 @@ The legacy cohorts for years 0 through 3 are listed below and will match these t
 | Year 2 - 2022 ² ³ | $600K | 75x | $45M |
 | Year 3 - 2023 ² | $600K | 50x | $30M |
 | Legacy Total | $1.6M | 71.9x (avg) | $115M |
-- ***¹ For year 0:** All of the rev tokens will be issued to the time investment pool and awarded as rev points to the meta founder (Hank Holiday) as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](https://www.notion.so/Changes-from-Legacy-Financial-Model-7e3717565252402db2d488367d5c0b83?pvs=21).*
+- ***¹ For year 0:** All of the rev tokens will be issued to the time investment pool and awarded as rev points to the meta founder (Hank Holiday) as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
 - ***² For year 1, 2, and 3:** A pass-through fund will be created to manage the retroactive issuance of the rev tokens.*
-    - *First any money investments will be collected, documented and the amounts will be taken from the total pool. These cash investments will specifically include the unpaid legal fees to London Law, Inc less any amounts paid on the Initial Counsel Profit Share to date (full details outlined in [Changes from Legacy Financial Model](https://www.notion.so/Changes-from-Legacy-Financial-Model-7e3717565252402db2d488367d5c0b83?pvs=21)).*
+    - *First any money investments will be collected, documented and the amounts will be taken from the total pool. These cash investments will specifically include the unpaid legal fees to London Law, Inc less any amounts paid on the Initial Counsel Profit Share to date (full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model)).*
     - *Then the remaining amount will be available for allocation amongst all individuals who were members during that year via a participatory retroactive valuation process agreed on by at least 60% of the members from that year who remain active and are engaged enough to participate in the decision-making process.*
-- ***³ For year 1 and year 2:** Felipe Da Cruz will be awarded 750k rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](https://www.notion.so/Changes-from-Legacy-Financial-Model-7e3717565252402db2d488367d5c0b83?pvs=21).*
+- ***³ For year 1 and year 2:** Felipe Da Cruz will be awarded 750k rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
 
 **The first live cohort will be year 4, defined exactly as below (including budget).**
 
@@ -862,7 +862,7 @@ Token downgrades should happen no more than once per year and should not happen 
 
 ### Guideline 6 - Failsafe Equity Conversion
 
-As outlined in the [Investment Fund Implementation Details & Risk](https://www.notion.so/Investment-Fund-Implementation-Details-Risk-8108e8d4e02f472e97f7787d65f72060?pvs=21) section, in the case that the entire rev token and rev points structure is ultimately deemed to be fundamentally infeasible to implement, the org investment fund’s governance process must include details of a failsafe equity conversion process. 
+As outlined in the [Investment Fund Implementation Details & Risk](#investment-fund-implementation-details--risk) section, in the case that the entire rev token and rev points structure is ultimately deemed to be fundamentally infeasible to implement, the org investment fund’s governance process must include details of a failsafe equity conversion process. 
 
 The failsafe process should result in in converting all issued rev tokens and awarded rev options into shares of traditional equity with overall proportions matching each members’ respective full value holdings of rev tokens and rev options. The equity shares should be in Quorum1 or an affiliated legal entity. All equity shares must be in the same legal entity.
 
@@ -874,7 +874,7 @@ In the event of the full fund liquidation of the org investment fund for any rea
 
 The legacy financial model (aka Financial Model v1) is the set of agreements which preceded this Financial Model. It included a number of “mandatory revenue disbursements”, outlined in Section 7 of the Operating Agreement, which are being retired and replaced as part of this new design. This section outlines each of the retired structures and what replaces each of them.
 
-The replacement structures are all outlined in the [Guideline 2 - Rev Token Cohorts](https://www.notion.so/Guideline-2-Rev-Token-Cohorts-68e582e43d6140769f20f101dd10f986?pvs=21) section.
+The replacement structures are all outlined in the [Guideline 2 - Rev Token Cohorts](#guideline-2---rev-token-cohorts) section.
 
 - **Meta Founder Revenue Share:**
     - **Financial Model v1:** 1% of gross revenue is paid to the meta founder (Hank Holiday) for 20 years from initial incorporation.
@@ -907,11 +907,11 @@ In the interim period during which the Financial Operations Plan is incomplete, 
 
 ## Required Documents
 
-Each item in this section is a document which must eventually be defined as part of the Financial Operations Plan. They must be made available to all members and an audit trail of all changes must be kept. Additionally, any changes must be made in accordance with the [Change Process for Financial Operations Plan](https://www.notion.so/Change-Process-for-Financial-Operations-Plan-6002fe65a64b411381a06fb7410ca172?pvs=21).
+Each item in this section is a document which must eventually be defined as part of the Financial Operations Plan. They must be made available to all members and an audit trail of all changes must be kept. Additionally, any changes must be made in accordance with the [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
 
 ### Allocation Model Templates
 
-***Referenced in:** [Allocation Models](https://www.notion.so/Allocation-Models-6d988edf26bd43aea4225746721a2800?pvs=21)* 
+***Referenced in:** [Allocation Models](#allocation-models)* 
 
 The allocation model templates are a set of standard template docs for each fund type. These templates define the format, structure and options available to fund designers when creating allocation models for a fund.
 
@@ -919,7 +919,7 @@ These must be iterated and improved over time based on member input.
 
 ### Receivable Fund Requirements
 
-***Referenced in:** [Income (External Inflows)](https://www.notion.so/Income-External-Inflows-b6b153aa045844d089c5f5f2e39da46d?pvs=21)* 
+***Referenced in:** [Income (External Inflows)](#income-external-inflows)* 
 
 This document defines, for each type of fund, the exact requirements for a fund to be able to receive income from outside the quorum. This includes designating which types of funds are not able to receive income.
 
@@ -929,7 +929,7 @@ These requirements must ensure that we are being compliant with applicable laws 
 
 ### Required Income Documentation Checklist
 
-***Referenced in:** [Income Reconciliation](https://www.notion.so/Income-Reconciliation-16db46febae7490e9dd2efcf0923aa29?pvs=21)* 
+***Referenced in:** [Income Reconciliation](#income-reconciliation)* 
 
 This document defines a standardized checklist of required documentation for each type of income.
 
@@ -939,35 +939,35 @@ These requirements must ensure that we are being compliant with applicable laws 
 
 ### Member Rev Point Payment Requirements
 
-***Referenced in:** [Rev Point Payments](https://www.notion.so/Rev-Point-Payments-21688f1389eb44a285e659b36d5d6be3?pvs=21), [Rev Point Rights & Restrictions](https://www.notion.so/Rev-Point-Rights-Restrictions-fc6e9c5261b94590b449ed45c79fedaf?pvs=21)*
+***Referenced in:** [Rev Point Payments](#rev-point-payments), [Rev Point Rights & Restrictions](#rev-point-rights--restrictions)*
 
-***Must align with:** [Rev Point Rights & Restrictions](https://www.notion.so/Rev-Point-Rights-Restrictions-fc6e9c5261b94590b449ed45c79fedaf?pvs=21)* 
+***Must align with:** [Rev Point Rights & Restrictions](#rev-point-rights--restrictions)* 
 
 Defines the precise list of requirements for a Quorum1 member to be able to receive rev point payments.
 
 ### Standard Income Allocation Table
 
-***Referenced in:** [Standard Income Allocations](https://www.notion.so/Standard-Income-Allocations-872f5b51c17f4fb49de605fff8295bc3?pvs=21)*
+***Referenced in:** [Standard Income Allocations](#standard-income-allocations)*
 
-***Must align with:** [Standard Income Allocations](https://www.notion.so/Standard-Income-Allocations-872f5b51c17f4fb49de605fff8295bc3?pvs=21)*
+***Must align with:** [Standard Income Allocations](#standard-income-allocations)*
 
 The standard income allocation table defines the required percentage of recognized income that must be allocated to the core fund for each type of income based on various parameters, including whether the income is associated with a hosted entity and whether it uses the Quorum1 brand. 
 
-The standard income allocation table should match the basic format outlined in the [Standard Income Allocations](https://www.notion.so/Standard-Income-Allocations-872f5b51c17f4fb49de605fff8295bc3?pvs=21) section. The actual values may differ, however. And the actual format may also differ slightly as long as it aligns with the spirit of this design.
+The standard income allocation table should match the basic format outlined in the [Standard Income Allocations](#standard-income-allocations) section. The actual values may differ, however. And the actual format may also differ slightly as long as it aligns with the spirit of this design.
 
 ### Org Investment Fund Design
 
-***Referenced in:** [Org Investment Fund](https://www.notion.so/Org-Investment-Fund-88a9b86e5ab64e85b33ed046cd2716b2?pvs=21), [Org Investment Fund Design Guidelines](https://www.notion.so/Org-Investment-Fund-Design-Guidelines-bf1e995e976046dc92137c0f0125d0f4?pvs=21)* 
+***Referenced in:** [Org Investment Fund](#org-investment-fund), [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines)* 
 
-***Must align with:** [Org Investment Fund Design Guidelines](https://www.notion.so/Org-Investment-Fund-Design-Guidelines-bf1e995e976046dc92137c0f0125d0f4?pvs=21)* 
+***Must align with:** [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines)* 
 
-The org investment fund design defines all of the properties of the org investment fund, as outlined in [Investment Funds Detail](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21) section. It must meet all guidelines outlined in [Org Investment Fund Design Guidelines](https://www.notion.so/Org-Investment-Fund-Design-Guidelines-bf1e995e976046dc92137c0f0125d0f4?pvs=21).
+The org investment fund design defines all of the properties of the org investment fund, as outlined in [Investment Funds Detail](#investment-funds-detail) section. It must meet all guidelines outlined in [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines).
 
 ## Required Process Definitions
 
 ### Change Process for Financial Model Definition
 
-***Referenced in:** [Governance](https://www.notion.so/Governance-e1209bb43c5b4cceab736d32edd0d18e?pvs=21), [Org Investment Fund Design Guidelines](https://www.notion.so/Org-Investment-Fund-Design-Guidelines-bf1e995e976046dc92137c0f0125d0f4?pvs=21)*
+***Referenced in:** [Governance](#governance), [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines)*
 
 This defines the governance process for making changes to this document. 
 
@@ -977,7 +977,7 @@ Until this process is formally documented, making changes to this document shoul
 
 ### Change Process for Financial Operations Plan
 
-***Referenced in:** [Governance](https://www.notion.so/Governance-e1209bb43c5b4cceab736d32edd0d18e?pvs=21), [Standard Funds](https://www.notion.so/Standard-Funds-4a55b0d6189447f0b43b7f98630e1380?pvs=21), [Org Investment Fund Design Guidelines](https://www.notion.so/Org-Investment-Fund-Design-Guidelines-bf1e995e976046dc92137c0f0125d0f4?pvs=21), [Required Documents](https://www.notion.so/Required-Documents-2874bbcbd1c34c60bad12a04338427cc?pvs=21)*
+***Referenced in:** [Governance](#governance), [Standard Funds](#standard-funds), [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines), [Required Documents](#required-documents)*
 
 This defines the governance process for making changes to the Financial Operations Plan which is the set of documents defining the operational implementation of the Financial Model. 
 
@@ -987,7 +987,7 @@ Until this process is formally documented, making changes or additions to the Fi
 
 ### Fund Management Process
 
-***Referenced in:** [Funds](https://www.notion.so/Funds-578168233e3a458e8775e0bc8a7b0e48?pvs=21)* 
+***Referenced in:** [Funds](#funds)* 
 
 This process must define workflows for creating new funds, making changes to existing funds, retiring funds, and administering the ongoing operations of funds.
 
@@ -995,31 +995,31 @@ It is important that fund management be as streamlined as possible, while also e
 
 ### Vendor Registration Process
 
-***Referenced in:** [Vendor Company Outflows](https://www.notion.so/Vendor-Company-Outflows-b2a1030976d5466ab1d782b159149ad9?pvs=21)*
+***Referenced in:** [Vendor Company Outflows](#vendor-company-outflows)*
 
 This process defines how new vendors are registered and onboarded so that they may be targeted by outflows.
 
 ### Hosted Entity Management Process
 
-***Referenced in:** [Hosted Entities](https://www.notion.so/Hosted-Entities-6a65d7142405403f92f9da5e1b8fe078?pvs=21)* 
+***Referenced in:** [Hosted Entities](#hosted-entities)* 
 
 This process defines workflows for managing hosted entities. This includes creating new hosted entities, making changes to existing hosted entities, retiring hosted entities, and spinning hosted entities out into separate companies.
 
 ### Recurring Expense Management Process
 
-***Referenced in:** [Expense Funds](https://www.notion.so/Expense-Funds-f3b1f4a187fd4eedb100f2780c7648e1?pvs=21)*
+***Referenced in:** [Expense Funds](#expense-funds)*
 
 This process defines how recurring expenses within expense funds are managed. It is important that we closely manage these types of expenses so that we’re balancing the outgoing expenses with expected income, and so that any potential shortfalls can be identified and mitigated well ahead of time.
 
 ### Expense Reimbursement Process
 
-***Referenced in:** [Expense Funds](https://www.notion.so/Expense-Funds-f3b1f4a187fd4eedb100f2780c7648e1?pvs=21)*
+***Referenced in:** [Expense Funds](#expense-funds)*
 
 This process defines how expense reimbursement requests are submitted by members, and then either approved or denied by the fund managers of an expense fund. Due to our collective structure and focus on ethical financial structures, and due to the potential risk of misappropriation involved in expense reimbursement, it is critical that this process meet our highest standards of transparency and accountability.
 
 ### Debit Card Management Process
 
-***Referenced in:** [Expense Funds](https://www.notion.so/Expense-Funds-f3b1f4a187fd4eedb100f2780c7648e1?pvs=21)*
+***Referenced in:** [Expense Funds](#expense-funds)*
 
 This process defines how debit cards linked to expense funds are managed. This includes workflows for allowing the fund managers to request new debit cards, the Foundation responding to those requests, creating and retiring cards, setting and changing limits, and other workflows as needed.
 
@@ -1029,21 +1029,21 @@ The Foundation may opt to impose security requirements on debit card holders to 
 
 ### Investment Fund Management Process
 
-***Referenced in:** [Investment Funds Detail](https://www.notion.so/Investment-Funds-69d6d45f9c334f7a9dde478abfb6c9e2?pvs=21), [Standard Process for Designing an Investment Fund](https://www.notion.so/Standard-Process-for-Designing-an-Investment-Fund-ef6107049ce249628c34f43dbfb146ad?pvs=21)*
+***Referenced in:** [Investment Funds Detail](#investment-funds-detail), [Standard Process for Designing an Investment Fund](#standard-process-for-designing-an-investment-fund)*
 
-***Must align with:** [Standard Process for Designing an Investment Fund](https://www.notion.so/Standard-Process-for-Designing-an-Investment-Fund-ef6107049ce249628c34f43dbfb146ad?pvs=21)*
+***Must align with:** [Standard Process for Designing an Investment Fund](#standard-process-for-designing-an-investment-fund)*
 
 This process defines how investment funds are created, changed, retired, and operationally managed.
 
 ### Investor Management Process
 
-***Referenced in:** [Money Investment](https://www.notion.so/Money-Investment-02462608183c4fc1ae01df04bc2bfb7c?pvs=21), [Investment Fund Inflows & Outflows](https://www.notion.so/Investment-Fund-Inflows-Outflows-08a407ec0fb7441d888033a538f446a8?pvs=21)*
+***Referenced in:** [Money Investment](#money-investment), [Investment Fund Inflows & Outflows](#investment-fund-inflows--outflows)*
 
 This process defines how money investors are onboarded, off-boarded, what required documentation is needed, and other details necessary to manage the money investors.
 
 ### Member Payment Eligibility Process
 
-***Referenced in:** [Member Outflows](https://www.notion.so/Member-Outflows-5a2541aeb67648bcb2cb6ee93abcd145?pvs=21)* 
+***Referenced in:** [Member Outflows](#member-outflows)* 
 
 This process is important to ensure that the quorum has collected appropriate financial information and ensured that we are not restricted from sending a particular member money for some reason.
 
@@ -1051,7 +1051,7 @@ In order for a fund to directly target a member for outflow allocation, the memb
 
 ### Rev Token Ownership Processes
 
-***Referenced in:** [Rev Token Lifecycle](https://www.notion.so/Rev-Token-Lifecycle-e10bcf73f90043acb0874386144ceae3?pvs=21), [Rev Token Transfers](https://www.notion.so/Rev-Token-Transfers-85bab2e5bbd34924a997b06c0d7b87bd?pvs=21)*
+***Referenced in:** [Rev Token Lifecycle](#rev-token-lifecycle), [Rev Token Transfers](#rev-token-transfers)*
 
 This process defines how rev tokens are purchased, issued, and managed by the owner. It also defines all key workflows needed to support the ongoing management of rev tokens. It must include workflows for updating the rev token’s recipient, for splitting the rev token into multiple rev tokens, and for transferring ownership (as part of either a gift or a sale). It must also include a workflow for retiring a rev token.
 
@@ -1059,7 +1059,7 @@ This process may optionally define a slightly different process for Quorum1-owne
 
 ### Refund Process
 
-***Referenced in:** [Fulfillment, Recognition, & Refunds](https://www.notion.so/Fulfillment-Recognition-Refunds-cc062c3687ec4c4da5d6b4cd58a6d3a4?pvs=21)* 
+***Referenced in:** [Fulfillment, Recognition, & Refunds](#fulfillment,-recognition,--refunds)* 
 
 This process defines how unfulfilled revenue in a fulfillment fund may be refunded back to its source (such as back to an external client or back to another internal fund). 
 
@@ -1075,9 +1075,9 @@ The Workstream is a system that Quorum1 uses to manage requests, tasks, and faci
 
 ### Workstream Wallets
 
-***Referenced in:** [Allocation Models](https://www.notion.so/Allocation-Models-6d988edf26bd43aea4225746721a2800?pvs=21), [Foundation Operations Fund](https://www.notion.so/Foundation-Operations-Fund-ce879f1fcec144b9934cff1355f98894?pvs=21), [Income Types](https://www.notion.so/Income-Types-a9cfb508d01d44dd826ec8eb91df811a?pvs=21), [Standard Income Allocations](https://www.notion.so/Standard-Income-Allocations-872f5b51c17f4fb49de605fff8295bc3?pvs=21), [Workstream Wallet Outflows](https://www.notion.so/Workstream-Wallet-Outflows-4ec9088a00d9458e9ac8c3a565919c69?pvs=21), [Rev Point Implementation & Compliance](https://www.notion.so/Rev-Point-Implementation-Compliance-02abd6e7aead4a76845d4a2a811a6df8?pvs=21)* 
+***Referenced in:** [Allocation Models](#allocation-models), [Foundation Operations Fund](#foundation-operations-fund), [Income Types](#income-types), [Standard Income Allocations](#standard-income-allocations), [Workstream Wallet Outflows](#workstream-wallet-outflows), [Rev Point Implementation & Compliance](#rev-point-implementation--compliance)* 
 
-As of this writing, the [Workstream](https://www.notion.so/Workstream-1af3654ad6404aebb0f9ee59b1f9be63?pvs=21) does not yet have Workstream Wallet functionality. This sub-section describes the planned future functionality.
+As of this writing, the [Workstream](#workstream) does not yet have Workstream Wallet functionality. This sub-section describes the planned future functionality.
 
 Each quorum member will have a personal wallet and shared wallets will be able to be created linked to quorums or other groups. Each wallet will have a cash balance (initially denominated in USD) and a rev point balance for each investment fund. 
 
@@ -1089,7 +1089,7 @@ A compensated req requires extra verification before completion. If the req is c
 
 ### Time Tracking System
 
-***Referenced in:** [Fulfillment Funds](https://www.notion.so/Fulfillment-Funds-45fe2b7ef5564fba90559d7274927755?pvs=21)* 
+***Referenced in:** [Fulfillment Funds](#fulfillment-funds)* 
 
 Our time tracking system is a critical part of the quorum’s operational infrastructure. At this time of this writing we are using a system called Xero to facilitate time tracking, but that may change in the future.
 
@@ -1109,12 +1109,12 @@ Each of the work areas listed below has its own set of phases which are not dire
 
 - **Bookkeeping, Time Tracking, Xero & Gusto**
     - **Phase 1 - Streamlining:** Also known as the “Financial Model v1.5” project (already underway as of this writing), this work establishes clear weekly and monthly workflows for recognizing income, linking it to accounts in Xero, processing tracked time, determining outflows, and generating detailed member summaries, and then transmitting payments via Gusto. This phase also focuses on increasing the overall bandwidth and capability of manual human bookkeeping effort we have available to support our financial processes.
-    - **Phase 2 - Standard Fund Transition:** While keeping the core (v1.5) processes largely the same, this phase would refactor them to be built around the [Standard Funds](https://www.notion.so/Standard-Funds-4a55b0d6189447f0b43b7f98630e1380?pvs=21). It would also focus on beginning to transition client projects into [Fulfillment Funds](https://www.notion.so/Fulfillment-Funds-45fe2b7ef5564fba90559d7274927755?pvs=21). Critically, it would include configuring our bookkeeping processes to be able to keep track of fund balances (likely as “accounts” in Xero).
-    - **Phase 3 - Custom Fund Support:** This phase would add support for operating an arbitrary set of interconnected custom funds, including support for all [Fund Types](https://www.notion.so/Fund-Types-3bcbf3bd51f54dd49e9f11f647b56269?pvs=21). It would have interdependencies with the “Fund Management” work area.
+    - **Phase 2 - Standard Fund Transition:** While keeping the core (v1.5) processes largely the same, this phase would refactor them to be built around the [Standard Funds](#standard-funds). It would also focus on beginning to transition client projects into [Fulfillment Funds](#fulfillment-funds). Critically, it would include configuring our bookkeeping processes to be able to keep track of fund balances (likely as “accounts” in Xero).
+    - **Phase 3 - Custom Fund Support:** This phase would add support for operating an arbitrary set of interconnected custom funds, including support for all [Fund Types](#fund-types). It would have interdependencies with the “Fund Management” work area.
     - **Phase 4 - Automation:** This phase would focus on streamlining the workflows built our in previous phases, automating manual processes, and improving process KPIs.
 - **Fund Management & Financial Operations (Fin Ops) Plan**
-    - **Phase 1 - Standard Fund Design & Fin Ops Beta:** This phase would focus on building out a fund design database (likely in Notion) for managing the fund designs and keeping an audit trail of all changes. It would then work to populate that database with the initial designs for the [Standard Funds](https://www.notion.so/Standard-Funds-4a55b0d6189447f0b43b7f98630e1380?pvs=21). It would also focus on landing draft versions of the most important parts of the [Required Components of Financial Operations Plan](https://www.notion.so/Required-Components-of-Financial-Operations-Plan-dc941e2a278042f6bbb533b74bab6469?pvs=21).
-    - **Phase 2 - Custom Fund Beta & Fin Ops v1:** This phase would land finished versions of everything in the [Required Components of Financial Operations Plan](https://www.notion.so/Required-Components-of-Financial-Operations-Plan-dc941e2a278042f6bbb533b74bab6469?pvs=21) along with any additional components which arise. It would also begin beta testing the process for letting members design and launch custom funds, testing it by focusing only on the “back-population” of custom funds for existing lines of business, quorums, and virtual companies. It would specifically not focus on creating new investment funds yet.
+    - **Phase 1 - Standard Fund Design & Fin Ops Beta:** This phase would focus on building out a fund design database (likely in Notion) for managing the fund designs and keeping an audit trail of all changes. It would then work to populate that database with the initial designs for the [Standard Funds](#standard-funds). It would also focus on landing draft versions of the most important parts of the [Required Components of Financial Operations Plan](#required-components-of-financial-operations-plan).
+    - **Phase 2 - Custom Fund Beta & Fin Ops v1:** This phase would land finished versions of everything in the [Required Components of Financial Operations Plan](#required-components-of-financial-operations-plan) along with any additional components which arise. It would also begin beta testing the process for letting members design and launch custom funds, testing it by focusing only on the “back-population” of custom funds for existing lines of business, quorums, and virtual companies. It would specifically not focus on creating new investment funds yet.
     - **Phase 3 - Custom Fund v1 & Investment Fund Beta:** This phase would focus on opening up the custom fund creation process to new funds and streamlining the fund management process. It would also focus on beta testing the process for creating new investment funds, which would have interdependencies with the “Legal Work” work area.
     - **Phase 4 - Investment Fund v1 & Streamlining:** This phase would focus additional streamlining and automation for all fund management processes. It would also work to launch the investment fund creation process more widely.
 - **Workstream Wallets**
@@ -1155,29 +1155,29 @@ For this example, a new line of business (LOB) is starting up focused on providi
     1. This structure can be simple or complex. They can pick from a library of governance design options or create their own. 
     2. For this example: They decide to start simple. They will require unanimous consent of the triad to make changes to the fund design and that significant changes must be presented to the full group for feedback first. They also decide to vote on triad members every 6 months using a liquid democracy model provided by the quorum.
 3. **Fund Structure Design**: The Widget LOB then proceeds to design their “fund structure”, a set of multiple funds which piece together to provide the financial infrastructure they’re envisioning. This process is led by their triad via a series of meetings inviting input from all LOB members. For this example, they eventually come up with a structure of the following funds:
-    1. As with all LOBs, each individual client project will have it’s own **project fulfillment fund** (see [Fulfillment Funds](https://www.notion.so/Fulfillment-Funds-45fe2b7ef5564fba90559d7274927755?pvs=21)).
-        1. Per the [Standard Income Allocations](https://www.notion.so/Standard-Income-Allocations-872f5b51c17f4fb49de605fff8295bc3?pvs=21), because their LOB is operating under the Quorum1 brand to start, it will allocate 15% of gross revenue to the core fund.
+    1. As with all LOBs, each individual client project will have it’s own **project fulfillment fund** (see [Fulfillment Funds](#fulfillment-funds)).
+        1. Per the [Standard Income Allocations](#standard-income-allocations), because their LOB is operating under the Quorum1 brand to start, it will allocate 15% of gross revenue to the core fund.
         2. They decide that an additional 10% of client project revenue will be allocated to their main LOB fund, to incentivize sales and reinvest in driving more business.
         3. This means that they must have a margin of 25% on all of their project work. So, for instance, if a client project member were to want to make $150 per hour, the bill rate would need to be $200 per hour.
-    2. The **Widget LOB Main Fund** will be a pass-through fund which allocates a portion of its income to each of the remaining funds. (See [Pass-Through Funds](https://www.notion.so/Pass-Through-Funds-05a21153abcc46a9bf58995a2ea4b0d6?pvs=21))
-    3. The **Widget LOB Bonus Fund** will receive 30% from the main fund and will pay out commissions to members who helped to bring in each lead and close each deal. The Widget LOB comes up with what they think is a fairly simple point system they’ll use to determine how much each person received: 1 point for the original lead, 2 for the qualification call, etc. (See [Bonus Funds](https://www.notion.so/Bonus-Funds-e2c08d634e8e4f9d8347e18e6a167b7a?pvs=21))
-    4. The **Widget LOB Expense Fund** will receive 10% from the main fund and be used to pay for vendor expenses like a series of LinkedIn and Google ad programs the group is planning on running. (See [Expense Funds](https://www.notion.so/Expense-Funds-f3b1f4a187fd4eedb100f2780c7648e1?pvs=21))
-    5. A **Widget LOB Workstream Wallet** will receive 30% from the main fund, will be managed by the triad, and will be used to add cash to workstream reqs for various tasks that the group comes up with. These tasks could be content-creation-focused, such as creating ads, blog posts, or landing pages. Or they could be business development or sales activities, or anything else the group comes up with. (See [Workstream Wallets](https://www.notion.so/Workstream-Wallets-29c4d02f5e904a27a059313274479852?pvs=21))
-    6. A **Widget LOB Collaborative Fund** will receive 30% from the main fund and will gather money to reinvest in project initiatives. (See [Collaborative Funds](https://www.notion.so/Collaborative-Funds-f79a8aff430b43319b46eb4cca3902af?pvs=21))
+    2. The **Widget LOB Main Fund** will be a pass-through fund which allocates a portion of its income to each of the remaining funds. (See [Pass-Through Funds](#pass-through-funds))
+    3. The **Widget LOB Bonus Fund** will receive 30% from the main fund and will pay out commissions to members who helped to bring in each lead and close each deal. The Widget LOB comes up with what they think is a fairly simple point system they’ll use to determine how much each person received: 1 point for the original lead, 2 for the qualification call, etc. (See [Bonus Funds](#bonus-funds))
+    4. The **Widget LOB Expense Fund** will receive 10% from the main fund and be used to pay for vendor expenses like a series of LinkedIn and Google ad programs the group is planning on running. (See [Expense Funds](#expense-funds))
+    5. A **Widget LOB Workstream Wallet** will receive 30% from the main fund, will be managed by the triad, and will be used to add cash to workstream reqs for various tasks that the group comes up with. These tasks could be content-creation-focused, such as creating ads, blog posts, or landing pages. Or they could be business development or sales activities, or anything else the group comes up with. (See [Workstream Wallets](#workstream-wallets))
+    6. A **Widget LOB Collaborative Fund** will receive 30% from the main fund and will gather money to reinvest in project initiatives. (See [Collaborative Funds](#collaborative-funds))
         1. As with most collaborative funds, once enough money pools up the group will run a collaborative process where LOB members come up with pitches for potential projects and then vote on which receive funding.
         2. Some potential project ideas might include: Sponsoring a booth at a conference, investing in paid outbound sales, or building out a complex but potentially profitable hybrid product-service offering.
-        3. Each funded project will get its own **project fulfillment fund**, with a budget and members and cost rates, just like a client project except that the margin will be 0%. (See [Fulfillment Funds](https://www.notion.so/Fulfillment-Funds-45fe2b7ef5564fba90559d7274927755?pvs=21))
-4. **Fund Launch:** With the fund structure design in hand, the Widget LOB works with the Foundation to get their new funds launched! They follow the workflow outlined in the [Fund Management Process](https://www.notion.so/Fund-Management-Process-6e1fc4ad5b924792b59d3725e88537bb?pvs=21).
+        3. Each funded project will get its own **project fulfillment fund**, with a budget and members and cost rates, just like a client project except that the margin will be 0%. (See [Fulfillment Funds](#fulfillment-funds))
+4. **Fund Launch:** With the fund structure design in hand, the Widget LOB works with the Foundation to get their new funds launched! They follow the workflow outlined in the [Fund Management Process](#fund-management-process).
     1. Team Finance reviews their fund designs and works with them to make sure everything is possible to implement. 
     2. In some cases Team Finance might suggest changes to the fund designs (for instance, simplifying the logic used in the bonus fund so that it’s easier to implement), working with the triad to get their approval (in accordance with the governance process defined by the LOB members).
     3. In other cases Team Finance might work with Team Ops and/or Team Build to add functionality to the base platform in order to better support the Widget LOB’s vision.
     4. As part of launching the funds, all of the funds are setup in our bookkeeping system as virtual accounts. The expense fund is created as an actual “virtual” bank account within our Relay bank account, with its own routing number and debit card(s). The triad is given the ability to manage these accounts themselves.
 5. **Fund Operation:** As money flows into the fund, Team Finance handles the bookkeeping and delivers weekly reports to the LOB on their various fund balances and transactions. Any errors or issues can be reported to Team Finance and they work to promptly resolve them.
-6. **Rev Points:** Going forward, the Widget LOB Main Fund may also receive [Rev Points](https://www.notion.so/Rev-Points-aed1941ff9f646abbdd6891326520e38?pvs=21) from the [Org Investment Fund](https://www.notion.so/Org-Investment-Fund-88a9b86e5ab64e85b33ed046cd2716b2?pvs=21) that the LOB can use as an additional form of compensation. 
+6. **Rev Points:** Going forward, the Widget LOB Main Fund may also receive [Rev Points](#rev-points) from the [Org Investment Fund](#org-investment-fund) that the LOB can use as an additional form of compensation. 
     1. For instance, they could move some rev points to their workstream wallet and link them to reqs.
     2. Or they could allocate them to project funds and specify a certain number of rev points per hour in addition to project member cash compensation.
     3. Or they could direct some rev points to the bonus fund and incorporate them into their bonus structure.
-    4. Whatever the LOB decides to do with its rev points, they have a high degree of autonomy in their decision-making. However, if they do not do anything with the rev points they may be “reallocated” to other groups after a certain period of time (see [Rev Point Pools & Plans](https://www.notion.so/Rev-Point-Pools-Plans-3de2e87cbbda446abc5743d906f37fa2?pvs=21)).
+    4. Whatever the LOB decides to do with its rev points, they have a high degree of autonomy in their decision-making. However, if they do not do anything with the rev points they may be “reallocated” to other groups after a certain period of time (see [Rev Point Pools & Plans](#rev-point-pools--plans)).
 
 ### Scenario Walkthrough: Client Consulting Revenue Flow
 
@@ -1186,25 +1186,25 @@ This scenario walks through how revenue from a consulting project with Acme Corp
 1. **Scoping the Deal:** After discussing the project with Acme, Jane built a cost model using one of a wide variety of templates provided by the Foundation. 
     1. She design the project to be billed hourly. 
     2. The project has three members, two will make $120 per hour, the other is Jane herself, making $150 per hour. These are the “cost rates”. She determined them by searching for qualified members whose rates were within a margin she knew would work for the client’s budget.
-    3. Per the [Standard Income Allocations](https://www.notion.so/Standard-Income-Allocations-872f5b51c17f4fb49de605fff8295bc3?pvs=21) she will need to ensure that 20% of the margin goes to the core fund. She decides to add on an additional “top-line allocation” of 10% to herself as a commission for bringing in the deal.
+    3. Per the [Standard Income Allocations](#standard-income-allocations) she will need to ensure that 20% of the margin goes to the core fund. She decides to add on an additional “top-line allocation” of 10% to herself as a commission for bringing in the deal.
     4. This means that she needs a margin of 30% on everyone’s time (including her own). That means that the two project members will be billed at ~$172 per hour, and the third (herself) ~$215. These are the “bill rates” and they are calculated by working backwards to achieve a gross margin of 30%: for example, $120 / 70% = $171.4 or about $172.
     5. The project is designed with a budget of $15,000 and an initial deposit of $5,000 invoiced at signing. The client is to be invoiced monthly for the hours worked in each month, with the deposit being credited towards the final invoice.
 2. **Closing the Deal:** A new client project is brought in by Jane Lee from her personal network.
     1. The deal is closed when Acme Corp signs a master services agreement (MSA) with an attached statement of work (SOW). 
-    2. Upon contract signing, Team Finance creates a new **project fulfillment fund** for the project and invoices Acme for the deposit amount of $5,000 specified in the SOW. (See [Fulfillment Funds](https://www.notion.so/Fulfillment-Funds-45fe2b7ef5564fba90559d7274927755?pvs=21)).
+    2. Upon contract signing, Team Finance creates a new **project fulfillment fund** for the project and invoices Acme for the deposit amount of $5,000 specified in the SOW. (See [Fulfillment Funds](#fulfillment-funds)).
     3. When that deposit is received it is credited to the **project fulfillment fund** but the revenue is not yet recognized since the work hasn’t yet been performed.
-3. **Doing the Work:** As the project members perform the work, they track their time in our [Time Tracking System](https://www.notion.so/Time-Tracking-System-7d10573a73574798b86cc938b3237919?pvs=21).
+3. **Doing the Work:** As the project members perform the work, they track their time in our [Time Tracking System](#time-tracking-system).
     1. Team Finance & Team Ops run a weekly process for the **project fulfillment fund** which tabulates the hours worked by each project member and how much money is left in the overall budget. This process also determines how much money each project member is due to earn from their work that week, including the 10% commissions top-line allocation to Jane Lee.
     2. Each week the project members receive statements of their earnings (Jane’s statement includes her commissions and her hourly earnings) and the project lead (Jane Lee) receives an overall budget progress statement.
     3. During this process, Team Finance also begin to pay out the project members each week, until the initial deposit amount is depleted. Once the deposit amount is depleted, project member earnings statements will continue to be generated but they won’t be paid until more funds are received.
     4. Each time that project member payments are processed, that revenue is officially “recognized”. The 20% top-line allocation to the core fund is also processed then, but only on that specific payment amount, to ensure that money does not flow into downstream funds until it is recognized. That is explained more below.
 4. **Core Fund Allocation:** Each time project revenue is recognized (aka “fulfilled”), 20% is allocated to the core fund.
-    1. For example if in the first week, there was $3,000 of total fulfilled revenue then 20% or $600 will be allocated to the [Core Fund](https://www.notion.so/Core-Fund-8ddc3c62d7564a479a296033aad69546?pvs=21) .
-    2. From there the core fund must allocate a portion to each of the other [Standard Funds](https://www.notion.so/Standard-Funds-4a55b0d6189447f0b43b7f98630e1380?pvs=21), the precise split is defined in the core fund allocation model, which is part of the Financial Operations Plan and managed by the Foundation.
+    1. For example if in the first week, there was $3,000 of total fulfilled revenue then 20% or $600 will be allocated to the [Core Fund](#core-fund) .
+    2. From there the core fund must allocate a portion to each of the other [Standard Funds](#standard-funds), the precise split is defined in the core fund allocation model, which is part of the Financial Operations Plan and managed by the Foundation.
 5. **Investor Rev Share:**
     1. There are 6 other standard funds which will receive a portion of the $600 allocated to the core fund in the prior step. 
-    2. But in this example we’ll trace the path back out to investors. So for that we care about the portion that goes to the [Org Investment Fund](https://www.notion.so/Org-Investment-Fund-88a9b86e5ab64e85b33ed046cd2716b2?pvs=21). For this example let’s say that the core fund allocation model specifies that 20% goes to the org investment fund. This means that $120 goes to the org investment fund as a rev share inflow. (See [Investment Fund Inflows & Outflows](https://www.notion.so/Investment-Fund-Inflows-Outflows-08a407ec0fb7441d888033a538f446a8?pvs=21))
-    3. That $120 and all of the other rev share inflows then pile up over in the org investment fund, waiting for the next round of [Rev Token Payments](https://www.notion.so/Rev-Token-Payments-521bf8530ea04e8995087611ea0f66d3?pvs=21) (which by this point are happening on a monthly basis).
+    2. But in this example we’ll trace the path back out to investors. So for that we care about the portion that goes to the [Org Investment Fund](#org-investment-fund). For this example let’s say that the core fund allocation model specifies that 20% goes to the org investment fund. This means that $120 goes to the org investment fund as a rev share inflow. (See [Investment Fund Inflows & Outflows](#investment-fund-inflows--outflows))
+    3. That $120 and all of the other rev share inflows then pile up over in the org investment fund, waiting for the next round of [Rev Token Payments](#rev-token-payments) (which by this point are happening on a monthly basis).
     4. When the next monthly rev token payment happens, for this example let’s say that there is a total of $10,000 which has piled up and is ready to be paid out. This is done by using the rev token weighting algorithm (which for the org investment fund is an equal proportion to each based on their respective full values).
     5. If there happened to be 10 active rev token recipients, each with an equal full value of rev tokens, that would yield each of them getting 10% or $1,000 in rev token payments that month. 
     6. The received value of each rev token would increase by the amount it received, decreasing its remaining full value by that amount.
