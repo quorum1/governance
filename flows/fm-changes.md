@@ -15,7 +15,7 @@ Before all of the finalization sub-steps, the Release Point should ensure that t
 
 The moment that the Working Release is merged into the `main` branch is referred to as the **Publish Date** of the Release. After the Publish Date, an additional set of actions must be taken as outlined below.
 
-The Release Point & Chief Maintainer must sign a document (e-signature is acceptable) which states that they certify that, as of the Publish Date:
+The Release Point & Steward must sign a document (e-signature is acceptable) which states that they certify that, as of the Publish Date:
 
 1. Quorum1's Financial Model has been updated
 2. To the best of their knowledge, the updates were in all due compliance with the procedures outlined in Quorum1's Governance Repo.

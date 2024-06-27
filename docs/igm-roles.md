@@ -32,8 +32,8 @@ This section defines key roles within IGM. These may be referenced as dependenci
 
 **Partners** are active Quorum1 members at the "Partner" level of membership.
 
-### Chief Maintainer
+### Steward
 
-The **Chief Maintainer** is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
+The **Steward** is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
 
-If the Chief Maintainer is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Chief Maintainer no longer wishes to serve in the role, a new Chief Maintainer may be appointed with the unanimous approval of all Partners capable of participating. In that event, this doc should be updated with the new Chief Maintainer's name.
+If the Steward is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Steward no longer wishes to serve in the role, a new Steward may be appointed with the unanimous approval of all Partners capable of participating. In that event, this doc should be updated with the new Steward's name.

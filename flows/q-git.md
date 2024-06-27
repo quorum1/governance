@@ -50,7 +50,7 @@ Each Working Release has the following roles associated with it.
 
 - **Release Point (RP):** Coordinates the Release and is responsible for key decisions. Able to delegate authority to others and define the workflow for the Release as long as it doesn't conflict with the definitions in the governance repo. The Release Point must be a Contributor.
 - **Partners:** Play key roles in development and ultimately approve the Release during finalization.
-- **Chief Maintainer (CM):** Helps support the Point, provides architectural guidance, has veto power over approvals, appoints and can change the Point, can overrule decisions made by the Release Point.
+- **Steward:** Helps support the Point, provides architectural guidance, has veto power over approvals, appoints and can change the Point, can overrule decisions made by the Release Point.
 - **Designatees:** Designated by the Release Point to develop Resolution Branches as needed during the finalization step.
 - **Merge Certifiers:** The final certification step before a Working Release is merged into the `main` branch.
 
@@ -58,7 +58,7 @@ Each Working Release has the following roles associated with it.
 
 A new Working Release can only be created if there is no current Working Release as there can be only one at a time. (If side workspaces are needed, Experimental Branches may be used.)
 
-A new Working Release is created by the Chief Maintainer who also appoints a Release Point.
+A new Working Release is created by the Steward who also appoints a Release Point.
 
 A new branch is created in the repo with the name `release-#`, where `#` is 1 greater than the current Live Release. The root readme should be updated with a "Work in Progress" section that describes the current status of the release along with any key goals. This section should be kept up to date as work progresses, ideally with checklists, progress meters, or other easy to understand aids.
 
@@ -66,7 +66,7 @@ A new branch is created in the repo with the name `release-#`, where `#` is 1 gr
 
 Development progresses with Contribution Branches moving through the Development Process and potentially being approved for inclusion and then being merged into the Working Release branch.
 
-The Chief Maintainer may choose to appoint a new Release Point at any time.
+The Steward may choose to appoint a new Release Point at any time.
 
 The development step concludes when the Release Point determines that it is ready for finalization.
 
@@ -82,7 +82,7 @@ The finalization process is critical to the overall Release Process. Here are th
     - Any partner may flag an issue and they become the first Sponsor of that issue
     - If at least two other partners agree to Co-Sponsor the issue, it goes on the list of "Issues to Resolve"
     - If fewer than three partners agree to Co-Sponsor the issue, then it goes on the list of "Other Issues" and will not be resolved in the first round of resolutions
-    - The Chief Maintainer may veto any issue, but they must do so during a partner review call and allow for debate. At any point they may choose to retract a prior veto.
+    - The Steward may veto any issue, but they must do so during a partner review call and allow for debate. At any point they may choose to retract a prior veto.
     - The partner review is complete when all changes have been reviewed.
 - **Step 3b - First Resolutions:** 
   - The Release Point is responsible for ensuring that the Issues to Resolve are properly documented and assigned to Designatees.
@@ -106,12 +106,12 @@ The finalization process is critical to the overall Release Process. Here are th
   - Partners may vote to approve or reject the Release:
     - Votes to reject must contain a list of specific Issues to Resolve which would need to be addressed in order for them to approve again in the future.
     - Votes to approve may optionally contain a list of specific Future Issues which the Partner thinks should be addressed in future Releases.
-  - All Partners must either vote or delegate their vote to another partner. Voting or delegating is mandatory. Any Partners who will be unavailable during a vote must appoint a delegate beforehand, or a delegate may be appointed on their behalf by the Chief Maintainer.
+  - All Partners must either vote or delegate their vote to another partner. Voting or delegating is mandatory. Any Partners who will be unavailable during a vote must appoint a delegate beforehand, or a delegate may be appointed on their behalf by the Steward.
   - Partners will have already agreed in the prior sub-step to the duration of the voting period.
-  - The Chief Maintainer may unilaterally veto the approval of the Release, but they must hold a synchronous call inviting all Partners and allowing for debate. The call must be recorded and preserved indefinitely.
+  - The Steward may unilaterally veto the approval of the Release, but they must hold a synchronous call inviting all Partners and allowing for debate. The call must be recorded and preserved indefinitely.
   - Once all votes are cast:
     - 75% or greater approval causes the Working Release to be approved and move forward to the launch step.
-    - Less than 75% approval (or a veto from the CM) causes the Working Release to be sent back to development step.
+    - Less than 75% approval (or a veto from the Steward) causes the Working Release to be sent back to development step.
 
 ### Step 4 - Launch
 
@@ -120,9 +120,9 @@ Once a Working Release is approved for launch, the launch proceeds according to 
 A pull request is made from the Working Release branch into the `main` branch. Summaries of all parts of the finalization step must be posted to the pull request, including links to each video recording as well as verifiable evidence of each partner's vote.
 
 Once all key context is posted to the pull request, the pull request must be reviewed and approved by four Members (referred to as the Merge Certifiers), specifically:
-- The Chief Maintainer
+- The Steward
 - The Release Point
-- 2 Partners (not including the CM & RP), selected by the RP
+- 2 Partners (not including the Steward & RP), selected by the RP
 
 The Merge Certifiers must not exercise additional editorial review or approval during this step. Their sole responsibility is to ensure that the processes outlined in this flow have been followed and documented appropriately.
 
@@ -184,11 +184,11 @@ The precise method of this submission, and the review process itself is defined 
     - Votes to approve may optionally contain a list of specific Future Issues which the Partner thinks should be addressed in future Contributions.
   - All Partners must either vote or delegate their vote to another partner. Voting or delegating is mandatory.
   - The duration of the voting period for Contributions should be made clear to Partners ahead of time.
-  - The Chief Maintainer may unilaterally veto any Contribution, but they must invite asynchronous feedback from any interested Members and must respond to the feedback. They may retract their veto at any point.
+  - The Steward may unilaterally veto any Contribution, but they must invite asynchronous feedback from any interested Members and must respond to the feedback. They may retract their veto at any point.
   - Once all votes are cast:
     - The full details of the vote must be recorded on the pull request.
     - 75% or greater approval causes the Contribution to be approved.
-    - Less than 75% approval (or a veto from the CM) causes the Contribution to be rejected.
+    - Less than 75% approval (or a veto from the Steward) causes the Contribution to be rejected.
 - Rejected Contributions have their pull request closed. They may be tweaked and resubmitted later.
-- Approved Contributions have their pull request approved (by both the Release Point and the Chief Maintainer) and are then merged into the Working Release Branch.
+- Approved Contributions have their pull request approved (by both the Release Point and the Steward) and are then merged into the Working Release Branch.
 
