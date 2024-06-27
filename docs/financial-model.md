@@ -809,11 +809,11 @@ The legacy cohorts for years 0 through 3 are listed below and will match these t
 | Year 2 - 2022 ² ³ | $600K | 75x | $45M |
 | Year 3 - 2023 ² | $600K | 50x | $30M |
 | Legacy Total | $1.6M | 71.9x (avg) | $115M |
-- ***¹ For year 0:** All of the rev tokens will be issued to the time investment pool and awarded as rev points to the meta founder (Hank Holiday) as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
+- ***¹ For year 0:** All of the rev tokens will be issued to the time investment pool and awarded as rev points to the meta founder as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
 - ***² For year 1, 2, and 3:** A pass-through fund will be created to manage the retroactive issuance of the rev tokens.*
     - *First any money investments will be collected, documented and the amounts will be taken from the total pool. These cash investments will specifically include the unpaid legal fees to London Law, Inc less any amounts paid on the Initial Counsel Profit Share to date (full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model)).*
     - *Then the remaining amount will be available for allocation amongst all individuals who were members during that year via a participatory retroactive valuation process agreed on by at least 60% of the members from that year who remain active and are engaged enough to participate in the decision-making process.*
-- ***³ For year 1 and year 2:** Felipe Da Cruz will be awarded 750k rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
+- ***³ For year 1 and year 2:** Member Q0005 will be awarded 750k rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
 
 **The first live cohort will be year 4, defined exactly as below (including budget).**
 
@@ -875,20 +875,20 @@ The legacy financial model (aka Financial Model v1) is the set of agreements whi
 The replacement structures are all outlined in the [Guideline 2 - Rev Token Cohorts](#guideline-2---rev-token-cohorts) section.
 
 - **Meta Founder Revenue Share:**
-    - **Financial Model v1:** 1% of gross revenue is paid to the meta founder (Hank Holiday) for 20 years from initial incorporation.
+    - **Financial Model v1:** 1% of gross revenue is paid to the meta founder for 20 years from initial incorporation.
     - **Original Intention:** An exchange for the initial thought work and effort that went into conceiving and founding of Quorum1.
     - **Financial Model v2:** This disbursement is removed and replaced by the 2020 rev point cohort issued to the meta founder, valued at $10M rev points ($100k at a 50x multiple).
 - **Prime Founder Profit Share:**
     - **Financial Model v1:** 10% of gross profit is paid to prime founders for 10 years from initial incorporation, who are the first 10 members to earn 500 Q-Credits, with 3% to prime founder 1, 2% to prime founder 2, etc.
     - **Original Intention:** An incentivization program to reward members for early contributions to the founding and growth of Quorum1.
-    - **Financial Model v2:** The prime founder program was ended after 12/31/2022 with only two members having achieved prime founder status: Felipe Da Cruz and Hank Holiday. Hank Holiday agreed to give up his place, thus there was only one prime founder: Felipe Da Cruz.
-        - The year 1 and 2 rev point cohorts include a total of 1.5M rev points (split equally between the two years) to Felipe Da Cruz to replace the legacy entitlement. This amount was arrived at by estimating the value of the legacy entitlement to be 3% of a 20% profit margin against $250M of potential cumulative 10 year revenue, or $1.5M.
+    - **Financial Model v2:** The prime founder program was ended after 12/31/2022 with only two members having achieved prime founder status: Members Q0005 and Q0001. Q0001 agreed to give up their place, thus there was only one prime founder: Q0005.
+        - The year 1 and 2 rev point cohorts include a total of 1.5M rev points (split equally between the two years) to Q0005 to replace the legacy entitlement. This amount was arrived at by estimating the value of the legacy entitlement to be 3% of a 20% profit margin against $250M of potential cumulative 10 year revenue, or $1.5M.
         - It’s important to note that a number of other members made significant contributions and were on track to become prime founders before the program was ended. 
-        - The 1.5M rev points mentioned above are intended only to compensate Felipe Da Cruz for winning the game as it was designed. However, all members will be compensated for their contributions via the participatory processes used to allocate the remaining rev options for years 1, 2, and 3. The total available rev points for those years could be as high as 90M, which will leave plenty of space for the ultimate allocation to be fair.
+        - The 1.5M rev points mentioned above are intended only to compensate Q0005 for winning the game as it was designed. However, all members will be compensated for their contributions via the participatory processes used to allocate the remaining rev options for years 1, 2, and 3. The total available rev points for those years could be as high as 90M, which will leave plenty of space for the ultimate allocation to be fair.
         - This program was ultimately discontinued because the incentivization structure was deemed to have been poorly designed. The fact that only one prime founder was formally recognized is not considered to be a completely fair outcome, but that is how the rules worked out.
 - **Initial Counsel Profit Share:**
-    - **Financial Model v1:** 6.25% of gross profit is paid to London Law, Inc for 3 years from initial incorporation.
-    - **Original Intention:** An exchange for London Law having graciously offered heavy discounts, and in some cases not passing on incurred expenses, during the initial entity formation and early legal development of Quorum1.
+    - **Financial Model v1:** 6.25% of gross profit is paid to initial legal counsel for 3 years from initial incorporation.
+    - **Original Intention:** An exchange for initial legal counsel having graciously offered heavy discounts, and in some cases not passing on incurred expenses, during the initial entity formation and early legal development of Quorum1.
     - **Financial Model v2:** The legacy mechanism is retired and in the rev token cohorts for years 1 through 3, the unpaid legal work is instead converted into rev points, less any amount paid out via the legacy mechanism.
 
 ---
