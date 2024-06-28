@@ -6,14 +6,19 @@ Quorum1 is a professional collective. Our website is at: https://quorum.one
 
 Our governance repo is hosted on Github and managed using branches, pull requests, and other Git-based tools. The audit history of changes to this repo is considered part of Quorum1's public record.
 
+## ⚠️ Work in Progress: Release 2 ⚠️
+
+Task List:
+[ ] In FM: Replace "fund" with "ledger"
+[ ] In FM: Copy changes from Notion FM v2.1
+[ ] Final review & cleanup
+
 ## Structure of this Repo
 
 - [/docs](docs/): Contains our governance docs. These define important processes, agreements, structures, models, and workflows. Collectively they are our "governance design".
 - [/flows](flows/): Contains our governance change flows. These define how changes to different parts of the governance repo are made. Collectively they are our "meta governance process" (the change management process for our governance design).
 
 ## Current Status of our Governance Repo
-
-This is Release 1, the current live release.
 
 We are still in the process of porting our entire governance structure into this repo. Prior to June 2024 our governance structures have been managed in many different places. This repo is an effort to unify those pieces in order to increase transparency, streamline change management, and facilitate greater collaboration.
 
