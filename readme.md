@@ -1,4 +1,4 @@
-# Quorum1 Governance Repo - Release 1
+# Quorum1 Governance Repo - Release 2 (WIP)
 
 This repo contains Quorum1's official governance processes and models. 
 
@@ -9,9 +9,9 @@ Our governance repo is hosted on Github and managed using branches, pull request
 ## ⚠️ Work in Progress: Release 2 ⚠️
 
 Task List:
-[ ] In FM: Replace "fund" with "ledger"
-[ ] In FM: Copy changes from Notion FM v2.1
-[ ] Final review & cleanup
+- [ ] In FM: Replace "fund" with "ledger"
+- [ ] In FM: Copy changes from Notion FM v2.1
+- [ ] Final review & cleanup
 
 ## Structure of this Repo
 
