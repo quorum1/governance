@@ -9,7 +9,7 @@ Our governance repo is hosted on Github and managed using branches, pull request
 ## ⚠️ Work in Progress: Release 2 ⚠️
 
 Task List:
-- [ ] In FM: Replace "fund" with "ledger"
+- [x] In FM: Replace "fund" with "ledger"
 - [ ] In FM: Copy changes from Notion FM v2.1
 - [ ] Final review & cleanup
 
