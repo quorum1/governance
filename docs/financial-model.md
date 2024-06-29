@@ -634,6 +634,7 @@ Below are some of the most important properties of a rev token.
 - **Full Value:** Equal to the face value times the multiple.
 - **Received Value:** The sum total of all payments received by the token to date.
 - **Remaining Value:** The amount remaining to be received. Equal to the full value minus the received value.
+- **Type:** There are two types of rev tokens, corresponding to the two [Investment Types](#investment-types): money rev tokens and time rev tokens.
 - **Cliff:** The period of time, post-issuance, before the token begins receiving payments.
 - **Status:** Where the token is at in its lifecycle (Unissued, Inactive, Active, Retired).
 - **Owner:** The individual or entity which owns the token.
@@ -798,34 +799,51 @@ The org rev share allocation percentage in a year will be a factor of (1) the av
 
 ### Guideline 2 - Rev Token Cohorts
 
-There will be annual rev token cohorts, with one created for each calendar year and sub-cohorts created for each investment type and rev token pool. 2020 is known as “year 0”, 2021 is known as “year 1”, etc.
+Cohorts have a time period (default is a year) and share the same multiple. At a minimum a Cohort is created for each calendar year and sub-cohorts created for each important subdivision there within. 2020 is known as “year 0”, 2021 is known as “year 1”, etc.
 
-The legacy cohorts for years 0 through 3 are listed below and will match these tables exactly, except that the actual face value, which must be under the maximums defined below, will be determined via a participatory process (to be determined by the Foundation) that runs soon after v2 of the Financial Model is initially approved and adopted. 
+The legacy cohorts for years 0 through 3 are listed below and will match these tables exactly, except that the actual face value, which must be under the maximums defined below, will be determined via a participatory process (to be determined by the Foundation) that runs soon after v2 of the Financial Model is initially approved and adopted.
+
+**Legacy Money Rev Tokens:**
 
 | Year | Max Face Value | Multiple | Max Full Value |
 | --- | --- | --- | --- |
-| Year 0 - 2020 ¹ | $100K | 100x | $10M |
-| Year 1 - 2021 ² ³ | $300K | 100x | $30M |
-| Year 2 - 2022 ² ³ | $600K | 75x | $45M |
-| Year 3 - 2023 ² | $600K | 50x | $30M |
-| Legacy Total | $1.6M | 71.9x (avg) | $115M |
-- ***¹ For year 0:** All of the rev tokens will be issued to the time investment pool and awarded as rev points to the meta founder as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
-- ***² For year 1, 2, and 3:** A pass-through ledger will be created to manage the retroactive issuance of the rev tokens.*
-    - *First any money investments will be collected, documented and the amounts will be taken from the total pool. These cash investments will specifically include the unpaid legal fees to London Law, Inc less any amounts paid on the Initial Counsel Profit Share to date (full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model)).*
-    - *Then the remaining amount will be available for allocation amongst all individuals who were members during that year via a participatory retroactive valuation process agreed on by at least 60% of the members from that year who remain active and are engaged enough to participate in the decision-making process.*
-- ***³ For year 1 and year 2:** Member Q0005 will be awarded 750k rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
+| Year 0 - 2020 | $0 | 100x | $0 |
+| Year 1 - 2021 ² | $70K | 100x | $7M |
+| Year 2 - 2022 ² | $20K | 75x | $1.5M |
+| Year 3 - 2023 ² | $10K | 50x | $500K |
+| Legacy Total | $100K | 90x (avg) | $9M |
 
-**The first live cohort will be year 4, defined exactly as below (including budget).**
+**Legacy Time Rev Tokens:**
 
-| Year | Face Value | Multiple | Max Full Value |
+| Year | Face Value | Multiple | Full Value |
 | --- | --- | --- | --- |
-| Year 4 - 2024 ¹ | $4M | 40x | $160M |
-| Total from Y0 - Y4 | $5.6M | 49.1x (avg) | $275M |
-| Remaining for Y5+ | $49.4M | 11.1x (avg) | $550M |
-- ***¹ For year 4:** $1M will be allocated to a formal org investment round managed by the meta founder with all critical parameters requiring the 60% agreement of the partner members.*
-    - *Any remaining un-raised amount from that $1M will be available for informal investment.*
-    - *With the 60% agreement of the partner members, up to an additional $500K may be used for the investment round in an oversubscribed scenario.*
-    - *The remaining $3M (less the investment round oversubscription) will be used for time investment and will be broken into allotments every 3 months or so, which may run into future years if needed. Each allotment will be allocated via a participatory process open at least to all community, contributor and partner members. Each of these allotments will be designed as an experiment intended to learn more about what sorts of participatory processes work best for the quorum.*
+| Year 0 - 2020 ¹ | $100K | 100x | $10M |
+| Year 1 - 2021 ² ³ | $230K | 100x | $23M |
+| Year 2 - 2022 ² ³ | $580K | 75x | $43.5M |
+| Year 3 - 2023 ² | $590K | 50x | $29.5M |
+| Legacy Total | $1.5M | 70.67x (avg) | $106M |
+- ***¹ For year 0:** Only time rev tokens are being created for year 0 and will be awarded as rev points to the meta founder as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
+- ***² For year 1, 2, and 3:** A pass-through ledger will be created to manage the retroactive issuance of the rev tokens and rev points.*
+    - *For money rev tokens: First any money investments will be collected, documented, totaled, and issued as money rev tokens up to the max face value from the table above. These cash investments will specifically include the unpaid legal fees to initial legal counsel less any amounts paid on the Initial Counsel Profit Share to date (full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model)). If the final documented amount is under the max face value from the table above, then the remaining amount will not be issued as rev tokens. If the final documented amount is over the max face value from the table above, then the overage amount will be awarded instead as rev points from the time investment pool in the same year cohort.*
+    - *For time rev tokens: The rev points will be allocated amongst all individuals who were members during that year via a participatory retroactive valuation process agreed on by at least 60% of the members from that year who remain active members and are engaged enough to participate in the decision-making process.*
+- ***³ For year 1 and year 2:** Member Q0005 will be awarded 750K rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
+
+**The first live cohort will be year 4, defined below (including budget).**
+
+**Year 4 Money Rev Tokens:**
+
+| Year | Max Face Value | Multiple | Max Full Value |
+| --- | --- | --- | --- |
+| Year 4 - 2024 ¹ | $5M | 40x | $200M |
+| Total from Y0 - Y4 | $5.1M | 41.0x (avg) | $209M |
+
+**Year 4 Time Rev Tokens:**
+
+| Year | Max Face Value | Multiple | Max Full Value |
+| --- | --- | --- | --- |
+| Year 4 - 2024 | $4M | 40x | $160M |
+| Total from Y0 - Y4 | $5.5M | 48.4x (avg) | $266M |
+- ***¹ For year 4:** Money rev tokens will be allocated to a formal org investment round managed by the meta founder with all critical parameters requiring the 60% agreement of the partner members. The precise amount of Rev Tokens and their Face Value will be determined by the total amount purchased by investors in the formal org investment round, as well as any additional informal investment.*
 
 **The org investment ledger’s governance process will begin determining annual rev token cohorts starting in year 5 (2025).**
 
@@ -833,9 +851,31 @@ The legacy cohorts for years 0 through 3 are listed below and will match these t
 
 The rev token weighting algorithm for the org investment ledger will stay consistent over time to maximize predictability. 
 
-Specifically, during a rev token payment, each active rev token recipient will receive a percentage of the overall rev token payment equal to the total full value of their rev tokens divided by the total full value of all rev tokens. Any left over amount allocated to rev tokens which are fully paid during this round will be split across the remaining active rev tokens in the round. This math will only include rev tokens that are part of the rev token payment.
+The rev token payments shall be processed in alignment with the following algorithm:
 
-As an example scenario: Assume in a particular rev token payment there are three rev token recipients: recipient A (with $10,000 of full value), recipient B (with $5,000 of full value), recipient C (with $5,000 of full value). In this scenario, recipient A would receive 50% of the rev token payment, with recipients B and C receiving 25% each.
+1. The overall rev token payment is split into two sub-payments, one for each type of rev token: A time rev token payment and a money rev token payment.
+    1. The split between these two sub-payments is a key parameter of this algorithm called the “time-vs-money split rate” and is discussed in more detail below.
+    2. The intentions of this structure are (1) to provide a tool for creating parity between time and money investors and (2) to ensure that a large amount of investment of one type does not impact the repayment schedule of investors of the other type.
+2. Within each sub-payment, each active rev token recipient will receive a percentage of the rev token sub-payment equal to the total full value of their active rev tokens of that type divided by the total full value of all active rev tokens of that type.
+
+**Time-vs-Money Split Rate**
+
+The time-vs-money split rate (TVMSR) is considered part of the Financial Operations Plan and can be changed from payment to payment according to the needs of the quorum. The goal, however, should be to maintain an average TVMSR of 50/50, meaning that 50% goes to time rev tokens and 50% goes to money rev tokens.
+
+Additionally, the percentage allocated to either type may not drop below 30%. This means that the allowed range of TVMSR values is from 30/70 to 70/30.
+
+**Example Scenario**
+
+The overall rev token payment amount is $10,000 and the TVMSR is 50/50.
+
+Therefore $5,000 will go to time rev tokens and $5,000 will go to money rev tokens.
+
+| Rev Token Recipient | Full Value | Type | % of Sub-Payment | Received $ |
+| --- | --- | --- | --- | --- |
+| Recipient A | $20,000 | Time | 20K/100K = 20% | $1,000 |
+| Recipient B | $80,000 | Time | 80K/100K = 80% | $4,000 |
+| Recipient C | $15,000 | Money | 15K/20K = 75% | $1,250 |
+| Recipient D | $5,000 | Money | 5K/20K = 25% | $3,750 |
 
 ### Guideline 4 - Governance Process
 
@@ -877,7 +917,7 @@ The replacement structures are all outlined in the [Guideline 2 - Rev Token Coho
 - **Meta Founder Revenue Share:**
     - **Financial Model v1:** 1% of gross revenue is paid to the meta founder for 20 years from initial incorporation.
     - **Original Intention:** An exchange for the initial thought work and effort that went into conceiving and founding of Quorum1.
-    - **Financial Model v2:** This disbursement is removed and replaced by the 2020 rev point cohort issued to the meta founder, valued at $10M rev points ($100k at a 50x multiple).
+    - **Financial Model v2:** This disbursement is removed and replaced by the 2020 rev point cohort issued to the meta founder, valued at $10M rev points ($100k at a 100x multiple).
 - **Prime Founder Profit Share:**
     - **Financial Model v1:** 10% of gross profit is paid to prime founders for 10 years from initial incorporation, who are the first 10 members to earn 500 Q-Credits, with 3% to prime founder 1, 2% to prime founder 2, etc.
     - **Original Intention:** An incentivization program to reward members for early contributions to the founding and growth of Quorum1.
