@@ -443,10 +443,9 @@ In general, the valuation of time investments should follow these key principles
 
 It’s worth noting that it’s not always possible to comply with time valuation principle 2 (preceding valuation). This is evidenced within this doc by the retroactive valuation of the time investments made prior to the establishing of the current version of the Financial Model. Retroactive valuation is acceptable as long as it is done equitably, but it should be avoided whenever possible to do so without making overall allocation less equitable.
 
-<aside>
-⚠️ **Rev points are intended to be a form of supplementary or bonus income (analogous to stock options in a startup), not the primary form of compensation.** The primary form of compensation for time investors should be cash. In cash-lean periods it may be necessary for rev points to largely (or fully) take the place of cash compensation, but the practice should be avoided when possible.
-
-</aside>
+> [!IMPORTANT]
+> **Rev points are intended to be a form of supplementary or bonus income (analogous to stock options in a startup), not the primary form of compensation.**
+> The primary form of compensation for time investors should be cash. In cash-lean periods it may be necessary for rev points to largely (or fully) take the place of cash compensation, but the practice should be avoided when possible.
 
 ### Money Investment
 
