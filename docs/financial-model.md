@@ -444,8 +444,7 @@ In general, the valuation of time investments should follow these key principles
 It’s worth noting that it’s not always possible to comply with time valuation principle 2 (preceding valuation). This is evidenced within this doc by the retroactive valuation of the time investments made prior to the establishing of the current version of the Financial Model. Retroactive valuation is acceptable as long as it is done equitably, but it should be avoided whenever possible to do so without making overall allocation less equitable.
 
 > [!IMPORTANT]
-> **Rev points are intended to be a form of supplementary or bonus income (analogous to stock options in a startup), not the primary form of compensation.**
-> The primary form of compensation for time investors should be cash. In cash-lean periods it may be necessary for rev points to largely (or fully) take the place of cash compensation, but the practice should be avoided when possible.
+> **Rev points are intended to be a form of supplementary or bonus income (analogous to stock options in a startup), not the primary form of compensation.** The primary form of compensation for time investors should be cash. In cash-lean periods it may be necessary for rev points to largely (or fully) take the place of cash compensation, but the practice should be avoided when possible.
 
 ### Money Investment
 
@@ -595,10 +594,8 @@ The governance process of an investment ledger must define:
 
 ### Key Governance Process: Token Downgrade
 
-<aside>
-⚠️ Token downgrades are disruptive. They should be used rarely and must be used in good faith and with full transparency.
-
-</aside>
+> [!WARNING]
+> Token downgrades are disruptive. They should be used rarely and must be used in good faith and with full transparency.
 
 It may become necessary to decrease the return multiple of all outstanding rev tokens in a ledger. The ledger governance process must define the exact criteria when a downgrade is allowed as well as the process for approving the changes.
 
@@ -787,10 +784,8 @@ The core parameters must match the following.
 
 **How to Contextualize the Ledger Budget:**
 
-<aside>
-🏦 The ledger budget above is built around the goal of getting to a billion dollars in revenue in 2034 (with at least 5% of gross revenue going to rev token payments).
-
-</aside>
+> [!NOTE]
+> The ledger budget above is built around the goal of getting to a billion dollars in revenue in 2034 (with at least 5% of gross revenue going to rev token payments).
 
 The precise rev token payment amount in any future year will depend on both the amount of org revenue and the “org rev share allocation” (the net allocation to org investment ledger rev token payments as a portion of overall revenue).
 
