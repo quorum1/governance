@@ -10,7 +10,7 @@ Our governance repo is hosted on Github and managed using branches, pull request
 
 Task List:
 - [x] In FM: Replace "fund" with "ledger"
-- [ ] In FM: Copy changes from Notion FM v2.1
+- [x] In FM: Copy changes from Notion FM v2.1
 - [ ] Final review & cleanup
 
 ## Structure of this Repo

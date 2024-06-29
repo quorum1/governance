@@ -811,7 +811,7 @@ The legacy cohorts for years 0 through 3 are listed below and will match these t
 | Year 1 - 2021 ² | $70K | 100x | $7M |
 | Year 2 - 2022 ² | $20K | 75x | $1.5M |
 | Year 3 - 2023 ² | $10K | 50x | $500K |
-| Legacy Total | $100K | 90x (avg) | $9M |
+| **Legacy Total** | **$100K** | **90x (avg)** | **$9M** |
 
 **Legacy Time Rev Tokens:**
 
@@ -821,7 +821,7 @@ The legacy cohorts for years 0 through 3 are listed below and will match these t
 | Year 1 - 2021 ² ³ | $230K | 100x | $23M |
 | Year 2 - 2022 ² ³ | $580K | 75x | $43.5M |
 | Year 3 - 2023 ² | $590K | 50x | $29.5M |
-| Legacy Total | $1.5M | 70.67x (avg) | $106M |
+| **Legacy Total** | **$1.5M** | **70.67x (avg)** | **$106M** |
 - ***¹ For year 0:** Only time rev tokens are being created for year 0 and will be awarded as rev points to the meta founder as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
 - ***² For year 1, 2, and 3:** A pass-through ledger will be created to manage the retroactive issuance of the rev tokens and rev points.*
     - *For money rev tokens: First any money investments will be collected, documented, totaled, and issued as money rev tokens up to the max face value from the table above. These cash investments will specifically include the unpaid legal fees to initial legal counsel less any amounts paid on the Initial Counsel Profit Share to date (full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model)). If the final documented amount is under the max face value from the table above, then the remaining amount will not be issued as rev tokens. If the final documented amount is over the max face value from the table above, then the overage amount will be awarded instead as rev points from the time investment pool in the same year cohort.*
@@ -835,14 +835,14 @@ The legacy cohorts for years 0 through 3 are listed below and will match these t
 | Year | Max Face Value | Multiple | Max Full Value |
 | --- | --- | --- | --- |
 | Year 4 - 2024 ¹ | $5M | 40x | $200M |
-| Total from Y0 - Y4 | $5.1M | 41.0x (avg) | $209M |
+| **Total from Y0 - Y4** | **$5.1M** | **41.0x (avg)** | **$209M** |
 
 **Year 4 Time Rev Tokens:**
 
 | Year | Max Face Value | Multiple | Max Full Value |
 | --- | --- | --- | --- |
 | Year 4 - 2024 | $4M | 40x | $160M |
-| Total from Y0 - Y4 | $5.5M | 48.4x (avg) | $266M |
+| **Total from Y0 - Y4** | **$5.5M** | **48.4x (avg)** | **$266M** |
 - ***¹ For year 4:** Money rev tokens will be allocated to a formal org investment round managed by the meta founder with all critical parameters requiring the 60% agreement of the partner members. The precise amount of Rev Tokens and their Face Value will be determined by the total amount purchased by investors in the formal org investment round, as well as any additional informal investment.*
 
 **The org investment ledger’s governance process will begin determining annual rev token cohorts starting in year 5 (2025).**
