@@ -38,3 +38,4 @@ In addition, git-based workflows are amongst the most effective ways to facilita
 ## License Status of this Repo
 
 We are still determining the best license to use for our governance repo. While we make this determination, all rights are reserved by Quorum One LLC, a collectively owned and managed company incorporated in California, USA.
+We are still determining the best license to use for our governance repo. While we make this determination, all rights are reserved by Quorum One LLC, a collectively owned and managed company incorporated in California, USA.
