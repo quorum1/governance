@@ -205,7 +205,7 @@ Before the running of a collaborative funding process, the process itself must b
 
 Bonus ledgers hold money used to award bonuses for certain activities which are part of a well-defined incentivization program. This includes sales & marketing commissions, client referral fees, new member recruiting bonuses, and other similar programs. 
 
-Note that, like all ledgers, bonus ledgers may only direct outflows to valid [Ledger Outflows & Allocation Targets](#ledger-outflows--allocation-targets). This means that community members are not able to receive bonus payouts directly.
+Note that, like all ledgers, bonus ledgers may only direct outflows to valid ledger outflows & allocation targets. This means that community members are not able to receive bonus payouts directly.
 
 Team Finance is responsible for administering the calculation and disbursement of bonuses based on data provided by the ledger manager. The ledger manager must work with Team Finance to ensure that the bonus ledger design makes sense and is feasible to administer.
 
@@ -1091,7 +1091,7 @@ This process may optionally define a slightly different process for Quorum1-owne
 
 ### Refund Process
 
-***Referenced in:** [Fulfillment, Recognition, & Refunds](#fulfillment,-recognition,--refunds)* 
+***Referenced in:** [Fulfillment, Recognition, & Refunds](#fulfillment-recognition--refunds)* 
 
 This process defines how unfulfilled revenue in a fulfillment ledger may be refunded back to its source (such as back to an external client or back to another internal ledger). 
 
