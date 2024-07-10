@@ -1,4 +1,4 @@
-# Financial Model v2
+# Financial Model v2.1.0
 
 This agreement defines how Quorum1 (also referred to as “the quorum”) handles money as a collective, specifically the money in the accounts held by Quorum1. Our goals are to ensure legal compliance, financial solvency, and operational reliability while making financial flows throughout the network as transparent as possible and supporting emergent innovation by directing significant amounts to participatory budget allocation.
 
