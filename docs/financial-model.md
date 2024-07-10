@@ -868,8 +868,8 @@ Therefore $5,000 will go to time rev tokens and $5,000 will go to money rev toke
 | --- | --- | --- | --- | --- |
 | Recipient A | $20,000 | Time | 20K/100K = 20% | $1,000 |
 | Recipient B | $80,000 | Time | 80K/100K = 80% | $4,000 |
-| Recipient C | $15,000 | Money | 15K/20K = 75% | $1,250 |
-| Recipient D | $5,000 | Money | 5K/20K = 25% | $3,750 |
+| Recipient C | $15,000 | Money | 15K/20K = 75% | $3,750 |
+| Recipient D | $5,000 | Money | 5K/20K = 25% | $1,250 |
 
 ### Guideline 4 - Governance Process
 
