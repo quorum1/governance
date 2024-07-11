@@ -1,6 +1,6 @@
-# Financial Model v2
+# Financial Model v2.1.0
 
-This agreement defines how Quorum1 (also referred to as “the quorum”) handles money as a collective, specifically the funds in the accounts held by Quorum1. Our goals are to ensure legal compliance, financial solvency, and operational reliability while making financial flows throughout the network as transparent as possible and supporting emergent innovation by directing significant funds to participatory budget allocation.
+This agreement defines how Quorum1 (also referred to as “the quorum”) handles money as a collective, specifically the money in the accounts held by Quorum1. Our goals are to ensure legal compliance, financial solvency, and operational reliability while making financial flows throughout the network as transparent as possible and supporting emergent innovation by directing significant amounts to participatory budget allocation.
 
 ---
 
@@ -73,9 +73,9 @@ Each hosted entity is also considered a quorum, has a triad and a point, and is 
 
 ### Key Properties of Hosted Entities
 
-- **Entity Fund:** All hosted entities have their own funds, usually a pass-through fund. The fund is managed and governed as defined by the hosted entity.
+- **Entity Ledger:** All hosted entities have their own ledgers, usually a pass-through ledger. The ledger is managed and governed as defined by the hosted entity.
 - **Brand:** A hosted entity is “Q1-branded” if it operates under the Quorum1 brand, or “alt-branded” if it operates under its own brand.
-- **Investment:** A hosted entity is said to be “investable” if it is able to receive investment. Investable entities must have their own rev share fund.
+- **Investment:** A hosted entity is said to be “investable” if it is able to receive investment. Investable entities must have their own rev share ledger.
 - **IP Bucket:** Some hosted entities have a collection of IP containing original inventions, ideas, processes, designs, copyrights, and patents.
 - **Ownership Agreement:** Some hosted entities have an agreement outlining the guidelines for how ownership will be allocated if the hosted entity is ever spun out into a separate legal entity.
 
@@ -83,7 +83,7 @@ Each hosted entity is also considered a quorum, has a triad and a point, and is 
 
 Almost all of the properties are mandatory for a virtual company. Lines of Business are comparatively simpler and more limited.
 
-| Hosted Entity Type | Fund? | Brand? | Investable? | IP Bucket? | Ownership Agreement? |
+| Hosted Entity Type | Ledger? | Brand? | Investable? | IP Bucket? | Ownership Agreement? |
 | --- | --- | --- | --- | --- | --- |
 | Line of Business | ✅ | Optional | ❌ | ❌ | ❌ |
 | Virtual Company | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -103,185 +103,185 @@ In the case of a rev token purchase and rev point liquidation, the purchaser wou
 
 ---
 
-# Funds
+# Ledgers
 
-Funds are Quorum1’s financial accounts. Funds have inflows of money and rev points, can hold money and rev points, and have outflows of money and rev points. Funds can also award rev points.
+Ledgers are Quorum1’s financial accounts. Ledgers have inflows of money and rev points, can hold money and rev points, and have outflows of money and rev points. Ledgers can also award rev points.
 
-The fund management infrastructure is maintained by Team Finance. There are a fixed set of [Standard Funds](#standard-funds) set out in this document, but the full database of funds will evolve organically over time, supporting an emergent financial design for the quorum. 
+The ledger management infrastructure is maintained by Team Finance. There are a fixed set of [Standard Ledgers](#standard-ledgers) set out in this document, but the full database of ledgers will evolve organically over time, supporting an emergent financial design for the quorum. 
 
-Team Finance manages the working database of all funds and defines clear processes for creating, changing, and retiring funds (the [Fund Management Process](#fund-management-process)). Team Finance is also responsible for maintaining permanent audit trails of all funds, changes to funds, and fund activity.
+Team Finance manages the working database of all ledgers and defines clear processes for creating, changing, and retiring ledgers (the [Ledger Management Process](#ledger-management-process)). Team Finance is also responsible for maintaining permanent audit trails of all ledgers, changes to ledgers, and ledger activity.
 
-## Key Properties of a Fund
+## Key Properties of a Ledger
 
-Below are some of the most important properties that make up a fund’s design.
+Below are some of the most important properties that make up a ledger’s design.
 
-- **Fund Manager:** A single contributor or partner member who is responsible for interfacing with Team Finance and assisting with the management and administration of the fund.
-- **Fund Type:** The available types and their features are defined in this document.
-- **Fund Allocation Model:** Describes the fund’s outflows.
-- **Fund Governance Process:** Describes who is allowed to make changes to the fund’s design and how those changes are approved.
-- **Fund Status:** “Proposed”, “Active”, or “Retired”
-- **Receivable / Non-Receivable:** Only receivable funds are able to receive external income directly. Non-receivable funds only receive money through cross-fund outflows.
-- **Rev Point Pool:** Funds are able to receive unawarded rev points through various mechanisms. These rev points sit in the fund’s rev point pool until awarded to a member or transferred to another fund’s rev point pool.
+- **Ledger Manager:** A single contributor or partner member who is responsible for interfacing with Team Finance and assisting with the management and administration of the ledger.
+- **Ledger Type:** The available types and their features are defined in this document.
+- **Ledger Allocation Model:** Describes the ledger’s outflows.
+- **Ledger Governance Process:** Describes who is allowed to make changes to the ledger’s design and how those changes are approved.
+- **Ledger Status:** “Proposed”, “Active”, or “Retired”
+- **Receivable / Non-Receivable:** Only receivable ledgers are able to receive external income directly. Non-receivable ledgers only receive money through cross-ledger outflows.
+- **Rev Point Pool:** Ledgers are able to receive unawarded rev points through various mechanisms. These rev points sit in the ledger’s rev point pool until awarded to a member or transferred to another ledger’s rev point pool.
 - **Rev Point Plan:** Describes how rev points from the rev point pool are awarded.
-- **Rev Token Cohorts:** Only for investment funds, outlined in more detail in the [Investment Fund Rev Token Cohorts](#investment-fund-rev-token-cohorts) section.
+- **Rev Token Cohorts:** Only for investment ledgers, outlined in more detail in the [Investment Ledger Rev Token Cohorts](#investment-ledger-rev-token-cohorts) section.
 
 ## Allocation Models
 
-A fund’s allocation model describes the fund’s outflows, meaning how money flows out of the fund. The exact format of the allocation model is defined by the [Allocation Model Templates](#allocation-model-templates) and is standardized for each fund type. All allocation models, however, are essentially lists of outflows. 
+A ledger’s allocation model describes the ledger’s outflows, meaning how money flows out of the ledger. The exact format of the allocation model is defined by the [Allocation Model Templates](#allocation-model-templates) and is standardized for each ledger type. All allocation models, however, are essentially lists of outflows. 
 
-Each outflow has a single allocation target and specifies how much money should flow to that allocation target. The types of valid allocation targets are described in detail in the [Outflows](#outflows) section, but at a high level: internal outflows allow funds to pass money on to other funds or [Workstream Wallets](#workstream-wallets), while external outflows allow funds to send money out of the quorum. 
+Each outflow has a single allocation target and specifies how much money should flow to that allocation target. The types of valid allocation targets are described in detail in the [Outflows](#outflows) section, but at a high level: internal outflows allow ledgers to pass money on to other ledgers or [Workstream Wallets](#workstream-wallets), while external outflows allow ledgers to send money out of the quorum. 
 
-For receivable funds, the allocation model must include certain required allocations based on the type of income they receive. The details of this are outlined in the [Standard Income Allocations](#standard-income-allocations) section.
+For receivable ledgers, the allocation model must include certain required allocations based on the type of income they receive. The details of this are outlined in the [Standard Income Allocations](#standard-income-allocations) section.
 
 ## Rev Point Pools & Plans
 
-Funds are able to receive unawarded rev points and hold them in their fund rev point pool. The points are intended to be awarded to reward and incentivize contributions. Not all funds will have rev points in their rev point pool.
+Ledgers are able to receive unawarded rev points and hold them in their ledger rev point pool. The points are intended to be awarded to reward and incentivize contributions. Not all ledgers will have rev points in their rev point pool.
 
 There are two ways to award rev points: (1) By designing a rev point plan and (2) by transferring rev points to [Workstream Wallets](#workstream-wallets) via an allocation model outflow. The rest of this sub-section is focused on the former method.
 
-To award rev points directly to members, a fund must create a rev point plan outlining how the rev points will be awarded. The rev point plan must clearly define the parameters of how rev points are to be awarded including: who is able to participate, the earning cycle, the specific data that will be delivered, how the point earnings are calculated based on the data, what happens when there’s not enough rev points in the pool to cover all of the earnings in an earning cycle, and all other details required to properly administer the program.
+To award rev points directly to members, a ledger must create a rev point plan outlining how the rev points will be awarded. The rev point plan must clearly define the parameters of how rev points are to be awarded including: who is able to participate, the earning cycle, the specific data that will be delivered, how the point earnings are calculated based on the data, what happens when there’s not enough rev points in the pool to cover all of the earnings in an earning cycle, and all other details required to properly administer the program.
 
 It is allowed for a rev point pool to begin accruing rev points without having a rev point plan defined. It is also allowed to change the design of the rev point plan frequently as long as those changes are communicated to all impacted members and they are given a voice in the decision-making process.
 
-Team Finance is responsible for administering the awarding of rev points as outlined in the rev point plan and based on the data provided by the fund manager. The fund manager must work with Team Finance to ensure that the fund design makes sense and is feasible to administer.
+Team Finance is responsible for administering the awarding of rev points as outlined in the rev point plan and based on the data provided by the ledger manager. The ledger manager must work with Team Finance to ensure that the ledger design makes sense and is feasible to administer.
 
-Unawarded rev points may be transferred to another rev point pool by the fund manager. Unawarded rev points may also be subject to reallocation by the source investment fund if they remain unawarded for a protracted period of time, according to the investment fund’s rev point plan.
+Unawarded rev points may be transferred to another rev point pool by the ledger manager. Unawarded rev points may also be subject to reallocation by the source investment ledger if they remain unawarded for a protracted period of time, according to the investment ledger’s rev point plan.
 
 Rev points and their related processes are outlined in more detail in the [Investment](#investment) section.
 
-## Fund Types
+## Ledger Types
 
-Each fund type is designed to provide a specific set of features for managing our money. Taken as a whole, the fund types are intended to serve as modular building blocks able to be linked together by fund designers to build the infrastructure needed to support different parts of the quorum’s business.
+Each ledger type is designed to provide a specific set of features for managing our money. Taken as a whole, the ledger types are intended to serve as modular building blocks able to be linked together by ledger designers to build the infrastructure needed to support different parts of the quorum’s business.
 
-The standardization of these fund types is critical for streamlining our financial and technical operations. The modularity of these fund types is critical for allowing the flexibility we need to grow, evolve, and adapt.
+The standardization of these ledger types is critical for streamlining our financial and technical operations. The modularity of these ledger types is critical for allowing the flexibility we need to grow, evolve, and adapt.
 
-### Pass-Through Funds
+### Pass-Through Ledgers
 
-Pass-through funds simply allocate all inflows directly to a list of allocation targets, with a specific percentage flowing to each target.
+Pass-through ledgers simply allocate all inflows directly to a list of allocation targets, with a specific percentage flowing to each target.
 
-Pass-through funds may optionally also include a set of fixed dollar amount outflows which are taken “off the top” before the rest of the inflowing money is allocated based on percentages.
+Pass-through ledgers may optionally also include a set of fixed dollar amount outflows which are taken “off the top” before the rest of the inflowing money is allocated based on percentages.
 
-### Fulfillment Funds
+### Fulfillment Ledgers
 
-Fulfillment funds (potentially also called “project fulfillment funds” or just “project funds”) hold money intended to compensate the fulfillment of a particular project or client engagement. They are necessarily a bit more complex than other fund types. Fulfillment funds are used for all consulting engagements, for internal Quorum1 projects, product development work, and anything else where outflows are linked to work fulfillment. 
+Fulfillment ledgers (potentially also called “project fulfillment ledgers” or just “project ledgers”) hold money intended to compensate the fulfillment of a particular project or client engagement. They are necessarily a bit more complex than other ledger types. Fulfillment ledgers are used for all consulting engagements, for internal Quorum1 projects, product development work, and anything else where outflows are linked to work fulfillment. 
 
-Fulfillment funds keep track of how much revenue has been fulfilled and produce outflows based only on fulfilled revenue. Fulfillment funds also support a refund mechanism for returning the remaining balance to its source if a project is canceled before all of the revenue has been fulfilled.
+Fulfillment ledgers keep track of how much revenue has been fulfilled and produce outflows based only on fulfilled revenue. Fulfillment ledgers also support a refund mechanism for returning the remaining balance to its source if a project is canceled before all of the revenue has been fulfilled.
 
-There are two types of fulfillment funds:
+There are two types of fulfillment ledgers:
 
-- **Hourly** fulfillment funds are fulfilled by line item hours being tracked and verified in the [Time Tracking System](#time-tracking-system).
-- **Percentage** fulfillment funds are fulfilled based on verified completion percentages for each line item. These can also be used to implement recurring payments in fixed amounts.
+- **Hourly** fulfillment ledgers are fulfilled by line item hours being tracked and verified in the [Time Tracking System](#time-tracking-system).
+- **Percentage** fulfillment ledgers are fulfilled based on verified completion percentages for each line item. These can also be used to implement recurring payments in fixed amounts.
 
-The allocation model of a fulfillment fund is also referred to as a “project cost model”. The project cost model defines two lists of allocation targets: 
+The allocation model of a fulfillment ledger is also referred to as a “project cost model”. The project cost model defines two lists of allocation targets: 
 
 - The **line item allocations** produce the fulfilled revenue. Each line item includes a bill rate and a cost rate. The bill rate yields the amount of revenue fulfilled. The cost rate, which must be equal to or lower than the bill rate, yields the amount received by the allocation target. The difference between the bill rate and cost rate yields the margin.
 - The **margin allocations** each receive a fixed percentage of the fulfilled revenue. Note: The project cost model must be designed so that the smallest line item margin percentage is equal to or greater than the sum of all margin allocation percentages, to prevent cost overruns.
 
-### Expense Funds
+### Expense Ledgers
 
-Expense funds hold money intended to pay for vendor expenses. Expense funds may have one or more virtual or physical debit cards linked to them, according to the [Debit Card Management Process](#debit-card-management-process).
+Expense ledgers hold money intended to pay for vendor expenses. Expense ledgers may have one or more virtual or physical debit cards linked to them, according to the [Debit Card Management Process](#debit-card-management-process).
 
-Expense funds may only be used to pay for the following types of outflows:
+Expense ledgers may only be used to pay for the following types of outflows:
 
 - One-time payments to registered vendors, requiring a corresponding invoice
 - Recurring payments to registered vendors, via the [Recurring Expense Management Process](#recurring-expense-management-process)
 - Reimbursement requests from members, via the [Expense Reimbursement Process](#expense-reimbursement-process)
 
-The fund manager is expected to maintain a viable level for the expense fund to ensure a reasonable runway to cover recurring expenses. Team Finance is responsible for providing fund managers with the tools and visibility needed to manage the levels in the fund. Overdrafts or shortfalls in an expense fund may result in Team Finance retiring the fund or requiring a different fund manager.
+The ledger manager is expected to maintain a viable level for the expense ledger to ensure a reasonable runway to cover recurring expenses. Team Finance is responsible for providing ledger managers with the tools and visibility needed to manage the levels in the ledger. Overdrafts or shortfalls in an expense ledger may result in Team Finance retiring the ledger or requiring a different ledger manager.
 
-### Reserve Funds
+### Reserve Ledgers
 
-Reserve funds hold money in reserve to provide financial security and help us manage risk. Reserve funds do not have any pre-defined outflows. Instead, each transfer of money out of a reserve fund must be approved according to an approval process defined in the allocation model for the reserve fund.
+Reserve ledgers hold money in reserve to provide financial security and help us manage risk. Reserve ledgers do not have any pre-defined outflows. Instead, each transfer of money out of a reserve ledger must be approved according to an approval process defined in the allocation model for the reserve ledger.
 
-### Collaborative Funds
+### Collaborative Ledgers
 
-Collaborative funds hold money intended to be assigned to projects and initiatives as determined through collaborative processes open to the participation of some or all quorum members.
+Collaborative ledgers hold money intended to be assigned to projects and initiatives as determined through collaborative processes open to the participation of some or all quorum members.
 
-The allocation model of a collaborative fund defines the specific set of quorum members who should be included in the collaborative process and any guidelines or limitations that the collaborative process itself must meet, as well as how often the process should be run.
+The allocation model of a collaborative ledger defines the specific set of quorum members who should be included in the collaborative process and any guidelines or limitations that the collaborative process itself must meet, as well as how often the process should be run.
 
 Before the running of a collaborative funding process, the process itself must be clearly defined. An appropriate audit trail must also be recorded as part of the collaborative funding process log.
 
-### Bonus Funds
+### Bonus Ledgers
 
-Bonus funds hold money used to award bonuses for certain activities which are part of a well-defined incentivization program. This includes sales & marketing commissions, client referral fees, new member recruiting bonuses, and other similar programs. 
+Bonus ledgers hold money used to award bonuses for certain activities which are part of a well-defined incentivization program. This includes sales & marketing commissions, client referral fees, new member recruiting bonuses, and other similar programs. 
 
-Note that, like all funds, bonus funds may only direct outflows to valid [Fund Outflows & Allocation Targets](#fund-outflows--allocation-targets). This means that community members are not able to receive bonus payouts directly.
+Note that, like all ledgers, bonus ledgers may only direct outflows to valid ledger outflows & allocation targets. This means that community members are not able to receive bonus payouts directly.
 
-Team Finance is responsible for administering the calculation and disbursement of bonuses based on data provided by the fund manager. The fund manager must work with Team Finance to ensure that the bonus fund design makes sense and is feasible to administer.
+Team Finance is responsible for administering the calculation and disbursement of bonuses based on data provided by the ledger manager. The ledger manager must work with Team Finance to ensure that the bonus ledger design makes sense and is feasible to administer.
 
-The allocation model of a bonus fund must clearly define the parameters of the incentivization program including: who is able to participate, the earning cycle, the specific data that will be delivered, how the bonuses are calculated based on the data, what happens when there’s not enough money in the fund to cover all of the bonuses in an earning cycle, and all other details required to properly administer the program.
+The allocation model of a bonus ledger must clearly define the parameters of the incentivization program including: who is able to participate, the earning cycle, the specific data that will be delivered, how the bonuses are calculated based on the data, what happens when there’s not enough money in the ledger to cover all of the bonuses in an earning cycle, and all other details required to properly administer the program.
 
-It is allowed for a bonus fund to begin accruing money without having an incentivization program defined. It is also allowed to change the design of the incentivization program frequently as long as those changes are communicated to all impacted members and they are given a voice in the decision-making process.
+It is allowed for a bonus ledger to begin accruing money without having an incentivization program defined. It is also allowed to change the design of the incentivization program frequently as long as those changes are communicated to all impacted members and they are given a voice in the decision-making process.
 
-### Investment Funds
+### Investment Ledgers
 
-An investment fund is a special type of fund which can receive investment income, create rev tokens, create rev points, and share revenue passed from other funds back with active rev token recipients and rev point holders.
+An investment ledger is a special type of ledger which can receive investment income, create rev tokens, create rev points, and share revenue passed from other ledgers back with active rev token recipients and rev point holders.
 
-For more information on investment funds refer to the [Investment Funds Detail](#investment-funds-detail) section. The full details on the quorum’s investment mechanisms are outlined in the [Investment](#investment) section.
+For more information on investment ledgers refer to the [Investment Ledgers Detail](#investment-ledgers-detail) section. The full details on the quorum’s investment mechanisms are outlined in the [Investment](#investment) section.
 
-## Standard Funds
+## Standard Ledgers
 
-This section lists the set of standard funds that are mandatory and exist to serve key functions for operating and supporting Quorum1 holistically. These funds must always exist and are administered directly by Team Finance and managed either by the Managing Partners or by a foundation team appointed by Managing Partners. The fund manager of each standard fund is appointed by the team responsible for managing the fund.
+This section lists the set of standard ledgers that are mandatory and exist to serve key functions for operating and supporting Quorum1 holistically. These ledgers must always exist and are administered directly by Team Finance and managed either by the Managing Partners or by a foundation team appointed by Managing Partners. The ledger manager of each standard ledger is appointed by the team responsible for managing the ledger.
 
-The allocation models of each standard fund are part of the Financial Operations Plan and managed according to the [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
+The allocation models of each standard ledger are part of the Financial Operations Plan and managed according to the [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
 
-### Core Fund
+### Core Ledger
 
-The core fund is a pass-through fund. The core fund is used to pay for Quorum1’s operating expenses and core programs. All Quorum1 income must allocate a certain percentage to the core fund, based on the type of income. 
+The core ledger is a pass-through ledger. The core ledger is used to pay for Quorum1’s operating expenses and core programs. All Quorum1 income must allocate a certain percentage to the core ledger, based on the type of income. 
 
-The core fund must allocate a percentage to each of the other standard funds listed in this section. The core fund may not directly allocate to any non-standard funds. The precise allocation percentages are defined by the core fund allocation model.
+The core ledger must allocate a percentage to each of the other standard ledgers listed in this section. The core ledger may not directly allocate to any non-standard ledgers. The precise allocation percentages are defined by the core ledger allocation model.
 
-### Org Expense Fund
+### Org Expense Ledger
 
-The org expense fund is an expense fund used to pay for all core vendor expenses. This includes things like operating costs, insurance, business systems, service providers, taxes, and fees. Over time many non-standard expense funds will exist and are by definition allowed to manage vendor expenses on their own. However, fund managers of non-standard expense funds are encouraged (but not required) to allocate particular vendor expenses to the standard org expense fund instead when it makes sense to do so (such as in order to negotiate a lower cost).
+The org expense ledger is an expense ledger used to pay for all core vendor expenses. This includes things like operating costs, insurance, business systems, service providers, taxes, and fees. Over time many non-standard expense ledgers will exist and are by definition allowed to manage vendor expenses on their own. However, ledger managers of non-standard expense ledgers are encouraged (but not required) to allocate particular vendor expenses to the standard org expense ledger instead when it makes sense to do so (such as in order to negotiate a lower cost).
 
-### Org Reserve Fund
+### Org Reserve Ledger
 
-The org reserve fund is Quorum1’s primary reserve fund. This fund can be used to pay for unexpected expenses or anything related to supporting the continued operation of the quorum. However, this fund’s balance should be kept at a sufficient level at all times.
+The org reserve ledger is Quorum1’s primary reserve ledger. This ledger can be used to pay for unexpected expenses or anything related to supporting the continued operation of the quorum. However, this ledger’s balance should be kept at a sufficient level at all times.
 
-Ideally this fund should target a balance sufficient to cover 2 to 3 months of foundation operations and org expenses. If the fund’s balance exceeds 12 months of foundation operations and org expenses, then the quorum should consider re-allocating some of the reserve to other uses.
+Ideally this ledger should target a balance sufficient to cover 2 to 3 months of foundation operations and org expenses. If the ledger’s balance exceeds 12 months of foundation operations and org expenses, then the quorum should consider re-allocating some of the reserve to other uses.
 
-### Foundation Operations Fund
+### Foundation Operations Ledger
 
-The foundation operations fund is a pass-through fund intended to pay for everything required to keep the Foundation Team running and to provide operating capital for ongoing maintenance and investment in continued innovation of the quorum platform. This fund should be used to pay for Foundation Team salaries and contracts, and to allocate money to [Workstream Wallets](#workstream-wallets) to support maintenance and innovation of the systems managed by the Foundation Team. This fund may also be used to fund any other efforts that are related to the support, maintenance, improvement, promotion, and improvement of Quorum1.
+The foundation operations ledger is a pass-through ledger intended to pay for everything required to keep the Foundation Team running and to provide operating capital for ongoing maintenance and investment in continued innovation of the quorum platform. This ledger should be used to pay for Foundation Team salaries and contracts, and to allocate money to [Workstream Wallets](#workstream-wallets) to support maintenance and innovation of the systems managed by the Foundation Team. This ledger may also be used to fund any other efforts that are related to the support, maintenance, improvement, promotion, and improvement of Quorum1.
 
-### Org Investment Fund
+### Org Investment Ledger
 
-The org investment fund is our primary investment fund and is maintained by Quorum1 for the org as a whole. Rev tokens in the org investment fund are exchanged with investors of both time and money. Prioritization, allocation, and other decision-making processes around the org investment fund must always be participatory and democratic in accordance with Quorum1’s established best practices as they evolve.
+The org investment ledger is our primary investment ledger and is maintained by Quorum1 for the org as a whole. Rev tokens in the org investment ledger are exchanged with investors of both time and money. Prioritization, allocation, and other decision-making processes around the org investment ledger must always be participatory and democratic in accordance with Quorum1’s established best practices as they evolve.
 
-This fund and the linked rev tokens are a critical part of Quorum1’s financial infrastructure. More details are outlined in the [Investment](#investment) section, the fund design is part of the Financial Operations Plan as outlined here: [Org Investment Fund Design](#org-investment-fund-design).
+This ledger and the linked rev tokens are a critical part of Quorum1’s financial infrastructure. More details are outlined in the [Investment](#investment) section, the ledger design is part of the Financial Operations Plan as outlined here: [Org Investment Ledger Design](#org-investment-ledger-design).
 
-In the event of the full fund liquidation of the org investment fund for any reason, all token holders must convert at the same discount rate, weighting, or liquidation preference.
+In the event of the full ledger liquidation of the org investment ledger for any reason, all token holders must convert at the same discount rate, weighting, or liquidation preference.
 
-### Org Bonus Fund
+### Org Bonus Ledger
 
-The org bonus fund is a bonus fund intended to fund Quorum1’s org incentivization program.  Quorum1’s org incentivization program should focus primarily on rewarding the sales, biz dev, marketing, and demand generation work needed to drive new paid project work. But the program may also reward efforts on critical initiatives that impact the entire quorum.
+The org bonus ledger is a bonus ledger intended to fund Quorum1’s org incentivization program.  Quorum1’s org incentivization program should focus primarily on rewarding the sales, biz dev, marketing, and demand generation work needed to drive new paid project work. But the program may also reward efforts on critical initiatives that impact the entire quorum.
 
-### Org Collaborative Fund
+### Org Collaborative Ledger
 
-The org collaborative fund is a collaborative fund intended to fund internal Quorum1 projects and new product development projects that are selected via periodic participatory budgeting processes involving all community, contributor, and partner members.
+The org collaborative ledger is a collaborative ledger intended to fund internal Quorum1 projects and new product development projects that are selected via periodic participatory budgeting processes involving all community, contributor, and partner members.
 
 ---
 
 # Inflows
 
-Inflows are money or rev points that flow into a fund.
+Inflows are money or rev points that flow into a ledger.
 
-There are technically two types of inflows: internal inflows (from other funds) and external inflows (aka income). However, since internal inflows are very simple, the bulk of this section is dedicated to discussing income.
+There are technically two types of inflows: internal inflows (from other ledgers) and external inflows (aka income). However, since internal inflows are very simple, the bulk of this section is dedicated to discussing income.
 
 ## Internal Inflows
 
-Internal inflows are money that flows into a fund from another fund, through a cross-fund outflow. These are described in more detail in the [Cross-Fund Outflows](#cross-fund-outflows) section.
+Internal inflows are money that flows into a ledger from another ledger, through a cross-ledger outflow. These are described in more detail in the [Cross-Ledger Outflows](#cross-ledger-outflows) section.
 
 ## Income (External Inflows)
 
-External inflows are our income. Income is money that flows into Quorum1 from external sources. Each incoming payment is associated with a specific receivable fund and the money flows according to the fund’s allocation model.
+External inflows are our income. Income is money that flows into Quorum1 from external sources. Each incoming payment is associated with a specific receivable ledger and the money flows according to the ledger’s allocation model.
 
-Income may only flow into funds which are designated as being “receivable”. In order to be receivable, a fund must comply with the [Receivable Fund Requirements](#receivable-fund-requirements). For example, a receivable fulfillment fund for a client project may require a signed SOW.
+Income may only flow into ledgers which are designated as being “receivable”. In order to be receivable, a ledger must comply with the [Receivable Ledger Requirements](#receivable-ledger-requirements). For example, a receivable fulfillment ledger for a client project may require a signed SOW.
 
 ### Income Types
 
-The income type impacts many different things, including which types of funds may be targeted, the standard income allocations, and the required documentation checklist used during income reconciliation. 
+The income type impacts many different things, including which types of ledgers may be targeted, the standard income allocations, and the required documentation checklist used during income reconciliation. 
 
 All income must be categorized as a single income type. Payments which contain multiple types of income are split during the bookkeeping process so they can be processed separately.
 
@@ -293,22 +293,22 @@ All income must be categorized as a single income type. Payments which contain m
 
 ### Standard Income Allocations
 
-All receivable funds must include the following standard income allocations, as relevant:
+All receivable ledgers must include the following standard income allocations, as relevant:
 
-1. All income must allocate a required percentage to the **core fund.** The required percentage is defined by the [Standard Income Allocation Table](#standard-income-allocation-table), part of the Financial Operations Plan.
-2. Income linked to a hosted entity must allocate a required percentage to its corresponding **hosted entity fund**. The required percentage is defined by the hosted entity in accordance to its governance process.
+1. All income must allocate a required percentage to the **core ledger.** The required percentage is defined by the [Standard Income Allocation Table](#standard-income-allocation-table), part of the Financial Operations Plan.
+2. Income linked to a hosted entity must allocate a required percentage to its corresponding **hosted entity ledger**. The required percentage is defined by the hosted entity in accordance to its governance process.
 
 **Standard Income Allocation Table Format and Default Values:**
 
 The [Standard Income Allocation Table](#standard-income-allocation-table) is part of the Financial Operations Plan, not the Financial Model and may be changed without updating this doc. 
 
-The standard income allocation table defines the required percentage of recognized income that must be allocated to the core fund for each type of income based on various parameters, including whether the income is associated with a hosted entity and whether it uses the Quorum1 brand. 
+The standard income allocation table defines the required percentage of recognized income that must be allocated to the core ledger for each type of income based on various parameters, including whether the income is associated with a hosted entity and whether it uses the Quorum1 brand. 
 
 The standard income allocation table should match the basic format outlined here. The actual values may differ, however. And the actual format may also differ slightly as long as it aligns with the spirit of this design.
 
 In the interim period before an official standard income allocation table is finalized, the values in the table below will serve as defaults.
 
-| Income Type | Hosted Entity? | Brand Type | Core Fund % |
+| Income Type | Hosted Entity? | Brand Type | Core Ledger % |
 | --- | --- | --- | --- |
 | Service | No | Q1-Branded | 20% / 15% ¹ |
 |  | Yes | Q1-Branded | 15% |
@@ -321,15 +321,15 @@ In the interim period before an official standard income allocation table is fin
 |  | Yes | Alt-Branded | 5% |
 | Marketplace | N/A ² | N/A ² | 2% |
 
-¹ Projects operated under the Quorum1 brand and not associated with a hosted entity have a default core fund allocation of 20%. But when led by partner members, they may optionally allocation a lower amount, as low as 15%.
+¹ Projects operated under the Quorum1 brand and not associated with a hosted entity have a default core ledger allocation of 20%. But when led by partner members, they may optionally allocation a lower amount, as low as 15%.
 
 ² Marketplace income is experimental for now and only pertains to transaction fees related to [Workstream Wallets](#workstream-wallets).
 
-### Available Fund Types by Income Type
+### Available Ledger Types by Income Type
 
-Each type of income may only be received by certain types of receivable funds.
+Each type of income may only be received by certain types of receivable ledgers.
 
-| Income Type | Core Fund? | Hosted Entity Fund? | Generic Pass-Through Fund? | Project Fulfillment Fund? | Investment Fund? |
+| Income Type | Core Ledger? | Hosted Entity Ledger? | Generic Pass-Through Ledger? | Project Fulfillment Ledger? | Investment Ledger? |
 | --- | --- | --- | --- | --- | --- |
 | Membership | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Service | ❌ | ❌ | ❌ | ✅ | ❌ |
@@ -341,19 +341,19 @@ Each type of income may only be received by certain types of receivable funds.
 
 Team Finance is responsible for reconciling each incoming payment. Only after a payment is reconciled does it become income. Any payments which cannot be reconciled may need to be refunded or held in escrow until they can be reconciled.
 
-The income reconciliation process involves matching an incoming payment with a specific fund and verifying that the required documentation is complete. The [Required Income Documentation Checklist](#required-income-documentation-checklist) is part of the Financial Operations Plan.
+The income reconciliation process involves matching an incoming payment with a specific ledger and verifying that the required documentation is complete. The [Required Income Documentation Checklist](#required-income-documentation-checklist) is part of the Financial Operations Plan.
 
 ### Fulfillment, Recognition, & Refunds
 
-Most quorum income is recognized as revenue immediately upon receipt. But receivable fulfillment funds are unique in that they do not recognize revenue until it is fulfilled as defined by the fund’s project cost model. (More details on this fund type: [Fulfillment Funds](#fulfillment-funds))
+Most quorum income is recognized as revenue immediately upon receipt. But receivable fulfillment ledgers are unique in that they do not recognize revenue until it is fulfilled as defined by the ledger’s project cost model. (More details on this ledger type: [Fulfillment Ledgers](#fulfillment-ledgers))
 
-Unfulfilled (and therefore unrecognized) revenue in a fulfillment fund may be refunded in accordance to the [Refund Process](#refund-process).
+Unfulfilled (and therefore unrecognized) revenue in a fulfillment ledger may be refunded in accordance to the [Refund Process](#refund-process).
 
 ---
 
 # Outflows
 
-Outflows are money or rev points that flow out of a fund as defined by the fund’s allocation model. Each outflow has a single allocation target (where the money goes to).
+Outflows are money or rev points that flow out of a ledger as defined by the ledger’s allocation model. Each outflow has a single allocation target (where the money goes to).
 
 There are two basic types of outflows: internal outflows and external outflows.
 
@@ -361,15 +361,15 @@ There are two basic types of outflows: internal outflows and external outflows.
 
 Internal outflows are money that flows to allocation targets which are inside of the quorum.
 
-### Cross-Fund Outflows
+### Cross-Ledger Outflows
 
-Cross-fund outflows are money or rev points that flow from one fund to another fund. Any fund is able to be an allocation target of any other fund.
+Cross-ledger outflows are money or rev points that flow from one ledger to another ledger. Any ledger is able to be an allocation target of any other ledger.
 
-Cross-fund outflows may optionally include usage requests that specify how the money or rev points should be used (such as paying for a specific expense). These usage requests are not strictly binding but the fund managers should make a good faith effort to respect them.
+Cross-ledger outflows may optionally include usage requests that specify how the money or rev points should be used (such as paying for a specific expense). These usage requests are not strictly binding but the ledger managers should make a good faith effort to respect them.
 
 ### Workstream Wallet Outflows
 
-Workstream wallet outflows allow funds to move money or rev points into specific [Workstream Wallets](#workstream-wallets). This in turn enables more agile work structures and gives the wallet managers the ability to source help from the full quorum membership.
+Workstream wallet outflows allow ledgers to move money or rev points into specific [Workstream Wallets](#workstream-wallets). This in turn enables more agile work structures and gives the wallet managers the ability to source help from the full quorum membership.
 
 ## External Outflows
 
@@ -385,7 +385,7 @@ Vendor company outflows send money to vendors that have been registered accordin
 
 ### Rev Token Outflows
 
-Rev token outflows are only available to investment funds. These outflows send money to the fund’s active rev token recipients. This process is outline in the [Investment](#investment) section. 
+Rev token outflows are only available to investment ledgers. These outflows send money to the ledger’s active rev token recipients. This process is outline in the [Investment](#investment) section. 
 
 ---
 
@@ -393,7 +393,7 @@ Rev token outflows are only available to investment funds. These outflows send m
 
 We believe that Quorum1 has the potential to generate tremendous wealth over the coming years. If achieved, it is critical to our mission that this wealth be both re-invested in nurturing future success *and* shared equitably with the individuals and organizations that helped build the wealth engine. This is our dual investment mission: To balance our support of future innovation with our returns to our ever-growing community of investors.
 
-The former goal of re-investment is achieved via the [Org Collaborative Fund](#org-collaborative-fund), and the other [Collaborative Funds](#collaborative-funds) which will emerge over time, as well as through the emergent properties intrinsic to our unique organizing model.
+The former goal of re-investment is achieved via the [Org Collaborative Ledger](#org-collaborative-ledger), and the other [Collaborative Ledgers](#collaborative-ledgers) which will emerge over time, as well as through the emergent properties intrinsic to our unique organizing model.
 
 The latter goal of equitably sharing wealth with our investors—of both time and money—is addressed in this section.
 
@@ -403,20 +403,20 @@ In creating our design for a Quorum1 investment mechanism, we require that it be
 
 These concepts are outlined in greater detail in later sections, but below is a brief summary of some of the key concepts which make up our investment model.
 
-- **Investment Fund:** Special type of fund which can receive investment income, create rev tokens and rev points, and share revenue passed from other funds back with active rev token recipients and rev point holders.
+- **Investment Ledger:** Special type of ledger which can receive investment income, create rev tokens and rev points, and share revenue passed from other ledgers back with active rev token recipients and rev point holders.
 - **Types of Investment:**
     - **Time Investment:** The contribution of work, effort, or support to the quorum.
     - **Formal Money Investment:** Money invested in a formal investment round
     - **Informal Money Investment:** Money informally invested outside of an investment round
 - **Rev Token Concepts:**
-    - **Rev Token:** An owned asset which entitles the owner to receive rev token payments. Each rev token is linked to an investment fund. Each rev token has a face value, a multiple, and a full value equal to the face value times the multiple.
-    - **Rev Token Payments:** Revenue share income flows into an investment fund and is passed through to active rev token recipients via regular rev token payments.
-    - **Rev Token Cohort:** Groups of rev tokens within an investment fund. Able to be nested via “sub-cohorts” within “parent cohorts”. Can be used to weight rev token payments.
+    - **Rev Token:** An owned asset which entitles the owner to receive rev token payments. Each rev token is linked to an investment ledger. Each rev token has a face value, a multiple, and a full value equal to the face value times the multiple.
+    - **Rev Token Payments:** Revenue share income flows into an investment ledger and is passed through to active rev token recipients via regular rev token payments.
+    - **Rev Token Cohort:** Groups of rev tokens within an investment ledger. Able to be nested via “sub-cohorts” within “parent cohorts”. Can be used to weight rev token payments.
 - **Time Investment Concepts:**
-    - **Time Investment Pool:** For investment funds only. A pool of issued rev tokens held by Quorum1 with the received payments powering the fund’s rev point program.
+    - **Time Investment Pool:** For investment ledgers only. A pool of issued rev tokens held by Quorum1 with the received payments powering the ledger’s rev point program.
     - **Rev Point:** A reward mechanism for time investors which allows members to benefit financially in the future success of the quorum without the legal and tax implications of owning an asset.
-    - **Rev Point Payments:** Rev token payments received by the rev tokens held in the fund’s time investment pool are passed through to rev point holders via regular rev point payments.
-    - **Rev Point Pool:** Each fund (including non-investment funds) has a rev point pool which can hold unawarded rev points which are awarded to members who make contributions according to the fund’s rev point plan.
+    - **Rev Point Payments:** Rev token payments received by the rev tokens held in the ledger’s time investment pool are passed through to rev point holders via regular rev point payments.
+    - **Rev Point Pool:** Each ledger (including non-investment ledgers) has a rev point pool which can hold unawarded rev points which are awarded to members who make contributions according to the ledger’s rev point plan.
 
 ## Investment Types
 
@@ -443,10 +443,8 @@ In general, the valuation of time investments should follow these key principles
 
 It’s worth noting that it’s not always possible to comply with time valuation principle 2 (preceding valuation). This is evidenced within this doc by the retroactive valuation of the time investments made prior to the establishing of the current version of the Financial Model. Retroactive valuation is acceptable as long as it is done equitably, but it should be avoided whenever possible to do so without making overall allocation less equitable.
 
-<aside>
-⚠️ **Rev points are intended to be a form of supplementary or bonus income (analogous to stock options in a startup), not the primary form of compensation.** The primary form of compensation for time investors should be cash. In cash-lean periods it may be necessary for rev points to largely (or fully) take the place of cash compensation, but the practice should be avoided when possible.
-
-</aside>
+> [!IMPORTANT]
+> **Rev points are intended to be a form of supplementary or bonus income (analogous to stock options in a startup), not the primary form of compensation.** The primary form of compensation for time investors should be cash. In cash-lean periods it may be necessary for rev points to largely (or fully) take the place of cash compensation, but the practice should be avoided when possible.
 
 ### Money Investment
 
@@ -454,53 +452,53 @@ Money investment in Quorum1 is the process of issuing rev tokens to investors in
 
 Money investment takes two forms:
 
-- **Formal investment** is money investment associated with a specific investment round. Investment rounds are part of the fund’s rev token plan and are managed in accordance with the fund’s governance process.
-- **Informal investment** is ad-hoc money investment not associated with a specific investment round. Informal investment can be used for “cash calls” to cover expenses or other purposes. Participation in informal investment is considered an earned privilege and is restricted to a members who meet the criteria outlined in the fund’s rev token plan. (For instance, informal org investment is limited to partners.)
+- **Formal investment** is money investment associated with a specific investment round. Investment rounds are part of the ledger’s rev token plan and are managed in accordance with the ledger’s governance process.
+- **Informal investment** is ad-hoc money investment not associated with a specific investment round. Informal investment can be used for “cash calls” to cover expenses or other purposes. Participation in informal investment is considered an earned privilege and is restricted to a members who meet the criteria outlined in the ledger’s rev token plan. (For instance, informal org investment is limited to partners.)
 
-## Investment Funds Detail
+## Investment Ledgers Detail
 
-All investment in the quorum is managed through investment funds (one of our [Fund Types](#fund-types) ). An investment fund is a special type of fund which can receive investment income, create rev tokens and rev points, and share revenue passed from other funds back with active rev token recipients and rev point holders.
+All investment in the quorum is managed through investment ledgers (one of our [Ledger Types](#ledger-types) ). An investment ledger is a special type of ledger which can receive investment income, create rev tokens and rev points, and share revenue passed from other ledgers back with active rev token recipients and rev point holders.
 
-The [Org Investment Fund](#org-investment-fund) is our standard investment fund and must maintain ongoing continuity, but other investment funds may be created and changed over time according to the [Investment Fund Management Process](#investment-fund-management-process). Investment funds are necessarily complex, involving special legal contracts and, in some cases, custom technology to facilitate their ongoing operations. Each investment fund may also present unique regulatory and compliance challenges. This means that rev share funds require the support and alignment of Team Finance, Team Legal, Team Ops, Team Build, and the Managing Partners.
+The [Org Investment Ledger](#org-investment-ledger) is our standard investment ledger and must maintain ongoing continuity, but other investment ledgers may be created and changed over time according to the [Investment Ledger Management Process](#investment-ledger-management-process). Investment ledgers are necessarily complex, involving special legal contracts and, in some cases, custom technology to facilitate their ongoing operations. Each investment ledger may also present unique regulatory and compliance challenges. This means that rev share ledgers require the support and alignment of Team Finance, Team Legal, Team Ops, Team Build, and the Managing Partners.
 
-The org investment fund may be used to reward and incentivize investment in any part of Quorum1 or in areas deemed important by the quorum. Other investment funds will have their own design, limitations, and participation, defined by the members and leaders of each fund.
+The org investment ledger may be used to reward and incentivize investment in any part of Quorum1 or in areas deemed important by the quorum. Other investment ledgers will have their own design, limitations, and participation, defined by the members and leaders of each ledger.
 
-### Standard Process for Designing an Investment Fund
+### Standard Process for Designing an Investment Ledger
 
-The exact process for creating a new investment fund is part of the [Investment Fund Management Process](#investment-fund-management-process) defined in the Financial Operations Plan. But it must align mostly with this standard process.
+The exact process for creating a new investment ledger is part of the [Investment Ledger Management Process](#investment-ledger-management-process) defined in the Financial Operations Plan. But it must align mostly with this standard process.
 
-1. **Establish the Budget:** An investment fund is essentially a collection of loans (rev tokens) and can be thought of as one big loan with the average terms across all the rev tokens. So the first step is to determine the size of the entire loan. To do that we follow the steps below:
+1. **Establish the Budget:** An investment ledger is essentially a collection of loans (rev tokens) and can be thought of as one big loan with the average terms across all the rev tokens. So the first step is to determine the size of the entire loan. To do that we follow the steps below:
     1. Determine target “break-even” return for all investors. Something lower than the full multiple but good enough to count as a type of success. (For example: `BreakEvenReturn` = 5x.)
     2. Determine target timeline for break-even return. (For example: 10 years.)
-    3. Set an optimistic revenue goal for the timeline. It’s ok to be extra optimistic or more conservative, based on the shared values of the fund founders, numbers can be adjusted later as more learning is generated. (For example: `RevGoal` = $1 billion.)
-    4. Set a conservative estimate of the fraction of revenue allocated to fund rev share. (For example: `RevAllocationFraction` = 5%)
-    5. Determine what you want your average multiple to be once the fund is full (meaning that the face value or total value of all of the created rev tokens has reached the fund budget and no more rev tokens can be created). Higher means you’ll be retiring risk more slowly, staying experimental for longer. Lower means you retire the rev tokens in less time. (For example: 20x)
-    6. The total face value of the fund can be determined with the formula below, or another technique if desired. This technique makes the simplified assumption that generating half of the break even in a single year’s rev allocation results in break even that year, with the other half coming cumulatively over the preceding years. (For our example: Total Face Value is $20M)
+    3. Set an optimistic revenue goal for the timeline. It’s ok to be extra optimistic or more conservative, based on the shared values of the ledger founders, numbers can be adjusted later as more learning is generated. (For example: `RevGoal` = $1 billion.)
+    4. Set a conservative estimate of the fraction of revenue allocated to ledger rev share. (For example: `RevAllocationFraction` = 5%)
+    5. Determine what you want your average multiple to be once the ledger is full (meaning that the face value or total value of all of the created rev tokens has reached the ledger budget and no more rev tokens can be created). Higher means you’ll be retiring risk more slowly, staying experimental for longer. Lower means you retire the rev tokens in less time. (For example: 20x)
+    6. The total face value of the ledger can be determined with the formula below, or another technique if desired. This technique makes the simplified assumption that generating half of the break even in a single year’s rev allocation results in break even that year, with the other half coming cumulatively over the preceding years. (For our example: Total Face Value is $20M)
         
         $$
         \{TotalFaceValue\} = \frac{\{RevGoal\} * \{RevAllocationFraction\}}{\{BreakEvenReturn\} * \frac{1}{2}}
         $$
         
-    7. The total full value of the fund can then be determined thusly. (For our example: Total Full Value is $400M)
+    7. The total full value of the ledger can then be determined thusly. (For our example: Total Full Value is $400M)
         
         $$ \{TotalFullValue\} = \{TotalFaceValue\} * \{AverageMultiple\} $$
         
 2. **Design Cohorts:** Put together the initial rev token cohorts.
-    1. **Legacy Cohorts:** You will likely start with one or more “legacy cohorts” for the time and money invested before the fund existed. The recommendation is to create one per year. Amongst the participants in each cohort you’ll want to align on the following:
+    1. **Legacy Cohorts:** You will likely start with one or more “legacy cohorts” for the time and money invested before the ledger existed. The recommendation is to create one per year. Amongst the participants in each cohort you’ll want to align on the following:
         1. Rough estimate of time and money investments made and use that to create a **max budget** for each legacy cohort. At this stage it’s best to estimate on the high side and round up.
         2. The **multiple** for each year. The recommendation is that early high-risk years are around 100x and that that drops significantly almost every year.
-        3. Any **guidelines around the participatory processes** which will be used to run the legacy allocation process after the fund is launched.
-    2. **First Cohort:** The first cohort will kick off when the fund is launched and ideally last until the end of the current calendar year.
-3. **Finalize Design:** Finish determining all of the other aspects of the investment fund’s design. Get all relevant stakeholders in alignment. Run whatever governance processes required to have authority to move forward.
-4. **Launch Fund:** Get initial contracts signed and set everything up operationally. Can begin raising investment as needed. 
-5. **Legacy Allocation:** Run a participatory legacy cohort allocation processes determined by the fund founders. For each legacy cohort, the process should do the following:
+        3. Any **guidelines around the participatory processes** which will be used to run the legacy allocation process after the ledger is launched.
+    2. **First Cohort:** The first cohort will kick off when the ledger is launched and ideally last until the end of the current calendar year.
+3. **Finalize Design:** Finish determining all of the other aspects of the investment ledger’s design. Get all relevant stakeholders in alignment. Run whatever governance processes required to have authority to move forward.
+4. **Launch Ledger:** Get initial contracts signed and set everything up operationally. Can begin raising investment as needed. 
+5. **Legacy Allocation:** Run a participatory legacy cohort allocation processes determined by the ledger founders. For each legacy cohort, the process should do the following:
     1. Collect receipts and transaction logs for money investments (the distinction between formal and informal is irrelevant for now) and collaboratively verify the accuracy and qualification of each item
     2. Collaboratively determine a framework for valuing the time investments.
     3. Collaboratively assess precise rev point assignments for each member within each part of the determined framework.
     4. Result in a precise dollar amount of money investment rev tokens and time investment rev points which is less than or equal to the max budget established in the design phase.
 6. **Begin Rev Token & Rev Point Payments:** Once the legacy allocations are complete, initial payments can begin.
 
-### Investment Fund Implementation Details & Risk
+### Investment Ledger Implementation Details & Risk
 
 At the time of writing and approving the Financial Model, the technical, operational, legal, and financial implementation details have not been finalized. This means that key details around contract structure, legal design, tax treatment, and ongoing operations are still being developed. This further means that there is some amount of risk that parts of this design will not be able to be implemented as intended. 
 
@@ -508,20 +506,20 @@ In order for us to fund and incentivize this development work (and to formally r
 
 We believe, however, that the implementation of this model will ultimately succeed and that whatever further Financial Model iteration is required will produce minimal changes to the structure of the initial rev tokens and rev points. We further believe that it would be difficult or impossible to implement a model as novel as the rev token and rev point structure without an immediately real world use case.
 
-It is important to note, though, that in the most severe case it is possible that the entire rev token and rev points structure may prove fundamentally infeasible. For that reason, every investment fund created before the finalization of the implementation details must include a “failsafe equity conversion” governance process. This process outlines the steps to be followed only in the case that rev token and rev point structures are considered to be fundamentally infeasible to implement.
+It is important to note, though, that in the most severe case it is possible that the entire rev token and rev points structure may prove fundamentally infeasible. For that reason, every investment ledger created before the finalization of the implementation details must include a “failsafe equity conversion” governance process. This process outlines the steps to be followed only in the case that rev token and rev point structures are considered to be fundamentally infeasible to implement.
 
 This is outlined in more detail in this section: [Key Governance Process: Failsafe Equity Conversion](#key-governance-process-failsafe-equity-conversion).
 
-### Investment Fund Inflows & Outflows
+### Investment Ledger Inflows & Outflows
 
-Investment funds have the following inflows:
+Investment ledgers have the following inflows:
 
 - **Investment income¹** flows in from money investors and is exchanged for rev tokens.
-- **Rev share inflows** flow in from other funds and are used to pay back investors.
+- **Rev share inflows** flow in from other ledgers and are used to pay back investors.
 
-Investment funds have the following outflows:
+Investment ledgers have the following outflows:
 
-- **Investment outflows** allocate investment income to target funds, according to the fund’s allocation model
+- **Investment outflows** allocate investment income to target ledgers, according to the ledger’s allocation model
 - **Rev token payments²** allocate rev share inflows to rev token recipients.
 - **Rev point payments³** allocate the rev token payments from the time investment pool to rev point holders
 
@@ -531,27 +529,27 @@ Investment funds have the following outflows:
 
 *³ **Rev token payments:** Time investment pool rev token payments are passed through to the rev point holders as outlined in the [Rev Point Payments](#rev-point-payments) section.*
 
-### Investment Fund Core Parameters
+### Investment Ledger Core Parameters
 
-Every investment fund has a set of core parameters which impose limits on its operations. Changes to these parameters have their own part of the fund’s governance process.
+Every investment ledger has a set of core parameters which impose limits on its operations. Changes to these parameters have their own part of the ledger’s governance process.
 
-- **Fund Budget:** The upper limits for (1) the total full value and (2) the total face value of all outstanding rev tokens in the fund, including unissued rev tokens. Once either of these limits are reached, no new rev tokens can be created.
-- **Min Multiple:** The lower limit for the multiple property of all rev tokens in the fund. During a token downgrade, no token multiples will be decreased below this limit.
+- **Ledger Budget:** The upper limits for (1) the total full value and (2) the total face value of all outstanding rev tokens in the ledger, including unissued rev tokens. Once either of these limits are reached, no new rev tokens can be created.
+- **Min Multiple:** The lower limit for the multiple property of all rev tokens in the ledger. During a token downgrade, no token multiples will be decreased below this limit.
 - **Max Multiple Downgrade:** A percentage between 0% and 100% used during a token downgrade to prevent the multiple of any rev token from decreasing more than this amount from its originally issued multiple.
 
-### Investment Fund Rev Token Cohorts
+### Investment Ledger Rev Token Cohorts
 
-Each rev token in an investment fund is part of a rev token cohort. Each rev token cohort takes a chunk of the remaining fund budget and turns it into three different pools of rev tokens: 
+Each rev token in an investment ledger is part of a rev token cohort. Each rev token cohort takes a chunk of the remaining ledger budget and turns it into three different pools of rev tokens: 
 
 1. **Formal Investment Pool:** Unissued rev tokens ready to be sold to money investors via formal investment rounds.
-2. **Informal Investment Pool:** Unissued rev tokens ready to be sold to money investors as part of informal investments as outlined in the fund’s governance process.
-3. **Time Investment Pool:** A pool of rev tokens (and a corresponding pool of rev points with quantity equal to the full value of the underlying rev tokens) which are issued right away, but held by Quorum1 with rev token payments being received by the fund’s rev points program. Details defined in the [Rev Points](#rev-points) section.
+2. **Informal Investment Pool:** Unissued rev tokens ready to be sold to money investors as part of informal investments as outlined in the ledger’s governance process.
+3. **Time Investment Pool:** A pool of rev tokens (and a corresponding pool of rev points with quantity equal to the full value of the underlying rev tokens) which are issued right away, but held by Quorum1 with rev token payments being received by the ledger’s rev points program. Details defined in the [Rev Points](#rev-points) section.
 
-Each investment fund’s design must include a special section defining the rev token cohorts, including for each:
+Each investment ledger’s design must include a special section defining the rev token cohorts, including for each:
 
 - **Budget:** The budget for the total full value of all rev tokens in the cohort.
 - **Multiple:** All rev tokens issued within a cohort have the same multiple.
-    - The multiple will change across cohorts over time to reflect the current perceived risk of investing in the fund. If things are going well the multiple should decrease over time, though it may also need to increase if risks increase.
+    - The multiple will change across cohorts over time to reflect the current perceived risk of investing in the ledger. If things are going well the multiple should decrease over time, though it may also need to increase if risks increase.
 - **Formal Investment Pool:** How many unissued rev tokens are reserved for formal investment rounds. Along with:
     - **Formal Investment Rounds:** A list of investment rounds, including for each:
         - How many unissued rev tokens are reserved for the investment round.
@@ -561,29 +559,29 @@ Each investment fund’s design must include a special section defining the rev 
         - Round failure process including whether money is refunded or re-allocated.
 - **Informal Investment Pool:** How many unissued rev tokens are reserved for informal money investment and which members are able to be investors.
 - **Time Investment Pool:** How many rev tokens will be issued to the rev point program. This also determines the number of rev points generated by the cohort. One rev point is created for every dollar of full value in this pool of rev tokens. The cohort design should also define:
-    - How many rev points are reserved for the fund’s own rev point pool
-    - How many rev points will be sent to other fund rev point pools
-    - The terms by which the rev points sent to other funds can be reallocated if unawarded (likely a period of time)
+    - How many rev points are reserved for the ledger’s own rev point pool
+    - How many rev points will be sent to other ledger rev point pools
+    - The terms by which the rev points sent to other ledgers can be reallocated if unawarded (likely a period of time)
 
-### Investment Fund Rev Point Plan
+### Investment Ledger Rev Point Plan
 
-Just like any other fund, an investment fund can have its own rev point plan which specifies how the rev points in its own rev point pool are to be awarded. They will likely be awarded based on activities related to fund raising or administering the fund, but that is just one possibility.
+Just like any other ledger, an investment ledger can have its own rev point plan which specifies how the rev points in its own rev point pool are to be awarded. They will likely be awarded based on activities related to fundraising or administering the ledger, but that is just one possibility.
 
-### Investment Fund Allocation Models
+### Investment Ledger Allocation Models
 
-The allocation model of an investment fund must define:
+The allocation model of an investment ledger must define:
 
-- **Formal Investment Targets:** A list of one or more funds which may be targeted by formal money investors
+- **Formal Investment Targets:** A list of one or more ledgers which may be targeted by formal money investors
 - **Informal Investment Targets:** How informal money investment may be targeted
-- **Top-Line Allocations:** Other allocation targets to include when allocating investment income (such as the core fund, a bonus fund for commissions, etc). Each investment round can also include its own top-line allocations.
+- **Top-Line Allocations:** Other allocation targets to include when allocating investment income (such as the core ledger, a bonus ledger for commissions, etc). Each investment round can also include its own top-line allocations.
 - **Rev Token Weighting:** Defines the weighting algorithm used to calculate how much each active rev token recipient receives during rev token payment. Details outlined in [Rev Token Payments](#rev-token-payments) section.
 - **Rev Point Weighting:** Defines the weighting algorithm used to calculate how much each rev point holder receives during rev point payment. Details outlined in [Rev Point Payments](#rev-point-payments) section.
 
-### Investment Fund Governance Processes
+### Investment Ledger Governance Processes
 
-The governance process of an investment fund must define:
+The governance process of an investment ledger must define:
 
-- **Core Parameter Governance:** How changes can be made to the fund’s core parameters.
+- **Core Parameter Governance:** How changes can be made to the ledger’s core parameters.
 - **Token Downgrade Governance:** When and how a token downgrade process can be run.
 - **Cohort Governance:** How rev token cohorts are managed.
 - **Investment Round Governance:** How formal investment rounds are managed.
@@ -592,34 +590,32 @@ The governance process of an investment fund must define:
 - **Meta Governance:** How changes to the governance process are made.
 - Participatory processes for:
     - **Investment Splitting:** Splitting rev tokens between time and money investment
-    - **Time Investment Allocation:** Allocating time investment rev points to specific target funds
+    - **Time Investment Allocation:** Allocating time investment rev points to specific target ledgers
 
 ### Key Governance Process: Token Downgrade
 
-<aside>
-⚠️ Token downgrades are disruptive. They should be used rarely and must be used in good faith and with full transparency.
+> [!WARNING]
+> Token downgrades are disruptive. They should be used rarely and must be used in good faith and with full transparency.
 
-</aside>
+It may become necessary to decrease the return multiple of all outstanding rev tokens in a ledger. The ledger governance process must define the exact criteria when a downgrade is allowed as well as the process for approving the changes.
 
-It may become necessary to decrease the return multiple of all outstanding rev tokens in a fund. The fund governance process must define the exact criteria when a downgrade is allowed as well as the process for approving the changes.
-
-For example: A token downgrade might be needed when the revenue growth of the fund inflows has proven to be too slow to reach the fund budget, or when more room for investment is needed without raising the fund budget. 
+For example: A token downgrade might be needed when the revenue growth of the ledger inflows has proven to be too slow to reach the ledger budget, or when more room for investment is needed without raising the ledger budget. 
 
 A token downgrade involves selecting a downgrade factor (a decimal number between zero and one) and changing the multiple property of all outstanding rev tokens by multiplying their originally issued multiple by that downgrade factor. During this process the min multiple and max multiple downgrade core parameters must be respected, meaning that all rev tokens may not decrease by the exact same factor.
 
-**Token upgrades** (increasing the multiples of all outstanding rev tokens in a fund) **are specifically disallowed**. The rationale is that constraining multiples to a single direction of movement (1) makes it easier for investors to predict how rev token values might change and (2) encourages more accurate initial valuation of effort at the outset. This restriction is further justified by the fact that new rev tokens may easily be issued to recognize an increased valuation of past efforts, without requiring the disruption of all multiples.
+**Token upgrades** (increasing the multiples of all outstanding rev tokens in a ledger) **are specifically disallowed**. The rationale is that constraining multiples to a single direction of movement (1) makes it easier for investors to predict how rev token values might change and (2) encourages more accurate initial valuation of effort at the outset. This restriction is further justified by the fact that new rev tokens may easily be issued to recognize an increased valuation of past efforts, without requiring the disruption of all multiples.
 
 ### Key Governance Process: Failsafe Equity Conversion
 
-As outlined in the [Investment Fund Implementation Details & Risk](#investment-fund-implementation-details--risk) section, in the case that the entire rev token and rev points structure is ultimately deemed to be fundamentally infeasible to implement, each investment fund must include in its governance process design a “failsafe equity conversion” process.
+As outlined in the [Investment Ledger Implementation Details & Risk](#investment-ledger-implementation-details--risk) section, in the case that the entire rev token and rev points structure is ultimately deemed to be fundamentally infeasible to implement, each investment ledger must include in its governance process design a “failsafe equity conversion” process.
 
 This process should outline steps that will result in issuing traditional equity in Quorum1 or an affiliated legal entity, proportionally based on rev tokens and rev points.
 
 ## Rev Tokens
 
-Rev tokens are a type of debt instrument linked to a particular investment fund, similar to a corporate bond with a fixed return multiple but a variable payback rate (and therefore a variable interest rate) and the additional risk of the multiple being downgraded in the future. 
+Rev tokens are a type of debt instrument linked to a particular investment ledger, similar to a corporate bond with a fixed return multiple but a variable payback rate (and therefore a variable interest rate) and the additional risk of the multiple being downgraded in the future. 
 
-Rev tokens are an owned asset entitling the owner to a portion of the rev share inflows of the linked investment fund until the total payments received reach a certain value. Quorum1 facilitates investment by issuing rev tokens to our investors. 
+Rev tokens are an owned asset entitling the owner to a portion of the rev share inflows of the linked investment ledger until the total payments received reach a certain value. Quorum1 facilitates investment by issuing rev tokens to our investors. 
 
 For money investors, rev tokens are issued in exchange for money. For time investors, rev tokens are instead issued to and held by Quorum1 and used to power a [Rev Points](#rev-points) program.
 
@@ -634,6 +630,7 @@ Below are some of the most important properties of a rev token.
 - **Full Value:** Equal to the face value times the multiple.
 - **Received Value:** The sum total of all payments received by the token to date.
 - **Remaining Value:** The amount remaining to be received. Equal to the full value minus the received value.
+- **Type:** There are two types of rev tokens, corresponding to the two [Investment Types](#investment-types): money rev tokens and time rev tokens.
 - **Cliff:** The period of time, post-issuance, before the token begins receiving payments.
 - **Status:** Where the token is at in its lifecycle (Unissued, Inactive, Active, Retired).
 - **Owner:** The individual or entity which owns the token.
@@ -657,13 +654,13 @@ The owner of a rev token may sell it or otherwise transfer it to a new owner as 
 
 Rev token payments are received by the rev token recipient on a regular basis. 
 
-Rev token payments pass the rev share inflows which flow into the investment fund through to the rev token recipients of all active rev tokens linked to the fund. Team Finance administers these payments and should seek to increase their frequency over time until they are able to go out on a monthly basis, but it may take some time to reach that frequency. 
+Rev token payments pass the rev share inflows which flow into the investment ledger through to the rev token recipients of all active rev tokens linked to the ledger. Team Finance administers these payments and should seek to increase their frequency over time until they are able to go out on a monthly basis, but it may take some time to reach that frequency. 
 
-Once revenue is flowing into the rev share inflow source funds, at least one rev token payment should be made each year. The goal should be regular payments throughout the year.
+Once revenue is flowing into the rev share inflow source ledgers, at least one rev token payment should be made each year. The goal should be regular payments throughout the year.
 
-Each active rev token receives a payment according to the rev token weighting algorithm defined in the investment fund’s allocation model. The algorithm must not use the rev token owner or recipient as a parameter and must allocate at least some revenue to each active rev token.
+Each active rev token receives a payment according to the rev token weighting algorithm defined in the investment ledger’s allocation model. The algorithm must not use the rev token owner or recipient as a parameter and must allocate at least some revenue to each active rev token.
 
-The fund managers may optionally decide to deduct an administration percentage from the gross rev share inflows, but the full amount must go directly to helping pay for the administration of the fund and the amount must be no more than 2%.
+The ledger managers may optionally decide to deduct an administration percentage from the gross rev share inflows, but the full amount must go directly to helping pay for the administration of the ledger and the amount must be no more than 2%.
 
 ### Rev Token Implementation & Compliance
 
@@ -675,9 +672,9 @@ The v1 implementation will be a key priority for the Foundation and should be a 
 
 ### Rev Token Downgrades
 
-It is possible for the multiples of rev tokens to decrease (but not increase) over time via the [Key Governance Process: Token Downgrade](#key-governance-process-token-downgrade) of the linked investment fund. This should be a rare event, but a possibility of which all investors should be aware. The precise governance process surrounding token downgrades is defined by the fund’s governance process.
+It is possible for the multiples of rev tokens to decrease (but not increase) over time via the [Key Governance Process: Token Downgrade](#key-governance-process-token-downgrade) of the linked investment ledger. This should be a rare event, but a possibility of which all investors should be aware. The precise governance process surrounding token downgrades is defined by the ledger’s governance process.
 
-In the event of a token downgrade, all rev token multiples are decreased by the same factor(a decimal number between zero and one) while respecting the core parameters of the investment fund, specifically the min multiple and max multiple downgrade. This may mean that there are slight variances in the effective downgrade factor across rev tokens to protect them from over-downgrading.
+In the event of a token downgrade, all rev token multiples are decreased by the same factor(a decimal number between zero and one) while respecting the core parameters of the investment ledger, specifically the min multiple and max multiple downgrade. This may mean that there are slight variances in the effective downgrade factor across rev tokens to protect them from over-downgrading.
 
 ## Rev Points
 
@@ -691,9 +688,9 @@ Things to cover in this section:
 
 ### Rev Point Structure
 
-Rev points are linked to an investment fund and are backed by the rev tokens in the fund’s time investment lipool. **One rev point is equal to $1 USD of full value of the rev tokens in the time investment pool.** The total number of rev points linked to an investment fund will always equal the total full value of all the rev tokens in the investment fund’s time investment pool.
+Rev points are linked to an investment ledger and are backed by the rev tokens in the ledger’s time investment pool. **One rev point is equal to $1 USD of full value of the rev tokens in the time investment pool.** The total number of rev points linked to an investment ledger will always equal the total full value of all the rev tokens in the investment ledger’s time investment pool.
 
-Each Quorum1 member has a **rev point balance** for each investment fund. The rev point balance is an integer value indicating the number of rev points held by the member within that investment fund. Each member also has a **transaction history** of all changes made to their rev point balance.
+Each Quorum1 member has a **rev point balance** for each investment ledger. The rev point balance is an integer value indicating the number of rev points held by the member within that investment ledger. Each member also has a **transaction history** of all changes made to their rev point balance.
 
 In most cases, a member’s rev point balance goes up when they are awarded new rev points and goes down each time they receive a rev token payment. A full list of possible balance changing events is defined below.
 
@@ -701,13 +698,13 @@ In most cases, a member’s rev point balance goes up when they are awarded new 
 
 It is critical to the long-term success of Quorum1 that the rev point structure be safe and reliable. **Rev point balances cannot be changed arbitrarily.**
 
-All new members start with a balance of zero rev points for all investment funds. Each change to a member’s rev point balance is considered a transaction and must be logged in their transaction history.
+All new members start with a balance of zero rev points for all investment ledgers. Each change to a member’s rev point balance is considered a transaction and must be logged in their transaction history.
 
 **Valid Transaction Types:**
 
 Changes in rev point balances are only allowed for the transaction types listed in this sub-section. No other types of rev point balance changes are allowed.
 
-- **Award:** Rev points are awarded to members from the rev point pools of funds according to the funds’ rev point plans.
+- **Award:** Rev points are awarded to members from the rev point pools of ledgers according to the ledgers’ rev point plans.
 - **Retraction:** Rev points awarded in error due to administrative errors or data quality problems may be retracted at a later date. Rev points may never be retracted for other reasons.
 - **Transfer:** A member may transfer some of their rev points to another member.
 - **Payment:** Each rev point payment received by a member reduces their balance, with each $1 USD received reducing the balance by 1 rev point.
@@ -717,13 +714,13 @@ Changes in rev point balances are only allowed for the transaction types listed 
 
 Rev point payments are offered to each rev point holder on a regular basis.
 
-Rev point payments pass the rev token payments received by the rev tokens in the investment fund’s time investment pool through to all holders of rev points linked to the fund. Team Finance administers these payments and should seek to increase their frequency over time until they are able to go out on a monthly basis, but it may take some time to reach that frequency.
+Rev point payments pass the rev token payments received by the rev tokens in the investment ledger’s time investment pool through to all holders of rev points linked to the ledger. Team Finance administers these payments and should seek to increase their frequency over time until they are able to go out on a monthly basis, but it may take some time to reach that frequency.
 
-Each active and eligible rev point holder is offered a payment according to the rev point weighting algorithm defined in the investment fund’s allocation model. The algorithm must not use the rev point holder’s identity as a parameter and must offer at least some revenue to each active and eligible rev point holder. (Eligibility is defined by the [Member Rev Point Payment Requirements](#member-rev-point-payment-requirements) in the Financial Operations Plan.)
+Each active and eligible rev point holder is offered a payment according to the rev point weighting algorithm defined in the investment ledger’s allocation model. The algorithm must not use the rev point holder’s identity as a parameter and must offer at least some revenue to each active and eligible rev point holder. (Eligibility is defined by the [Member Rev Point Payment Requirements](#member-rev-point-payment-requirements) in the Financial Operations Plan.)
 
 The rev point payment process and rev point weighting algorithm should be designed to allow each rev point holder to opt-in or opt-out of each rev point payment. If a rev point holder opts-out of a particular payment, their rev point balance does not decrease and they should be offered a benefit as a reward for not exercising their liquidity. Some or all of their non-exercised payment should then be made available to increase the rev point payments of other members.
 
-The fund managers may optionally decide to deduct an administration percentage from the gross time investment pool rev token payments powering the rev point program, but the full amount must go directly to helping pay for the administration of the fund and the amount must be no more than 2%.
+The ledger managers may optionally decide to deduct an administration percentage from the gross time investment pool rev token payments powering the rev point program, but the full amount must go directly to helping pay for the administration of the ledger and the amount must be no more than 2%.
 
 Aside from the administration percentage, all of the rev token payments received from the time investment pool must eventually go to rev point holders. It is acceptable, however, for portions to be held in reserve in order to support the non-exercising rewards or other programs deemed to benefit the health and sustainability of the overall rev point program.
 
@@ -748,7 +745,7 @@ The member rev point payment requirements and all other aspects of the rev point
     - Rev points are not an owned asset and may not be formally sold, though the quorum may strive in the future to provide a method for members to exercise greater liquidity with their rev points.
 - **Major events:**
     - Upon the deactivation, suspension, or relinquishment of a Quorum1 member account (in accordance with Quorum1’s rules and policies), the member’s rev point balances are maintained for as long as they live, though rev point payments are paused while they are inactive. If at a future date the member becomes active again, the member’s rev point balances become immediately available.
-    - Each member may specify another member as their designated beneficiary in the case of their death. Upon a member’s death, their rev point balance is transferred to their designated beneficiary. If no surviving beneficiary is designated, then the rev point balance is transferred to a shared fund for the collective benefit of all members.
+    - Each member may specify another member as their designated beneficiary in the case of their death. Upon a member’s death, their rev point balance is transferred to their designated beneficiary. If no surviving beneficiary is designated, then the rev point balance is transferred to a shared ledger for the collective benefit of all members.
     - A member’s balance may be adjusted if Quorum1 is instructed and required to to so by a governmental authority.
 
 ### Rev Point Implementation & Compliance
@@ -761,95 +758,132 @@ The improvement and increased automation of the rev point implementation will be
 
 ### Rev Point Downgrades
 
-It is possible for the multiples of rev tokens to decrease (but not increase) over time via the [Key Governance Process: Token Downgrade](#key-governance-process-token-downgrade) of the linked investment fund. This should be a rare event, but a possibility of which all investors should be aware. The precise governance process surrounding token downgrades is defined by the fund’s governance process.
+It is possible for the multiples of rev tokens to decrease (but not increase) over time via the [Key Governance Process: Token Downgrade](#key-governance-process-token-downgrade) of the linked investment ledger. This should be a rare event, but a possibility of which all investors should be aware. The precise governance process surrounding token downgrades is defined by the ledger’s governance process.
 
-In the event of a token downgrade, all member rev point balances are decreased by the same factor while respecting the core parameters of the investment fund, specifically the min multiple and max multiple downgrade. This may mean that there are slight variances in the effective downgrade factor across members to protect them from over-downgrading.
+In the event of a token downgrade, all member rev point balances are decreased by the same factor while respecting the core parameters of the investment ledger, specifically the min multiple and max multiple downgrade. This may mean that there are slight variances in the effective downgrade factor across members to protect them from over-downgrading.
 
-## Org Investment Fund Design Guidelines
+## Org Investment Ledger Design Guidelines
 
-The [Org Investment Fund](#org-investment-fund) is the only investment fund mandated by the Financial Model. The [Core Fund](#core-fund) includes a mandatory allocation to the org investment fund, meaning that a share of all Quorum1 revenue will pass through to this fund. This fund is a critical part of Quorum1’s financial infrastructure and key to our long-term sustainability. As such, the design of the org investment fund must meet our highest standard.
+The [Org Investment Ledger](#org-investment-ledger) is the only investment ledger mandated by the Financial Model. The [Core Ledger](#core-ledger) includes a mandatory allocation to the org investment ledger, meaning that a share of all Quorum1 revenue will pass through to this ledger. This ledger is a critical part of Quorum1’s financial infrastructure and key to our long-term sustainability. As such, the design of the org investment ledger must meet our highest standard.
 
-The org investment fund design itself is officially considered part of the Financial Operations Plan and is thus changed according to the more streamlined [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
+The org investment ledger design itself is officially considered part of the Financial Operations Plan and is thus changed according to the more streamlined [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
 
-However, the Financial Model does impose some guidelines on the org investment fund design. This section outlines those guidelines. Making changes to any of these guidelines requires modifying this doc in accordance with the [Change Process for Financial Model Definition](#change-process-for-financial-model-definition). 
+However, the Financial Model does impose some guidelines on the org investment ledger design. This section outlines those guidelines. Making changes to any of these guidelines requires modifying this doc in accordance with the [Change Process for Financial Model Definition](#change-process-for-financial-model-definition). 
 
-### Guideline 0 - Launching the Fund
+### Guideline 0 - Launching the Ledger
 
-At the time of writing and approving this Financial Model, the org investment fund has yet to be launched. The initial launch should align with the guidelines outlined in this section and should follow the [Standard Process for Designing an Investment Fund](#standard-process-for-designing-an-investment-fund).
+At the time of writing and approving this Financial Model, the org investment ledger has yet to be launched. The initial launch should align with the guidelines outlined in this section and should follow the [Standard Process for Designing an Investment Ledger](#standard-process-for-designing-an-investment-ledger).
 
 ### Guideline 1 - Core Parameters
 
 The core parameters must match the following.
 
-- **Fund Budget:** $825M Full Value / $55M Face Value (Average Multiple: 15x)
+- **Ledger Budget:** $825M Full Value / $55M Face Value (Average Multiple: 15x)
 - **Min Multiple:** 1.0x
 - **Max Multiple Downgrade:** 90%
 
-**How to Contextualize the Fund Budget:**
+**How to Contextualize the Ledger Budget:**
 
-<aside>
-🏦 The fund budget above is built around the goal of getting to a billion dollars in revenue in 2034 (with at least 5% of gross revenue going to rev token payments).
+> [!NOTE]
+> The ledger budget above is built around the goal of getting to a billion dollars in revenue in 2034 (with at least 5% of gross revenue going to rev token payments).
 
-</aside>
+The precise rev token payment amount in any future year will depend on both the amount of org revenue and the “org rev share allocation” (the net allocation to org investment ledger rev token payments as a portion of overall revenue).
 
-The precise rev token payment amount in any future year will depend on both the amount of org revenue and the “org rev share allocation” (the net allocation to org investment fund rev token payments as a portion of overall revenue).
-
-The org rev share allocation percentage in a year will be a factor of (1) the average core fund allocation percentage across the blend of revenue sources (refer to [Standard Income Allocations](#standard-income-allocations)) in that year and (2) the average percentage allocated by the [Core Fund](#core-fund) to the [Org Investment Fund](#org-investment-fund) over the year. This means that if the quorum is able to grow higher-margin revenue sources the org rev share allocation will generally increase, but also that the Foundation may impact the the org rev share allocation through the way it manages the core fund allocation model.
+The org rev share allocation percentage in a year will be a factor of (1) the average core ledger allocation percentage across the blend of revenue sources (refer to [Standard Income Allocations](#standard-income-allocations)) in that year and (2) the average percentage allocated by the [Core Ledger](#core-ledger) to the [Org Investment Ledger](#org-investment-ledger) over the year. This means that if the quorum is able to grow higher-margin revenue sources the org rev share allocation will generally increase, but also that the Foundation may impact the the org rev share allocation through the way it manages the core ledger allocation model.
 
 ### Guideline 2 - Rev Token Cohorts
 
-There will be annual rev token cohorts, with one created for each calendar year and sub-cohorts created for each investment type and rev token pool. 2020 is known as “year 0”, 2021 is known as “year 1”, etc.
+Cohorts have a time period (default is a year) and share the same multiple. At a minimum a Cohort is created for each calendar year and sub-cohorts created for each important subdivision there within. 2020 is known as “year 0”, 2021 is known as “year 1”, etc.
 
-The legacy cohorts for years 0 through 3 are listed below and will match these tables exactly, except that the actual face value, which must be under the maximums defined below, will be determined via a participatory process (to be determined by the Foundation) that runs soon after v2 of the Financial Model is initially approved and adopted. 
+The legacy cohorts for years 0 through 3 are listed below and will match these tables exactly, except that the actual face value, which must be under the maximums defined below, will be determined via a participatory process (to be determined by the Foundation) that runs soon after v2 of the Financial Model is initially approved and adopted.
+
+**Legacy Money Rev Tokens:**
 
 | Year | Max Face Value | Multiple | Max Full Value |
 | --- | --- | --- | --- |
-| Year 0 - 2020 ¹ | $100K | 100x | $10M |
-| Year 1 - 2021 ² ³ | $300K | 100x | $30M |
-| Year 2 - 2022 ² ³ | $600K | 75x | $45M |
-| Year 3 - 2023 ² | $600K | 50x | $30M |
-| Legacy Total | $1.6M | 71.9x (avg) | $115M |
-- ***¹ For year 0:** All of the rev tokens will be issued to the time investment pool and awarded as rev points to the meta founder as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
-- ***² For year 1, 2, and 3:** A pass-through fund will be created to manage the retroactive issuance of the rev tokens.*
-    - *First any money investments will be collected, documented and the amounts will be taken from the total pool. These cash investments will specifically include the unpaid legal fees to London Law, Inc less any amounts paid on the Initial Counsel Profit Share to date (full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model)).*
-    - *Then the remaining amount will be available for allocation amongst all individuals who were members during that year via a participatory retroactive valuation process agreed on by at least 60% of the members from that year who remain active and are engaged enough to participate in the decision-making process.*
-- ***³ For year 1 and year 2:** Member Q0005 will be awarded 750k rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
+| Year 0 - 2020 | $0 | 100x | $0 |
+| Year 1 - 2021 ² | $70K | 100x | $7M |
+| Year 2 - 2022 ² | $20K | 75x | $1.5M |
+| Year 3 - 2023 ² | $10K | 50x | $500K |
+| **Legacy Total** | **$100K** | **90x (avg)** | **$9M** |
 
-**The first live cohort will be year 4, defined exactly as below (including budget).**
+**Legacy Time Rev Tokens:**
 
-| Year | Face Value | Multiple | Max Full Value |
+| Year | Face Value | Multiple | Full Value |
 | --- | --- | --- | --- |
-| Year 4 - 2024 ¹ | $4M | 40x | $160M |
-| Total from Y0 - Y4 | $5.6M | 49.1x (avg) | $275M |
-| Remaining for Y5+ | $49.4M | 11.1x (avg) | $550M |
-- ***¹ For year 4:** $1M will be allocated to a formal org investment round managed by the meta founder with all critical parameters requiring the 60% agreement of the partner members.*
-    - *Any remaining un-raised amount from that $1M will be available for informal investment.*
-    - *With the 60% agreement of the partner members, up to an additional $500K may be used for the investment round in an oversubscribed scenario.*
-    - *The remaining $3M (less the investment round oversubscription) will be used for time investment and will be broken into allotments every 3 months or so, which may run into future years if needed. Each allotment will be allocated via a participatory process open at least to all community, contributor and partner members. Each of these allotments will be designed as an experiment intended to learn more about what sorts of participatory processes work best for the quorum.*
+| Year 0 - 2020 ¹ | $100K | 100x | $10M |
+| Year 1 - 2021 ² ³ | $230K | 100x | $23M |
+| Year 2 - 2022 ² ³ | $580K | 75x | $43.5M |
+| Year 3 - 2023 ² | $590K | 50x | $29.5M |
+| **Legacy Total** | **$1.5M** | **70.67x (avg)** | **$106M** |
+- ***¹ For year 0:** Only time rev tokens are being created for year 0 and will be awarded as rev points to the meta founder as a replacement for the originally planned meta-founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
+- ***² For year 1, 2, and 3:** A pass-through ledger will be created to manage the retroactive issuance of the rev tokens and rev points.*
+    - *For money rev tokens: First any money investments will be collected, documented, totaled, and issued as money rev tokens up to the max face value from the table above. These cash investments will specifically include the unpaid legal fees to initial legal counsel less any amounts paid on the Initial Counsel Profit Share to date (full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model)). If the final documented amount is under the max face value from the table above, then the remaining amount will not be issued as rev tokens. If the final documented amount is over the max face value from the table above, then the overage amount will be awarded instead as rev points from the time investment pool in the same year cohort.*
+    - *For time rev tokens: The rev points will be allocated amongst all individuals who were members during that year via a participatory retroactive valuation process agreed on by at least 60% of the members from that year who remain active members and are engaged enough to participate in the decision-making process.*
+- ***³ For year 1 and year 2:** Member Q0005 will be awarded 750K rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
 
-**The org investment fund’s governance process will begin determining annual rev token cohorts starting in year 5 (2025).**
+**The first live cohort will be year 4, defined below (including budget).**
+
+**Year 4 Money Rev Tokens:**
+
+| Year | Max Face Value | Multiple | Max Full Value |
+| --- | --- | --- | --- |
+| Year 4 - 2024 ¹ | $5M | 40x | $200M |
+| **Total from Y0 - Y4** | **$5.1M** | **41.0x (avg)** | **$209M** |
+
+**Year 4 Time Rev Tokens:**
+
+| Year | Max Face Value | Multiple | Max Full Value |
+| --- | --- | --- | --- |
+| Year 4 - 2024 | $4M | 40x | $160M |
+| **Total from Y0 - Y4** | **$5.5M** | **48.4x (avg)** | **$266M** |
+- ***¹ For year 4:** Money rev tokens will be allocated to a formal org investment round managed by the meta founder with all critical parameters requiring the 60% agreement of the partner members. The precise amount of Rev Tokens and their Face Value will be determined by the total amount purchased by investors in the formal org investment round, as well as any additional informal investment.*
+
+**The org investment ledger’s governance process will begin determining annual rev token cohorts starting in year 5 (2025).**
 
 ### Guideline 3 - Allocation Model
 
-The rev token weighting algorithm for the org investment fund will stay consistent over time to maximize predictability. 
+The rev token weighting algorithm for the org investment ledger will stay consistent over time to maximize predictability. 
 
-Specifically, during a rev token payment, each active rev token recipient will receive a percentage of the overall rev token payment equal to the total full value of their rev tokens divided by the total full value of all rev tokens. Any left over amount allocated to rev tokens which are fully paid during this round will be split across the remaining active rev tokens in the round. This math will only include rev tokens that are part of the rev token payment.
+The rev token payments shall be processed in alignment with the following algorithm:
 
-As an example scenario: Assume in a particular rev token payment there are three rev token recipients: recipient A (with $10,000 of full value), recipient B (with $5,000 of full value), recipient C (with $5,000 of full value). In this scenario, recipient A would receive 50% of the rev token payment, with recipients B and C receiving 25% each.
+1. The overall rev token payment is split into two sub-payments, one for each type of rev token: A time rev token payment and a money rev token payment.
+    1. The split between these two sub-payments is a key parameter of this algorithm called the “time-vs-money split rate” and is discussed in more detail below.
+    2. The intentions of this structure are (1) to provide a tool for creating parity between time and money investors and (2) to ensure that a large amount of investment of one type does not impact the repayment schedule of investors of the other type.
+2. Within each sub-payment, each active rev token recipient will receive a percentage of the rev token sub-payment equal to the total full value of their active rev tokens of that type divided by the total full value of all active rev tokens of that type.
+
+**Time-vs-Money Split Rate**
+
+The time-vs-money split rate (TVMSR) is considered part of the Financial Operations Plan and can be changed from payment to payment according to the needs of the quorum. The goal, however, should be to maintain an average TVMSR of 50/50, meaning that 50% goes to time rev tokens and 50% goes to money rev tokens.
+
+Additionally, the percentage allocated to either type may not drop below 30%. This means that the allowed range of TVMSR values is from 30/70 to 70/30.
+
+**Example Scenario**
+
+The overall rev token payment amount is $10,000 and the TVMSR is 50/50.
+
+Therefore $5,000 will go to time rev tokens and $5,000 will go to money rev tokens.
+
+| Rev Token Recipient | Full Value | Type | % of Sub-Payment | Received $ |
+| --- | --- | --- | --- | --- |
+| Recipient A | $20,000 | Time | 20K/100K = 20% | $1,000 |
+| Recipient B | $80,000 | Time | 80K/100K = 80% | $4,000 |
+| Recipient C | $15,000 | Money | 15K/20K = 75% | $3,750 |
+| Recipient D | $5,000 | Money | 5K/20K = 25% | $1,250 |
 
 ### Guideline 4 - Governance Process
 
-The org investment fund’s governance process will describe the process for determining annual rev token cohorts, with one created for each calendar year and sub-cohorts created for each investment type and rev token pool.
+The org investment ledger’s governance process will describe the process for determining annual rev token cohorts, with one created for each calendar year and sub-cohorts created for each investment type and rev token pool.
 
 The process should align with the structure outlined below:
 
 - Annual Process: To run every year, though it does not have to follow the calendar year precisely.
     1. Budgeting: Org & Foundation leaders define the investment budget for the year, which is the total face value, multiple, and total full value of the rev tokens in the year’s annual cohort. (This is the main point at which token downgrading might occur.)
     2. Splitting: A participatory process is used to determine the percentage split of the budget between time investment and money investment. Org & Foundation leaders determine the split between formal money investment and informal money investment.
-    3. Allocating: A participatory process is used to allocate time investment rev tokens between funds which seek them.
-    4. Planning: Each fund receiving investment creates its design. The designs should ideally involve a quarterly cadence of rev tokens allotments.
+    3. Allocating: A participatory process is used to allocate time investment rev tokens between ledgers which seek them.
+    4. Planning: Each ledger receiving investment creates its design. The designs should ideally involve a quarterly cadence of rev tokens allotments.
     5. Operation: The quarterly processes run throughout the year.
-    6. Reporting: Each fund receiving investment reports on results.
+    6. Reporting: Each ledger receiving investment reports on results.
 - Quarterly Process: To run roughly every quarter, though the governance process can optionally allow greater flexibility. Describes how re-allocation is administered if rev tokens are unissued or rev points are unawarded.
 
 The above process is built around a structure of regular annual investment rounds, with each round striking a balance between time investment and money investment according to the needs of the quorum and based on the market conditions at that time.
@@ -860,13 +894,13 @@ Token downgrades should happen no more than once per year and should not happen 
 
 ### Guideline 6 - Failsafe Equity Conversion
 
-As outlined in the [Investment Fund Implementation Details & Risk](#investment-fund-implementation-details--risk) section, in the case that the entire rev token and rev points structure is ultimately deemed to be fundamentally infeasible to implement, the org investment fund’s governance process must include details of a failsafe equity conversion process. 
+As outlined in the [Investment Ledger Implementation Details & Risk](#investment-ledger-implementation-details--risk) section, in the case that the entire rev token and rev points structure is ultimately deemed to be fundamentally infeasible to implement, the org investment ledger’s governance process must include details of a failsafe equity conversion process. 
 
 The failsafe process should result in in converting all issued rev tokens and awarded rev options into shares of traditional equity with overall proportions matching each members’ respective full value holdings of rev tokens and rev options. The equity shares should be in Quorum1 or an affiliated legal entity. All equity shares must be in the same legal entity.
 
-### Guideline 7 - Fund Liquidation Preferences
+### Guideline 7 - Ledger Liquidation Preferences
 
-In the event of the full fund liquidation of the org investment fund for any reason, all token holders must convert at the same discount rate, weighting, or liquidation preference.
+In the event of the full liquidation of the org investment ledger for any reason, all token holders must convert at the same discount rate, weighting, or liquidation preference.
 
 ## Changes from Legacy Financial Model
 
@@ -877,7 +911,7 @@ The replacement structures are all outlined in the [Guideline 2 - Rev Token Coho
 - **Meta Founder Revenue Share:**
     - **Financial Model v1:** 1% of gross revenue is paid to the meta founder for 20 years from initial incorporation.
     - **Original Intention:** An exchange for the initial thought work and effort that went into conceiving and founding of Quorum1.
-    - **Financial Model v2:** This disbursement is removed and replaced by the 2020 rev point cohort issued to the meta founder, valued at $10M rev points ($100k at a 50x multiple).
+    - **Financial Model v2:** This disbursement is removed and replaced by the 2020 rev point cohort issued to the meta founder, valued at $10M rev points ($100k at a 100x multiple).
 - **Prime Founder Profit Share:**
     - **Financial Model v1:** 10% of gross profit is paid to prime founders for 10 years from initial incorporation, who are the first 10 members to earn 500 Q-Credits, with 3% to prime founder 1, 2% to prime founder 2, etc.
     - **Original Intention:** An incentivization program to reward members for early contributions to the founding and growth of Quorum1.
@@ -911,19 +945,19 @@ Each item in this section is a document which must eventually be defined as part
 
 ***Referenced in:** [Allocation Models](#allocation-models)* 
 
-The allocation model templates are a set of standard template docs for each fund type. These templates define the format, structure and options available to fund designers when creating allocation models for a fund.
+The allocation model templates are a set of standard template docs for each ledger type. These templates define the format, structure and options available to ledger designers when creating allocation models for a ledger.
 
 These must be iterated and improved over time based on member input.
 
-### Receivable Fund Requirements
+### Receivable Ledger Requirements
 
 ***Referenced in:** [Income (External Inflows)](#income-external-inflows)* 
 
-This document defines, for each type of fund, the exact requirements for a fund to be able to receive income from outside the quorum. This includes designating which types of funds are not able to receive income.
+This document defines, for each type of ledger, the exact requirements for a ledger to be able to receive income from outside the quorum. This includes designating which types of ledgers are not able to receive income.
 
-As an example of the former: a receivable fulfillment fund for a client project may require a signed SOW. An example of the latter: It may be decided that expense funds cannot receive income, that they should instead only have income allocated via pass-through from other funds.
+As an example of the former: a receivable fulfillment ledger for a client project may require a signed SOW. An example of the latter: It may be decided that expense ledgers cannot receive income, that they should instead only have income allocated via pass-through from other ledgers.
 
-These requirements must ensure that we are being compliant with applicable laws and regulations while also ensuring that the process for setting up new receivable funds is as streamlined as possible.
+These requirements must ensure that we are being compliant with applicable laws and regulations while also ensuring that the process for setting up new receivable ledgers is as streamlined as possible.
 
 ### Required Income Documentation Checklist
 
@@ -949,23 +983,23 @@ Defines the precise list of requirements for a Quorum1 member to be able to rece
 
 ***Must align with:** [Standard Income Allocations](#standard-income-allocations)*
 
-The standard income allocation table defines the required percentage of recognized income that must be allocated to the core fund for each type of income based on various parameters, including whether the income is associated with a hosted entity and whether it uses the Quorum1 brand. 
+The standard income allocation table defines the required percentage of recognized income that must be allocated to the core ledger for each type of income based on various parameters, including whether the income is associated with a hosted entity and whether it uses the Quorum1 brand. 
 
 The standard income allocation table should match the basic format outlined in the [Standard Income Allocations](#standard-income-allocations) section. The actual values may differ, however. And the actual format may also differ slightly as long as it aligns with the spirit of this design.
 
-### Org Investment Fund Design
+### Org Investment Ledger Design
 
-***Referenced in:** [Org Investment Fund](#org-investment-fund), [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines)* 
+***Referenced in:** [Org Investment Ledger](#org-investment-ledger), [Org Investment Ledger Design Guidelines](#org-investment-ledger-design-guidelines)* 
 
-***Must align with:** [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines)* 
+***Must align with:** [Org Investment Ledger Design Guidelines](#org-investment-ledger-design-guidelines)* 
 
-The org investment fund design defines all of the properties of the org investment fund, as outlined in [Investment Funds Detail](#investment-funds-detail) section. It must meet all guidelines outlined in [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines).
+The org investment ledger design defines all of the properties of the org investment ledger, as outlined in [Investment Ledgers Detail](#investment-ledgers-detail) section. It must meet all guidelines outlined in [Org Investment Ledger Design Guidelines](#org-investment-ledger-design-guidelines).
 
 ## Required Process Definitions
 
 ### Change Process for Financial Model Definition
 
-***Referenced in:** [Governance](#governance), [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines)*
+***Referenced in:** [Governance](#governance), [Org Investment Ledger Design Guidelines](#org-investment-ledger-design-guidelines)*
 
 This defines the governance process for making changes to this document. 
 
@@ -975,7 +1009,7 @@ Until this process is formally documented, making changes to this document shoul
 
 ### Change Process for Financial Operations Plan
 
-***Referenced in:** [Governance](#governance), [Standard Funds](#standard-funds), [Org Investment Fund Design Guidelines](#org-investment-fund-design-guidelines), [Required Documents](#required-documents)*
+***Referenced in:** [Governance](#governance), [Standard Ledgers](#standard-ledgers), [Org Investment Ledger Design Guidelines](#org-investment-ledger-design-guidelines), [Required Documents](#required-documents)*
 
 This defines the governance process for making changes to the Financial Operations Plan which is the set of documents defining the operational implementation of the Financial Model. 
 
@@ -983,13 +1017,13 @@ This is a critical governance process because the Financial Operations Plan will
 
 Until this process is formally documented, making changes or additions to the Financial Operations Plan should require the written agreement of the Foundation Leadership. The members included in the Foundation Leadership are appointed by the Managing Partners and must be clearly documented. Each change or addition to the Financial Operations Plan must be documented and explained in a central repository of changes which is visible to all contributor and partner members.
 
-### Fund Management Process
+### Ledger Management Process
 
-***Referenced in:** [Funds](#funds)* 
+***Referenced in:** [Ledgers](#ledgers)* 
 
-This process must define workflows for creating new funds, making changes to existing funds, retiring funds, and administering the ongoing operations of funds.
+This process must define workflows for creating new ledgers, making changes to existing ledgers, retiring ledgers, and administering the ongoing operations of ledgers.
 
-It is important that fund management be as streamlined as possible, while also ensuring that the overall fund structure is operationally reliable and administration is secure, accurate, and compliant.
+It is important that ledger management be as streamlined as possible, while also ensuring that the overall ledger structure is operationally reliable and administration is secure, accurate, and compliant.
 
 ### Vendor Registration Process
 
@@ -1005,37 +1039,37 @@ This process defines workflows for managing hosted entities. This includes creat
 
 ### Recurring Expense Management Process
 
-***Referenced in:** [Expense Funds](#expense-funds)*
+***Referenced in:** [Expense Ledgers](#expense-ledgers)*
 
-This process defines how recurring expenses within expense funds are managed. It is important that we closely manage these types of expenses so that we’re balancing the outgoing expenses with expected income, and so that any potential shortfalls can be identified and mitigated well ahead of time.
+This process defines how recurring expenses within expense ledgers are managed. It is important that we closely manage these types of expenses so that we’re balancing the outgoing expenses with expected income, and so that any potential shortfalls can be identified and mitigated well ahead of time.
 
 ### Expense Reimbursement Process
 
-***Referenced in:** [Expense Funds](#expense-funds)*
+***Referenced in:** [Expense Ledgers](#expense-ledgers)*
 
-This process defines how expense reimbursement requests are submitted by members, and then either approved or denied by the fund managers of an expense fund. Due to our collective structure and focus on ethical financial structures, and due to the potential risk of misappropriation involved in expense reimbursement, it is critical that this process meet our highest standards of transparency and accountability.
+This process defines how expense reimbursement requests are submitted by members, and then either approved or denied by the ledger managers of an expense ledger. Due to our collective structure and focus on ethical financial structures, and due to the potential risk of misappropriation involved in expense reimbursement, it is critical that this process meet our highest standards of transparency and accountability.
 
 ### Debit Card Management Process
 
-***Referenced in:** [Expense Funds](#expense-funds)*
+***Referenced in:** [Expense Ledgers](#expense-ledgers)*
 
-This process defines how debit cards linked to expense funds are managed. This includes workflows for allowing the fund managers to request new debit cards, the Foundation responding to those requests, creating and retiring cards, setting and changing limits, and other workflows as needed.
+This process defines how debit cards linked to expense ledgers are managed. This includes workflows for allowing the ledger managers to request new debit cards, the Foundation responding to those requests, creating and retiring cards, setting and changing limits, and other workflows as needed.
 
 This process must also include appropriate training and verification for debit card holders to ensure that they are aware of best practices for managing these debit cards and how to mitigate potential fraud or theft risks. 
 
 The Foundation may opt to impose security requirements on debit card holders to prevent potential fraud or theft.
 
-### Investment Fund Management Process
+### Investment Ledger Management Process
 
-***Referenced in:** [Investment Funds Detail](#investment-funds-detail), [Standard Process for Designing an Investment Fund](#standard-process-for-designing-an-investment-fund)*
+***Referenced in:** [Investment Ledgers Detail](#investment-ledgers-detail), [Standard Process for Designing an Investment Ledger](#standard-process-for-designing-an-investment-ledger)*
 
-***Must align with:** [Standard Process for Designing an Investment Fund](#standard-process-for-designing-an-investment-fund)*
+***Must align with:** [Standard Process for Designing an Investment Ledger](#standard-process-for-designing-an-investment-ledger)*
 
-This process defines how investment funds are created, changed, retired, and operationally managed.
+This process defines how investment ledgers are created, changed, retired, and operationally managed.
 
 ### Investor Management Process
 
-***Referenced in:** [Money Investment](#money-investment), [Investment Fund Inflows & Outflows](#investment-fund-inflows--outflows)*
+***Referenced in:** [Money Investment](#money-investment), [Investment Ledger Inflows & Outflows](#investment-ledger-inflows--outflows)*
 
 This process defines how money investors are onboarded, off-boarded, what required documentation is needed, and other details necessary to manage the money investors.
 
@@ -1045,7 +1079,7 @@ This process defines how money investors are onboarded, off-boarded, what requir
 
 This process is important to ensure that the quorum has collected appropriate financial information and ensured that we are not restricted from sending a particular member money for some reason.
 
-In order for a fund to directly target a member for outflow allocation, the member has to have signed a formal agreement with Quorum1. If members have joined the quorum via a corporate entity, then their payments are directed to their registered corporate entity. Some members may be restricted from direct allocation if there are legal or regulatory restrictions that apply to them.
+In order for a ledger to directly target a member for outflow allocation, the member has to have signed a formal agreement with Quorum1. If members have joined the quorum via a corporate entity, then their payments are directed to their registered corporate entity. Some members may be restricted from direct allocation if there are legal or regulatory restrictions that apply to them.
 
 ### Rev Token Ownership Processes
 
@@ -1057,9 +1091,9 @@ This process may optionally define a slightly different process for Quorum1-owne
 
 ### Refund Process
 
-***Referenced in:** [Fulfillment, Recognition, & Refunds](#fulfillment,-recognition,--refunds)* 
+***Referenced in:** [Fulfillment, Recognition, & Refunds](#fulfillment-recognition--refunds)* 
 
-This process defines how unfulfilled revenue in a fulfillment fund may be refunded back to its source (such as back to an external client or back to another internal fund). 
+This process defines how unfulfilled revenue in a fulfillment ledger may be refunded back to its source (such as back to an external client or back to another internal ledger). 
 
 ---
 
@@ -1073,11 +1107,11 @@ The Workstream is a system that Quorum1 uses to manage requests, tasks, and faci
 
 ### Workstream Wallets
 
-***Referenced in:** [Allocation Models](#allocation-models), [Foundation Operations Fund](#foundation-operations-fund), [Income Types](#income-types), [Standard Income Allocations](#standard-income-allocations), [Workstream Wallet Outflows](#workstream-wallet-outflows), [Rev Point Implementation & Compliance](#rev-point-implementation--compliance)* 
+***Referenced in:** [Allocation Models](#allocation-models), [Foundation Operations Ledger](#foundation-operations-ledger), [Income Types](#income-types), [Standard Income Allocations](#standard-income-allocations), [Workstream Wallet Outflows](#workstream-wallet-outflows), [Rev Point Implementation & Compliance](#rev-point-implementation--compliance)* 
 
 As of this writing, the [Workstream](#workstream) does not yet have Workstream Wallet functionality. This sub-section describes the planned future functionality.
 
-Each quorum member will have a personal wallet and shared wallets will be able to be created linked to quorums or other groups. Each wallet will have a cash balance (initially denominated in USD) and a rev point balance for each investment fund. 
+Each quorum member will have a personal wallet and shared wallets will be able to be created linked to quorums or other groups. Each wallet will have a cash balance (initially denominated in USD) and a rev point balance for each investment ledger. 
 
 Members will be able to load cash into and withdraw cash out of their personal wallets. Withdrawals will be subject to appropriate taxes, such as income tax, and categorized as independent contractor income.
 
@@ -1087,7 +1121,7 @@ A compensated req requires extra verification before completion. If the req is c
 
 ### Time Tracking System
 
-***Referenced in:** [Fulfillment Funds](#fulfillment-funds)* 
+***Referenced in:** [Fulfillment Ledgers](#fulfillment-ledgers)* 
 
 Our time tracking system is a critical part of the quorum’s operational infrastructure. At this time of this writing we are using a system called Xero to facilitate time tracking, but that may change in the future.
 
@@ -1107,31 +1141,31 @@ Each of the work areas listed below has its own set of phases which are not dire
 
 - **Bookkeeping, Time Tracking, Xero & Gusto**
     - **Phase 1 - Streamlining:** Also known as the “Financial Model v1.5” project (already underway as of this writing), this work establishes clear weekly and monthly workflows for recognizing income, linking it to accounts in Xero, processing tracked time, determining outflows, and generating detailed member summaries, and then transmitting payments via Gusto. This phase also focuses on increasing the overall bandwidth and capability of manual human bookkeeping effort we have available to support our financial processes.
-    - **Phase 2 - Standard Fund Transition:** While keeping the core (v1.5) processes largely the same, this phase would refactor them to be built around the [Standard Funds](#standard-funds). It would also focus on beginning to transition client projects into [Fulfillment Funds](#fulfillment-funds). Critically, it would include configuring our bookkeeping processes to be able to keep track of fund balances (likely as “accounts” in Xero).
-    - **Phase 3 - Custom Fund Support:** This phase would add support for operating an arbitrary set of interconnected custom funds, including support for all [Fund Types](#fund-types). It would have interdependencies with the “Fund Management” work area.
+    - **Phase 2 - Standard Ledger Transition:** While keeping the core (v1.5) processes largely the same, this phase would refactor them to be built around the [Standard Ledgers](#standard-ledgers). It would also focus on beginning to transition client projects into [Fulfillment Ledgers](#fulfillment-ledgers). Critically, it would include configuring our bookkeeping processes to be able to keep track of ledger balances (likely as “accounts” in Xero).
+    - **Phase 3 - Custom Ledger Support:** This phase would add support for operating an arbitrary set of interconnected custom ledgers, including support for all [Ledger Types](#ledger-types). It would have interdependencies with the “Ledger Management” work area.
     - **Phase 4 - Automation:** This phase would focus on streamlining the workflows built our in previous phases, automating manual processes, and improving process KPIs.
-- **Fund Management & Financial Operations (Fin Ops) Plan**
-    - **Phase 1 - Standard Fund Design & Fin Ops Beta:** This phase would focus on building out a fund design database (likely in Notion) for managing the fund designs and keeping an audit trail of all changes. It would then work to populate that database with the initial designs for the [Standard Funds](#standard-funds). It would also focus on landing draft versions of the most important parts of the [Required Components of Financial Operations Plan](#required-components-of-financial-operations-plan).
-    - **Phase 2 - Custom Fund Beta & Fin Ops v1:** This phase would land finished versions of everything in the [Required Components of Financial Operations Plan](#required-components-of-financial-operations-plan) along with any additional components which arise. It would also begin beta testing the process for letting members design and launch custom funds, testing it by focusing only on the “back-population” of custom funds for existing lines of business, quorums, and virtual companies. It would specifically not focus on creating new investment funds yet.
-    - **Phase 3 - Custom Fund v1 & Investment Fund Beta:** This phase would focus on opening up the custom fund creation process to new funds and streamlining the fund management process. It would also focus on beta testing the process for creating new investment funds, which would have interdependencies with the “Legal Work” work area.
-    - **Phase 4 - Investment Fund v1 & Streamlining:** This phase would focus additional streamlining and automation for all fund management processes. It would also work to launch the investment fund creation process more widely.
+- **Ledger Management & Financial Operations (Fin Ops) Plan**
+    - **Phase 1 - Standard Ledger Design & Fin Ops Beta:** This phase would focus on building out a ledger design database (likely in Notion) for managing the ledger designs and keeping an audit trail of all changes. It would then work to populate that database with the initial designs for the [Standard Ledgers](#standard-ledgers). It would also focus on landing draft versions of the most important parts of the [Required Components of Financial Operations Plan](#required-components-of-financial-operations-plan).
+    - **Phase 2 - Custom Ledger Beta & Fin Ops v1:** This phase would land finished versions of everything in the [Required Components of Financial Operations Plan](#required-components-of-financial-operations-plan) along with any additional components which arise. It would also begin beta testing the process for letting members design and launch custom ledgers, testing it by focusing only on the “back-population” of custom ledgers for existing lines of business, quorums, and virtual companies. It would specifically not focus on creating new investment ledgers yet.
+    - **Phase 3 - Custom Ledger v1 & Investment Ledger Beta:** This phase would focus on opening up the custom ledger creation process to new ledgers and streamlining the ledger management process. It would also focus on beta testing the process for creating new investment ledgers, which would have interdependencies with the “Legal Work” work area.
+    - **Phase 4 - Investment Ledger v1 & Streamlining:** This phase would focus additional streamlining and automation for all ledger management processes. It would also work to launch the investment ledger creation process more widely.
 - **Workstream Wallets**
     - **Phase 1 - Q1 App Suite:** As of this writing, this phase is already underway. It is focused on launching the “Quorum1 App Suite”, a technology stack which allows us to have a “network” membership tier and a Quorum1 online account linked to a suite of apps.
     - **Phase 2 - Individual Wallets:** This phase would focus on enabling individual cash wallets within the Q1 app suite, letting members load money in, pull money out, and attach cash to workstream reqs. It would implement an improved req review process to ensure that req funders are able to do a final review before cash is released.
     - **Phase 3 - Shared Wallets:** This phase would add the ability to created and managed shared wallets. It would have interdependency with the bookkeeping work area with regard to supporting shared wallets as outflow allocation targets.
 - **Rev Tokens & Rev Token Payments**
-    - **Phase 1 - First Fund Raise:** This phase is already underway as of this writing and is focused on the “minimum viable product” implementation of the rev token structure needed to raise investment. It will also set the groundwork for running the the first rounds of rev token payments via a manual spreadsheet-based process.
+    - **Phase 1 - First Ledger Raise:** This phase is already underway as of this writing and is focused on the “minimum viable product” implementation of the rev token structure needed to raise investment. It will also set the groundwork for running the the first rounds of rev token payments via a manual spreadsheet-based process.
     - **Phase 2 - Formal Implementation:** This phase would focus on launching the likely blockchain-based final implementation of rev tokens. It would culminate with all existing money investors being issued new rev tokens. It would likely stick with a manual spreadsheet-based process for managing rev token payments, but would begin the process of automating the payouts themselves (either utilizing blockchain or more traditional means or perhaps accommodating a mix).
     - **Phase 3 - Streamlining & Automation:** This phase would focus on streamlining and automating as many aspects of the rev token management and payment process as possible.
 - **Rev Points & Rev Point Payments**
-    - **Phase 1 - First Fund Raise:** This phase is already underway as of this writing and is focused on the “minimum viable product” implementation of the rev point structure needed to raise investment. It will also set the groundwork for running the the first rounds of rev point payments via a manual spreadsheet-based process.
+    - **Phase 1 - First Ledger Raise:** This phase is already underway as of this writing and is focused on the “minimum viable product” implementation of the rev point structure needed to raise investment. It will also set the groundwork for running the the first rounds of rev point payments via a manual spreadsheet-based process.
     - **Phase 2 - Q1 App Suite Implementation:** This phase would attached to the “Workstream Wallet” work area and would focus on adding rev point balances to member accounts within the Quorum1 app suite. The rev point payments themselves would still run via the manual process, but members would be able to see and manage their balances via an app. Members would also be able to link rev points to reqs.
     - **Phase 3 - Streamlining & Automation:** This phase would focus on improving the app implementation of rev points and on fully automating as many parts of the rev point payment process as possible.
 - **Legal Work**
-    - **Phase 1 - First Fund Raise:** This phase is already underway as of this writing and is focused on the “minimum viable product” implementation of the rev token and rev point structures needed to raise investment.
+    - **Phase 1 - First Ledger Raise:** This phase is already underway as of this writing and is focused on the “minimum viable product” implementation of the rev token and rev point structures needed to raise investment.
     - **Phase 2 - Formalizing Rev Tokens & Rev Points:** This phase would be interrelated with the rev token and rev point work areas above. It would focus on formalizing the legal and compliance aspects of these two key structures.
-    - **Phase 3 - Hosted Entities & Custom Investment Funds:** This phase would focus on implementing a nested legal structure (such as series LLCs) to support hosted entities which need greater separation around liability, ownership, and the like. It would also focus on laying the legal and compliance groundwork for launching additional investment funds.
-    - **Phase 4 - Formalizing Governance:** This phase is not strictly related to the Financial Model, but is important. It would likely begin much earlier and in parallel with the other phases. It would focus on gradually formalizing more aspects of our governance, including the funds, fin ops plan, and Financial Model.
+    - **Phase 3 - Hosted Entities & Custom Investment Ledgers:** This phase would focus on implementing a nested legal structure (such as series LLCs) to support hosted entities which need greater separation around liability, ownership, and the like. It would also focus on laying the legal and compliance groundwork for launching additional investment ledgers.
+    - **Phase 4 - Formalizing Governance:** This phase is not strictly related to the Financial Model, but is important. It would likely begin much earlier and in parallel with the other phases. It would focus on gradually formalizing more aspects of our governance, including the ledgers, fin ops plan, and Financial Model.
 
 ---
 
@@ -1141,7 +1175,7 @@ This section includes some explanatory walkthroughs of key scenarios along with 
 
 **These walkthroughs are intended to clarify and explain only and will not be considered binding guidance on the Financial Model or the Financial Operations Plan.** Certain details outlined below may be changed in the actual implementation without making and approving changes to this section.
 
-### Scenario Walkthrough: New Line of Business Fund Structure
+### Scenario Walkthrough: New Line of Business Ledger Structure
 
 For this example, a new line of business (LOB) is starting up focused on providing consulting services to manufacturers of widgets. They’ll be called the “Widget LOB”.
 
@@ -1149,32 +1183,32 @@ For this example, a new line of business (LOB) is starting up focused on providi
     1. They agree roughly on how they want to organize as a group, including ideally who will be the initial leaders of the group. 
     2. They’re able to pull from Quorum1’s library of organizing structures or they can create their own. 
     3. For this example: They decide to have a triad of three leaders, a group of contributors and some supporters, each with different commitment expectations.
-2. **Decision-Making Process**: The Widget LOB agrees on a governance structure they’ll use to make decisions together, but also specifically to approve and then modify their LOB’s fund design. 
+2. **Decision-Making Process**: The Widget LOB agrees on a governance structure they’ll use to make decisions together, but also specifically to approve and then modify their LOB’s ledger design. 
     1. This structure can be simple or complex. They can pick from a library of governance design options or create their own. 
-    2. For this example: They decide to start simple. They will require unanimous consent of the triad to make changes to the fund design and that significant changes must be presented to the full group for feedback first. They also decide to vote on triad members every 6 months using a liquid democracy model provided by the quorum.
-3. **Fund Structure Design**: The Widget LOB then proceeds to design their “fund structure”, a set of multiple funds which piece together to provide the financial infrastructure they’re envisioning. This process is led by their triad via a series of meetings inviting input from all LOB members. For this example, they eventually come up with a structure of the following funds:
-    1. As with all LOBs, each individual client project will have it’s own **project fulfillment fund** (see [Fulfillment Funds](#fulfillment-funds)).
-        1. Per the [Standard Income Allocations](#standard-income-allocations), because their LOB is operating under the Quorum1 brand to start, it will allocate 15% of gross revenue to the core fund.
-        2. They decide that an additional 10% of client project revenue will be allocated to their main LOB fund, to incentivize sales and reinvest in driving more business.
+    2. For this example: They decide to start simple. They will require unanimous consent of the triad to make changes to the ledger design and that significant changes must be presented to the full group for feedback first. They also decide to vote on triad members every 6 months using a liquid democracy model provided by the quorum.
+3. **Ledger Structure Design**: The Widget LOB then proceeds to design their “ledger structure”, a set of multiple ledgers which piece together to provide the financial infrastructure they’re envisioning. This process is led by their triad via a series of meetings inviting input from all LOB members. For this example, they eventually come up with a structure of the following ledgers:
+    1. As with all LOBs, each individual client project will have it’s own **project fulfillment ledger** (see [Fulfillment Ledgers](#fulfillment-ledgers)).
+        1. Per the [Standard Income Allocations](#standard-income-allocations), because their LOB is operating under the Quorum1 brand to start, it will allocate 15% of gross revenue to the core ledger.
+        2. They decide that an additional 10% of client project revenue will be allocated to their main LOB ledger, to incentivize sales and reinvest in driving more business.
         3. This means that they must have a margin of 25% on all of their project work. So, for instance, if a client project member were to want to make $150 per hour, the bill rate would need to be $200 per hour.
-    2. The **Widget LOB Main Fund** will be a pass-through fund which allocates a portion of its income to each of the remaining funds. (See [Pass-Through Funds](#pass-through-funds))
-    3. The **Widget LOB Bonus Fund** will receive 30% from the main fund and will pay out commissions to members who helped to bring in each lead and close each deal. The Widget LOB comes up with what they think is a fairly simple point system they’ll use to determine how much each person received: 1 point for the original lead, 2 for the qualification call, etc. (See [Bonus Funds](#bonus-funds))
-    4. The **Widget LOB Expense Fund** will receive 10% from the main fund and be used to pay for vendor expenses like a series of LinkedIn and Google ad programs the group is planning on running. (See [Expense Funds](#expense-funds))
-    5. A **Widget LOB Workstream Wallet** will receive 30% from the main fund, will be managed by the triad, and will be used to add cash to workstream reqs for various tasks that the group comes up with. These tasks could be content-creation-focused, such as creating ads, blog posts, or landing pages. Or they could be business development or sales activities, or anything else the group comes up with. (See [Workstream Wallets](#workstream-wallets))
-    6. A **Widget LOB Collaborative Fund** will receive 30% from the main fund and will gather money to reinvest in project initiatives. (See [Collaborative Funds](#collaborative-funds))
-        1. As with most collaborative funds, once enough money pools up the group will run a collaborative process where LOB members come up with pitches for potential projects and then vote on which receive funding.
+    2. The **Widget LOB Main Ledger** will be a pass-through ledger which allocates a portion of its income to each of the remaining ledgers. (See [Pass-Through Ledgers](#pass-through-ledgers))
+    3. The **Widget LOB Bonus Ledger** will receive 30% from the main ledger and will pay out commissions to members who helped to bring in each lead and close each deal. The Widget LOB comes up with what they think is a fairly simple point system they’ll use to determine how much each person received: 1 point for the original lead, 2 for the qualification call, etc. (See [Bonus Ledgers](#bonus-ledgers))
+    4. The **Widget LOB Expense Ledger** will receive 10% from the main ledger and be used to pay for vendor expenses like a series of LinkedIn and Google ad programs the group is planning on running. (See [Expense Ledgers](#expense-ledgers))
+    5. A **Widget LOB Workstream Wallet** will receive 30% from the main ledger, will be managed by the triad, and will be used to add cash to workstream reqs for various tasks that the group comes up with. These tasks could be content-creation-focused, such as creating ads, blog posts, or landing pages. Or they could be business development or sales activities, or anything else the group comes up with. (See [Workstream Wallets](#workstream-wallets))
+    6. A **Widget LOB Collaborative Ledger** will receive 30% from the main ledger and will gather money to reinvest in project initiatives. (See [Collaborative Ledgers](#collaborative-ledgers))
+        1. As with most collaborative ledgers, once enough money pools up the group will run a collaborative process where LOB members come up with pitches for potential projects and then vote on which receive funding.
         2. Some potential project ideas might include: Sponsoring a booth at a conference, investing in paid outbound sales, or building out a complex but potentially profitable hybrid product-service offering.
-        3. Each funded project will get its own **project fulfillment fund**, with a budget and members and cost rates, just like a client project except that the margin will be 0%. (See [Fulfillment Funds](#fulfillment-funds))
-4. **Fund Launch:** With the fund structure design in hand, the Widget LOB works with the Foundation to get their new funds launched! They follow the workflow outlined in the [Fund Management Process](#fund-management-process).
-    1. Team Finance reviews their fund designs and works with them to make sure everything is possible to implement. 
-    2. In some cases Team Finance might suggest changes to the fund designs (for instance, simplifying the logic used in the bonus fund so that it’s easier to implement), working with the triad to get their approval (in accordance with the governance process defined by the LOB members).
+        3. Each funded project will get its own **project fulfillment ledger**, with a budget and members and cost rates, just like a client project except that the margin will be 0%. (See [Fulfillment Ledgers](#fulfillment-ledgers))
+4. **Ledger Launch:** With the ledger structure design in hand, the Widget LOB works with the Foundation to get their new ledgers launched! They follow the workflow outlined in the [Ledger Management Process](#ledger-management-process).
+    1. Team Finance reviews their ledger designs and works with them to make sure everything is possible to implement. 
+    2. In some cases Team Finance might suggest changes to the ledger designs (for instance, simplifying the logic used in the bonus ledger so that it’s easier to implement), working with the triad to get their approval (in accordance with the governance process defined by the LOB members).
     3. In other cases Team Finance might work with Team Ops and/or Team Build to add functionality to the base platform in order to better support the Widget LOB’s vision.
-    4. As part of launching the funds, all of the funds are setup in our bookkeeping system as virtual accounts. The expense fund is created as an actual “virtual” bank account within our Relay bank account, with its own routing number and debit card(s). The triad is given the ability to manage these accounts themselves.
-5. **Fund Operation:** As money flows into the fund, Team Finance handles the bookkeeping and delivers weekly reports to the LOB on their various fund balances and transactions. Any errors or issues can be reported to Team Finance and they work to promptly resolve them.
-6. **Rev Points:** Going forward, the Widget LOB Main Fund may also receive [Rev Points](#rev-points) from the [Org Investment Fund](#org-investment-fund) that the LOB can use as an additional form of compensation. 
+    4. As part of launching the ledgers, all of the ledgers are setup in our bookkeeping system as virtual accounts. The expense ledger is created as an actual “virtual” bank account within our Relay bank account, with its own routing number and debit card(s). The triad is given the ability to manage these accounts themselves.
+5. **Ledger Operation:** As money flows into the ledger, Team Finance handles the bookkeeping and delivers weekly reports to the LOB on their various ledger balances and transactions. Any errors or issues can be reported to Team Finance and they work to promptly resolve them.
+6. **Rev Points:** Going forward, the Widget LOB Main Ledger may also receive [Rev Points](#rev-points) from the [Org Investment Ledger](#org-investment-ledger) that the LOB can use as an additional form of compensation. 
     1. For instance, they could move some rev points to their workstream wallet and link them to reqs.
-    2. Or they could allocate them to project funds and specify a certain number of rev points per hour in addition to project member cash compensation.
-    3. Or they could direct some rev points to the bonus fund and incorporate them into their bonus structure.
+    2. Or they could allocate them to project ledgers and specify a certain number of rev points per hour in addition to project member cash compensation.
+    3. Or they could direct some rev points to the bonus ledger and incorporate them into their bonus structure.
     4. Whatever the LOB decides to do with its rev points, they have a high degree of autonomy in their decision-making. However, if they do not do anything with the rev points they may be “reallocated” to other groups after a certain period of time (see [Rev Point Pools & Plans](#rev-point-pools--plans)).
 
 ### Scenario Walkthrough: Client Consulting Revenue Flow
@@ -1184,26 +1218,26 @@ This scenario walks through how revenue from a consulting project with Acme Corp
 1. **Scoping the Deal:** After discussing the project with Acme, Jane built a cost model using one of a wide variety of templates provided by the Foundation. 
     1. She design the project to be billed hourly. 
     2. The project has three members, two will make $120 per hour, the other is Jane herself, making $150 per hour. These are the “cost rates”. She determined them by searching for qualified members whose rates were within a margin she knew would work for the client’s budget.
-    3. Per the [Standard Income Allocations](#standard-income-allocations) she will need to ensure that 20% of the margin goes to the core fund. She decides to add on an additional “top-line allocation” of 10% to herself as a commission for bringing in the deal.
+    3. Per the [Standard Income Allocations](#standard-income-allocations) she will need to ensure that 20% of the margin goes to the core ledger. She decides to add on an additional “top-line allocation” of 10% to herself as a commission for bringing in the deal.
     4. This means that she needs a margin of 30% on everyone’s time (including her own). That means that the two project members will be billed at ~$172 per hour, and the third (herself) ~$215. These are the “bill rates” and they are calculated by working backwards to achieve a gross margin of 30%: for example, $120 / 70% = $171.4 or about $172.
     5. The project is designed with a budget of $15,000 and an initial deposit of $5,000 invoiced at signing. The client is to be invoiced monthly for the hours worked in each month, with the deposit being credited towards the final invoice.
 2. **Closing the Deal:** A new client project is brought in by Jane Lee from her personal network.
     1. The deal is closed when Acme Corp signs a master services agreement (MSA) with an attached statement of work (SOW). 
-    2. Upon contract signing, Team Finance creates a new **project fulfillment fund** for the project and invoices Acme for the deposit amount of $5,000 specified in the SOW. (See [Fulfillment Funds](#fulfillment-funds)).
-    3. When that deposit is received it is credited to the **project fulfillment fund** but the revenue is not yet recognized since the work hasn’t yet been performed.
+    2. Upon contract signing, Team Finance creates a new **project fulfillment ledger** for the project and invoices Acme for the deposit amount of $5,000 specified in the SOW. (See [Fulfillment Ledgers](#fulfillment-ledgers)).
+    3. When that deposit is received it is credited to the **project fulfillment ledger** but the revenue is not yet recognized since the work hasn’t yet been performed.
 3. **Doing the Work:** As the project members perform the work, they track their time in our [Time Tracking System](#time-tracking-system).
-    1. Team Finance & Team Ops run a weekly process for the **project fulfillment fund** which tabulates the hours worked by each project member and how much money is left in the overall budget. This process also determines how much money each project member is due to earn from their work that week, including the 10% commissions top-line allocation to Jane Lee.
+    1. Team Finance & Team Ops run a weekly process for the **project fulfillment ledger** which tabulates the hours worked by each project member and how much money is left in the overall budget. This process also determines how much money each project member is due to earn from their work that week, including the 10% commissions top-line allocation to Jane Lee.
     2. Each week the project members receive statements of their earnings (Jane’s statement includes her commissions and her hourly earnings) and the project lead (Jane Lee) receives an overall budget progress statement.
-    3. During this process, Team Finance also begin to pay out the project members each week, until the initial deposit amount is depleted. Once the deposit amount is depleted, project member earnings statements will continue to be generated but they won’t be paid until more funds are received.
-    4. Each time that project member payments are processed, that revenue is officially “recognized”. The 20% top-line allocation to the core fund is also processed then, but only on that specific payment amount, to ensure that money does not flow into downstream funds until it is recognized. That is explained more below.
-4. **Core Fund Allocation:** Each time project revenue is recognized (aka “fulfilled”), 20% is allocated to the core fund.
-    1. For example if in the first week, there was $3,000 of total fulfilled revenue then 20% or $600 will be allocated to the [Core Fund](#core-fund) .
-    2. From there the core fund must allocate a portion to each of the other [Standard Funds](#standard-funds), the precise split is defined in the core fund allocation model, which is part of the Financial Operations Plan and managed by the Foundation.
+    3. During this process, Team Finance also begin to pay out the project members each week, until the initial deposit amount is depleted. Once the deposit amount is depleted, project member earnings statements will continue to be generated but they won’t be paid until more money is received.
+    4. Each time that project member payments are processed, that revenue is officially “recognized”. The 20% top-line allocation to the core ledger is also processed then, but only on that specific payment amount, to ensure that money does not flow into downstream ledgers until it is recognized. That is explained more below.
+4. **Core Ledger Allocation:** Each time project revenue is recognized (aka “fulfilled”), 20% is allocated to the core ledger.
+    1. For example if in the first week, there was $3,000 of total fulfilled revenue then 20% or $600 will be allocated to the [Core Ledger](#core-ledger) .
+    2. From there the core ledger must allocate a portion to each of the other [Standard Ledgers](#standard-ledgers), the precise split is defined in the core ledger allocation model, which is part of the Financial Operations Plan and managed by the Foundation.
 5. **Investor Rev Share:**
-    1. There are 6 other standard funds which will receive a portion of the $600 allocated to the core fund in the prior step. 
-    2. But in this example we’ll trace the path back out to investors. So for that we care about the portion that goes to the [Org Investment Fund](#org-investment-fund). For this example let’s say that the core fund allocation model specifies that 20% goes to the org investment fund. This means that $120 goes to the org investment fund as a rev share inflow. (See [Investment Fund Inflows & Outflows](#investment-fund-inflows--outflows))
-    3. That $120 and all of the other rev share inflows then pile up over in the org investment fund, waiting for the next round of [Rev Token Payments](#rev-token-payments) (which by this point are happening on a monthly basis).
-    4. When the next monthly rev token payment happens, for this example let’s say that there is a total of $10,000 which has piled up and is ready to be paid out. This is done by using the rev token weighting algorithm (which for the org investment fund is an equal proportion to each based on their respective full values).
+    1. There are 6 other standard ledgers which will receive a portion of the $600 allocated to the core ledger in the prior step. 
+    2. But in this example we’ll trace the path back out to investors. So for that we care about the portion that goes to the [Org Investment Ledger](#org-investment-ledger). For this example let’s say that the core ledger allocation model specifies that 20% goes to the org investment ledger. This means that $120 goes to the org investment ledger as a rev share inflow. (See [Investment Ledger Inflows & Outflows](#investment-ledger-inflows--outflows))
+    3. That $120 and all of the other rev share inflows then pile up over in the org investment ledger, waiting for the next round of [Rev Token Payments](#rev-token-payments) (which by this point are happening on a monthly basis).
+    4. When the next monthly rev token payment happens, for this example let’s say that there is a total of $10,000 which has piled up and is ready to be paid out. This is done by using the rev token weighting algorithm (which for the org investment ledger is an equal proportion to each based on their respective full values).
     5. If there happened to be 10 active rev token recipients, each with an equal full value of rev tokens, that would yield each of them getting 10% or $1,000 in rev token payments that month. 
     6. The received value of each rev token would increase by the amount it received, decreasing its remaining full value by that amount.
 

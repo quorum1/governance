@@ -144,6 +144,7 @@ Each Contribution has the following roles associated with it, collectively refer
 - **Drafters:** One or more Contributors who help draft and iterate the Contribution.
 - **Supporters:** One or more Members who help advise and support the process, but do not directly contribute.
 - **Sponsors:** One or more Partners who guide the Contribution through the approval process.
+- **Steward:** Able to expedite approvals.
 
 ### Step 1 - Drafting
 
@@ -169,14 +170,14 @@ If used, this step will also result in merging the Contribution Teams.
 
 ### Step 4 - Approvals
 
-The final step is for the Sponsors to formally submit the Contribution for Partner approval. 
+The final step is for the Sponsors to formally submit the Contribution for approval. The approval may proceed via the normal process or the expedited process.
 
 The precise method of this submission, and the review process itself is defined by the Release Point as part of their workflow design. But it must meet the following criteria:
 - The Sponsors should create a pull request from the Contribution Branch into the Working Release Branch. The pull request should include:
   - All requisite context needed in order for Partners to render an informed vote.
   - A short video walkthrough which explains the reasoning behind the contribution and walks through the changes.
   - Important Note: Any videos & supporting materials which are stored outside of Github *must* be stored in a place where they can be maintained indefinitely, and in a manner which is aligned with the RP's workflow design for the Release. Cloud-based apps which are not part of Quorum1's long-term systems plan (such as Loom) are not acceptable.
-- Partners must be able to vote in a manner aligned with these requirements:
+- **Normal Approval Process:** Partners must be able to vote in a manner aligned with these requirements:
   - Voting is asynchronous (though synchronous sessions can be supported as long as they are optional)
   - Votes must produce a permanent verifiable audit trail
   - Partners may vote to approve or reject the Contribution
@@ -189,6 +190,12 @@ The precise method of this submission, and the review process itself is defined 
     - The full details of the vote must be recorded on the pull request.
     - 75% or greater approval causes the Contribution to be approved.
     - Less than 75% approval (or a veto from the Steward) causes the Contribution to be rejected.
+- **Expedited Approval Process:** This process may be used when increased speed is desireable.
+  - The Sponsors may request that the Steward expedite the approval process.
+  - If the Steward agrees, then the full Partner approval process above is still followed, but with the Sponsors and the Steward (and potentially other Partners as requested by the Steward) standing in for all of the Partners.
+  - The approval process must include at least two Partners, including the Steward. This means that if the Steward is also the only Sponsor, then at least one additional Partner must be included in the approval process.
+  - Note 1: Even during an expedited approval process, a pull request meeting the requirements above must be created.
+  - Note 2: The expedited approval process only applies to in the Development Process of specific Contributions. All changes must eventually be reviewed by the full Partner group during Release finalization.
 - Rejected Contributions have their pull request closed. They may be tweaked and resubmitted later.
 - Approved Contributions have their pull request approved (by both the Release Point and the Steward) and are then merged into the Working Release Branch.
 
