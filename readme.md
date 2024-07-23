@@ -1,10 +1,20 @@
-# Quorum1 Governance Repo - Release 2
+# Quorum1 Governance Repo - Release 3 (WORK IN PROGRESS)
 
 This repo contains Quorum1's official governance processes and models. 
 
 Quorum1 is a professional collective. Our website is at: https://quorum.one
 
 Our governance repo is hosted on Github and managed using branches, pull requests, and other Git-based tools. The audit history of changes to this repo is considered part of Quorum1's public record.
+
+## Release 3 Task List
+
+- [ ] Build org investment ledger design doc (must align with requirements outlined in financial model)
+- [ ] Q-Git Flow: Make required updates for Release 3 (around member review)
+- [ ] Add Existing Doc: Community Member Agreement
+- [ ] Add Existing Doc: Operating Agreement
+- [ ] Add Existing Doc: Rules & Regulations
+- [ ] Add Existing Doc: Contributor Agreement
+- [ ] Small Update: Let RP change readmes during first push of working release (or more often?)
 
 ## Structure of this Repo
 
@@ -13,13 +23,13 @@ Our governance repo is hosted on Github and managed using branches, pull request
 
 ## Current Status of our Governance Repo
 
-This is Release 2, the current live release.
+This is Release 3, working release.
 
 We are still in the process of porting our entire governance structure into this repo. Prior to June 2024 our governance structures have been managed in many different places. This repo is an effort to unify those pieces in order to increase transparency, streamline change management, and facilitate greater collaboration.
 
 **Roadmap:**
-- Release 3: Build Investment Ledger Design Doc & Change Flow
-- Release 4 & Beyond: Migrate remaining structures (Operating Agreement, Rules & Regs, Member Agreements, etc)
+- Release 4: TBD
+- Release 5: TBD
 
 ## Why is Quorum1's governance structure managed on Github?
 
