@@ -89,13 +89,13 @@ A member may, for failure to comply with these Rules and Regulations, standards,
 
 ### Section 3.01. **Initial Governance Model.**
 
-	The Organization will be initially operated with an Initial Governance Model (“IMG”) that allows the OP to propose organization and operational changes, modifications, expansions to the Partner Members. The OP’s proposals must be approved by 75% of a quorum of  the Organization’s Partner Members. 
+The Organization will be initially operated with an Initial Governance Model (“IMG”) that allows the OP to propose organization and operational changes, modifications, expansions to the Partner Members. The OP’s proposals must be approved by 75% of a quorum of  the Organization’s Partner Members. 
 
 The Initial Governance Model remains in effect until the Organization reaches the later of Critical Mass (Critical Mass defined as when client project revenue is greater than $200,000 in a single month) or September 1st, 2025.  
 
 ### Section 3.02. **Formal Governance Model.**
 
-	The Organization must replace the IMG with a Formal Governance Model (“FGM”) for the Organization’s operations within sixty (60) days of the later of reaching Critical Mass or September 1, 2025. 
+The Organization must replace the IMG with a Formal Governance Model (“FGM”) for the Organization’s operations within sixty (60) days of the later of reaching Critical Mass or September 1, 2025. 
 
 The OP must propose the FGM to the Organization’s Partner Members.  
 The Formal Governance Model must be approved by 75% (seventy  five percent) of the Organization’s Partner Members and must contain the following elements:
@@ -109,7 +109,7 @@ The Formal Governance Model must be approved by 75% (seventy  five percent) of t
 
 ### Section 4.01. **Organizational Structure.**
 	
-	The Organization shall function with a cooperative management structure and leadership style consisting of the OP and Partner Members involving all levels of membership including, Sub-Quorums, and member-elected Point Representatives.
+The Organization shall function with a cooperative management structure and leadership style consisting of the OP and Partner Members involving all levels of membership including, Sub-Quorums, and member-elected Point Representatives.
 
 ### Section 4.02. **Organization Quorum.**
 
@@ -121,9 +121,9 @@ Anything not assigned to a specific Sub-Quorum is the responsibility of the Org 
 
 ### Section 4.03. **Organizational Point.**
 	
-	This is the elected leader of the Organization, whose duty it is to manage the Org Quorum and the operations of the Sub-Quorums. 
+This is the elected leader of the Organization, whose duty it is to manage the Org Quorum and the operations of the Sub-Quorums. 
 
-	During the IGM, Hank Holiday will be Acting OP until the adoption of the FGM takes place, and a new OP is elected, which new OP may be Hank Holiday if he is duly elected.
+During the IGM, Hank Holiday will be Acting OP until the adoption of the FGM takes place, and a new OP is elected, which new OP may be Hank Holiday if he is duly elected.
 
 
 ### Section 4.04. **Sub-Quorums.**
@@ -161,11 +161,11 @@ All decisions to sign a contract with a new client should have the approval of a
 
 ### Section 6.01. **Adoption of Financial Model.**
 	
-	As part of the FGM proposal, a full and complete Financial Model must be proposed by the OP and approved by 75% (seventy five percent) of the Organization’s Partner Members.
+As part of the FGM proposal, a full and complete Financial Model must be proposed by the OP and approved by 75% (seventy five percent) of the Organization’s Partner Members.
 
 ### Section 6.02. **Financial Model Requirements.**
 
-	The Financial Model of the Organization must have these points established and defined at all times:
+The Financial Model of the Organization must have these points established and defined at all times:
 1. A credit system in which credits are defined as an internal currency of members, including
 	1. How the credits are earned; and 
 	1. How the credits can be spent.
@@ -180,7 +180,7 @@ The Financial Model may be revised from time to time by the vote of 75% of the P
 
 ### Section 6.04. **Documentation of Financial Model.**
 
-	The current and approved Financial Model must be available to all members in a password protected Business System.
+The current and approved Financial Model must be available to all members in a password protected Business System.
 
 ## SECTION 7. BUSINESS SYSTEMS.
 
@@ -198,11 +198,11 @@ All relevant Organization members must be given appropriate access to each Busin
 
 ### Section 7.03. **Business System Documentation.**
 
-	A list of all the currently used Business Systems must be documented in the Org Wiki which is maintained by the Business System Sub-Quorum. 
+A list of all the currently used Business Systems must be documented in the Org Wiki which is maintained by the Business System Sub-Quorum. 
 
-	A list of all Business Systems used in the past must be listed on the Archived List of Business Systems. 
+A list of all Business Systems used in the past must be listed on the Archived List of Business Systems. 
 
-	A list of all Business Systems that are being considered for the Organization, regardless of the area of the Organization using them, must be listed on the Candidate Business Systems and maintained in the Org Wiki. 
+A list of all Business Systems that are being considered for the Organization, regardless of the area of the Organization using them, must be listed on the Candidate Business Systems and maintained in the Org Wiki. 
 
 ### Section 7.04. **Business System Selection.**
 
