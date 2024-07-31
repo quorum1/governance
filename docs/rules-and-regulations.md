@@ -1,11 +1,9 @@
 
-**RULES AND REGULATIONS**
-**OF**
-**QUORUM ONE**
+# RULES AND REGULATIONS OF QUORUM ONE
 
-**SECTION 1. Organization.**
+## SECTION 1. Organization.
 
-Section 1.01. **Name and Status.**  
+### Section 1.01. Name and Status.
 
 The name of the organization is Quorum One, LLC (referred to in these Rules and Regulations as the “Organization”). 
 
