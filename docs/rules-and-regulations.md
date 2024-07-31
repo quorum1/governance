@@ -3,49 +3,49 @@
 
 ## SECTION 1. Organization.
 
-### Section 1.01. **Name and Status.**
+### Section 1.01. Name and Status.
 
 The name of the organization is Quorum One, LLC (referred to in these Rules and Regulations as the “Organization”). 
 
-### Section 1.02. **Nondiscrimination.**
+### Section 1.02. Nondiscrimination.
 
 The Organization shall not arbitrarily discriminate on the basis of race, nationality, religion, age, gender, sexual orientation, disability, political affiliation, or otherwise.
 
-## SECTION 2. **Membership.**
+## SECTION 2. Membership.
 
-### Section 2.01. **Classification of members.** 
+### Section 2.01. Classification of members.
 
 The Organization shall have three classes of members: 
-a. Partners (Organizational Owners)
-b. Contributor 
-c. Community members
+1. Partners (Organizational Owners)
+1. Contributor 
+1. Community members
  
 ### Section 2.02. **Membership Qualifications.**  
 
 Any person may become and remain a member of this Organization by:
-- Being sponsored by an existing member; and
-- Meeting the qualifications set forth for each Membership Classification; and  
-Making full payment of any non-refundable membership fee as set forth in Section 2.06 of these Rules and Regulations. 
+1. Being sponsored by an existing member; and
+1. Meeting the qualifications set forth for each Membership Classification; and  
+1. Making full payment of any non-refundable membership fee as set forth in Section 2.06 of these Rules and Regulations. 
 
 ### Section 2.03. **Membership Qualifications by Classification.**  
 
 The initial qualifications for each classification of membership are as follows:
-Community member:
-Community member must have and be able to clearly articulate an interest in one or more of the Organization’s Industries of Practice; or
-Community member must have an active Partner or Contributor, to act as their Sponsor and provide a recommendation; and 
-Membership nomination must be seconded by a Partner or Contributor.
-Must agree to these Rules and Regulations and sign a Community Member Agreement. 
+1. Community member:
+	1. Community member must have and be able to clearly articulate an interest in one or more of the Organization’s Industries of Practice; or
+	1. Community member must have an active Partner or Contributor, to act as their Sponsor and provide a recommendation; and 
+	1. Membership nomination must be seconded by a Partner or Contributor.
+	1. Must agree to these Rules and Regulations and sign a Community Member Agreement. 
 
-Contributor member:
-Meets all Community criteria; and
-Nomination must be seconded by a Partner or Contributor.
-Appointment must be approved by Org Point (“OP”) or OP’s delegate(s).
-Meets technical criteria for Organization’s Industries of Practice, as demonstrated by a combination of education and practical experience and as determined by the individual who nominated the prospective Contributor  and the person who seconded such nomination. 
+1. Contributor member:
+	1. Meets all Community criteria; and
+	1. Nomination must be seconded by a Partner or Contributor.
+	1. Appointment must be approved by Org Point (“OP”) or OP’s delegate(s).
+	1. Meets technical criteria for Organization’s Industries of Practice, as demonstrated by a combination of education and practical experience and as determined by the individual who nominated the prospective Contributor  and the person who seconded such nomination. 
 
-Partner Member: 
-Meets all Contributor Criteria; and
-Membership must be approved by the unanimous consent of a quorum of the Partner Members.  A quorum for purposes of this section shall mean the vote of at least 75% of the Partner Members. 
-Meets technical criteria for Partner, as demonstrated by a combination of education and practical experience and as determined by the individual who nominated the prospective Partner and the person who seconded such nomination.  Such Partner shall at a minimum have experience successfully leading client projects for the Organization or another entity of comparable stature to the Organization.  
+1. Partner Member: 
+	1. Meets all Contributor Criteria; and
+	1. Membership must be approved by the unanimous consent of a quorum of the Partner Members.  A quorum for purposes of this section shall mean the vote of at least 75% of the Partner Members. 
+	1. Meets technical criteria for Partner, as demonstrated by a combination of education and practical experience and as determined by the individual who nominated the prospective Partner and the person who seconded such nomination.  Such Partner shall at a minimum have experience successfully leading client projects for the Organization or another entity of comparable stature to the Organization.  
 
 ### Section 2.04. **Membership Upgrades.** 
 
@@ -55,7 +55,9 @@ Once a member’s level is upgraded, the member keeps that level for the remaind
  
 ### Section 2.05. **Inactive Status.** 
 
-A member who becomes delinquent by three months in membership fees (if applicable) or who fails to meet the qualifications and conditions, as set forth in these Rules and Regulations, of active status, shall be considered an Inactive member. An inactive member’s benefits and voting rights shall be suspended until active status can be achieved by the member.  Active status can be achieved by (i) becoming current on all membership fees and (ii) meeting qualifications and conditions.
+A member who becomes delinquent by three months in membership fees (if applicable) or who fails to meet the qualifications and conditions, as set forth in these Rules and Regulations, of active status, shall be considered an Inactive member. An inactive member’s benefits and voting rights shall be suspended until active status can be achieved by the member.  Active status can be achieved by
+	1. becoming current on all membership fees and
+ 	1. meeting qualifications and conditions.
  
 ### Section 2.06. **Fees.**
  
@@ -66,11 +68,11 @@ Partner Fees. A monthly or annual non-refundable membership fee, in an amount se
  
 Each membership level has separate and distinct voting rights as outlined below:
 
-Community member: Community members hold limited voting rights and are able to vote on Community issues identified by Partner Members. 
+1. **Community member:** Community members hold limited voting rights and are able to vote on Community issues identified by Partner Members. 
 
-Contributor: Contributors are limited voting members and are able to vote on  Contributor issues identified by Partner Members. 
+1. **Contributor:** Contributors are limited voting members and are able to vote on  Contributor issues identified by Partner Members. 
 
-Partner Memberships: Partners are full voting members.
+1. **Partner Memberships:** Partners are full voting members.
 
 In order for a vote by the members to be valid a quorum of the members of such voting member class must have voted.  A quorum shall consist of at least 75% of the members or voting member class.
  
@@ -98,10 +100,10 @@ The Initial Governance Model remains in effect until the Organization reaches th
 The OP must propose the FGM to the Organization’s Partner Members.  
 The Formal Governance Model must be approved by 75% (seventy  five percent) of the Organization’s Partner Members and must contain the following elements:
 
-A clear and defined democratic process of voting for the new OP and all the Sub-Quorum Points ; and 
-Clear and defined processes and procedures for decision-making authority; and 
-A clear and defined democratic process for voting, to be known as “the Voting Model”; and
-A clear and defined  financial process, known as the Financial Model; and
+1. A clear and defined democratic process of voting for the new OP and all the Sub-Quorum Points ; and 
+1. Clear and defined processes and procedures for decision-making authority; and 
+1. A clear and defined democratic process for voting, to be known as “the Voting Model”; and
+1. A clear and defined  financial process, known as the Financial Model; and
 
 ## SECTION 4. **Organizational Layout.** 
 
@@ -130,14 +132,14 @@ Sub-Quorums consist of members of the Organization tasked with specific purposes
 
 The Organization will endeavor to have these core Sub-Quorums at all times:
 
-Sales – Responsible for selling, business development, and account management of the Organization.
-Marketing - Responsible for marketing, advertising, brand, outbound social media of the Organization.
-Operations - Responsible for project & work execution of the Organization.
-Finance - Responsible for management of money, payments, bookkeeping, and profitability management of the Organization.
-Business Systems - Responsible for IT, software-as-a-service, internal processes of the Organization. 
-Professional Development - Responsible for member training, mentorship, and all personnel management of the Organization
-Recruiting - Responsible for on-boarding new members, managing project & role assignments of the Organization.
-Legal - Responsible for compliance, contracts, internal rule enforcement, and dispute resolution of the Organization. 
+1. Sales – Responsible for selling, business development, and account management of the Organization.
+1. Marketing - Responsible for marketing, advertising, brand, outbound social media of the Organization.
+1. Operations - Responsible for project & work execution of the Organization.
+1. Finance - Responsible for management of money, payments, bookkeeping, and profitability management of the Organization.
+1. Business Systems - Responsible for IT, software-as-a-service, internal processes of the Organization. 
+1. Professional Development - Responsible for member training, mentorship, and all personnel management of the Organization
+1. Recruiting - Responsible for on-boarding new members, managing project & role assignments of the Organization.
+1. Legal - Responsible for compliance, contracts, internal rule enforcement, and dispute resolution of the Organization. 
 
 ### Section 4.05. **Sub-Quorums Points.**
 
@@ -164,13 +166,13 @@ All decisions to sign a contract with a new client should have the approval of a
 ### Section 6.02. **Financial Model Requirements.**
 
 	The Financial Model of the Organization must have these points established and defined at all times:
-A credit system in which credits are defined as an internal currency of members, including
-How the credits are earned; and 
-How the credits can be spent.
-A profit allocation mechanism which calculates, allocates, and distributes profits. 
-Examination of net profit and gross profit.
-A process for the creation and management of the Organization’s budget, which also endeavors to keep the Organization’s capital reserve fund at a sufficient level. 
-The prioritization of the allocation of income and expenses. 
+1. A credit system in which credits are defined as an internal currency of members, including
+	1. How the credits are earned; and 
+	1. How the credits can be spent.
+1. A profit allocation mechanism which calculates, allocates, and distributes profits. 
+1. Examination of net profit and gross profit.
+1. A process for the creation and management of the Organization’s budget, which also endeavors to keep the Organization’s capital reserve fund at a sufficient level. 
+1. The prioritization of the allocation of income and expenses. 
 
 ### Section 6.03. **Changes to the Financial Model.**
 
