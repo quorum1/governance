@@ -56,8 +56,8 @@ Once a member’s level is upgraded, the member keeps that level for the remaind
 ### Section 2.05. **Inactive Status.** 
 
 A member who becomes delinquent by three months in membership fees (if applicable) or who fails to meet the qualifications and conditions, as set forth in these Rules and Regulations, of active status, shall be considered an Inactive member. An inactive member’s benefits and voting rights shall be suspended until active status can be achieved by the member.  Active status can be achieved by
-	1. becoming current on all membership fees and
- 	1. meeting qualifications and conditions.
+1. becoming current on all membership fees and
+ 1. meeting qualifications and conditions.
  
 ### Section 2.06. **Fees.**
  
