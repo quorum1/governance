@@ -13,19 +13,23 @@ The Organization shall not arbitrarily discriminate on the basis of race, nation
 
 ## SECTION 2. **Membership.**
 
-### Section 2.01. **Classification of members.** The Organization shall have three classes of members: 
+### Section 2.01. **Classification of members.** 
+
+The Organization shall have three classes of members: 
 a. Partners (Organizational Owners)
 b. Contributor 
 c. Community members
  
-### Section 2.02. **Membership Qualifications.**  Any person may become and remain a member of this Organization by:
+### Section 2.02. **Membership Qualifications.**  
 
+Any person may become and remain a member of this Organization by:
 - Being sponsored by an existing member; and
 - Meeting the qualifications set forth for each Membership Classification; and  
 Making full payment of any non-refundable membership fee as set forth in Section 2.06 of these Rules and Regulations. 
 
-### Section 2.03. **Membership Qualifications by Classification.**  The initial qualifications for each classification of membership are as follows:
+### Section 2.03. **Membership Qualifications by Classification.**  
 
+The initial qualifications for each classification of membership are as follows:
 Community member:
 Community member must have and be able to clearly articulate an interest in one or more of the Organization’s Industries of Practice; or
 Community member must have an active Partner or Contributor, to act as their Sponsor and provide a recommendation; and 
