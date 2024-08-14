@@ -4,13 +4,13 @@ This agreement defines how Quorum1 (also referred to as “the quorum”) handle
 
 ---
 
-# Governance
+# Context of this Doc
 
 This document is formally referred to as the **Quorum1 Financial Model Definition**, or more casually as the **Financial Model**. 
 
-The **Financial Model** is a living document. Changes to the Quorum1 Financial Model Definition are governed by the [Change Process for Financial Model Definition](#change-process-for-financial-model-definition).
+The **Financial Model** is a living document.
 
-The operational implementation of the Financial Model is referred to as the **Financial Operations Plan**. Any details that are not defined in the Financial Model can be defined in the Financial Operations Plan. The Financial Operations Plan is managed more fluidly than the Financial Model itself and is documented separately. It must comply with the [Required Components of Financial Operations Plan](#required-components-of-financial-operations-plan). Changes are governed by the [Change Process for Financial Operations Plan](#change-process-for-financial-operations-plan).
+The operational implementation of the Financial Model is referred to as the [Financial Operations Plan](./glossary.md#financial-operations-plan). Any details that are not defined in the Financial Model can be defined in the Financial Operations Plan. The Financial Operations Plan is managed more fluidly than the Financial Model itself and is documented separately.
 
 ---
 
