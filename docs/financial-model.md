@@ -6,7 +6,7 @@ This agreement defines how Quorum1 (also referred to as “the quorum”) handle
 
 # Preamble
 
-## Context of this Doc
+## Context
 
 This document is formally referred to as the **Quorum1 Financial Model Definition**, or more casually as the **Financial Model**. 
 
@@ -25,13 +25,13 @@ The operational implementation of the Financial Model is referred to as the [Fin
 
 Ledgers are Quorum1’s financial accounts. Ledgers have inflows of money and rev points, can hold money and rev points, and have outflows of money and rev points. Ledgers can also award rev points.
 
-The ledger management infrastructure is maintained by Team Finance. There are a fixed set of [Standard Ledgers](#standard-ledgers) set out in this document, but the full database of ledgers will evolve organically over time, supporting an emergent financial design for the quorum. 
+There are a fixed set of [Standard Ledgers](#standard-ledgers) set out in this document, but the full database of ledgers will evolve organically over time, supporting an emergent financial design for the quorum. 
 
-Team Finance manages the working database of all ledgers and defines clear processes for creating, changing, and retiring ledgers (the [Ledger Management Process](#ledger-management-process)). Team Finance is also responsible for maintaining permanent audit trails of all ledgers, changes to ledgers, and ledger activity.
+The ledger management infrastructure is maintained by Team Finance, including the management of the working database of all ledgers and the definition of the [Ledger Management Process](#ledger-management-process). Team Finance is also responsible for maintaining permanent audit trails of all ledgers, changes to ledgers, and ledger activity.
 
-## Key Properties of a Ledger
+## Required Properties of a Ledger
 
-Below are some of the most important properties that make up a ledger’s design.
+Below are the main properties of a ledger. Collectively, all of a ledger's properties are referred to as the "ledger design".
 
 - **Ledger Manager:** A single contributor or partner member who is responsible for interfacing with Team Finance and assisting with the management and administration of the ledger.
 - **Ledger Type:** The available types and their features are defined in this document.
