@@ -215,6 +215,3 @@ Any Business System which may be procured by the Organization free of charge whi
 Once a Business System has been approved by a majority of the Partner Members, or is recommended by the Business System Point, it must also be approved by the OP, Business Systems Point, and Finance Point prior to the purchase of such Business Systems. 
 
 Access to Paid Systems may be rationed when needed (in order to manage costs) according to an objective calculation approved by the consent of 75% of the OP, Business Systems Point, and Finance Point.
-
-
-**[ END OF DOCUMENT ]**

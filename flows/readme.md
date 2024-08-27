@@ -22,3 +22,9 @@ The Q-Git Flow (QGF) is our base change flow. For now, all of our other flows in
 
 Specifies additional steps required for changing the Financial Model.
 
+### Org Investment Ledger Governance Flow
+
+**Scope:** Only changes to the `/docs/org-investment-ledger-design.md` are in-scope for this flow.
+
+Defines the governance process for the Org Investment Ledger as required by the Financial Model.
+

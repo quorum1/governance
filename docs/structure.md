@@ -48,7 +48,7 @@ The Foundation is led by the Managing Partners, a group of up to three members. 
 
 The Platform also serves to host other “virtual” business entities which exist in order support entrepreneurial innovation and revenue generation. These Hosted Entities operate with a high degree of financial and creative autonomy and contribute financial support back to the Org and the Foundation.
 
-The types of hosted entities are listed below. The process for creating, changing, and retiring hosted entities is defined by the [Hosted Entity Management Process](#hosted-entity-management-process). Hosted entities will be established as separate legal entities as needed.
+The types of hosted entities are listed below. The process for creating, changing, and retiring hosted entities is defined by the Foundation. Hosted entities will be established as separate legal entities as needed.
 
 Each hosted entity is also considered a quorum, has a triad and a point, and is able to define its own governance process.
 
