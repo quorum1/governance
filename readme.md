@@ -10,7 +10,7 @@ Our governance repo is hosted on Github and managed using branches, pull request
 
 - [ ] Build org investment ledger design doc (must align with requirements outlined in financial model)
 - [ ] Q-Git Flow: Make required updates for Release 3 (around member review)
-- [ ] Add Existing Doc: Community Member Agreement
+- [X] Add Existing Doc: Community Member Agreement
 - [ ] Add Existing Doc: Operating Agreement
 - [ ] Add Existing Doc: Rules & Regulations
 - [X] Add Existing Doc: Contributor Agreement
