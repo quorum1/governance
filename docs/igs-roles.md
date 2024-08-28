@@ -1,7 +1,5 @@
 # Informal Governance Structure Definition & Roles
 
-_**Dependencies:** None_
-
 This doc defines what Quorum1's Informal Governance Structure is, how it relates to our Formal Governance Structure, and what key roles are involved.
 
 ## Note on Informal Governance Structure

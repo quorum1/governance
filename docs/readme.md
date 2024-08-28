@@ -12,7 +12,14 @@ Any changes which are later determined to have been made out of compliance with 
 
 ## Index of Docs
 
-- [Financial Model](./financial-model.md): The Quorum1 Financial Model defines how we manage our money as a collective.
-- [Informal Governance Structure Definition & Roles](./igs-roles.md): This doc defines what Quorum1's Informal Governance Structure is, how it relates to our Formal Governance Structure, and what key roles are involved.
+| File | Doc Title | Doc Description |
+| -------- | --- | ----------- |
+| [community-member-agreement.md](./community-member-agreement.md) | Community Member Agreement | The gov repo version is considered the live version of our member agreement for community members. |
+| [financial-model.md](./financial-model.md) | Financial Model | The Quorum1 Financial Model defines how we manage our money as a collective. |
+| [glossary.md](./glossary.md) | Gov Repo Glossary | This doc serves as a linking layer between different docs in this repo and potentially other repos or external sources. Refer to the [Quorum1 Governance Repo Standards](../standards.md) doc for more guidance around the usage of the glossary. |
+| [igs-roles.md](./igs-roles.md) | Informal Governance Structure Definition & Roles |  This doc defines what Quorum1's Informal Governance Structure is, how it relates to our Formal Governance Structure, and what key roles are involved. |
+| [org-investment-ledger-design.md](./org-investment-ledger-design.md) | Org Investment Ledger Design | This doc is the formal Org Investment Ledger Design in alignment with the requirements of the Financial Model. |
+| [rules-and-regulations.md](./rules-and-regulations.md) | Rules and Regulations | The gov repo version is considered the live version of our R&Rs. |
+| [structure.md](./structure.md) | Rules and Regulations | This doc defines core aspects of Quorum1’s structure. |
 - [Contributor Agreement](./contributor-agreement.md): The contributor member agreement.
 - [Community Member Agreement](./community-agreement.md): The Quorum1 Community Member Agreement.
