@@ -4,7 +4,7 @@
 
 ### Section 1.01: Name and Status
 
-The name of the organization is Quorum One, LLC (referred to in these Rules and Regulations as the “Collective"). 
+The legal name of the organization is Quorum One, LLC (referred to in these Rules and Regulations as the “Collective"). The organization is commonly referred to as "Quorum1".
 
 ### Section 1.02: Nondiscrimination
 
