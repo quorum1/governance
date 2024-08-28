@@ -13,7 +13,7 @@ Our governance repo is hosted on Github and managed using branches, pull request
 - [ ] Add Existing Doc: Community Member Agreement
 - [ ] Add Existing Doc: Operating Agreement
 - [ ] Add Existing Doc: Rules & Regulations
-- [ ] Add Existing Doc: Contributor Agreement
+- [X] Add Existing Doc: Contributor Agreement
 - [ ] Small Update: Let RP change readmes during first push of working release (or more often?)
 
 ## Structure of this Repo

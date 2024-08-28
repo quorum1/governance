@@ -14,3 +14,4 @@ Any changes which are later determined to have been made out of compliance with 
 
 - [Financial Model](./financial-model.md): The Quorum1 Financial Model defines how we manage our money as a collective.
 - [Informal Governance Structure Definition & Roles](./igs-roles.md): This doc defines what Quorum1's Informal Governance Structure is, how it relates to our Formal Governance Structure, and what key roles are involved.
+- [Contributor Agreement](./contributor-agreement.md): The contributor member agreement.
