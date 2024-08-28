@@ -21,3 +21,5 @@ Any changes which are later determined to have been made out of compliance with 
 | [org-investment-ledger-design.md](./org-investment-ledger-design.md) | Org Investment Ledger Design | This doc is the formal Org Investment Ledger Design in alignment with the requirements of the Financial Model. |
 | [rules-and-regulations.md](./rules-and-regulations.md) | Rules and Regulations | The gov repo version is considered the live version of our R&Rs. |
 | [structure.md](./structure.md) | Rules and Regulations | This doc defines core aspects of Quorum1’s structure. |
+- [Contributor Agreement](./contributor-agreement.md): The contributor member agreement.
+- [Community Member Agreement](./community-agreement.md): The Quorum1 Community Member Agreement.
