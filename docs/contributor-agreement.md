@@ -1,6 +1,6 @@
 # Quorum1 Contributor Member Agreement v1.1
 
-This Quorum1 Contributor Member Agreement (“Agreement”) is made on \_\_\_\_\_\_\_\_ (the “Effective Date”) between Quorum One LLC, a California limited liability company (“the Collective”), and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ (“Member”) an `individual residing at in [city, state] OR a {state/country} {entity type} with offices located at {address}`. The Collective and Member are sometimes collectively referred to herein as the “Parties” and individually as a “Party”.
+This Quorum1 Contributor Member Agreement (“Agreement”) is made on \_\_\_\_\_\_\_\_\_\_\_\_ (the “Effective Date”) between Quorum One LLC, a California limited liability company (“the Collective”), and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ (“Member”) `(If Individual: "an individual")` / `(If Legal Entity: "a ______________________ [Legal Entity Type] based in [Country and/or State]")`. The Collective and Member are sometimes collectively referred to herein as the “Parties” and individually as a “Party”.
 
 The Collective wishes to be provided with the services (collectively the “Services” as defined below) by Member and the Member agrees to provide the Services to the Collective in accordance with the terms and conditions of this Agreement.
 
@@ -62,13 +62,13 @@ NOW, THEREFORE, in consideration of the mutual covenants and promises contained 
 
 6. **Indemnification.** Each party (the "Indemnifying Party") agrees to indemnify, defend and hold the other party and its affiliates and their respective officers, directors, employees and agents harmless from and against all third-party claims, losses, liabilities, damages, expenses and costs, including attorney's fees and court costs, arising out of the Indemnifying Party's (i) negligence or willful misconduct or (ii) its material breach of any of the terms of this Agreement. The Indemnifying Party's liability under this Section shall be reduced proportionally to the extent that any act or omission of the other Party, or its employees or agents, contributed to such liability. The party seeking indemnification shall provide the Indemnifying Party with prompt written notice of any claim and give complete control of the defense and settlement of the Indemnifying Party, and shall cooperate with the Indemnifying Party, its insurance company and its legal counsel in its defense of such claim(s). This indemnity shall not cover any claim in which there is a failure to give the Indemnifying Party prompt notice to the extent such lack of notice prejudices the defense of the claim.
 
-7. **LIMITATION OF LIABILITY; ACTIONS** EXCEPT FOR THE PARTIES CONFIDENTIALITY OBLIGATIONS UNDER SECTION 4 OF THIS AGREEMENT AND INDEMNIFICATION OBLIGATIONS UNDER SECTION 5 OF THIS AGREEMENT, IN NO EVENT SHALL EITHER PARTY BE LIABLE UNDER THIS AGREEMENT TO THE OTHER PARTY FOR ANY INCIDENTAL, CONSEQUENTIAL, INDIRECT, STATUTORY, SPECIAL, EXEMPLARY OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, LOST PROFITS, LOSS OF USE, LOSS OF TIME, INCONVENIENCE, LOST BUSINESS OPPORTUNITIES, DAMAGE TO GOODWILL OR REPUTATION, AND COSTS OF COVER, REGARDLESS OF WHETHER SUCH LIABILITY IS BASED ON BREACH OF CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, AND EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR SUCH DAMAGES COULD HAVE BEEN REASONABLY FORESEEN. SUBJECT TO THE COLLECTIVE’S OBLIGATION TO PAY THE FEES TO THE MEMBER, EACH PARTY’S ENTIRE AGGREGATE LIABILITY FOR ANY CLAIMS RELATING TO THE SERVICES OR THIS AGREEMENT SHALL NOT EXCEED THE FEES PAID OR PAYABLE BY THE COLLECTIVE  TO THE MEMBER UNDER THIS AGREEMENT IN THE TWELVE (12) MONTH PERIOD IMMEDIATELY PRECEDING THE EVENTS GIVING RISE TO SUCH LIABILITY. THIS SECTION SHALL SURVIVE THE TERMINATION OF THE AGREEMENT.
+7. **LIMITATION OF LIABILITY; ACTIONS.** EXCEPT FOR THE PARTIES CONFIDENTIALITY OBLIGATIONS UNDER SECTION 4 OF THIS AGREEMENT AND INDEMNIFICATION OBLIGATIONS UNDER SECTION 5 OF THIS AGREEMENT, IN NO EVENT SHALL EITHER PARTY BE LIABLE UNDER THIS AGREEMENT TO THE OTHER PARTY FOR ANY INCIDENTAL, CONSEQUENTIAL, INDIRECT, STATUTORY, SPECIAL, EXEMPLARY OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, LOST PROFITS, LOSS OF USE, LOSS OF TIME, INCONVENIENCE, LOST BUSINESS OPPORTUNITIES, DAMAGE TO GOODWILL OR REPUTATION, AND COSTS OF COVER, REGARDLESS OF WHETHER SUCH LIABILITY IS BASED ON BREACH OF CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, AND EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR SUCH DAMAGES COULD HAVE BEEN REASONABLY FORESEEN. SUBJECT TO THE COLLECTIVE’S OBLIGATION TO PAY THE FEES TO THE MEMBER, EACH PARTY’S ENTIRE AGGREGATE LIABILITY FOR ANY CLAIMS RELATING TO THE SERVICES OR THIS AGREEMENT SHALL NOT EXCEED THE FEES PAID OR PAYABLE BY THE COLLECTIVE  TO THE MEMBER UNDER THIS AGREEMENT IN THE TWELVE (12) MONTH PERIOD IMMEDIATELY PRECEDING THE EVENTS GIVING RISE TO SUCH LIABILITY. THIS SECTION SHALL SURVIVE THE TERMINATION OF THE AGREEMENT.
 
     NO ACTION SHALL BE BROUGHT FOR ANY CLAIM RELATING TO OR ARISING OUT OF THIS AGREEMENT MORE THAN ONE (1) YEAR AFTER THE ACCRUAL OF SUCH CAUSE OF ACTION.
 
 8. **Cooperation of the Collective.** The Collective agrees to comply with all reasonable requests of Member and shall provide Member’s personnel with access to all documents and facilities as may be reasonably necessary for the performance of the Services under this Agreement.
 
-9. **Term.** This Agreement shall commence on the Effective Date and thereafter shall remain in effect until terminated by either Party as set forth in Section 9 of the Agreement. 
+9. **Term.** This Agreement shall commence on the Effective Date and thereafter shall remain in effect until terminated by either Party as set forth in the "Termination" section of the Agreement.
 
 10. **Termination.** 
 
@@ -118,24 +118,34 @@ In witness whereof, the Parties hereto have executed this Services Agreement on 
 
 **THE COLLECTIVE**
 
-By: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+By: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ---
 
 **MEMBER**
 
-By: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+By: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ (If Individual: "Self")
 
-Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+(If Individual) City, State & Country of Residence:
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+(If Legal Entity) Address of Primary Offices:
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ---
