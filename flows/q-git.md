@@ -62,6 +62,9 @@ A new Working Release is created by the Steward who also appoints a Release Poin
 
 A new branch is created in the repo with the name `release-#`, where `#` is 1 greater than the current Live Release. The root readme should be updated with a "Work in Progress" section that describes the current status of the release along with any key goals. This section should be kept up to date as work progresses, ideally with checklists, progress meters, or other easy to understand aids.
 
+> \[!NOTE]
+> While creating a new release branch, the Steward or Release Point are allowed to unilaterally edit any of the `readme.md` files in the gov repo. No approvals are required for this.
+
 ### Step 2 - Development
 
 Development progresses with Contribution Branches moving through the Development Process and potentially being approved for inclusion and then being merged into the Working Release branch.
@@ -90,12 +93,12 @@ The finalization process is critical to the overall Release Process. Here are th
   - At any point the Sponsors may agree to retract the Issue and make no changes to the Working Release Branch. In this event, the process continues on, but the Sponsors have another opportunity to voice potential concerns in the following sub-step.
   - This sub-step is finished when all Issues to Resolve are either approved or retracted.
 - **Step 3c - Member Review:** 
-  - NOTE: This step will be skipped until the governance repo reaches Release 3. The first set of Releases have emerged from prior work and are being fast-tracked.
-  - Release 3 should replace the definition of this sub-step.
+  - NOTE: This step will be skipped until the governance repo reaches Release 6. The first set of Releases have emerged from prior work and are being fast-tracked.
+  - Release 6 should replace the definition of this sub-step.
 - **Step 3d - Second Resolutions:** ...
-  - NOTE: This step will be skipped until the governance repo reaches Release 3. The first set of Releases have emerged from prior work and are being fast-tracked.
-  - Release 3 should replace the definition of this sub-step.
-- **Step 3e - Final Review:** NOTE: This sub-step should be redefined in Release 3 to include the Members as well.
+  - NOTE: This step will be skipped until the governance repo reaches Release 6. The first set of Releases have emerged from prior work and are being fast-tracked.
+  - Release 6 should replace the definition of this sub-step.
+- **Step 3e - Final Review:** NOTE: This sub-step should be redefined in Release 6 to include the Members as well.
   - Partners meet on one or more synchronous calls to walk through the outcome of all resolutions. These calls must be recorded and preserved indefinitely.
   - All partners must be present or must delegate their vote to another partner.
   - During the call all resolutions are reviewed.
@@ -171,6 +174,9 @@ If used, this step will also result in merging the Contribution Teams.
 ### Step 4 - Approvals
 
 The final step is for the Sponsors to formally submit the Contribution for approval. The approval may proceed via the normal process or the expedited process.
+
+> \[!NOTE]
+> The Steward or Release Point are allowed to unilaterally approve Contribution Branches which only include changes to `readme.md` files. It may be necessary for other users to approve the pull request for technical reasons, but no video needs to be made and no formal review needs to be recorded. A simple written note in the pull request is sufficient.
 
 The precise method of this submission, and the review process itself is defined by the Release Point as part of their workflow design. But it must meet the following criteria:
 - The Sponsors should create a pull request from the Contribution Branch into the Working Release Branch. The pull request should include:
