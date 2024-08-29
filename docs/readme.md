@@ -12,5 +12,13 @@ Any changes which are later determined to have been made out of compliance with 
 
 ## Index of Docs
 
-- [Financial Model](./financial-model.md): The Quorum1 Financial Model defines how we manage our money as a collective.
-- [Informal Governance Structure Definition & Roles](./igs-roles.md): This doc defines what Quorum1's Informal Governance Structure is, how it relates to our Formal Governance Structure, and what key roles are involved.
+| Doc Title | File | Doc Description |
+| -------- | --- | ----------- |
+| Community Member Agreement | [community-agreement.md](./community-agreement.md) | The gov repo version is considered the live version of our member agreement for community members. |
+| Contributor Member Agreement | [contributor-agreement.md](./contributor-agreement.md) | The gov repo version gets converted into PDFs which get integrated into our onboarding workflows. |
+| Financial Model | [financial-model.md](./financial-model.md) | The Quorum1 Financial Model defines how we manage our money as a collective. |
+| Gov Repo Glossary | [glossary.md](./glossary.md) | This doc serves as a linking layer between different docs in this repo and potentially other repos or external sources. Refer to the [Quorum1 Governance Repo Standards](../standards.md) doc for more guidance around the usage of the glossary. |
+| Informal Governance Structure Definition & Roles | [igs-roles.md](./igs-roles.md) |  This doc defines what Quorum1's Informal Governance Structure is, how it relates to our Formal Governance Structure, and what key roles are involved. |
+| Org Investment Ledger Design | [org-investment-ledger-design.md](./org-investment-ledger-design.md) | This doc is the formal Org Investment Ledger Design in alignment with the requirements of the Financial Model. |
+| Rules and Regulations | [rules-and-regs.md](./rules-and-regs.md) | The gov repo version is considered the live version of our rules and regulations (the R&Rs). |
+| Quorum1 Structure | [structure.md](./structure.md) | Defines the core aspects of Quorum1’s structure. |

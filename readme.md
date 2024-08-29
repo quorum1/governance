@@ -1,4 +1,4 @@
-# Quorum1 Governance Repo - Release 2
+# Quorum1 Governance Repo - Release 3
 
 This repo contains Quorum1's official governance processes and models. 
 
@@ -13,13 +13,22 @@ Our governance repo is hosted on Github and managed using branches, pull request
 
 ## Current Status of our Governance Repo
 
-This is Release 2, the current live release.
+This is Release 3, the current live release.
 
 We are still in the process of porting our entire governance structure into this repo. Prior to June 2024 our governance structures have been managed in many different places. This repo is an effort to unify those pieces in order to increase transparency, streamline change management, and facilitate greater collaboration.
 
 **Roadmap:**
-- Release 3: Build Investment Ledger Design Doc & Change Flow
-- Release 4 & Beyond: Migrate remaining structures (Operating Agreement, Rules & Regs, Member Agreements, etc)
+- Short-Term:
+    - Finish adding operating model to gov repo (requires refactoring)
+    - Migrate more existing docs into gov repo (code of conduct, member SOW templates, partner agreement, etc)
+    - Finish building out member review process in Q-Git
+    - Consider re-architecting Q-Git structure to separate dev flow from release flow
+    - Improve the [Quorum1 Governance Repo Standards](./standards.md) doc
+    - Iterate the [Gov Repo Glossary](./docs/glossary.md)
+- Medium-Term:
+    - Begin work on formal governance framework
+    - Create other repo(s): Fin Ops, potentially others
+    - Work on set of modular, re-usable governance flows w/ templated roles
 
 ## Why is Quorum1's governance structure managed on Github?
 
