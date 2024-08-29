@@ -63,7 +63,7 @@ A new Working Release is created by the Steward who also appoints a Release Poin
 A new branch is created in the repo with the name `release-#`, where `#` is 1 greater than the current Live Release. The root readme should be updated with a "Work in Progress" section that describes the current status of the release along with any key goals. This section should be kept up to date as work progresses, ideally with checklists, progress meters, or other easy to understand aids.
 
 > \[!NOTE]
-> While creating a new release branch, the Steward or Release Point are allowed to unilaterally edit any of the `readme.md` files in the gov repo. No approvals are required for this.
+> While creating a new release branch, the Steward or Release Point are allowed to unilaterally edit any of the `readme.md` files in the gov repo, except for the "Flows & Scopes" section of the flows readme. No approvals are required for this.
 
 ### Step 2 - Development
 
@@ -176,7 +176,7 @@ If used, this step will also result in merging the Contribution Teams.
 The final step is for the Sponsors to formally submit the Contribution for approval. The approval may proceed via the normal process or the expedited process.
 
 > \[!NOTE]
-> The Steward or Release Point are allowed to unilaterally approve Contribution Branches which only include changes to `readme.md` files. It may be necessary for other users to approve the pull request for technical reasons, but no video needs to be made and no formal review needs to be recorded. A simple written note in the pull request is sufficient.
+> The Steward or Release Point are allowed to unilaterally approve Contribution Branches which only include changes to `readme.md` files, except for the "Flows & Scopes" section of the flows readme. It may be necessary for other users to approve the pull request for technical reasons, but no video needs to be made and no formal review needs to be recorded. A simple written note in the pull request is sufficient.
 
 The precise method of this submission, and the review process itself is defined by the Release Point as part of their workflow design. But it must meet the following criteria:
 - The Sponsors should create a pull request from the Contribution Branch into the Working Release Branch. The pull request should include:

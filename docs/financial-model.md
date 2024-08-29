@@ -468,7 +468,7 @@ Below are the [Required Properties of a Ledger](#required-properties-of-a-ledger
 - **Ledger Status:**
     - Only "Active" investment ledgers can receive investment inflows.
     - Both "Active" and "Retired" ledgers generate rev token payments and rev point payments.
-    - Before being "Retired" any remaining cash must be transferred out of the investment ledger.
+    - Before being "Retired" any remaining cash must be transferred out of the investment ledger's cash holdings.
 - **Receivable / Non-Receivable:** Investment ledgers are always receivable.
 - **Rev Point Plan:** Rather than having a single rev point plan, an investment ledger has a separate rev point plan for each investment round.
 - **Ledger Governance Process:** Is recommended to include specific guidance on the following.
@@ -502,7 +502,7 @@ These properties must also be specified in the investment ledger design.
 
 - **Investment Rounds:** A list of investment rounds, including for each:
     - **Round Organizers:** A list of at least two partners who serve as the approvers for the round's design and the overall managers of the round. The organizers must come to full consensus in their decisions unless otherwise specified.
-    - **Included Cohorts:** Which rev token cohorts are available for sale in the round.
+    - **Included Cohorts:** Which rev token cohorts are available for issuing in the round.
     - **Informal Investment Guidelines:** If applicable, any guidelines around how informal investments should be managed and approved. By default, the round organizers are responsible for approving informal investments.
     - **Rev Point Plan:** Defines how the rev points are to be allocated, in alignment with the [Rev Point Pools & Plans](#rev-point-pools--plans) section.
 
