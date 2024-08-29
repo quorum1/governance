@@ -13,7 +13,7 @@ Markdown syntax allows us to link from on repo file to another like this: `[Exam
 Direct references between repo files should be avoided unless the cited page is a critical dependency of the referring page. In such a case:
 1. The inter-file link should only be included once
 2. The inter-file link should appear either:
-    1. Appear at the very top of the file, just under the header.
+    1. At the very top of the file, just under the header.
     2. OR appear in a section *near* the very top of the file titled with an h1 or h2 with the exact text "Key Dependencies".
 
 For all other cases, any terms which need to be shared between files should be defined in the [Gov Repo Glossary](./docs/glossary.md) with a unique header text at any level (h1, h2, h3, etc) and then linked to like this: `This aligns with the [Financial Model](./docs/glossary.md#financial-model).`

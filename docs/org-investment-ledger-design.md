@@ -112,11 +112,11 @@ The actual execution of IR1 will begin soon after IR2 produces enough cash to in
 
 **For year 1 and year 2:** Member Q0005 will be awarded 750K rev points in each year (for a total of 1.5M rev points) as a replacement for the originally planned prime founder entitlement. Full details outlined in [Changes from Legacy Financial Model](#changes-from-legacy-financial-model).*
 
-### IR2: Seed Investment Round
+### IR2: Internal Seed Investment Round
 
 **Round Organizers:** Q001, Q0022, Q0055, Q0175
 
-**Included Cohorts:** 2024
+**Included Cohorts:** 2024.money.informal, 2024.time
 
 #### IR2: Informal Investment Guidelines
 
@@ -130,6 +130,20 @@ When possible the rewarding should be based on time tracked in Quorum1's time tr
 - **Investment Round Related Work:** 6,000 rev points per hour
 - **Foundation-Led Work:** 4,000 rev points per hour
 - **Other Work:** 2,000 rev points per hour
+
+### IR3: External Seed Investment Round
+
+**Round Organizers:** Q001, Q0022, Q0055, Q0175
+
+**Included Cohorts:** 2024.money.seed1, 2024.money.seed2, 2024.money.seed3, 2024.money.seed4, 2024.money.seed5
+
+#### IR3: Informal Investment Guidelines
+
+This round will not include any informal investment.
+
+#### IR3: Rev Point Plan
+
+This round will not include any time investment.
 
 ## Payment Algorithm Parameters
 

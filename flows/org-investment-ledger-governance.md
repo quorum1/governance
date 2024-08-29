@@ -40,14 +40,12 @@ When a token downgrade is present in a Release:
 
 ## Failsafe Equity Conversion
 
-A Failsafe Equity Conversion can only be triggered with the approval of the Steward and at least 75% of Partners, and it must be approved along with a detailed execution plan that must align with the following parameters:
-
-1. A suitable Destination Legal Entity is identified that will have stock issued such that its final ownership percentages match the proportions established below.
-2. The Destination Legal Entity may have either one or two classes of stock:
-    1. If one:
+A Failsafe Equity Conversion can only be triggered if:
+1. The implementation of rev tokens and/or rev points is deemed to be fundamentally infeasible.
+2. The triggering is approved by the Steward and at least 75% of Partners.
+3. The triggering is approved along with a detailed execution plan that must align with the following parameters:
+    1. A suitable Destination Legal Entity is identified that will have stock issued such that its final ownership percentages match the proportions established below.
+    2. The Destination Legal Entity must only have a single class of stock:
         1. The same class of stock will be used for both time and money investors.
         2. All time investors will collectively own 50% of the shares with each individual owning a percentage proportional to their total remaining rev point balances.
         3. All money investors will collectively own 50% of the shares with each individual owning a percentage proportional to the total remaining full value of the active rev tokens they own.
-    2. If two: One class of stock will be used for time investors and another will be used for money investors.
-        1. Each individual time investor will own a percentage of the time investor stock class proportional to their total remaining rev point balances.
-        2. Each individual money investor will own a percentage of the money investor stock class proportional to the total remaining full value of the active rev tokens they own.
