@@ -1,4 +1,4 @@
-# Quorum1 Governance Repo - Release 3 (WORK IN PROGRESS)
+# Quorum1 Governance Repo - Release 3 (IN FINALIZATION)
 
 This repo contains Quorum1's official governance processes and models. 
 
@@ -9,12 +9,12 @@ Our governance repo is hosted on Github and managed using branches, pull request
 ## Release 3 Task List
 
 - [X] Build org investment ledger design doc (must align with requirements outlined in financial model)
-- [ ] Q-Git Flow: Make required updates for Release 3 (around member review)
+- [X] ~~Q-Git Flow: Make required updates for Release 3 (around member review)~~ > Snoozed until release 6
 - [X] Add Existing Doc: Community Member Agreement
-- [ ] Add Existing Doc: Operating Agreement
-- [ ] Add Existing Doc: Rules & Regulations
+- [X] ~~Add Existing Doc: Operating Agreement~~ > Skipping for now
+- [X] Add Existing Doc: Rules & Regulations
 - [X] Add Existing Doc: Contributor Agreement
-- [ ] Small Update: Let RP change readmes during first push of working release (or more often?)
+- [X] Small Update: Let RP change readmes during first push of working release (or more often?)
 
 ## Structure of this Repo
 
@@ -28,8 +28,17 @@ This is Release 3, working release.
 We are still in the process of porting our entire governance structure into this repo. Prior to June 2024 our governance structures have been managed in many different places. This repo is an effort to unify those pieces in order to increase transparency, streamline change management, and facilitate greater collaboration.
 
 **Roadmap:**
-- Release 4: TBD
-- Release 5: TBD
+- Short-Term:
+    - Finish adding operating model to gov repo (requires refactoring)
+    - Migrate more existing docs into gov repo (code of conduct, member SOW templates, partner agreement, etc)
+    - Finish building out member review process in Q-Git
+    - Consider re-architecting Q-Git structure to separate dev flow from release flow
+    - Improve the [Quorum1 Governance Repo Standards](./standards.md) doc
+    - Iterate the [Gov Repo Glossary](./docs/glossary.md)
+- Medium-Term:
+    - Begin work on formal governance framework
+    - Create other repo(s): Fin Ops, potentially others
+    - Work on set of modular, re-usable governance flows w/ templated roles
 
 ## Why is Quorum1's governance structure managed on Github?
 
