@@ -1,10 +1,21 @@
-# Quorum1 Governance Repo - Release 3
+# Quorum1 Governance Repo - Release 4 (Working)
 
 This repo contains Quorum1's official governance processes and models. 
 
 Quorum1 is a professional collective. Our website is at: https://quorum.one
 
 Our governance repo is hosted on Github and managed using branches, pull requests, and other Git-based tools. The audit history of changes to this repo is considered part of Quorum1's public record.
+
+## Release 4 Checklist
+
+- [ ]  Privacy Policy
+- [ ]  Terms of Service
+- [ ]  Operating Agreement
+- [ ]  Rules & Regs: Adapt to point to codes of conduct
+- [ ]  Codes of Conduct: Adapt something like this:  (Starting point: https://docs.google.com/document/d/1_nRl5Q3DsajCqkQH3JQMjNp1NmkgEjHc7KEMA-qzwjA/edit)
+- [ ]  SOW Templates: This is probably a subfolder of docs with a few different templates for things like co-ventures, client project roles, etc.
+- [ ]  Update all existing docs to new membership level names (Network > Contributor > Foundation > Steward)
+    - [ ]  Also rename contributor agreement back to ic-agreement (Independent Contractor Agreement)
 
 ## Structure of this Repo
 
