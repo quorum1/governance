@@ -27,7 +27,7 @@ Any person may become and remain a member of this Organization.
 ### Section 2.03: Membership Qualifications by Levels
 
 The initial qualifications for each classification of membership are as follows:
-1. Network member: Must register and follow terms of service and follow the Quorum1 code of conduct. 
+1. Network member: Must register and follow terms of service and follow the Quorum1 [Code of Conduct](https://github.com/quorum1/governance/blob/traklord-rc4/docs/code-of-conduct.md#quorum1-member-code-of-conduct). 
 2. Contributor member:
    1. Must have a active LinkedIn profile or web presence that verifies who they are.
    2. Must sign the Quorum1 Community Agreement
