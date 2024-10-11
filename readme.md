@@ -8,14 +8,15 @@ Our governance repo is hosted on Github and managed using branches, pull request
 
 ## Release 4 Checklist
 
-- [ ]  Privacy Policy
+- [x]  Privacy Policy
+    - [x] First redlines sent to legal
 - [ ]  Terms of Service
 - [ ]  Operating Agreement
 - [ ]  Rules & Regs: Adapt to point to codes of conduct
 - [ ]  Codes of Conduct: Adapt something like this:  (Starting point: https://docs.google.com/document/d/1_nRl5Q3DsajCqkQH3JQMjNp1NmkgEjHc7KEMA-qzwjA/edit)
 - [ ]  SOW Templates: This is probably a subfolder of docs with a few different templates for things like co-ventures, client project roles, etc.
 - [ ]  Update all existing docs to new membership level names (Network > Contributor > Foundation > Steward)
-    - [ ]  Also rename contributor agreement back to ic-agreement (Independent Contractor Agreement)
+    - [x]  Also rename contributor agreement back to ic-agreement (Independent Contractor Agreement)
 
 ## Structure of this Repo
 
