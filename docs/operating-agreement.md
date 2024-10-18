@@ -169,6 +169,62 @@ Any action of any Steward meeting may be taken without a meeting if all Steward 
 
 **6.1** Any meeting of the Members shall be governed by the Rules and Regulations of the  Organization. 
 
+## SECTION 7 - FINANCIAL PROVISIONS
+
+**7.1 Definitions.**
+
+a. “Collective Account” means the Capital Account that represents the portion of the net  book value of the Organization attributable to the Organization. The Collective Account  shall consist of Surplus, Profit, and reserves that are retained in the Organization and not  distributed to Members until dissolution of the Organization.
+
+b. “Deemed Liquidation Event” means (a) a consolidation, merger or other similar  transaction of or involving the Organization in which the Members of the Organization immediately prior to such consolidation, merger or other similar transaction do not  continue to hold, immediately after the consummation of such consolidation, merger or  other similar transaction, a majority of the voting power of the equity interests of the  surviving entity, or (b) a sale or other transfer of all or substantially all of the  Organization’s assets to a third party.
+
+c. “Initial Capital Contribution” is set forth in the Rules and Regulations as Membership Fees by default. 
+
+e. “Loss” means the excess of Expenses over revenues for a fiscal year. 
+
+f. “Patronage” means hours worked by each Member for the Organization that result in Q Credits. 
+
+g. “Profit” means the excess of revenues over Expenses for a fiscal year.
+
+h. “Surplus” shall be defined as the excess of revenues over Expenses for a fiscal year.
+
+i. “Written Notice of Allocation,” “Qualified Written Notice of Allocation,” and  Nonqualified Written Notice of Allocation” shall have the definitions contained in  Internal Revenue Code Section 1388(b)-(d). 
+
+**7.2 Member Payments.** 
+
+Payments to Members shall be paid in conformance with the Rules and Regulations and Quorum1 Financial Model (the "Financial Model").  
+
+**7.3 Additional Capital Contributions.** 
+
+Members may be required to make additional capital  contributions, based upon the Members’ good faith determination that such contribution is  necessary or advisable for the Organization’s financial condition. Terms of Additional Capital Contributions may be found in the Rules and Regulations and/or the Financial Model.  
+
+**7.4 Priority of Payments.** 
+Notwithstanding anything else to the contrary in this Article,  payments and disbursements by the Organization shall be made in the following order of  priority:
+
+a. Member Work Payments for work performed on paid client projects.
+
+b. Commissions Payments and other obligatory sales costs.
+
+c. Vendor Payments, including third-party service providers and business systems.
+
+d. Payment to the Organization’s Capital Reserve Fund, the parameters of which are  defined in the Rules and Regulations.
+
+e. Member Profit Sharing and profit re-investment.
+
+f. To Organization investments, non-profit donations, or other charitable programs if  Organization elects to participate in such.
+
+**7.5 Allocation of Profits and Losses.**
+
+Profits and losses shall be allocated in accordance with the then-current Financial Model of the Organization.  
+
+**7.6 Mandatory Revenue Disbursements.**
+
+The Mandatory Revenue Disbursements defined  above must be included in any and all Organization Operating Agreements, Organization Rules and Regulations, and Organization Financial Model. This Section 7.6 may not be  amended or removed from the Operating Agreement, or any restatements thereof, by the  Rules and Regulations, by any action of the Strong Steward, Manager, Steward Members, other Members, or any other person acting alone or together.  
+
+**7.7 Dissolution Distributions.**
+
+a. Upon liquidation, dissolution, or a Deemed Liquidation Event, assets left after payment  of all debts and Member Account balances shall be distributed to all persons who are  current and living Members, in proportion to the number of Q-Credits earned by that  Member as compared to all Q-Credits issued in the relevant time period (“Dissolution  Distribution”). Dissolution Distributions shall only be made to current and living  Members in good standing. No Dissolution Distribution shall be made to a Designated  Beneficiary. 
+
+b. No Dissolution Distribution need be made to a person who fails to acknowledge the  receipt of notice of liquidation in a timely manner. Notice shall be deemed sufficient if  sent by certified mail, at least thirty (30) days before distribution of residual assets, to the  person’s last known business or residence address. 
 
 
 
