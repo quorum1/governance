@@ -1,6 +1,6 @@
-# Quorum1 Contributor Member Agreement v1.1
+# Quorum1 Independent Contractor Agreement v1.1
 
-This Quorum1 Contributor Member Agreement (“Agreement”) is made on \_\_\_\_\_\_\_\_\_\_\_\_ (the “Effective Date”) between Quorum One LLC, a California limited liability company (“the Collective”), and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ (“Member”) `(If Individual: "an individual")` / `(If Legal Entity: "a ______________________ [Legal Entity Type] based in [Country and/or State]")`. The Collective and Member are sometimes collectively referred to herein as the “Parties” and individually as a “Party”.
+This Quorum1 Independent Contractor Agreement (“Agreement”) is made on \_\_\_\_\_\_\_\_\_\_\_\_ (the “Effective Date”) between Quorum One LLC, a California limited liability company (“the Collective”), and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ (“Member”) `(If Individual: "an individual")` / `(If Legal Entity: "a ______________________ [Legal Entity Type] based in [Country and/or State]")`. The Collective and Member are sometimes collectively referred to herein as the “Parties” and individually as a “Party”.
 
 The Collective wishes to be provided with the services (collectively the “Services” as defined below) by Member and the Member agrees to provide the Services to the Collective in accordance with the terms and conditions of this Agreement.
 
