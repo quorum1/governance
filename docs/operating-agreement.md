@@ -86,20 +86,89 @@ No Member shall have the right to sell, transfer, pledge, encumber  or otherwise
 
 A Member’s Membership Interest in the Organization shall  terminate by any of the following: 
 
-1. **Voluntary Withdrawal.** A Member may resign from the Organization at any time, with  or without cause, by giving written notice to Management of the Organization.  Resignation shall terminate the Member’s Membership Interest in the Organization and  shall be effective immediately upon filing the resignation, or, if later, at the time  specified in the notice.
-2. **Expulsion.** A Member may be expelled from the Organization for any lawful reason,  including for failure to comply with the Rules and Regulations, standards, or any  written code of conduct of the Organization, or for any other reasonably justifiable  reason, effective immediately, by a two-thirds (2/3) vote of all Members. Such votes may be cast by any manner as set forth in the Rules and Regulations and do not need to 
-be cast at a meeting of the Members. If the Members vote to expel the Member, the  expulsion shall be effective immediately.  
-3. **Other Causes of Involuntary Withdrawal.** A Member may be terminated involuntarily  under any of the following circumstances:
-  - i. The Member dies. A Membership shall immediately terminate upon the death of a  Member. The deceased Member’s designated beneficiary shall be entitled to receive  from the Organization the value of the Member’s Member Account and all other  payments due to such Member prior to the death of such Member (the “Death  Benefit”), if and only if, prior to death, the Member filed a Designated Beneficiary  Form with the Organization. The Designated Beneficiary shall be paid the Death  Benefit according to Section 3.2 below, unless the Org Point decides to pay the  Designated Beneficiary on an earlier schedule.
+**a. Voluntary Withdrawal.** A Member may resign from the Organization at any time, with  or without cause, by giving written notice to Management of the Organization.  Resignation shall terminate the Member’s Membership Interest in the Organization and  shall be effective immediately upon filing the resignation, or, if later, at the time  specified in the notice.
 
-  - ii. A medical professional deems the Member mentally incapable of handling their  own affairs. 
-  - iii. A guardian or general conservator for the Member is appointed. 
+**b. Expulsion.** A Member may be expelled from the Organization for any lawful reason,  including for failure to comply with the Rules and Regulations, standards, or any  written code of conduct of the Organization, or for any other reasonably justifiable  reason, effective immediately, by a two-thirds (2/3) vote of all Members. Such votes may be cast by any manner as set forth in the Rules and Regulations and do not need to 
+be cast at a meeting of the Members. If the Members vote to expel the Member, the  expulsion shall be effective immediately. 
+
+**c. Other Causes of Involuntary Withdrawal.** A Member may be terminated involuntarily  under any of the following circumstances:
+
+i. The Member dies. A Membership shall immediately terminate upon the death of a  Member. The deceased Member’s designated beneficiary shall be entitled to receive  from the Organization the value of the Member’s Member Account and all other  payments due to such Member prior to the death of such Member (the “Death  Benefit”), if and only if, prior to death, the Member filed a Designated Beneficiary  Form with the Organization. The Designated Beneficiary shall be paid the Death  Benefit according to Section 3.2 below, unless the Org Point decides to pay the  Designated Beneficiary on an earlier schedule.
+
+ii. A medical professional deems the Member mentally incapable of handling their  own affairs. 
+
+iii. A guardian or general conservator for the Member is appointed. 
 
 **3.2 Rights Upon Membership Termination**.  
 
 1. When a Membership is terminated, voluntarily or involuntarily, the amount in such  Member’s Capital Account will be paid to the Member or if the Member is deceased, to  the Member’s Designated Beneficiary within ninety (90) days of written notice received  by Organization from the Member or the Designated Beneficiary regarding the  terminated Member. Such amount shall be calculated after making all profit and loss  adjustments through the date of termination. No voting, participation, or ownership  rights will survive termination, whether voluntary or involuntary. All economic rights  cease upon payment to the Member or the Designated Beneficiary the amount as  calculated in this section.
 
 2. The Organization, in settling a Members’ Capital Account, shall have the right to offset  any and all indebtedness of the Member to the Organization. When a Membership is  terminated, such Member is still responsible for any charges, dues, or other obligations  that the Member owes to the Organization accrued prior to the date of termination. The  Organization shall still have the right to enforce any such obligation or obtain damages  for its breach. If the Organization incurs any costs in enforcing such obligations or  damages, the Member or its heirs or assigns or agents must pay all collection costs.
+
+## SECTION 4 - MANAGEMENT OF THE LLC
+
+**4.1 Role of the Strong Steward.** 
+
+The Manager of the LLC shall be the Strong Steward and shall have the power and authority to: 
+
+i. To expend the capital and net income of the Organization in the furtherance of the  Organization's business;
+
+ii. To acquire, purchase, renovate, improve, alter, rebuild, demolish, replace, and own  real property and any other property or assets that the Manager determines is  necessary or appropriate or in the interest of the business of the Organization, and to  acquire options for the purchase of any such property;  
+
+iii. To sell, exchange, lease, or otherwise dispose of the real property and other  property and assets owned by the Organization, or any part thereof, or any interest  therein;  
+
+iv. To borrow money from any party, including Member, issue evidences of  indebtedness in connection therewith, refinance, increase the amount of, modify,  amend, or change the terms of, or extend the time for the payment of any  indebtedness or obligation of the Organization, and secure such indebtedness by  mortgage, deed of trust, pledge, security interest, or other lien on Organization assets; 
+
+v. To guarantee the payment of money or the performance of any contract or  obligation of any an individual, partnership, limited partnership, limited liability  company, corporation, trust, estate, association, or any other entity;
+
+vi. To sue on, defend, or compromise any and all claims or liabilities in favor of or  against the Organization; submit any or all such claims or liabilities to arbitration;  and confess a judgment against the Organization in connection with any litigation in  which the Organization is involved;
+
+vii. To retain legal counsel, auditors, and other professionals in connection with the  Organization business and to pay therefor such remuneration as the Manager may  determine;
+
+viii. To execute and deliver promissory notes, checks, drafts, and other negotiable  instruments;
+
+ix. To purchase from or through others contracts of liability, casualty, and other  insurance which the Manager deems advisable, appropriate, convenient, or  beneficial to the Organization;
+
+x. To invest Organization funds in government securities, certificates of deposit,  banker's acceptances, money market funds, or similar investments;
+
+xi. To enter into such agreements, contracts, documents, and instruments with such  parties, and to give such receipts, releases, and discharges with respect to all of the  foregoing and any matters incident thereto as the Manager may deem advisable or  appropriate;
+
+xii. To execute any and all other instruments to carry out the intention and purpose  hereof; and
+
+xiii. To delegate all or any of his duties hereunder, and in furtherance of any such  delegation to appoint, employ, or contract with officers and/or any person deemed  necessary or desirable for the transaction of the business of the Organization,  including persons, firms, or entities affiliated with or subject to the control of the  Manager, including those in which the Manager may have a proprietary interest.
+
+Such person may, under the supervision of the Manager, administer the day-to-day  operations of the Organization; may serve as the Organization's advisor and  consultant in connection with policy decisions made by the Manager; may act as  consultant, accountant, attorney, broker, escrow agent, or in any other capacity  deemed by the Manager necessary or desirable; may investigate, select, and, on  behalf of the Organization, conduct relations with persons acting in such capacities  and may pay appropriate fees to and enter into appropriate contracts with, or  employ or retain services performed or to be performed by, any of them in  connection with the property of the Organization, may perform or assist in the  performance of such administrative or Managerial functions necessary in the  management of the Organization as may be agreed upon with the Manager; and  may perform such other acts or services for the Organization as the Manager, in the  Manager’s reasonable discretion may approve. 
+
+**4.2 Term.** 
+
+The initial Strong Steward shall serve until the FGM (the Formal Governance Model, as  such term is defined in the Rules and Regulations of the Organization) is formally adopted  or until replaced by the unanimous vote of the other Steward Members. 
+
+**4.3 Indemnification of the Strong Steward.** The Organization shall indemnify the Org Point in  connection with their services as the Strong Steward of the Organization to the fullest extent  permitted, or required by, the Act. 
+
+## SECTION 5 - QUORUM MEETINGS 
+
+**5.1 Regular and Special Meetings.**
+
+a. Meetings of the Strong Steward, the Steward members, Foundation members, Foundation Teams, Contributor members, and/or Network members shall be held at dates and times as all parties may determine from time to time.  
+
+b. Meetings may be held either in person or by means of telephone, video conference, or  other communications device that permits all participants in the meeting to hear each  other. 
+
+**5.2 Quorum.** 
+
+No action may be taken at a meeting of the Strong Steward without the  consent of that number or percentage of the Members’ whose consent is required for such action under this Agreement. If a quorum is not present at a meeting of the Members, then  the Members present at the meeting may adjourn the meeting without notice, until a quorum is present. 
+
+**5.3 Voting.** 
+
+Each voting Steward is entitled to one vote on each matter submitted to a Steward vote. 
+
+**5.4 Action Without a Meeting**. 
+
+Any action of any Steward meeting may be taken without a meeting if all Steward Members consent in writing to the action; Action by written consent has the  same force and effect as an act of the Manager and/or voting Stewards in a formal meeting. 
+
+## SECTION 6 - MEMBER MEETINGS 
+
+**6.1** Any meeting of the Members shall be governed by the Rules and Regulations of the  Organization. 
+
 
 
 
