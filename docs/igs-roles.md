@@ -20,18 +20,26 @@ This section defines key roles within IGS. These may be referenced as dependenci
 
 ### Member
 
-**Members** are all active Quorum1 members at any membership level.
+**Members** are all active Quorum1 members at any membership level. 
+
+### Network
+
+**Network Members** or **The Network** refers to active members who participate in the community but have yet to collaborate on internal or external projects. They receive base access to select systems and do not have any formal role in governance. 
 
 ### Contributor
 
-**Contributors** are all active Quorum1 members at the "Contributor" or "Partner" membership level. To be clear: For the purposes of role definitions, Partners may also act as Contributors.
+**Contributors** sign formal membership agreements and actively work on Foundation teams such as Finance, Ops, Build, and Legal. Stewards lead these teams and associated iniatives, and Contributors may also be invited to collaborate in these same areas.
 
-### Partner
+### Foundation 
 
-**Partners** are active Quorum1 members at the "Partner" level of membership.
+**Foundation members** sign formal membership agreements and actively work on Foundation teams such as Finance, Ops, Build, and Legal. Stewards lead these teams and associated iniatives, and Contributors may also be invited to collaborate in these same areas. 
 
-### Steward
+### Stewards
 
-The **Steward** is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
+The **Stewards** are active owning members of Quorum1's underlying legal entity and lead efforts and initiatives within The Foundation. 
 
-If the Steward is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Steward no longer wishes to serve in the role, a new Steward may be appointed with the unanimous approval of all Partners capable of participating. In that event, this doc should be updated with the new Steward's name.
+### Strong Steward
+
+The **Strong Steward** is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
+
+If the Strong Steward is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Steward no longer wishes to serve in the role, a new Steward may be appointed with the unanimous approval of all Partners capable of participating. In that event, this doc should be updated with the new Steward's name.
