@@ -10,29 +10,36 @@ The Organization is a California limited liability company. While conforming to 
 
 ### Cooperative Principles
 The Organization strives to achieve the following principles:
-- **Voluntary and open Membership.** Cooperatives are voluntary organizations, open to  all qualified persons willing to accept the responsibilities of membership, without  gender, social, racial, political or religious discrimination.
 
-- **Democratic member control.** Cooperatives are democratic organizations controlled by  their members, who actively participate in setting their policies and making decisions.
+a. **Voluntary and open Membership.** 
+Cooperatives are voluntary organizations, open to  all qualified persons willing to accept the responsibilities of membership, without  gender, social, racial, political or religious discrimination.
 
-- **Members’ economic participation.** Members contribute to, and democratically control,  the capital of the Organization. Members allocate Organization revenue for the  following purposes: improve and maintain the organizational structure of the  Organization and manage the overall effectiveness of the Organization.
+b. **Democratic member control.** 
+Cooperatives are democratic organizations controlled by  their members, who actively participate in setting their policies and making decisions.
 
-- **Autonomy and independence.** The Organization is controlled by its members. If the  Organization enters into agreements with other organizations, including governments, or  raises capital from external sources, the Organization will strive to do so on terms that  ensure democratic control by their members and maintain their cooperative autonomy.
+c. **Members’ economic participation.** 
+Members contribute to, and democratically control,  the capital of the Organization. Members allocate Organization revenue for the  following purposes: improve and maintain the organizational structure of the  Organization and manage the overall effectiveness of the Organization.
 
-- **Education, training, and information.** The Organization will strive to provide  education and training for their members so they can contribute effectively to the  development of the Organization.
+d. **Autonomy and independence.** 
+The Organization is controlled by its members. If the  Organization enters into agreements with other organizations, including governments, or  raises capital from external sources, the Organization will strive to do so on terms that  ensure democratic control by their members and maintain their cooperative autonomy.
 
-- **Concern for community.** Cooperatives work for the sustainable development of their  industry through policies approved by their members. 
+e. **Education, training, and information.** 
+The Organization will strive to provide  education and training for their members so they can contribute effectively to the  development of the Organization.
+
+f. **Concern for community.** 
+Cooperatives work for the sustainable development of their  industry through policies approved by their members. 
 
 ## SECTION 1 - ORGANIZATION
 
-**1.1 Organization.** 
+### 1.1 Organization. 
 
 The Organization is organized as a limited liability company in accordance  with the California Revised Uniform Limited Liability Company Act (the “Act”). 
 
-**1.2 Purpose and Scope.** 
+### 1.2 Purpose and Scope. 
 
 Within the meaning and for purposes of the Act, the purpose and  scope of the Organization shall include any lawful action or activity permitted to a limited  liability company under the Act (the “Business”). 
 
-**1.3 Name and Principal Place of Business.** 
+### 1.3 Name and Principal Place of Business. 
 
 The name of the Organization is QUORUM ONE,  LLC. The Organization shall maintain its principal business office at the following address:
 
@@ -40,58 +47,61 @@ The name of the Organization is QUORUM ONE,  LLC. The Organization shall maintai
 >
 >SAN FRANCISCO CA 94121 
 
-**1.4 Agent for Service of Process.** 
+### 1.4 Agent for Service of Process.
 
 The agent for service of process is REGISTERED  AGENTS INC. 
 
-**1.5 Tax Classification.** 
+### 1.5 Tax Classification.
 
 The Members intend the Organization to be classified as a C Corporation for federal and state income tax purposes. The financial and accounting  provisions in this Agreement are intended to comply with Subchapter T of the Internal  Revenue Code. 
 
 ## SECTION 2 - MEMBERSHIP
 
-**2.1 Names and Addresses** of Members. 
+### 2.1 Names and Addresses** of Members. 
 
 The names and addresses of the Members are attached as Exhibit A in the hard copy of this document that has been submitted to State, Federal, Tax, and any other regulatory body as part of the compliance of operating a business, and will be updated upon the admission of a new Member. Each  member shall provide the Organization with the information required for each Member in Exhibit A and shall promptly notify the Organization of any change to such information.
 
-**2.2 Membership Interests and Net Worth of Organization.**
+### 2.2 Membership Interests and Net Worth of Organization.
 
 Ownership of the Organization shall be reflected in Capital Accounts, as described in Section 7. Each Member shall have a  Capital Account (also referred to in this Agreement as “Member Account”) that reflects the  Member’s equity in the Organization. A Member’s Membership Interest is the Member  Account. The Organization’s Collective Account consists of retained earnings that shall not  be distributed to Members except at dissolution. The sum of the balances of the Capital  Accounts is the net worth of the Organization. 
 
-**2.3 Class of Members.**
+### 2.3 Class of Members.
 
 There shall be one class of Members, which class shall consist of the Steward Members as defined in the [Rules and Regulations](https://github.com/quorum1/governance/blob/release-4/docs/rules-and-regs.md) of the Organization (the “Rules  and Regulations”). Members shall vote on a one vote per person basis on any matter requiring voting by Members at meetings of the Members.  Voting will not be determined by the relative percentage ownership of Members, i.e., if one  Member owns 98% and two members each own 1%, a vote would still require two of the  three Members to make a majority. 
 
-**2.4 Membership Qualifications.**
+### 2.4 Membership Qualifications.
 
 A person seeking Membership in the Organization is a  “Candidate.” A Candidate must meet all the qualifications as set forth for a Steward in the  Rules and Regulations and must sign and agree to be bound by the Organization’s  Operating Agreement, Rules and Regulations, and the Subscription Agreement. 
 
 
-**2.5 Membership Dues.** 
+### 2.5 Membership Dues. 
 
 Each Member shall be required to make monthly or annual payments  to the Organization as set forth in the Rules and Regulations of the Organization. Should a Member be more than 90  days late with any such Membership dues, such member shall be placed on inactive status  and shall not be entitled to any rights in the Organization, including share of profits, voting  rights, or any other rights provided in this Operating Agreement or the Rules and  Regulations. 
 
-**2.6 Admission of Prospective Members.** 
+### 2.6 Admission of Prospective Members. 
 
 All prospective members shall apply via written application or nomination by a current Steward member. A Candidate must meet all of the Membership Qualification for a Steward as set forth in the Rules and Regulations. The application shall be accepted unless rejected in writing within thirty (30)  days for reasons satisfactory to the Organization. If a Candidate is not rejected as a  Member, the Organization shall issue the Candidate a Steward Membership. 
 
-
-**2.7 Transfers of Interests.**
+### 2.7 Transfers of Interests.
 
 No Member shall have the right to sell, transfer, pledge, encumber  or otherwise dispose of all or any part of such Member’s Membership Interest. 
 
 ## SECTION 3 - TERMINATION OF MEMBERSHIP
 
-**3.1 Termination of Membership.**
+### 3.1 Termination of Membership.
 
 A Member’s Membership Interest in the Organization shall  terminate by any of the following: 
 
-**a. Voluntary Withdrawal.** A Member may resign from the Organization at any time, with  or without cause, by giving written notice to Management of the Organization.  Resignation shall terminate the Member’s Membership Interest in the Organization and  shall be effective immediately upon filing the resignation, or, if later, at the time  specified in the notice.
+#### a. Voluntary Withdrawal. 
+A Member may resign from the Organization at any time, with  or without cause, by giving written notice to Management of the Organization.  Resignation shall terminate the Member’s Membership Interest in the Organization and  shall be effective immediately upon filing the resignation, or, if later, at the time  specified in the notice.
 
-**b. Expulsion.** A Member may be expelled from the Organization for any lawful reason,  including for failure to comply with the Rules and Regulations, standards, or any  written code of conduct of the Organization, or for any other reasonably justifiable  reason, effective immediately, by a two-thirds (2/3) vote of all Members. Such votes may be cast by any manner as set forth in the Rules and Regulations and do not need to 
+#### b. Expulsion. 
+A Member may be expelled from the Organization for any lawful reason,  including for failure to comply with the Rules and Regulations, standards, or any  written code of conduct of the Organization, or for any other reasonably justifiable  reason, effective immediately, by a two-thirds (2/3) vote of all Members. Such votes may be cast by any manner as set forth in the Rules and Regulations and do not need to 
 be cast at a meeting of the Members. If the Members vote to expel the Member, the  expulsion shall be effective immediately. 
 
-**c. Other Causes of Involuntary Withdrawal.** A Member may be terminated involuntarily  under any of the following circumstances:
+#### c. Other Causes of Involuntary Withdrawal.
+
+A Member may be terminated involuntarily  under any of the following circumstances:
 
 i. The Member dies. A Membership shall immediately terminate upon the death of a  Member. The deceased Member’s designated beneficiary shall be entitled to receive  from the Organization the value of the Member’s Member Account and all other  payments due to such Member prior to the death of such Member (the “Death  Benefit”), if and only if, prior to death, the Member filed a Designated Beneficiary  Form with the Organization. The Designated Beneficiary shall be paid the Death  Benefit according to Section 3.2 below, unless the Org Point decides to pay the  Designated Beneficiary on an earlier schedule.
 
@@ -99,7 +109,7 @@ ii. A medical professional deems the Member mentally incapable of handling their
 
 iii. A guardian or general conservator for the Member is appointed. 
 
-**3.2 Rights Upon Membership Termination**.  
+### 3.2 Rights Upon Membership Termination  
 
 1. When a Membership is terminated, voluntarily or involuntarily, the amount in such  Member’s Capital Account will be paid to the Member or if the Member is deceased, to  the Member’s Designated Beneficiary within ninety (90) days of written notice received  by Organization from the Member or the Designated Beneficiary regarding the  terminated Member. Such amount shall be calculated after making all profit and loss  adjustments through the date of termination. No voting, participation, or ownership  rights will survive termination, whether voluntary or involuntary. All economic rights  cease upon payment to the Member or the Designated Beneficiary the amount as  calculated in this section.
 
@@ -107,7 +117,7 @@ iii. A guardian or general conservator for the Member is appointed.
 
 ## SECTION 4 - MANAGEMENT OF THE LLC
 
-**4.1 Role of the Strong Steward.** 
+### 4.1 Role of the Strong Steward. 
 
 The Manager of the LLC shall be the Strong Steward and shall have the power and authority to: 
 
@@ -139,39 +149,41 @@ xiii. To delegate all or any of his duties hereunder, and in furtherance of any 
 
 Such person may, under the supervision of the Manager, administer the day-to-day  operations of the Organization; may serve as the Organization's advisor and  consultant in connection with policy decisions made by the Manager; may act as  consultant, accountant, attorney, broker, escrow agent, or in any other capacity  deemed by the Manager necessary or desirable; may investigate, select, and, on  behalf of the Organization, conduct relations with persons acting in such capacities  and may pay appropriate fees to and enter into appropriate contracts with, or  employ or retain services performed or to be performed by, any of them in  connection with the property of the Organization, may perform or assist in the  performance of such administrative or Managerial functions necessary in the  management of the Organization as may be agreed upon with the Manager; and  may perform such other acts or services for the Organization as the Manager, in the  Manager’s reasonable discretion may approve. 
 
-**4.2 Term.** 
+### 4.2 Term. 
 
 The initial Strong Steward shall serve until the FGM (the Formal Governance Model, as  such term is defined in the Rules and Regulations of the Organization) is formally adopted  or until replaced by the unanimous vote of the other Steward Members. 
 
-**4.3 Indemnification of the Strong Steward.** The Organization shall indemnify the Org Point in  connection with their services as the Strong Steward of the Organization to the fullest extent  permitted, or required by, the Act. 
+### 4.3 Indemnification of the Strong Steward. 
+
+The Organization shall indemnify the Org Point in  connection with their services as the Strong Steward of the Organization to the fullest extent  permitted, or required by, the Act. 
 
 ## SECTION 5 - QUORUM MEETINGS 
 
-**5.1 Regular and Special Meetings.**
+### 5.1 Regular and Special Meetings.
 
 a. Meetings of the Strong Steward, the Steward members, Foundation members, Foundation Teams, Contributor members, and/or Network members shall be held at dates and times as all parties may determine from time to time.  
 
 b. Meetings may be held either in person or by means of telephone, video conference, or  other communications device that permits all participants in the meeting to hear each  other. 
 
-**5.2 Quorum.** 
+### 5.2 Quorum.
 
 No action may be taken at a meeting of the Strong Steward without the  consent of that number or percentage of the Members’ whose consent is required for such action under this Agreement. If a quorum is not present at a meeting of the Members, then  the Members present at the meeting may adjourn the meeting without notice, until a quorum is present. 
 
-**5.3 Voting.** 
+### 5.3 Voting. 
 
 Each voting Steward is entitled to one vote on each matter submitted to a Steward vote. 
 
-**5.4 Action Without a Meeting**. 
+### 5.4 Action Without a Meeting. 
 
 Any action of any Steward meeting may be taken without a meeting if all Steward Members consent in writing to the action; Action by written consent has the  same force and effect as an act of the Manager and/or voting Stewards in a formal meeting. 
 
 ## SECTION 6 - MEMBER MEETINGS 
 
-**6.1** Any meeting of the Members shall be governed by the Rules and Regulations of the  Organization. 
+### 6.1 Any meeting of the Members shall be governed by the Rules and Regulations of the  Organization. 
 
 ## SECTION 7 - FINANCIAL PROVISIONS
 
-**7.1 Definitions.**
+### 7.1 Definitions.
 
 a. “Collective Account” means the Capital Account that represents the portion of the net  book value of the Organization attributable to the Organization. The Collective Account  shall consist of Surplus, Profit, and reserves that are retained in the Organization and not  distributed to Members until dissolution of the Organization.
 
@@ -189,15 +201,15 @@ h. “Surplus” shall be defined as the excess of revenues over Expenses for a 
 
 i. “Written Notice of Allocation,” “Qualified Written Notice of Allocation,” and  Nonqualified Written Notice of Allocation” shall have the definitions contained in  Internal Revenue Code Section 1388(b)-(d). 
 
-**7.2 Member Payments.** 
+### 7.2 Member Payments. 
 
 Payments to Members shall be paid in conformance with the Rules and Regulations and Quorum1 Financial Model (the "Financial Model").  
 
-**7.3 Additional Capital Contributions.** 
+### 7.3 Additional Capital Contributions. 
 
 Members may be required to make additional capital  contributions, based upon the Members’ good faith determination that such contribution is  necessary or advisable for the Organization’s financial condition. Terms of Additional Capital Contributions may be found in the Rules and Regulations and/or the Financial Model.  
 
-**7.4 Priority of Payments.** 
+### 7.4 Priority of Payments. 
 Notwithstanding anything else to the contrary in this Article,  payments and disbursements by the Organization shall be made in the following order of  priority:
 
 a. Member Work Payments for work performed on paid client projects.
@@ -212,19 +224,88 @@ e. Member Profit Sharing and profit re-investment.
 
 f. To Organization investments, non-profit donations, or other charitable programs if  Organization elects to participate in such.
 
-**7.5 Allocation of Profits and Losses.**
+### 7.5 Allocation of Profits and Losses.
 
 Profits and losses shall be allocated in accordance with the then-current Financial Model of the Organization.  
 
-**7.6 Mandatory Revenue Disbursements.**
+### 7.6 Mandatory Revenue Disbursements.
 
 The Mandatory Revenue Disbursements defined  above must be included in any and all Organization Operating Agreements, Organization Rules and Regulations, and Organization Financial Model. This Section 7.6 may not be  amended or removed from the Operating Agreement, or any restatements thereof, by the  Rules and Regulations, by any action of the Strong Steward, Manager, Steward Members, other Members, or any other person acting alone or together.  
 
-**7.7 Dissolution Distributions.**
+### 7.7 Dissolution Distributions.
 
 a. Upon liquidation, dissolution, or a Deemed Liquidation Event, assets left after payment  of all debts and Member Account balances shall be distributed to all persons who are  current and living Members, in proportion to the number of Q-Credits earned by that  Member as compared to all Q-Credits issued in the relevant time period (“Dissolution  Distribution”). Dissolution Distributions shall only be made to current and living  Members in good standing. No Dissolution Distribution shall be made to a Designated  Beneficiary. 
 
 b. No Dissolution Distribution need be made to a person who fails to acknowledge the  receipt of notice of liquidation in a timely manner. Notice shall be deemed sufficient if  sent by certified mail, at least thirty (30) days before distribution of residual assets, to the  person’s last known business or residence address. 
+
+## SECTION 8 - ACCOUNTING, RECORDS, AND REPORTING
+
+### 8.1 Method of Accounting. 
+
+The Organization shall use the method for its financial accounting as set forth in the then-current Financial Model. 
+
+### 8.2 Fiscal Year. 
+
+The Organization’s fiscal year is set forth in the then-current Financial Model. 
+
+### 8.3 Records required to be kept 
+
+The Organization shall keep the following at its principal office and shall either make such information accessible to all Members or deliver it  promptly upon a Member’s reasonable request: 
+
+a. The original or a copy of its Articles and Operating Agreement as amended to date; 
+
+b. The Rules and Regulations;
+
+c. Adequate and correct books and records of account for at least the current and past three  (3) fiscal years;
+
+d. A copy of the Organization’s federal, state, and local income tax returns for the three (3)  most recent fiscal years;
+
+e. Copies of the financial statements of the Organization for the three (3) most recent fiscal  years;
+
+f. Minutes of any formal meetings;
+
+g. A record of its Members, past and present, providing the following Member information:
+
+Member’s name, telephone number, email address, last known business or residence  address, total capital contributions, designated beneficiary name and address,  membership dates, and the total number of hours worked during his or her membership.
+
+### 8.4 Reports 
+
+Within 90 days after the end of each taxable year, the Organization shall send to  each Member (1) the information necessary to complete federal and state income tax or  information returns and (2) a copy of the Organization’s federal, state, and local income tax  or information returns for the year. 
+
+## SECTION 9 - DISSOLUTION AND WINDING UP 
+
+### 9.1 Dissolution. 
+
+The Organization will be dissolved upon:
+
+a. supermajority (2/3) vote of all Members;
+
+b. the issuance of an order of dissolution by a court;
+
+c. or by action of the California Secretary of State.
+
+### 9.2 Winding Up. 
+
+After the Organization is dissolved, the person or persons responsible for  winding it up shall as expeditiously as possible and on terms as favorable as possible to the  Organization, wind up its business and internal affairs and liquidate its assets. During the  wind-up period, the Organization shall accept no new business except to the extent  necessary to dispose of existing inventory.
+
+### 9.3 Liquidation. 
+
+Proceeds from liquidation of the Organization shall be applied and distributed  in the following order: 
+
+a. First, to payment of the expenses of liquidation and of all the Organization’s debts and  liabilities to non-Members; 
+
+b. Second, to the payment of Organization debts and liabilities owed to Members;
+
+c. Third, pro rata to Members in the amount of their respective Member Account balances  on the date of distribution; 
+
+d. Fifth, as described in § 7.7 (Dissolution Distributions). 
+
+## SECTION 10 - DISPUTE RESOLUTION 
+
+### 10.1 Disputes Among Members. 
+
+The Members agree that they shall use their best efforts to  resolve disputes among them by good faith negotiation and mutual agreement. However, in  the event that the Members are unable to resolve the dispute, they shall report the dispute to  the Manager. The Manager may try to resolve it on his or her own. If that fails, the  Manager shall first attempt to informally mediate the dispute through non-binding  mediation. In the event a party to the mediation is not satisfied with the results, then any  unresolved disputes shall be settled in accordance with an arbitration proceeding. 
+
 
 
 
