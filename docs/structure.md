@@ -21,9 +21,9 @@ The Org is led by the Core Points (the points from each core quorum), and by the
 The Org has four levels of membership, listed in increasing levels of commitment and trust:
 
 - **Network members** create user accounts in Quorum1’s app suite and agree to our terms of service, but make no specific commitments to engagement level and have limited access to our systems.
-- **Community members** commit to a certain level of engagement and make lightweight agreements around collaboration and sharing. They are given increased but still limited access to our systems.
-- **Contributor members** sign formal membership agreements and are able to participate in paid projects and make significant contributions. They are given full end user level access to most systems, though administrative permissions and systems are granted based on other criteria.
-- **Partner members** sign formal partnership agreements and are owning members of Quorum1’s underlying legal entity. They have the highest level of end user level systems access.
+- **Contributor members** commit to a certain level of engagement and make lightweight agreements around collaboration and sharing. They are given increased but still limited access to our systems.
+- **Foundation members** sign formal membership agreements and are able to participate in paid projects and make significant contributions. They are given full end user level access to most systems, though administrative permissions and systems are granted based on other criteria.
+- **Steward members** sign formal partnership agreements and are owning members of Quorum1’s underlying legal entity. They have the highest level of end user level systems access.
 
 ## The Platform
 
