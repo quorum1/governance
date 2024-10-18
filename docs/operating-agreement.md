@@ -353,5 +353,19 @@ The rights and obligations of the parties which by their nature must survive  te
 
 #
 
+## EXHIBIT A - LIST OF STEWARDS
+
+The following table represents a list of the current Steward Members of the Organization. Addresses, exact dates, and initial capital contributions have been redacted for privacy reasons, but exist substantially in the original document submitted to according local, federal, tax, and any other regulatory agencies. This list is presented in the chronological order of attaining Steward. 
+
+| Name | Date of Stewardship |
+| --- | --- | 
+| Hank Holiday | May 2021 | 
+| Jay Killian | June 2021 | 
+| Jon VanDeventer | July 2021 | 
+| Stephanie Caulley | October 2022 | 
+| Esteban Montero | April 2022 | 
+| Yvette Pearson | February 2024 | 
+| George Lord | April 2024 | 
+| Ed Hwang | April 2024 | 
 
 
