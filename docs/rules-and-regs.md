@@ -1,4 +1,4 @@
-# Quorum1 Rules and Regulations v1.2
+# Quorum1 Rules and Regulations v1.2.1
 
 ## Section 1: Organization
 
@@ -14,11 +14,11 @@ The Collective shall not arbitrarily discriminate on the basis of race, national
 
 ### Section 2.01: Membership Levels
 
-The Collective shall have three classes of members: 
-1. Partners (Organizational Owners)
+The Collective shall have four levels of membership:
+1. Network 
 2. Contributor
-3. Community
-4. Network
+3. Foundation
+4. Steward (the Owner Members of Quorum One LLC)
  
 ### Section 2.02: Membership Qualifications
 
@@ -26,16 +26,14 @@ Any person may become and remain a member of this Organization.
 
 ### Section 2.03: Membership Qualifications by Levels
 
-The initial qualifications for each classification of membership are as follows:
-1. Network member: Must register and follow the terms of service and Quorum1 [code of conduct](./code-of-conduct.md).
-2. Community member: Must have a active LinkedIn profile or web presence that verifies who they are.
-3. Contributor member:
-   1. Must be staff on a client project, or
-   2. Must be actively working on a Quorum1 project with at least a weekly contribution.
-4. Partner Member:
+The initial qualifications for each level of membership are as follows:
+1. Network member: Must register and follow terms of service.
+2. Contributor member: Must sign the Quorum1 Community Member Agreement.
+3. Foundation member: Must have experience working on Foundation projects and verifiably learn about the Quorum Model.
+4. Steward Member:
    1. Understanding of Quorum Model & current org goals
    2. 3 Months+ of membership
-   3. Has connected with all other partners
+   3. Has connected with all other Stewards
    4. Has made significant contributions to Quorum1
    5. Sponsored by 3+ partners
 
@@ -51,9 +49,9 @@ A membership can also be downgraded, either by request of the member or a cessat
 
 A membership can be moved to "Inactive" status, either by request of the member, or due to a lack of involvement for a period of 3 months.
  
-### Section 2.07: Partner Fees
+### Section 2.07: Member Fees
  
-**Partner Fees.** Only Partner Members pay member feels. Partner Member fees are $550 paid annually.
+**Partner Fees.** Only Steward Members pay member fees. Steward Member fees are $550 paid annually.
  
 ### Section 2.08: Voluntary Withdrawal
  
