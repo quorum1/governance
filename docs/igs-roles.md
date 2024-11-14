@@ -30,16 +30,22 @@ This section defines key roles within IGS. These may be referenced as dependenci
 
 **Contributors** are all active members at the Contributor, Foundation, or Steward levels of membership. All contributors are able to participate in governance. To be clear: For the purposes of role definitions, Foundation Members and Stewards may also act as Contributors.
 
-### Foundation Members 
+### Foundation Member
 
 **Foundation Members** are all active members at the Foundation level of membership. They do not have any specific role in governance beyond their roles as Contributors.
 
-### Stewards
+### Steward
 
 The **Stewards** are all active members at the Steward level of membership. They are also the owning "Members" of Quorum1's underlying legal entity and thus hold an increased level of responsibility and liability for the ongoing operation of Quorum1. The Stewards provide critical leadership in governance.
 
-### Strong Steward
+### Managing Steward
 
 The **Managing Steward** (also referred to as the "Managing Partner") is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
 
 If the Managing Steward is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Managing Steward no longer wishes to serve in the role, a new Managing Steward may be appointed with the unanimous approval of all Stewards capable of participating. In that event, this doc must be updated with the new Managing Steward's name.
+
+### Signatory
+
+While the Collective is in Informal Governance Structure only the Signatories specified in this section are able to bind the collective legally.
+
+The Signatories are, specifically and exclusively: Hank Holiday (Q0001), Jay Kilian (Q0002), and Esteban Montero (Q0022).
