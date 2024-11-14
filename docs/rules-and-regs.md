@@ -69,7 +69,7 @@ The org structure is defined here: [Quorum1 Structure](./structure.md).
 
 ## Section 5: Contract Signatory Authority
 
-While the Collective is in Informal Governance Structure only the Managing Partner or Steward are able to bind the Collective legally.
+While the Collective is in Informal Governance Structure only the [Quorum1 Signatories](./glossary.md#quorum1-signatories) are able to bind the Collective legally.
 
 ## Section 6: Financial Model
 
