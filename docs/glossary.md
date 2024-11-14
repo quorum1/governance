@@ -114,6 +114,10 @@ This process defines how unfulfilled revenue in a fulfillment ledger may be refu
 
 # Quorum1 Tools & Terms
 
+## Quorum1 Signatories
+
+While the Collective is in Informal Governance Structure only the Quorum1 Signatories are able to bind the Collective legally. The Signatories are defined in [Informal Governance Structure Definition & Roles](./igs-roles.md).
+
 ## Workstream
 
 The Workstream is a system that Quorum1 uses to manage requests, tasks, and facilitate collaboration. Workstream reqs (short for “requests”) are discrete work units or tasks. Each req belongs to a stream (the primary organizational structure within the Workstream). The Workstream is a custom app designed and built by the quorum to facilitate collaboration \while maximizing visibility and discoverability of work items across the organization. The Workstream is a critical part of Quorum1’s operational infrastructure.
