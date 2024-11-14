@@ -22,24 +22,24 @@ This section defines key roles within IGS. These may be referenced as dependenci
 
 **Members** are all active Quorum1 members at any membership level. 
 
-### Network
+### Network Member
 
-**Network Members** or **The Network** refers to active members who participate in the community but have yet to collaborate on internal or external projects. They receive base access to select systems and do not have any formal role in governance. 
+**Network Members** are all active members at the Network level of membership. They receive base access to select systems and do not have any formal role in governance. 
 
 ### Contributor
 
-**Contributors** sign formal membership agreements and actively work on Foundation teams such as Finance, Ops, Build, and Legal. Stewards lead these teams and associated iniatives, and Contributors may also be invited to collaborate in these same areas.
+**Contributors** are all active members at the Contributor, Foundation, or Steward levels of membership. All contributors are able to participate in governance. To be clear: For the purposes of role definitions, Foundation Members and Stewards may also act as Contributors.
 
-### Foundation 
+### Foundation Members 
 
-**Foundation members** sign formal membership agreements and actively work on Foundation teams such as Finance, Ops, Build, and Legal. Stewards lead these teams and associated iniatives, and Contributors may also be invited to collaborate in these same areas. 
+**Foundation Members** are all active members at the Foundation level of membership. They do not have any specific role in governance beyond their roles as Contributors.
 
 ### Stewards
 
-The **Stewards** are active owning members of Quorum1's underlying legal entity and lead efforts and initiatives within The Foundation. 
+The **Stewards** are all active members at the Steward level of membership. They are also the owning "Members" of Quorum1's underlying legal entity and thus hold an increased level of responsibility and liability for the ongoing operation of Quorum1. The Stewards provide critical leadership in governance.
 
 ### Strong Steward
 
-The **Strong Steward** is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
+The **Managing Steward** (also referred to as the "Managing Partner") is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
 
-If the Strong Steward is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Steward no longer wishes to serve in the role, a new Steward may be appointed with the unanimous approval of all Partners capable of participating. In that event, this doc should be updated with the new Steward's name.
+If the Managing Steward is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Managing Steward no longer wishes to serve in the role, a new Managing Steward may be appointed with the unanimous approval of all Stewards capable of participating. In that event, this doc must be updated with the new Managing Steward's name.
