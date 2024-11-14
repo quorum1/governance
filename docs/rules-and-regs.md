@@ -14,11 +14,11 @@ The Collective shall not arbitrarily discriminate on the basis of race, national
 
 ### Section 2.01: Membership Levels
 
-The Collective shall have three classes of members: 
+The Collective shall have four levels of membership:
 1. Network 
 2. Contributor
 3. Foundation
-4. Steward (Organizational Owners)
+4. Steward (the Owner Members of Quorum One LLC)
  
 ### Section 2.02: Membership Qualifications
 
@@ -26,15 +26,10 @@ Any person may become and remain a member of this Organization.
 
 ### Section 2.03: Membership Qualifications by Levels
 
-The initial qualifications for each classification of membership are as follows:
-1. Network member: Must register and follow terms of service
-2. Contributor member:
-   1. Must have a active LinkedIn profile or web presence that verifies who they are.
-   2. Must sign the Quorum1 Community Agreement
-4. Foundation member:
-   1. Must be staff on a client project, or
-   2. Must be actively working on a Quorum1 project with at least a weekly contribution.
-   3. Appointed, or sponsored by a Steward
+The initial qualifications for each level of membership are as follows:
+1. Network member: Must register and follow terms of service.
+2. Contributor member: Must sign the Quorum1 Community Member Agreement.
+3. Foundation member: Must have experience working on Foundation projects and verifiably learn about the Quorum Model.
 4. Steward Member:
    1. Understanding of Quorum Model & current org goals
    2. 3 Months+ of membership
@@ -56,7 +51,7 @@ A membership can be moved to "Inactive" status, either by request of the member,
  
 ### Section 2.07: Member Fees
  
-**Partner Fees.** Only Steward Members pay member feels. Steward Member fees are $550 paid annually.
+**Partner Fees.** Only Steward Members pay member fees. Steward Member fees are $550 paid annually.
  
 ### Section 2.08: Voluntary Withdrawal
  
