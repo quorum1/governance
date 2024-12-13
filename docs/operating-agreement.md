@@ -117,9 +117,9 @@ iii. A guardian or general conservator for the Member is appointed.
 
 ## SECTION 4 - MANAGEMENT OF THE LLC
 
-### 4.1 Role of the Strong Steward. 
+### 4.1 Role of the Managing Steward. 
 
-The Manager of the LLC shall be the Strong Steward and shall have the power and authority to: 
+The Manager of the LLC shall be the Managing Steward and shall have the power and authority to: 
 
 i. To expend the capital and net income of the Organization in the furtherance of the  Organization's business;
 
@@ -151,23 +151,23 @@ Such person may, under the supervision of the Manager, administer the day-to-day
 
 ### 4.2 Term. 
 
-The initial Strong Steward shall serve until the FGM (the Formal Governance Model, as  such term is defined in the Rules and Regulations of the Organization) is formally adopted  or until replaced by the unanimous vote of the other Steward Members. 
+The initial Managing Steward shall serve until the FGM (the Formal Governance Model, as  such term is defined in the Rules and Regulations of the Organization) is formally adopted  or until replaced by the unanimous vote of the other Steward Members. 
 
-### 4.3 Indemnification of the Strong Steward. 
+### 4.3 Indemnification of the Managing Steward. 
 
-The Organization shall indemnify the Org Point in  connection with their services as the Strong Steward of the Organization to the fullest extent  permitted, or required by, the Act. 
+The Organization shall indemnify the Org Point in  connection with their services as the Managing Steward of the Organization to the fullest extent  permitted, or required by, the Act. 
 
 ## SECTION 5 - QUORUM MEETINGS 
 
 ### 5.1 Regular and Special Meetings.
 
-a. Meetings of the Strong Steward, the Steward members, Foundation members, Foundation Teams, Contributor members, and/or Network members shall be held at dates and times as all parties may determine from time to time.  
+a. Meetings of the Managing Steward, the Steward members, Foundation members, Foundation Teams, Contributor members, and/or Network members shall be held at dates and times as all parties may determine from time to time.  
 
 b. Meetings may be held either in person or by means of telephone, video conference, or  other communications device that permits all participants in the meeting to hear each  other. 
 
 ### 5.2 Quorum.
 
-No action may be taken at a meeting of the Strong Steward without the  consent of that number or percentage of the Members’ whose consent is required for such action under this Agreement. If a quorum is not present at a meeting of the Members, then  the Members present at the meeting may adjourn the meeting without notice, until a quorum is present. 
+No action may be taken at a meeting of the Managing Steward without the  consent of that number or percentage of the Members’ whose consent is required for such action under this Agreement. If a quorum is not present at a meeting of the Members, then  the Members present at the meeting may adjourn the meeting without notice, until a quorum is present. 
 
 ### 5.3 Voting. 
 
@@ -230,7 +230,7 @@ Profits and losses shall be allocated in accordance with the then-current Financ
 
 ### 7.6 Mandatory Revenue Disbursements.
 
-The Mandatory Revenue Disbursements defined  above must be included in any and all Organization Operating Agreements, Organization Rules and Regulations, and Organization Financial Model. This Section 7.6 may not be  amended or removed from the Operating Agreement, or any restatements thereof, by the  Rules and Regulations, by any action of the Strong Steward, Manager, Steward Members, other Members, or any other person acting alone or together.  
+The Mandatory Revenue Disbursements defined  above must be included in any and all Organization Operating Agreements, Organization Rules and Regulations, and Organization Financial Model. This Section 7.6 may not be  amended or removed from the Operating Agreement, or any restatements thereof, by the  Rules and Regulations, by any action of the Managing Steward, Manager, Steward Members, other Members, or any other person acting alone or together.  
 
 ### 7.7 Dissolution Distributions.
 
