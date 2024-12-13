@@ -97,21 +97,23 @@ In our work, we may face circumstances where competing loyalties present a motiv
 
   1. If the public knew about this relationship or situation, would Quorum1 be harmed?
   2. If a Steward or others at Quorum1 knew about this relationship or situation, would it reflect badly upon me?
-  3. Does this relationship or situation make it difficult for me to do objective and effective work for Quorum1?
+  3. Does this relationship or situation make it difficult for me to do objective and effective work within or leading projects for the Foundation in Quorum1?
   4. Does this relationship or situation require me to act in a way contrary to the values stated in this Code?
 
 #### B.   Avoid Conflicts in Personal Investments
-Conflicts of interest can arise when a member or employee has a significant personal investment in a client, supplier, partner, or competitor of Quorum1. If the investment is in a competitor, a conflict of interest exists. If the investment is in a client, supplier, or partner of Quorum1, and the member or employee could take action that benefits his or her investment at the expense of Quorum1, a conflict of interest exists.
+Conflicts of interest can arise when a member or employee has a significant personal investment in a client, supplier, partner, or competitor of Quorum1 that affects their work with Foundation projects. If the investment is in a direct competitor to Quorum1, a conflict of interest exists. If the investment is in a client, supplier, or partner of Quorum1, and the member or employee could take action that benefits his or her investment at the expense of a Quorum1 Foundation project, a conflict of interest exists.
 
 We understand that as Quorum1 grows, the number of clients and competitors increases. If a potential investment seems like it might cause a conflict of interest, it is important to vet the investment as appropriate, to mitigate, if possible, any conflict of interest in conjunction with the Stewards, and to avoid the investment if necessary.
 
 #### C.  	Avoid Conflicts in Personal Relationships
 **If a relative, significant other, or close friend is a client, supplier, partner, or competitor of Quorum1, a conflict of interest could arise. In these cases, members should work with the Stewards to make sure no problems arise.**
 
-Quorum1 encourages close bonds between colleagues and understands that some dating relationships are bound to result. If these relationships create a conflict of interest, changes to the work relationship between the couple may be necessary.
+Quorum1 encourages close bonds between colleagues and understands that some dating relationships are bound to result. If these relationships create a conflict of interest within a Quorum1 Foundation project, changes to the work relationship between the couple may be necessary.
 
 #### D.   Avoid Conflicts in Pursuing Outside Opportunities
-Business opportunities that arise in the course of work at Quorum1 belong first to Quorum1. Employment with a client, supplier, partner, or competitor of Quorum1, even if as a consultant or advisor or in an unpaid role, may sometimes create a conflict of interest. Members are allowed to take jobs with and maintain personal business relationships with direct competitors of Quorum1, but they must communicate these relationships to a Steward.
+Business opportunities that arise in the course of work within a project within Quorum1 are subject to the ownership and IP guidlines defined by that project. 
+
+Quorum1 Foundation projects require a higher level of trust and transparency within the network.  Employment with a client, supplier, partner, or competitor of Quorum1, even if as a consultant or advisor or in an unpaid role, may sometimes create a conflict of interest. Members are allowed to take jobs with and maintain personal business relationships with direct competitors of Quorum1, but they must communicate these relationships to a Steward.
 
 #### E.   Avoid Conflicts in Receiving Gifts and Entertainment
 Quorum1 prohibits members from accepting significant gifts from client, suppliers, partners, or competitors. Meals and entertainment can be appropriate parts of business relationships. Larger gifts (valued at $150 or more), however, can create the appearance (or reality) of a conflict of interest, and cannot be accepted without approval from a Steward. Cash or equivalent gifts are prohibited.  If you are unsure whether you can accept a specific gift, please consult a Steward.
