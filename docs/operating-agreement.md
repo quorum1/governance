@@ -195,7 +195,7 @@ c. “Initial Capital Contribution” is set forth in the Rules and Regulations 
 
 e. “Loss” means the excess of Expenses over revenues for a fiscal year. 
 
-f. “Patronage” means hours worked by each Member for the Organization that result in Q Credits. 
+f. “Patronage” means hours worked and recorded by each Member for a Foundation project. 
 
 g. “Profit” means the excess of revenues over Expenses for a fiscal year.
 
@@ -236,7 +236,7 @@ The Mandatory Revenue Disbursements defined  above must be included in any and a
 
 ### 7.7 Dissolution Distributions.
 
-a. Upon liquidation, dissolution, or a Deemed Liquidation Event, assets left after payment  of all debts and Member Account balances shall be distributed to all persons who are  current and living Members, in proportion to the number of Q-Credits earned by that  Member as compared to all Q-Credits issued in the relevant time period (“Dissolution  Distribution”). Dissolution Distributions shall only be made to current and living  Members in good standing. No Dissolution Distribution shall be made to a Designated  Beneficiary. 
+a. Upon liquidation, dissolution, or a Deemed Liquidation Event, assets left after payment  of all debts and Member Account balances shall be distributed to all persons who are  current and living Members, in proportion to the number of rev points earned by that  Member as compared to all rev points issued in the relevant time period by Foundation project(“Dissolution  Distribution”). Dissolution Distributions shall only be made to current and living  Members in good standing. No Dissolution Distribution shall be made to a Designated  Beneficiary. 
 
 b. No Dissolution Distribution need be made to a person who fails to acknowledge the  receipt of notice of liquidation in a timely manner. Notice shall be deemed sufficient if  sent by certified mail, at least thirty (30) days before distribution of residual assets, to the  person’s last known business or residence address. 
 
