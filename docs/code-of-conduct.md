@@ -7,7 +7,7 @@ This Code articulates a set of core commitments each Quorum1 member and Quorum1�
 We all have the tools to make good decisions and it is the responsibility of each Quorum1 member to uphold the standards outlined here.
 
 ### WHERE DO I GO WITH QUESTIONS?
-If you have any questions, concerns, or feedback about this Code, please reach out to the Stewards via team@quorum.one or other available channels.
+If you have any questions, concerns, or feedback about this Code, please reach out to the Stewards via stewards@quorum.one or other available channels.
 
 ### GOOD FAITH REPORTING AND NON-RETALIATION
 Acting in good faith means that all reports of possible violations of this Code, company policy, or the law are made sincerely and honestly. In other words, it does not matter whether your report turns out to be true, but you must make it with the best intentions.
@@ -20,7 +20,7 @@ Please contact a representative of the Quorum1 Legal Team at legal@quorum.one if
 This section lays out the set of core commitments that define our culture and should therefore guide your conduct at Quorum1. This is not meant to be an exhaustive list.
 
 ### I. Follow and Comply with the Law
-While the law does not solely determine what actions are right and wrong, we are committed to following the law in the jurisdictions in which we operate. At Quorum1, we take our responsibility to comply with laws and regulations seriously. We must follow applicable laws, rules, and regulations at all times. We don’t expect everyone to know every aspect of every applicable law, each of us should understand the major laws and regulations that apply to our work and know when to ask for help.
+While the law does not solely determine what actions are right and wrong, we are committed to following the law in the jurisdictions in which we operate. At Quorum1, we take our responsibility to comply with laws and regulations seriously. We must follow applicable laws, rules, and regulations at all times. We don’t expect everyone to know every aspect of every applicable law, each of us are responsible for understanding the major laws and regulations that apply to our work and to know when to ask for help.
 
 Each member of Quorum1 should develop their own sense of what to look out for; the items listed here are some areas of particular concern, but our commitment to comply with the law applies across the board.
 
@@ -30,7 +30,7 @@ In connection to following and complying with the laws and regulations in the ju
 
 At this moment, regardless of classification, the list of restricted areas include: Crimea, Luhansk or Donetsk regions, Republic of Cuba, Islamic Republic of Iran, Democratic People’s Republic of Korea, and the Syrian Arab Republic.
 
-Quorum1 wants to be clear that it encourages humanitarian efforts and by no means intends to restrict our members’ efforts to help those in need. If you have questions or concerns related to the restrictions listed above in relation to humanitarian efforts, please contact the Stewards via team@quorum.one or other available channels.
+Quorum1 wants to be clear that it encourages humanitarian efforts and by no means intends to restrict our members’ efforts to help those in need. If you have questions or concerns related to the restrictions listed above in relation to humanitarian efforts, please contact the Stewards via stewards@quorum.one or other available channels.
 
 ### II. Respect Our Clients and Partners
 
@@ -75,12 +75,12 @@ Quorum1's anti-retaliation provision is not intended to protect persons making i
 
 #### B.   Respect Diversity and Combat Bias
 
-We recognize that our individual perspectives are limited by life experiences and (often) a degree of privilege. Consequently, we are committed to building as diverse a community as possible and fostering open and safe communication within that community to create meaningful connection and an inclusive environment at Quorum1.
+We recognize that our individual perspectives are limited by life experiences. Consequently, we are committed to building diverse communities and fostering open and safe communication within our communities to create meaningful connection and an inclusive environment at Quorum1.
 
-Biases (both conscious and unconscious) can influence our decision-making abilities and lead to harmful outcomes for Quorum1, ourselves, and others. The best idea wins at Quorum1. We believe that personal biases can prevent us from accurately evaluating an idea on its merit, so we must seek to understand and overcome our biases, which we plan to provide training around for employees, members, and contractors.
+Biases (both conscious and unconscious) can influence our decision-making abilities and lead to harmful outcomes for Quorum1, ourselves, and others. Quorum1 is working to create environments where the best ideas win. Whenever possible we strive for objective and metric based evaluation and to critically enage and improve those over time as we learn and grow. When appropriate we plan to provide training for employees, members, and contractors to address negative biases.
 
 #### C.   Promote Equal Opportunities
-At Quorum1, we seek to recruit and retain a diverse pool of members. Having a diverse set of viewpoints is the best way to avoid groupthink and stasis.
+At Quorum1, we seek to recruit and retain a diverse pool of members. We believe diveristy improves resilience and the outcomes of our work.
 
 Quorum1 is an equal opportunity employer. Members and employees of the Quorum1 team are entitled to equal opportunity in the workplace without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law.
 
@@ -116,7 +116,7 @@ Business opportunities that arise in the course of work within a project within 
 Quorum1 Foundation projects require a higher level of trust and transparency within the network.  Employment with a client, supplier, partner, or competitor of Quorum1, even if as a consultant or advisor or in an unpaid role, may sometimes create a conflict of interest. Members are allowed to take jobs with and maintain personal business relationships with direct competitors of Quorum1, but they must communicate these relationships to a Steward.
 
 #### E.   Avoid Conflicts in Receiving Gifts and Entertainment
-Quorum1 prohibits members from accepting significant gifts from client, suppliers, partners, or competitors. Meals and entertainment can be appropriate parts of business relationships. Larger gifts (valued at $150 or more), however, can create the appearance (or reality) of a conflict of interest, and cannot be accepted without approval from a Steward. Cash or equivalent gifts are prohibited.  If you are unsure whether you can accept a specific gift, please consult a Steward.
+Quorum1 prohibits Foundation core project members from accepting significant gifts from client, suppliers, partners, or competitors. Meals and entertainment can be appropriate parts of business relationships. Larger gifts (valued at $150 or more), however, can create the appearance (or reality) of a conflict of interest, and cannot be accepted without approval from a Steward. Cash or equivalent gifts are prohibited.  If you are unsure whether you can accept a specific gift, please consult a Steward.
 
 ### V. Anti-Corruption, Bribery, and Kickbacks
 
@@ -129,7 +129,7 @@ A facilitation payment is a tip or small payment made to a government official i
 A kickback is the return of a sum paid (or due to be paid) as a reward for fostering a business arrangement. Accepting or offering a kickback violates this Code.
 
 #### Relationships with government officials
-If you interact with government officials on Quorum1’s behalf, be particularly careful about gifts, meals, and entertainment. Laws and regulations governing what companies can give government officials are very strict, including in the U.S. Contact the Stewards for approval before offering or providing any gifts, meals, or entertainment to government officials. All interactions with government officials that are not sales-related should involve the Stewards.
+If you interact with government officials on Quorum1’s behalf within the Foundation, be particularly careful about gifts, meals, and entertainment. Laws and regulations governing what companies can give government officials are very strict, including in the U.S. Contact the Stewards for approval before offering or providing any gifts, meals, or entertainment to government officials. All interactions with government officials that are not sales-related should involve the Stewards.
 
 A government official can be a national or local government employee, a political candidate, a party official, a member of a royal family, or an employee of a government-controlled entity, such as a state-owned enterprise. 
 
@@ -171,6 +171,8 @@ Quorum1’s network and network-connected hardware must be protected from any po
 
 ##### Protect Internal Personal Data
 Quorum1 collects and stores personal information for all members, but this data is kept secure, and access is restricted in accordance with internal policy and applicable laws. We must ensure that we treat the personal data of our members, visitors, contractors, and any other personal data under our direct control with the same care for privacy and security that we maintain for our clients’ and partners’ data.
+
+It is our intention to implement self-soverign identity and we are working to design and architect our systems and processes to allow for this in the future.
 
 ##### No Criminal Acts
 Immediately notify Quorum1’s Legal Quorum of any new investigations, especially those related to fraud, misrepresentations, bribery, corruption, tax evasion, sanctions violations, or similar activities which you may be part of or that you learn in connection to another member. These reports should be made directly to the Legal Quorum via legal@quorum.one.
