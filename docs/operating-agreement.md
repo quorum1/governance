@@ -1,11 +1,10 @@
 # Cooperative Operating Agreement of Quorum One, LLC
-*Adopted on August 23, 2021*
 
-_**Dependencies:** [Rules & Regulations](https://github.com/quorum1/governance/blob/release-4/docs/rules-and-regs.md), [Financial Model](https://github.com/quorum1/governance/blob/release-4/docs/financial-model.md), [Code of Conduct](https://github.com/quorum1/governance/blob/release-4/docs/code-of-conduct.md)_
+_**Dependencies:** [Rules & Regulations](./rules-and-regs.md), [Financial Model](./financial-model.md), [Code of Conduct](./code-of-conduct.md)_
 
 ### A California Manager-Managed Limited Liability Company
 
-This Operating Agreement (this “Agreement”) dated August 23, 2021 (the “Effective Date”) is  made and entered into by and among the members listed on Exhibit A, attached and incorporated  here by reference (the “Members”) of QUORUM ONE, LLC, a California limited liability  company (the “Organization”). 
+This Operating Agreement (this “Agreement”) is made and entered into by and among the members listed on Exhibit A, attached and incorporated  here by reference (the “Members”) of Quorum One, LLC, a California limited liability  company (the “Organization”). 
 
 ## PREFACE
 The Organization is a California limited liability company. While conforming to the California  Corporations Code regarding limited liability companies, the Organization strives to operate  similar to a collective corporation, in that the following principles are offered as guidance to, but  shall have no binding effect on, the Organization, and its members. 
@@ -14,7 +13,7 @@ The Organization is a California limited liability company. While conforming to 
 The Organization strives to achieve the following principles:
 
 a. **Voluntary and open Membership.** 
-Cooperatives are voluntary organizations, open to  all qualified persons willing to accept the responsibilities of membership, without  gender, social, racial, political or religious discrimination.
+Cooperatives are voluntary organizations, open to  all qualified persons willing to accept the responsibilities of membership, without gender, social, racial, political or religious discrimination.
 
 b. **Democratic member control.** 
 Cooperatives are democratic organizations controlled by  their members, who actively participate in setting their policies and making decisions.
@@ -43,15 +42,14 @@ Within the meaning and for purposes of the Act, the purpose and  scope of the Or
 
 ### 1.3 Name and Principal Place of Business. 
 
-The name of the Organization is QUORUM ONE,  LLC. The Organization shall maintain its principal business office at the following address:
+The name of the Organization is Quorum One, LLC. The Organization shall maintain its principal business office at the following address:
 
->5758 GEARY BOULEVARD, SUITE 141
->
->SAN FRANCISCO CA 94121 
+> 5758 GEARY BOULEVARD, SUITE 141
+> SAN FRANCISCO CA 94121 
 
 ### 1.4 Agent for Service of Process.
 
-The agent for service of process is REGISTERED  AGENTS INC. 
+The agent for service of process is REGISTERED AGENTS INC. 
 
 ### 1.5 Tax Classification.
 
@@ -59,7 +57,7 @@ The Members intend the Organization to be classified as a C Corporation for fede
 
 ## SECTION 2 - MEMBERSHIP
 
-### 2.1 Names and Addresses** of Members. 
+### 2.1 Names and Addresses of Members. 
 
 The names and addresses of the Members are attached as Exhibit A in the hard copy of this document that has been submitted to State, Federal, Tax, and any other regulatory body as part of the compliance of operating a business, and will be updated upon the admission of a new Member. Each  member shall provide the Organization with the information required for each Member in Exhibit A and shall promptly notify the Organization of any change to such information.
 
@@ -69,7 +67,7 @@ Ownership of the Organization shall be reflected in Capital Accounts, as describ
 
 ### 2.3 Class of Members.
 
-There shall be one class of Members, which class shall consist of the Steward Members as defined in the [Rules and Regulations](https://github.com/quorum1/governance/blob/release-4/docs/rules-and-regs.md) of the Organization (the “Rules  and Regulations”). Members shall vote on a one vote per person basis on any matter requiring voting by Members at meetings of the Members.  Voting will not be determined by the relative percentage ownership of Members, i.e., if one  Member owns 98% and two members each own 1%, a vote would still require two of the  three Members to make a majority. 
+There shall be one class of Members, which class shall consist of the Steward Members as defined in the [Rules and Regulations](./rules-and-regs.md) of the Organization (the “Rules  and Regulations”). Members shall vote on a one vote per person basis on any matter requiring voting by Members at meetings of the Members.  Voting will not be determined by the relative percentage ownership of Members, i.e., if one  Member owns 98% and two members each own 1%, a vote would still require two of the  three Members to make a majority. 
 
 ### 2.4 Membership Qualifications.
 
@@ -78,7 +76,7 @@ A person seeking Membership in the Organization is a  “Candidate.” A Candida
 
 ### 2.5 Membership Dues. 
 
-Each Member shall be required to make monthly or annual payments  to the Organization as set forth in the Rules and Regulations of the Organization. Should a Member be more than 90  days late with any such Membership dues, such member shall be placed on inactive status  and shall not be entitled to any rights in the Organization, including share of profits, voting  rights, or any other rights provided in this Operating Agreement or the Rules and  Regulations. 
+Each Member shall be required to make monthly or annual payments  to the Organization as set forth in the Rules and Regulations of the Organization. Should a Member be more than 90  days late with any such Membership dues, such member shall, at the discretion of the Managing Steward, be placed on inactive status and, if so, shall not be entitled to any rights in the Organization, including share of profits, voting  rights, or any other rights provided in this Operating Agreement or the Rules and  Regulations. 
 
 ### 2.6 Admission of Prospective Members. 
 
@@ -103,7 +101,7 @@ be cast at a meeting of the Members. If the Members vote to expel the Member, th
 
 #### c. Other Causes of Involuntary Withdrawal.
 
-A Member may be terminated involuntarily  under any of the following circumstances:
+A Member may be expelled involuntarily  under any of the following circumstances:
 
 i. The Member dies. A Membership shall immediately terminate upon the death of a  Member. The deceased Member’s designated beneficiary shall be entitled to receive  from the Organization the value of the Member’s Member Account and all other  payments due to such Member prior to the death of such Member (the “Death  Benefit”), if and only if, prior to death, the Member filed a Designated Beneficiary  Form with the Organization. The Designated Beneficiary shall be paid the Death  Benefit according to Section 3.2 below, unless the Org Point decides to pay the  Designated Beneficiary on an earlier schedule.
 
