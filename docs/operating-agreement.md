@@ -151,7 +151,7 @@ Such person may, under the supervision of the Manager, administer the day-to-day
 
 ### 4.2 Term. 
 
-The initial Managing Steward shall serve until the FGM (the Formal Governance Model, as  such term is defined in the Rules and Regulations of the Collective) is formally adopted  or until replaced by the unanimous vote of the other Stewards. 
+The initial Managing Steward shall serve until the FGS (the Formal Governance Structure) is formally adopted  or until replaced by the unanimous vote of the other Stewards. 
 
 ### 4.3 Indemnification of the Managing Steward. 
 
