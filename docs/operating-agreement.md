@@ -63,7 +63,7 @@ The names and addresses of the Stewards are attached as Exhibit A in the hard co
 
 ### 2.2 Stewardship Interests and Net Worth of Collective.
 
-Ownership of the Collective shall be reflected in Capital Accounts, as described in Section 7. Each Steward shall have a  Capital Account (also referred to in this Agreement as “Steward Account”) that reflects the  Steward’s equity in the Collective. A Steward’s Stewardship Interest is the Steward  Account. The Collective’s Collective Account consists of retained earnings that shall not  be distributed to Stewards except at dissolution. The sum of the balances of the Capital  Accounts is the net worth of the Collective. 
+Ownership of the Collective shall be reflected in Capital Accounts, as described in Section 7. Each Steward shall have a  Capital Account (also referred to in this Agreement as “Steward Account”) that reflects the  Steward’s equity in the Collective. A Steward’s Stewardship Interest is the Steward  Account. The sum of the balances of the Capital  Accounts is the net worth of the Collective. 
 
 ### 2.3 Class of Stewards.
 
@@ -165,9 +165,9 @@ a. Meetings of the Managing Steward, the Stewards, Foundation members, Foundatio
 
 b. Meetings may be held either in person or by means of telephone, video conference, or  other communications device that permits all participants in the meeting to hear each  other. 
 
-### 5.2 Quorum.
+### 5.2 Voting Quorum.
 
-No action may be taken at a meeting of the Managing Steward without the  consent of that number or percentage of the Stewards’ whose consent is required for such action under this Agreement. If a quorum is not present at a meeting of the Stewards, then  the Stewards present at the meeting may adjourn the meeting without notice, until a quorum is present. 
+No action may be taken at a meeting of the Managing Steward without the  consent of that number or percentage of the Stewards’ whose consent is required for such action under this Agreement, whereby duly proxied Stewards are included in the count. If a Voting Quorum is not present at a meeting of the Stewards, then  the Stewards present at the meeting may adjourn the meeting without notice, until a Voting Quorum is present. 
 
 ### 5.3 Voting. 
 
@@ -177,66 +177,29 @@ Each voting Steward is entitled to one vote on each matter submitted to a Stewar
 
 Any action of any Steward meeting may be taken without a meeting if all Stewards consent in writing to the action; Action by written consent has the  same force and effect as an act of the Manager and/or voting Stewards in a formal meeting. 
 
-## SECTION 6 - MEMBER MEETINGS 
+## SECTION 6 - STEWARD MEETINGS 
 
-### 6.1 Any meeting of the Stewards shall be governed by the Rules and Regulations of the Collective. 
+Any meeting of the Stewards shall be governed by the Rules and Regulations of the Collective. 
 
 ## SECTION 7 - FINANCIAL PROVISIONS
 
 ### 7.1 Definitions.
 
-a. “Collective Account” means the Capital Account that represents the portion of the net  book value of the Collective attributable to the Collective. The Collective Account  shall consist of Surplus, Profit, and reserves that are retained in the Collective and not  distributed to Stewards until dissolution of the Collective.
+a. “Initial Capital Contribution” is set forth in the Rules and Regulations as Stewardship Fees by default.
 
-b. “Deemed Liquidation Event” means (a) a consolidation, merger or other similar  transaction of or involving the Collective in which the Stewards of the Collective immediately prior to such consolidation, merger or other similar transaction do not  continue to hold, immediately after the consummation of such consolidation, merger or  other similar transaction, a majority of the voting power of the equity interests of the  surviving entity, or (b) a sale or other transfer of all or substantially all of the Collective’s assets to a third party.
+b. “Written Notice of Allocation,” “Qualified Written Notice of Allocation,” and  Nonqualified Written Notice of Allocation” shall have the definitions contained in  Internal Revenue Code Section 1388(b)-(d). 
 
-c. “Initial Capital Contribution” is set forth in the Rules and Regulations as Stewardship Fees by default. 
+### 7.2 Member Payments. 
 
-e. “Loss” means the excess of Expenses over revenues for a fiscal year. 
-
-f. “Patronage” means hours worked and recorded by each Steward for a Foundation project. 
-
-g. “Profit” means the excess of revenues over Expenses for a fiscal year.
-
-h. “Surplus” shall be defined as the excess of revenues over Expenses for a fiscal year.
-
-i. “Written Notice of Allocation,” “Qualified Written Notice of Allocation,” and  Nonqualified Written Notice of Allocation” shall have the definitions contained in  Internal Revenue Code Section 1388(b)-(d). 
-
-### 7.2 Steward Payments. 
-
-Payments to Stewards shall be paid in conformance with the Rules and Regulations and Quorum1 Financial Model (the "Financial Model").  
+Payments to members shall be paid in conformance with the Rules and Regulations and the Financial Model.
 
 ### 7.3 Additional Capital Contributions. 
 
 Stewards may be required to make additional capital  contributions, based upon the Stewards’ good faith determination that such contribution is  necessary or advisable for the Collective’s financial condition. Terms of Additional Capital Contributions may be found in the Rules and Regulations and/or the Financial Model.  
 
-### 7.4 Priority of Payments. 
-Notwithstanding anything else to the contrary in this Article,  payments and disbursements by the Collective shall be made in the following order of  priority:
+### 7.4 Allocation of Profits and Losses.
 
-a. Steward Work Payments for work performed on paid client projects.
-
-b. Commissions Payments and other obligatory sales costs.
-
-c. Vendor Payments, including third-party service providers and business systems.
-
-d. Payment to the Collective’s Capital Reserve Fund, the parameters of which are  defined in the Rules and Regulations.
-
-e. Steward Profit Sharing and profit re-investment.
-
-f. To Collective investments, non-profit donations, or other charitable programs if  Collective elects to participate in such.
-
-### 7.5 Allocation of Profits and Losses.
-
-Profits and losses shall be allocated in accordance with the then-current Financial Model of the Collective.  
-
-### 7.6 Mandatory Revenue Disbursements.
-
-The Mandatory Revenue Disbursements defined  above must be included in any and all Collective Operating Agreements, Collective Rules and Regulations, and Collective Financial Model. This Section 7.6 may not be  amended or removed from the Operating Agreement, or any restatements thereof, by the  Rules and Regulations, by any action of the Managing Steward, Manager, Stewards, other members, or any other person acting alone or together.  
-
-### 7.7 Dissolution Distributions.
-
-a. Upon liquidation, dissolution, or a Deemed Liquidation Event, assets left after payment  of all debts and Steward Account balances shall be distributed to all persons who are  current and living Stewards, in proportion to the number of rev points earned by that  Steward as compared to all rev points issued in the relevant time period by Foundation project(“Dissolution  Distribution”). Dissolution Distributions shall only be made to current and living  Stewards in good standing. No Dissolution Distribution shall be made to a Designated  Beneficiary. 
-
-b. No Dissolution Distribution need be made to a person who fails to acknowledge the  receipt of notice of liquidation in a timely manner. Notice shall be deemed sufficient if  sent by certified mail, at least thirty (30) days before distribution of residual assets, to the  person’s last known business or residence address. 
+Profits and losses shall be allocated in accordance with the Financial Model.
 
 ## SECTION 8 - ACCOUNTING, RECORDS, AND REPORTING
 
