@@ -757,9 +757,9 @@ In the event of a token downgrade, all member rev point balances are decreased b
 
 ## Sale of Quorum1
 
-Quorum1’s Governance Model will eventually define the formal process for a future sale of Quorum1. However, as outlined above, since that doc has yet to be formalized, this section will briefly lay out some requirements for any future sale of the quorum.
+Quorum1’s Governance Structure will eventually define the formal process for a future sale of Quorum1. However, as outlined above, since that doc has yet to be formalized, this section will briefly lay out some requirements for any future sale of the quorum.
 
-In order for Quorum1 to be sold, the following things would be required, in accordance with the Governance Model at the time of sale:
+In order for Quorum1 to be sold, the following things would be required, in accordance with the Governance Structure at the time of sale:
 
 - Approval of the sale by both the Org leadership and the Foundation leadership.
 - Approval of the sale by the active Org membership.

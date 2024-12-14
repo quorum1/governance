@@ -1,6 +1,6 @@
 # Q-Git Governance Change Flow
 
-_**Dependencies:** [Informal Governance Model Definition & Roles](../docs/igs-roles.md)_
+_**Dependencies:** [Informal Governance Structure Definition & Roles](../docs/igs-roles.md)_
 
 The Q-Git Flow (QGF for short) is our primary governance change flow.
 
