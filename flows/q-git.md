@@ -1,6 +1,6 @@
 # Q-Git Governance Change Flow
 
-_**Dependencies:** [Informal Governance Model Definition & Roles](../docs/igs-roles.md)_
+_**Dependencies:** [Informal Governance Structure Definition & Roles](../docs/igs-roles.md)_
 
 The Q-Git Flow (QGF for short) is our primary governance change flow.
 
@@ -49,8 +49,8 @@ This process is structured with a higher level of formality because it is our pr
 Each Working Release has the following roles associated with it.
 
 - **Release Point (RP):** Coordinates the Release and is responsible for key decisions. Able to delegate authority to others and define the workflow for the Release as long as it doesn't conflict with the definitions in the governance repo. The Release Point must be a Contributor.
-- **Partners:** Play key roles in development and ultimately approve the Release during finalization.
-- **Steward:** Helps support the Point, provides architectural guidance, has veto power over approvals, appoints and can change the Point, can overrule decisions made by the Release Point.
+- **Stewards:** Play key roles in development and ultimately approve the Release during finalization.
+- **Managing Steward (MS):** Helps support the Point, provides architectural guidance, has veto power over approvals, appoints and can change the Point, can overrule decisions made by the Release Point.
 - **Designatees:** Designated by the Release Point to develop Resolution Branches as needed during the finalization step.
 - **Merge Certifiers:** The final certification step before a Working Release is merged into the `main` branch.
 
@@ -58,18 +58,18 @@ Each Working Release has the following roles associated with it.
 
 A new Working Release can only be created if there is no current Working Release as there can be only one at a time. (If side workspaces are needed, Experimental Branches may be used.)
 
-A new Working Release is created by the Steward who also appoints a Release Point.
+A new Working Release is created by the MS who also appoints a Release Point.
 
 A new branch is created in the repo with the name `release-#`, where `#` is 1 greater than the current Live Release. The root readme should be updated with a "Work in Progress" section that describes the current status of the release along with any key goals. This section should be kept up to date as work progresses, ideally with checklists, progress meters, or other easy to understand aids.
 
 > \[!NOTE]
-> While creating a new release branch, the Steward or Release Point are allowed to unilaterally edit any of the `readme.md` files in the gov repo, except for the "Flows & Scopes" section of the flows readme. No approvals are required for this.
+> While creating a new release branch, the MS or Release Point are allowed to unilaterally edit any of the `readme.md` files in the gov repo, except for the "Flows & Scopes" section of the flows readme. No approvals are required for this.
 
 ### Step 2 - Development
 
 Development progresses with Contribution Branches moving through the Development Process and potentially being approved for inclusion and then being merged into the Working Release branch.
 
-The Steward may choose to appoint a new Release Point at any time.
+The MS may choose to appoint a new Release Point at any time.
 
 The development step concludes when the Release Point determines that it is ready for finalization.
 
@@ -79,14 +79,14 @@ Upon entering the finalization step, the Release is locked to new Contribution B
 
 The finalization process is critical to the overall Release Process. Here are the sub-steps:
 
-- **Step 3a - Partner Review:** Partners meet on one or more synchronous calls to walk through all changes. These calls must be recorded and preserved indefinitely.
-  - All partners must be present or must delegate their vote to another partner.
+- **Step 3a - Steward Review:** Stewards meet on one or more synchronous calls to walk through all changes. These calls must be recorded and preserved indefinitely.
+  - All Stewards must be present or must delegate their vote to another Steward.
   - During the calls, potential issues are identified & approved via the following process:
-    - Any partner may flag an issue and they become the first Sponsor of that issue
-    - If at least two other partners agree to Co-Sponsor the issue, it goes on the list of "Issues to Resolve"
-    - If fewer than three partners agree to Co-Sponsor the issue, then it goes on the list of "Other Issues" and will not be resolved in the first round of resolutions
-    - The Steward may veto any issue, but they must do so during a partner review call and allow for debate. At any point they may choose to retract a prior veto.
-    - The partner review is complete when all changes have been reviewed.
+    - Any Steward may flag an issue and they become the first Sponsor of that issue
+    - If at least two other Stewards agree to Co-Sponsor the issue, it goes on the list of "Issues to Resolve"
+    - If fewer than three Stewards agree to Co-Sponsor the issue, then it goes on the list of "Other Issues" and will not be resolved in the first round of resolutions
+    - The MS may veto any issue, but they must do so during a Steward review call and allow for debate. At any point they may choose to retract a prior veto.
+    - The Steward review is complete when all changes have been reviewed.
 - **Step 3b - First Resolutions:** 
   - The Release Point is responsible for ensuring that the Issues to Resolve are properly documented and assigned to Designatees.
   - The Designatees for each Issue then create a Resolution Branch and work with the Sponsors of the Issue to work it through the Development Process and get it merged back into the Working Release Branch.
@@ -99,33 +99,33 @@ The finalization process is critical to the overall Release Process. Here are th
   - NOTE: This step will be skipped until the governance repo reaches Release 6. The first set of Releases have emerged from prior work and are being fast-tracked.
   - Release 6 should replace the definition of this sub-step.
 - **Step 3e - Final Review:** NOTE: This sub-step should be redefined in Release 6 to include the Members as well.
-  - Partners meet on one or more synchronous calls to walk through the outcome of all resolutions. These calls must be recorded and preserved indefinitely.
-  - All partners must be present or must delegate their vote to another partner.
+  - Stewards meet on one or more synchronous calls to walk through the outcome of all resolutions. These calls must be recorded and preserved indefinitely.
+  - All Stewards must be present or must delegate their vote to another Steward.
   - During the call all resolutions are reviewed.
-  - Partners can bring up questions and discuss concerns. They may also share any concerns which would cause them to vote to reject this Release.
-  - The final review is complete when all resolutions and open questions have been discussed and when partners have agreed on the duration of the approval voting period.
-- **Step 3f - Partner Approval:** An asynchronous vote is held.
+  - Stewards can bring up questions and discuss concerns. They may also share any concerns which would cause them to vote to reject this Release.
+  - The final review is complete when all resolutions and open questions have been discussed and when Stewards have agreed on the duration of the approval voting period.
+- **Step 3f - Steward Approval:** An asynchronous vote is held.
   - The votes must produce a permanent verifiable audit trail.
-  - Partners may vote to approve or reject the Release:
+  - Stewards may vote to approve or reject the Release:
     - Votes to reject must contain a list of specific Issues to Resolve which would need to be addressed in order for them to approve again in the future.
-    - Votes to approve may optionally contain a list of specific Future Issues which the Partner thinks should be addressed in future Releases.
-  - All Partners must either vote or delegate their vote to another partner. Voting or delegating is mandatory. Any Partners who will be unavailable during a vote must appoint a delegate beforehand, or a delegate may be appointed on their behalf by the Steward.
-  - Partners will have already agreed in the prior sub-step to the duration of the voting period.
-  - The Steward may unilaterally veto the approval of the Release, but they must hold a synchronous call inviting all Partners and allowing for debate. The call must be recorded and preserved indefinitely.
+    - Votes to approve may optionally contain a list of specific Future Issues which the Steward thinks should be addressed in future Releases.
+  - All Stewards must either vote or delegate their vote to another Steward. Voting or delegating is mandatory. Any Stewards who will be unavailable during a vote must appoint a delegate beforehand, or a delegate may be appointed on their behalf by the MS.
+  - Stewards will have already agreed in the prior sub-step to the duration of the voting period.
+  - The MS may unilaterally veto the approval of the Release, but they must hold a synchronous call inviting all Stewards and allowing for debate. The call must be recorded and preserved indefinitely.
   - Once all votes are cast:
     - 75% or greater approval causes the Working Release to be approved and move forward to the launch step.
-    - Less than 75% approval (or a veto from the Steward) causes the Working Release to be sent back to development step.
+    - Less than 75% approval (or a veto from the MS) causes the Working Release to be sent back to development step.
 
 ### Step 4 - Launch
 
 Once a Working Release is approved for launch, the launch proceeds according to the steps outlined in this section.
 
-A pull request is made from the Working Release branch into the `main` branch. Summaries of all parts of the finalization step must be posted to the pull request, including links to each video recording as well as verifiable evidence of each partner's vote.
+A pull request is made from the Working Release branch into the `main` branch. Summaries of all parts of the finalization step must be posted to the pull request, including links to each video recording as well as verifiable evidence of each Steward's vote.
 
 Once all key context is posted to the pull request, the pull request must be reviewed and approved by four Members (referred to as the Merge Certifiers), specifically:
-- The Steward
+- The MS
 - The Release Point
-- 2 Partners (not including the Steward & RP), selected by the RP
+- 2 Stewards (not including the MS & RP), selected by the RP
 
 The Merge Certifiers must not exercise additional editorial review or approval during this step. Their sole responsibility is to ensure that the processes outlined in this flow have been followed and documented appropriately.
 
@@ -146,8 +146,8 @@ Each Contribution has the following roles associated with it, collectively refer
 
 - **Drafters:** One or more Contributors who help draft and iterate the Contribution.
 - **Supporters:** One or more Members who help advise and support the process, but do not directly contribute.
-- **Sponsors:** One or more Partners who guide the Contribution through the approval process.
-- **Steward:** Able to expedite approvals.
+- **Sponsors:** One or more Stewards who guide the Contribution through the approval process.
+- **MS:** Able to expedite approvals.
 
 ### Step 1 - Drafting
 
@@ -155,7 +155,7 @@ Any group of Drafters may team up to draft a Contribution by creating a Contribu
 
 Any Contributors who are not confident enough with Github to draft a Contribution themselves are encouraged to team up with other Contributors who are skilled with Github. Non-Contributor Members cannot be Drafters themselves but they are encouraged to be Supporters or to become Contributors.
 
-At any point in the drafting process, Drafters may seek to find one or more Partners to Sponsor their Contribution. At least one Sponsor is needed to move to the next step.
+At any point in the drafting process, Drafters may seek to find one or more Stewards to Sponsor their Contribution. At least one Sponsor is needed to move to the next step.
 
 ### Step 2 - Iteration
 
@@ -165,7 +165,7 @@ This step can proceed however the the Contribution Team desires, but the basic i
 
 ### Step 3 - Merges
 
-This is an optional step which the Sponsors may request (or potentially require) in order to effectively manage Partner bandwidth. Because the approval step requires partner voting, it may often be desireable to merge many contributions into a single contribution.
+This is an optional step which the Sponsors may request (or potentially require) in order to effectively manage Steward bandwidth. Because the approval step requires Steward voting, it may often be desireable to merge many contributions into a single contribution.
 
 The precise process of designing a merge is up to the Contribution Team. The logistics are that multiple Contribution Branches are merged into a single Contribution Branch.
 
@@ -176,32 +176,32 @@ If used, this step will also result in merging the Contribution Teams.
 The final step is for the Sponsors to formally submit the Contribution for approval. The approval may proceed via the normal process or the expedited process.
 
 > \[!NOTE]
-> The Steward or Release Point are allowed to unilaterally approve Contribution Branches which only include changes to `readme.md` files, except for the "Flows & Scopes" section of the flows readme. It may be necessary for other users to approve the pull request for technical reasons, but no video needs to be made and no formal review needs to be recorded. A simple written note in the pull request is sufficient.
+> The MS or Release Point are allowed to unilaterally approve Contribution Branches which only include changes to `readme.md` files, except for the "Flows & Scopes" section of the flows readme. It may be necessary for other users to approve the pull request for technical reasons, but no video needs to be made and no formal review needs to be recorded. A simple written note in the pull request is sufficient.
 
 The precise method of this submission, and the review process itself is defined by the Release Point as part of their workflow design. But it must meet the following criteria:
 - The Sponsors should create a pull request from the Contribution Branch into the Working Release Branch. The pull request should include:
-  - All requisite context needed in order for Partners to render an informed vote.
+  - All requisite context needed in order for Stewards to render an informed vote.
   - A short video walkthrough which explains the reasoning behind the contribution and walks through the changes.
   - Important Note: Any videos & supporting materials which are stored outside of Github *must* be stored in a place where they can be maintained indefinitely, and in a manner which is aligned with the RP's workflow design for the Release. Cloud-based apps which are not part of Quorum1's long-term systems plan (such as Loom) are not acceptable.
-- **Normal Approval Process:** Partners must be able to vote in a manner aligned with these requirements:
+- **Normal Approval Process:** Stewards must be able to vote in a manner aligned with these requirements:
   - Voting is asynchronous (though synchronous sessions can be supported as long as they are optional)
   - Votes must produce a permanent verifiable audit trail
-  - Partners may vote to approve or reject the Contribution
+  - Stewards may vote to approve or reject the Contribution
     - Votes to reject must contain a list of specific Issues to Resolve which would need to be addressed in order for them to approve this Contribution in the future.
-    - Votes to approve may optionally contain a list of specific Future Issues which the Partner thinks should be addressed in future Contributions.
-  - All Partners must either vote or delegate their vote to another partner. Voting or delegating is mandatory.
-  - The duration of the voting period for Contributions should be made clear to Partners ahead of time.
-  - The Steward may unilaterally veto any Contribution, but they must invite asynchronous feedback from any interested Members and must respond to the feedback. They may retract their veto at any point.
+    - Votes to approve may optionally contain a list of specific Future Issues which the Steward thinks should be addressed in future Contributions.
+  - All Stewards must either vote or delegate their vote to another Steward. Voting or delegating is mandatory.
+  - The duration of the voting period for Contributions should be made clear to Stewards ahead of time.
+  - The MS may unilaterally veto any Contribution, but they must invite asynchronous feedback from any interested Members and must respond to the feedback. They may retract their veto at any point.
   - Once all votes are cast:
     - The full details of the vote must be recorded on the pull request.
     - 75% or greater approval causes the Contribution to be approved.
-    - Less than 75% approval (or a veto from the Steward) causes the Contribution to be rejected.
+    - Less than 75% approval (or a veto from the MS) causes the Contribution to be rejected.
 - **Expedited Approval Process:** This process may be used when increased speed is desireable.
-  - The Sponsors may request that the Steward expedite the approval process.
-  - If the Steward agrees, then the full Partner approval process above is still followed, but with the Sponsors and the Steward (and potentially other Partners as requested by the Steward) standing in for all of the Partners.
-  - The approval process must include at least two Partners, including the Steward. This means that if the Steward is also the only Sponsor, then at least one additional Partner must be included in the approval process.
+  - The Sponsors may request that the MS expedite the approval process.
+  - If the MS agrees, then the full Steward approval process above is still followed, but with the Sponsors and the MS (and potentially other Stewards as requested by the MS) standing in for all of the Stewards.
+  - The approval process must include at least two Stewards, including the MS. This means that if the MS is also the only Sponsor, then at least one additional Steward must be included in the approval process.
   - Note 1: Even during an expedited approval process, a pull request meeting the requirements above must be created.
-  - Note 2: The expedited approval process only applies to in the Development Process of specific Contributions. All changes must eventually be reviewed by the full Partner group during Release finalization.
+  - Note 2: The expedited approval process only applies to in the Development Process of specific Contributions. All changes must eventually be reviewed by the full Steward group during Release finalization.
 - Rejected Contributions have their pull request closed. They may be tweaked and resubmitted later.
-- Approved Contributions have their pull request approved (by both the Release Point and the Steward) and are then merged into the Working Release Branch.
+- Approved Contributions have their pull request approved (by both the Release Point and the MS) and are then merged into the Working Release Branch.
 

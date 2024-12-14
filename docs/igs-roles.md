@@ -20,18 +20,32 @@ This section defines key roles within IGS. These may be referenced as dependenci
 
 ### Member
 
-**Members** are all active Quorum1 members at any membership level.
+**Members** are all active Quorum1 members at any membership level. 
+
+### Network Member
+
+**Network Members** are all active members at the Network level of membership. They receive base access to select systems and do not have any formal role in governance. 
 
 ### Contributor
 
-**Contributors** are all active Quorum1 members at the "Contributor" or "Partner" membership level. To be clear: For the purposes of role definitions, Partners may also act as Contributors.
+**Contributors** are all active members at the Contributor, Foundation, or Steward levels of membership. All contributors are able to participate in governance. To be clear: For the purposes of role definitions, Foundation Members and Stewards may also act as Contributors.
 
-### Partner
+### Foundation Member
 
-**Partners** are active Quorum1 members at the "Partner" level of membership.
+**Foundation Members** are all active members at the Foundation level of membership. They do not have any specific role in governance beyond their roles as Contributors.
 
 ### Steward
 
-The **Steward** is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
+The **Stewards** are all active members at the Steward level of membership. They are also the owning "Members" of Quorum1's underlying legal entity and thus hold an increased level of responsibility and liability for the ongoing operation of Quorum1. The Stewards provide critical leadership in governance.
 
-If the Steward is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Steward no longer wishes to serve in the role, a new Steward may be appointed with the unanimous approval of all Partners capable of participating. In that event, this doc should be updated with the new Steward's name.
+### Managing Steward
+
+The **Managing Steward** (also referred to as the "Managing Partner") is a single individual, specifically Hank Holiday (also referred to as the Meta Founder).
+
+If the Managing Steward is incapacitated such that they are unable to fulfill their responsibilities effectively, or if the Managing Steward no longer wishes to serve in the role, a new Managing Steward may be appointed with the unanimous approval of all Stewards capable of participating. In that event, this doc must be updated with the new Managing Steward's name.
+
+### Signatory
+
+While the Collective is in Informal Governance Structure only the Signatories specified in this section are able to bind the collective legally.
+
+The Signatories are, specifically and exclusively: Hank Holiday (Q0001), Jay Kilian (Q0002), and Esteban Montero (Q0022).
