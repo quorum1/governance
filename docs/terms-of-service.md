@@ -47,7 +47,7 @@ When using the Services, you agree to:
 * Respect the intellectual property rights of others.  
 * Avoid activities that disrupt or harm the Services, other Members, or the Collective’s reputation.
 
-The Collective reserves the right to suspend or terminate your account for violations of these Terms or the **Code of Conduct** \[Insert Link\], or for activities that are detrimental to our community.
+The Collective reserves the right to suspend or terminate your account for violations of these Terms or the [Code of Conduct](./code-of-conduct.md), or for activities that are detrimental to our community.
 
 ## **Section 5: Intellectual Property (IP)**
 
@@ -63,7 +63,7 @@ All content, branding, software, and other materials associated with the Service
 
 ## **Section 6: Privacy and Data Use**
 
-The Collective values your privacy and handles your data in accordance with our **Privacy Policy** \[Insert Link\]. By using the Services, you consent to the collection, use, and sharing of your data as described in the Privacy Policy.
+The Collective values your privacy and handles your data in accordance with our [Privacy Policy](./privacy-policy.md). By using the Services, you consent to the collection, use, and sharing of your data as described in the Privacy Policy.
 
 ## **Section 7: Payment and Compensation**
 
@@ -103,7 +103,7 @@ You may terminate your membership and access to the Services at any time.
 
 The Collective reserves the right to suspend or terminate your account for:
 
-* Violations of these Terms or the **Code of Conduct** \[Insert Link\].
+* Violations of these Terms or the [Code of Conduct](./code-of-conduct.md).
 
 * Prolonged inactivity.
 
