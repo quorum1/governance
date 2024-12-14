@@ -290,7 +290,7 @@ We have appropriate security measures in place to prevent personal information f
 
 ### **Section 8.1: Changes to This Privacy Notice**
 
-This privacy notice was published on November 10,, 2024  and last updated on November 10, 2024\.
+This privacy notice was published on November 10, 2024  and last updated on November 10, 2024.
 
 We may change this privacy notice from time to time–when we do, we will inform you via our website or other means of contact such as email.
 
@@ -300,9 +300,7 @@ Please contact us by post, email, or telephone if you have any questions about t
 
 Our contact details are shown below:
 
-* [team@quorum.one](mailto:team@quorum.one)
-
-* INSERT PHONE
+[team@quorum.one](mailto:team@quorum.one)
 
 ### **Section 8.3: Do You Need Extra Help?** 
 
