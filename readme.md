@@ -1,21 +1,10 @@
-# Quorum1 Governance Repo - Release 4 (Working)
+# Quorum1 Governance Repo - Release 4
 
 This repo contains Quorum1's official governance processes and models. 
 
 Quorum1 is a professional collective. Our website is at: https://quorum.one
 
 Our governance repo is hosted on Github and managed using branches, pull requests, and other Git-based tools. The audit history of changes to this repo is considered part of Quorum1's public record.
-
-## Release 4 Checklist
-
-- [ ]  Privacy Policy
-- [ ]  Terms of Service
-- [ ]  Operating Agreement
-- [ ]  Rules & Regs: Adapt to point to codes of conduct
-- [ ]  Codes of Conduct: Adapt something like this:  (Starting point: https://docs.google.com/document/d/1_nRl5Q3DsajCqkQH3JQMjNp1NmkgEjHc7KEMA-qzwjA/edit)
-- [ ]  SOW Templates: This is probably a subfolder of docs with a few different templates for things like co-ventures, client project roles, etc.
-- [ ]  Update all existing docs to new membership level names (Network > Contributor > Foundation > Steward)
-    - [ ]  Also rename contributor agreement back to ic-agreement (Independent Contractor Agreement)
 
 ## Structure of this Repo
 
@@ -24,14 +13,13 @@ Our governance repo is hosted on Github and managed using branches, pull request
 
 ## Current Status of our Governance Repo
 
-This is Release 3, the current live release.
+This is Release 4, the current live release.
 
 We are still in the process of porting our entire governance structure into this repo. Prior to June 2024 our governance structures have been managed in many different places. This repo is an effort to unify those pieces in order to increase transparency, streamline change management, and facilitate greater collaboration.
 
 **Roadmap:**
 - Short-Term:
-    - Finish adding operating model to gov repo (requires refactoring)
-    - Migrate more existing docs into gov repo (code of conduct, member SOW templates, partner agreement, etc)
+    - Build member SOW templates
     - Finish building out member review process in Q-Git
     - Consider re-architecting Q-Git structure to separate dev flow from release flow
     - Improve the [Quorum1 Governance Repo Standards](./standards.md) doc
