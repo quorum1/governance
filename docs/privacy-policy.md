@@ -290,7 +290,7 @@ We have appropriate security measures in place to prevent personal information f
 
 ### **Section 8.1: Changes to This Privacy Notice**
 
-This privacy notice was published on November 10, 2024  and last updated on November 10, 2024.
+This privacy notice was published on December 13, 2024  and last updated on December 13, 2024.
 
 We may change this privacy notice from time to time–when we do, we will inform you via our website or other means of contact such as email.
 

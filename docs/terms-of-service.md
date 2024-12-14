@@ -1,6 +1,6 @@
 # **Quorum1 Terms of Service v1.0.0**
 
-Effective as of: Dec 1, 2024
+Effective as of: Dec 13, 2024
 
 ## **Section 1: Introduction**
 
