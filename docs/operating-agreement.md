@@ -103,7 +103,7 @@ be cast at a meeting of the Stewards. If the Stewards vote to expel the Steward,
 
 A Steward may be expelled involuntarily  under any of the following circumstances:
 
-i. The Steward dies. A Stewardship shall immediately terminate upon the death of a  Steward. The deceased Steward’s designated beneficiary shall be entitled to receive  from the Collective the value of the Steward’s Steward Account and all other  payments due to such Steward prior to the death of such Steward (the “Death  Benefit”), if and only if, prior to death, the Steward filed a Designated Beneficiary  Form with the Collective. The Designated Beneficiary shall be paid the Death  Benefit according to Section 3.2 below, unless the Org Point decides to pay the  Designated Beneficiary on an earlier schedule.
+i. The Steward dies. A Stewardship shall immediately terminate upon the death of a  Steward. The deceased Steward’s designated beneficiary shall be entitled to receive  from the Collective the value of the Steward’s Steward Account and all other  payments due to such Steward prior to the death of such Steward (the “Death  Benefit”), if and only if, prior to death, the Steward filed a Designated Beneficiary  Form with the Collective. The Designated Beneficiary shall be paid the Death  Benefit according to Section 3.2 below, unless the Managing Steward decides to pay the  Designated Beneficiary on an earlier schedule.
 
 ii. A medical professional deems the Steward mentally incapable of handling their  own affairs. 
 
@@ -155,7 +155,7 @@ The initial Managing Steward shall serve until the FGS (the Formal Governance St
 
 ### 4.3 Indemnification of the Managing Steward. 
 
-The Collective shall indemnify the Org Point in  connection with their services as the Managing Steward of the Collective to the fullest extent  permitted, or required by, the Act. 
+The Collective shall indemnify the Managing Steward in  connection with their services as the Managing Steward of the Collective to the fullest extent  permitted, or required by, the Act. 
 
 ## SECTION 5 - QUORUM MEETINGS 
 
