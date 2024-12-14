@@ -205,11 +205,11 @@ Profits and losses shall be allocated in accordance with the Financial Model.
 
 ### 8.1 Method of Accounting. 
 
-The Collective shall use the method for its financial accounting as set forth in the then-current Financial Model. 
+The Collective shall use the method for its financial accounting as set forth in the Financial Model. 
 
 ### 8.2 Fiscal Year. 
 
-The Collective’s fiscal year is set forth in the then-current Financial Model. 
+The Collective’s fiscal year is aligned with the USA calendar year.
 
 ### 8.3 Records required to be kept 
 
@@ -233,7 +233,7 @@ Steward’s name, telephone number, email address, last known business or reside
 
 ### 8.4 Reports 
 
-Within 90 days after the end of each taxable year, the Collective shall send to  each Steward (1) the information necessary to complete federal and state income tax or  information returns and (2) a copy of the Collective’s federal, state, and local income tax  or information returns for the year. 
+Within 90 days after the end of each taxable year, the Collective shall send to each member the information necessary to complete federal and state income tax or information returns, if needed.
 
 ## SECTION 9 - DISSOLUTION AND WINDING UP 
 
@@ -241,27 +241,19 @@ Within 90 days after the end of each taxable year, the Collective shall send to 
 
 The Collective will be dissolved upon:
 
-a. supermajority (2/3) vote of all Stewards;
+a. Supermajority (75%) vote of all Stewards, with Managing Steward allowed a veto;
 
-b. the issuance of an order of dissolution by a court;
+b. The issuance of an order of dissolution by a court;
 
-c. or by action of the California Secretary of State.
+c. Or by action of the California Secretary of State.
 
 ### 9.2 Winding Up. 
 
-After the Collective is dissolved, the person or persons responsible for  winding it up shall as expeditiously as possible and on terms as favorable as possible to the Collective, wind up its business and internal affairs and liquidate its assets. During the  wind-up period, the Collective shall accept no new business except to the extent  necessary to dispose of existing inventory.
+After the Collective is dissolved, the person or persons responsible for winding it up shall as expeditiously as possible and on terms as favorable as possible to the Collective, wind up its business and internal affairs and liquidate its assets. During the  wind-up period, the Collective shall accept no new business except to the extent necessary to dispose of existing inventory.
 
 ### 9.3 Liquidation. 
 
-Proceeds from liquidation of the Collective shall be applied and distributed  in the following order: 
-
-a. First, to payment of the expenses of liquidation and of all the Collective’s debts and  liabilities to non-Stewards; 
-
-b. Second, to the payment of Collective debts and liabilities owed to Stewards;
-
-c. Third, pro rata to Stewards in the amount of their respective Steward Account balances  on the date of distribution; 
-
-d. Fifth, as described in § 7.7 (Dissolution Distributions). 
+Proceeds from liquidation of the Collective shall be applied and distributed in accordance with the Rules and Regulations and the Financial Model.
 
 ## SECTION 10 - DISPUTE RESOLUTION 
 
@@ -272,10 +264,15 @@ The Stewards agree that they shall use their best efforts to  resolve disputes a
 ## SECTION 11 - MISCELLANEOUS 
 
 ### 11.1 Indemnification. 
+
 The Collective shall indemnify all Stewards, in connection with  activities performed on behalf of or in furtherance of the interests of the Collective, to  the fullest extent permitted or required by the Act. The Collective may pay or reimburse  reasonable expenses incurred by a Steward upon the receipt by the Collective of a  signed statement of such Steward agreeing to reimburse the Collective for such advance  in the event it is ultimately determined that such Steward is not entitled to be indemnified  by the Collective against such expenses. 
+
 ### 11.2 Limitation on Liability. 
+
 No Steward of the Collective shall be liable to the Collective for monetary damages for an act or omission in such Steward’s capacity as a  Steward, except as provided in the Act for: (i) acts or omissions which the Steward knew  at the time of the acts or omissions were clearly in conflict with the interests of the Collective; (ii) any transaction from which a Steward derived an improper personal  benefit; or (iii) acts or omissions occurring prior to the date this Section 11.2 becomes  effective.  
+
 ### 11.3 Tax Matters Partner. 
+
 The Manager, or such other person or entity designated by the  Manager, shall be the “partnership representative” within the meaning of Code Section  6223(a), as enacted by the Bipartisan Budget Act of 2015 and under any comparable  provision of any other applicable law (“Partnership Representative”). The Partnership  Representative shall manage audits, after consultation with the Manager, conducted by the  Internal Revenue Service or any other taxing authority pursuant to the audit procedures  under the Code and the Treasury Regulations promulgated thereunder or other applicable  law. The Partnership Representative shall give prompt notice to the Manager of any and all  notices it receives from the Internal Revenue Service or any other taxing authority 
 concerning the Collective (that have not previously been provided by the Internal  Revenue Service or another taxing authority to the Managers directly), including without  limitation, any notice of audit, any notice of action with respect to a revenue agent’s report,  any notice of a thirty (30)-day appeal letter and any notice of a deficiency in tax concerning  the Collective’s income tax return. 
 
@@ -291,27 +288,46 @@ Expenses actually and reasonably incurred by the Partnership Representative in s
 
 The obligations of each Steward (or former Steward) under this Section 11.3 may be  enforced by legal process or any other lawful means and shall survive the transfer by such  Steward of its interest, the withdrawal or dissociation of such Steward, the sale of  Collective assets, and the dissolution, liquidation, and termination of the Collective.  The Steward is responsible for all costs of collection under this section, including reasonable  attorney’s fees. 
 
-### 11.4 Notices. 
+### 11.4 Notices.
+
 All notices required to be given by this Agreement shall be given by one of the  following methods: 1) Notice may be mailed to the physical addresses of the Stewards, in  which case notice shall be considered given three business days after the notice is place in  the mail with first class postage; 2) Notice may be delivered by email and/or text to the  email addresses and/or phone numbers provided by Stewards, in which case notice shall be  considered delivered when sent; 3) Notice may be delivered in person, in which case notice  shall be considered delivered when the notice is placed in the hands of the Steward. 
+
 ### 11.5 Amendments to this Agreement. 
-All amendments to this Agreement shall be in writing  and signed by three-fourths (3/4) of the Stewards, except that § 7.1.d and § 7.6 regarding  Mandatory Revenue Disbursements may not be amended. The Mandatory Revenue  Disbursements must be included in any and all Collective Operating Agreements,  Collective Rules and Regulations, and Collective Financial Model. The Mandatory  Revenue Disbursements may not be amended or removed from the Operating Agreement,  or any restatements thereof, by the Rules and Regulations, by any action of the OP,  Manager, Director, Officer, Stewards, or any other person or entity acting alone or  together. 
-### 11.6 Entire Agreement. 
+
+All amendments to this Agreement shall be duly documented and approved according to the governance flows outlined in this Governance Repo.
+
+### 11.6 Entire Agreement.
+
 This Agreement contains the entire agreement of the parties and  supersedes all prior or contemporaneous written or oral negotiations, correspondence,  understandings and agreements between and among the parties, regarding the subject  matter addressed in this Agreement.  
-### 11.7 Binding on Successors. 
-This Agreement and the terms and conditions contained in this  Agreement apply to and are binding upon the Steward's successors, assigns, executors,  administrators, beneficiaries, and representatives. 
+
+### 11.7 Binding on Successors.
+
+This Agreement and the terms and conditions contained in this  Agreement apply to and are binding upon the Steward's successors, assignees, executors,  administrators, beneficiaries, and representatives. 
+
 ### 11.8 Severability. 
+
 If a provision of this Agreement is held by a court to be invalid or  unenforceable, Stewards agree that the provision shall be reduced in scope by the court  only to the extent deemed necessary by that court to render the provision reasonable and  enforceable, and the remaining provisions of this Agreement will not be affected or  invalidated as a result. 
+
 ### 11.9 Counterparts. 
+
 This Agreement may be executed in counterparts, each of which shall be  deemed an original, but all of which together shall be deemed to be one and the same  agreement. Facsimile or other electronic signatures shall be considered original signatures. 
 A signed copy of this Agreement delivered by facsimile, email, or other means of  electronic transmission shall be deemed to have the same legal effect as delivery of an  original signed copy of this Agreement. 
+
 ### 11.10 Waiver. 
+
 No delay or failure on the part of any Steward to exercise any right or power  arising hereunder will act as a waiver of such right. 
+
 ### 11.11 Governing Law and Jurisdiction. 
+
 This Agreement shall be governed by the laws of the  State of California, without regard to its conflicts of laws provisions. All Stewards hereby  irrevocably consent to the exclusive jurisdiction of any state or federal court in San  Francisco County, California.  
+
 ### 11.12 Arbitration. 
+
 If informal mediation is not successful, any action to enforce or interpret this  Agreement or to resolve disputes between the Collective and its Stewards shall be  settled by arbitration in accordance with the rules of the American Arbitration Association.  Arbitration shall be the exclusive dispute resolution process in San Francisco, California.  Any party may commence arbitration by sending a written demand for arbitration to the  other party. Either party may appear at any arbitration hearing, meeting, or other event via  phone or video conference proceedings, so long as all attendees may speak and be heard by  all other attendees. The arbitrator shall not conduct any form of class or collective  arbitration nor join or consolidate claims by or for individuals. The arbitrator, and not any  federal, state, or local court or agency, shall have exclusive authority to resolve any dispute  relating to the interpretation, applicability, enforceability or formation of this Agreement,  including, any claim that all or any part of this Agreement is void or voidable or a  particular claim is subject to arbitration. The parties shall share equally all initial costs of  arbitration. The prevailing party shall be entitled to reimbursement of attorney fees, costs, 
 and expenses incurred in connection with the arbitration. Judgment on the award rendered  by the arbitrator may be entered in any court of competent jurisdiction. 
+
 ### 11.13 Survival. 
+
 The rights and obligations of the parties which by their nature must survive  termination or expiration of this Agreement in order to achieve its fundamental purposes  including, without limitation, the provisions regarding payment of Profit Share,  confidentiality, indemnity, limitation of liability, and miscellaneous, shall survive any  termination of this Agreement.
 
 ## EXHIBITS
