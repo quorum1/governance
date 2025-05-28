@@ -1,10 +1,19 @@
-# Quorum1 Governance Repo - Release 4
+# Quorum1 Governance Repo - Release 5 [Work in Progress]
 
 This repo contains Quorum1's official governance processes and models. 
 
 Quorum1 is a professional collective. Our website is at: https://quorum.one
 
 Our governance repo is hosted on Github and managed using branches, pull requests, and other Git-based tools. The audit history of changes to this repo is considered part of Quorum1's public record.
+
+## Release 5 
+
+Release Point: Hank
+
+### Checklist
+
+[ ] Updates to Org Investment Ledger Design
+[ ] Other items?
 
 ## Structure of this Repo
 
