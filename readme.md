@@ -8,7 +8,7 @@ Our governance repo is hosted on Github and managed using branches, pull request
 
 ## Release 5 
 
-Release Point: Hank
+Release Point: David Smolenski
 
 ### Checklist
 
@@ -22,7 +22,7 @@ Release Point: Hank
 
 ## Current Status of our Governance Repo
 
-This is Release 4, the current live release.
+This is Release 5, the current working release.
 
 We are still in the process of porting our entire governance structure into this repo. Prior to June 2024 our governance structures have been managed in many different places. This repo is an effort to unify those pieces in order to increase transparency, streamline change management, and facilitate greater collaboration.
 
