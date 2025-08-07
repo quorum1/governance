@@ -13,7 +13,12 @@ Release Point: David Smolenski
 ### Checklist
 
 [ ] Updates to Org Investment Ledger Design
-[ ] Other items?
+[ ] Updates to Financial Model
+[ ] Updates to Operating Agreement
+[ ] Replace IC Agreement with current Contributor Agreement
+[ ] Replace Community Agreement with current version
+[ ] Updates to q-git: minor typos and corrections
+[ ] Review of all documents for typos/inconsistencies
 
 ## Structure of this Repo
 
