@@ -14,7 +14,7 @@ The Q-Git Flow (QGF for short) is our primary governance change flow.
 - When a Working Release is launched, it becomes the new Live Release, and the prior Live Release becomes one of the Legacy Releases.
 - All Contributors are allowed to create **Contribution Branches** and submit them for inclusion in a Working Release as outlined in the Development Process.
 - All Contributors are also allowed to create **Experimental Branches** for any desired reason or purpose. Though from time to time these may need to be pruned, archived, renamed and/or reorganized.
-- During the finalization step of the Release Process, **Resolution Branches** are created by designatees to address key issues.
+- During the finalization step of the Release Process, **Resolution Branches** are created by designees to address key issues.
 - No more than one **Working Release** may exist at a time.
 - A Live Release may not be changed once it is launched, nor may Legacy Releases be changed. They are considered a permanent part of our audit trail.
 
@@ -32,7 +32,7 @@ The process through which Working Releases are created and eventually launched.
 
 ### Development Process
 
-The process through which Contributions and drafted and eventually approved for inclusion in a Working Release.
+The process through which Contributions are drafted and eventually approved for inclusion in a Working Release.
 
 1. **Drafting:** A Contribution is drafted.
 2. **Iteration:** A Contribution is submitted for inclusion in a Working Release, and iterated upon with one or more Sponsors.
@@ -51,7 +51,7 @@ Each Working Release has the following roles associated with it.
 - **Release Point (RP):** Coordinates the Release and is responsible for key decisions. Able to delegate authority to others and define the workflow for the Release as long as it doesn't conflict with the definitions in the governance repo. The Release Point must be a Contributor.
 - **Stewards:** Play key roles in development and ultimately approve the Release during finalization.
 - **Managing Steward (MS):** Helps support the Point, provides architectural guidance, has veto power over approvals, appoints and can change the Point, can overrule decisions made by the Release Point.
-- **Designatees:** Designated by the Release Point to develop Resolution Branches as needed during the finalization step.
+- **Designees:** Designated by the Release Point to develop Resolution Branches as needed during the finalization step.
 - **Merge Certifiers:** The final certification step before a Working Release is merged into the `main` branch.
 
 ### Step 1 - Creation
