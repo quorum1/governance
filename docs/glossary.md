@@ -98,7 +98,7 @@ This process defines how money investors are onboarded, off-boarded, what requir
 
 This process is important to ensure that the quorum has collected appropriate financial information and ensured that we are not restricted from sending a particular member money for some reason.
 
-In order for a ledger to directly target a member for outflow allocation, the member has to have signed a formal agreement with Quorum1. If members have joined the quorum via a corporate entity, then their payments are directed to their registered corporate entity. Some members may be restricted from direct allocation if there are legal or regulatory restrictions that apply to them.
+In order for a ledger to directly target a member for outflow allocation, the member must have signed a formal agreement with Quorum1. If members have joined the quorum via a corporate entity, then their payments are directed to their registered corporate entity. Some members may be restricted from direct allocation if there are legal or regulatory restrictions that apply to them.
 
 ## Rev Token Ownership Processes
 
@@ -116,11 +116,11 @@ This process defines how unfulfilled revenue in a fulfillment ledger may be refu
 
 ## Quorum1 Signatories
 
-While the Collective is in Informal Governance Structure only the Quorum1 Signatories are able to bind the Collective legally. The Signatories are defined in [Informal Governance Structure Definition & Roles](./igs-roles.md).
+While the quorum is in Informal Governance Structure only the Quorum1 Signatories are able to bind the quorum legally. The Signatories are defined in [Informal Governance Structure Definition & Roles](./igs-roles.md).
 
 ## Workstream
 
-The Workstream is a system that Quorum1 uses to manage requests, tasks, and facilitate collaboration. Workstream reqs (short for “requests”) are discrete work units or tasks. Each req belongs to a stream (the primary organizational structure within the Workstream). The Workstream is a custom app designed and built by the quorum to facilitate collaboration \while maximizing visibility and discoverability of work items across the organization. The Workstream is a critical part of Quorum1’s operational infrastructure.
+The Workstream is a system that Quorum1 uses to manage requests, tasks, and facilitate collaboration. Workstream reqs (short for “requests”) are discrete work units or tasks. Each req belongs to a stream (the primary organizational structure within the Workstream). The Workstream is a custom app designed and built by the quorum to facilitate collaboration while maximizing visibility and discoverability of work items across the organization. The Workstream is a critical part of Quorum1’s operational infrastructure.
 
 ## Workstream Wallets
 
@@ -136,7 +136,7 @@ A compensated req requires extra verification before completion. If the req is c
 
 ## Time Tracking System
 
-Our time tracking system is a critical part of the quorum’s operational infrastructure. At this time of this writing we are using a system called Xero to facilitate time tracking, but that may change in the future.
+Our time tracking system is a critical part of the quorum’s operational infrastructure. At the time of this writing we are using a system called Xero to facilitate time tracking, but that may change in the future.
 
 Regardless of the implementation, the time tracking system is a key tool which allows all members to track time which they spend working on internal and external projects, as well as time they spend in ways which are related to the quorum but not necessarily linked to specific projects.
 
