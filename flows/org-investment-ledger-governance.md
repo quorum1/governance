@@ -1,6 +1,6 @@
 # Org Investment Ledger Governance Flow
 
-_**Dependencies:** [Informal Governance Model Definition & Roles](./igs-roles.md), [Q-Git Governance Change Flow](./q-git.md)_
+_**Dependencies:** [Informal Governance Model Definition & Roles](../docs/igs-roles.md), [Q-Git Governance Change Flow](./q-git.md)_
 
 This flow defines the process for making changes to the [Org Investment Ledger Design](../docs/glossary.md#org-investment-ledger-design) in alignment with the requirements of the [Financial Model](../docs/glossary.md#financial-model).
 
