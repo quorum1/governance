@@ -22,7 +22,7 @@ The Collective shall have four levels of membership:
  
 ### Section 2.02: Membership Qualifications
 
-Any person may become and remain a member of this Organization.
+Any person may become and remain a member of the Collective.
 
 ### Section 2.03: Membership Qualifications by Levels
 
