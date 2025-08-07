@@ -2,13 +2,13 @@
 
 This doc outlines guidelines, standards, and best practices for the contents of the Quorum1 Governance Repo.
 
-We are still in the process of porting our entire governance structure into this repo. As we develop the repo out more these standards are likely to shift and evolve. As such this doc should be considered in a draft state and subject to change.
+We are still in the process of porting our entire governance structure into this repo. As we develop the repo, these standards are likely to shift and evolve. As such this doc should be considered in a draft state and subject to change.
 
 ## Guidelines
 
 ### Inter-File Links & Term Definitions
 
-Markdown syntax allows us to link from on repo file to another like this: `[Example Link](../path/to-other-file.md#header-to-link-to)`. 
+Markdown syntax allows us to link from one repo file to another like this: `[Example Link](../path/to-other-file.md#header-to-link-to)`. 
 
 Direct references between repo files should be avoided unless the cited page is a critical dependency of the referring page. In such a case:
 1. The inter-file link should only be included once
