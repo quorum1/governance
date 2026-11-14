@@ -1,4 +1,4 @@
-# **Quorum1 Privacy Policy v1.0.0**
+# **Quorum1 Privacy Policy v1.1.0**
 
 Please read this privacy policy carefully as it contains important information on who we are and our information practices around how and why we collect, use, disclose, sell, share, store, and retain your personal information. It also explains your rights in relation to your personal information and how to contact us or supervisory authorities in the event you have a complaint or request.
 
@@ -43,6 +43,7 @@ We collect personal information from the following categories of sources:
 * You, directly in person, by telephone, text, electronic document transmission, or email, and via our website and wiki  
 * Third party with your consent (e.g., your bank)  
 * Third party communications applications such as Slack   
+* Google, when you choose to sign in to the q1 Network app with your Google account (see Section 4.5)  
 * Data analytics providers  
 * Government entities  
 * Operating systems and platforms  
@@ -131,6 +132,29 @@ In the preceding 12 months, we have disclosed the following categories of person
 * Information that identifies, relates to, describes, or is capable of being associated with, a particular individual, including, but not limited to, their name, address, telephone number, education, employment,   
 * Characteristics of protected classifications under California or federal law \- only citizenship for employment purposes  
 * Professional or employment-related information
+
+### **Section 4.5: The q1 Network App and Signing In With Google**
+
+The q1 Network app, at q1.is, is hosted on Firebase and Google Cloud, which Google provides to us as a service provider. The app's data, including the personal information described in this section, is stored and processed by Google on our behalf.
+
+You can join the q1 Network, sign in, or claim an existing membership with your Google account, and you can link a Google account to your membership in the app's settings. When you do:
+
+* What we receive from Google: your Google account's identifier, your email address, whether Google has verified that email address, your name, and the web address of your Google profile photo. We ask Google only for this basic profile information (the "openid", "email" and "profile" permissions). We do not receive your Google password, and we do not ask for or receive your contacts, email messages, files, calendar, or any other data in your Google account.
+
+* How we use it:
+  * To check, on our own servers, that the sign-in came from Google and was meant for our app.
+  * To sign you in to the membership that holds that email address, or to recognize your Google account when you sign in with it again, even if its email address has changed.
+  * If you are joining, to fill in your name and email address on the registration form, which you can change before you submit it. If you stop before you submit it, we do not save these details.
+  * To treat the email address as verified on your membership, because Google has verified it, so we do not send a code to check it.
+  * When you join with Google, to copy your Google profile photo once, as your profile image in the app. You can replace it at any time.
+
+* What we keep: our sign-in service, Firebase Authentication, keeps your Google account's identifier, email address, name and photo address with the sign-in record for that email address, for as long as Google stays linked to it. The name, email address and photo you join with become part of your membership details, and are used and shared as your other membership details are, as described in this policy.
+
+* Unlinking Google: if you also have a password, you can unlink Google from your membership in the app's settings. Our sign-in service then removes the Google account details it kept. Your membership details stay as they are.
+
+* Why we use it: to provide the sign-in you ask for, as part of our contract with you or at your request before you enter into one (see Section 4).
+
+* What we do not do: we do not sell information we receive from Google, use it for advertising, or use it to train AI models.
 
 ## **Section 5: How Long Your Personal Information Will Be Kept**
 
@@ -290,7 +314,7 @@ We have appropriate security measures in place to prevent personal information f
 
 ### **Section 8.1: Changes to This Privacy Notice**
 
-This privacy notice was published on December 13, 2024  and last updated on December 13, 2024.
+This privacy notice was published on December 13, 2024  and last updated on November 14, 2026.
 
 We may change this privacy notice from time to time–when we do, we will inform you via our website or other means of contact such as email.
 
