@@ -16,7 +16,7 @@ We collect, use, and are responsible for certain personal information about you.
 
 ## **Section 2: Personal Information We Collect About You**
 
-We may collect and use the following personal information, including sensitive personal information, that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household.  This includes personal information, and sensitive personal information, that you may decide to share via third party applications such as Slack or Notion, which we automatically maintain in the normal course of business.
+We may collect and use the following personal information, including sensitive personal information, that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household.  This includes personal information, and sensitive personal information, that you may decide to share via third party applications, which we automatically maintain in the normal course of business.
 
 ### **Section 2.1: Types of Personal Information Collected**
 
@@ -28,7 +28,7 @@ We may collect and use the following personal information, including sensitive p
 
 * Commercial information (e.g., records of personal property, products or services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies). We may conduct community surveys which could involve questions around individual consumer behavior. It is only our intent to learn more about our community, never to sell or commoditize that information. 
 
-* Internet or other electronic network activity information (e.g., browsing history, search history, and information regarding a consumer’s interaction with an internet website, application, or advertisement). If you have been provisioned with Quorum1 account credentials to our email, Slack, or other workspace, as administators of those tools we will have access to activity logs of actions taken in them. We do not regularly need to access these logs, but in the case of a regulatory or compliance request, it is important that we keep these records. 
+* Internet or other electronic network activity information (e.g., browsing history, search history, and information regarding a consumer’s interaction with an internet website, application, or advertisement). If you have been provisioned with Quorum1 account credentials to our email, messaging, or other workspace tools, as administators of those tools we will have access to activity logs of actions taken in them. We do not regularly need to access these logs, but in the case of a regulatory or compliance request, it is important that we keep these records. 
 
 ### **Section 2.2: Types of Personal Information Not Collected**
 
@@ -42,8 +42,8 @@ We collect personal information from the following categories of sources:
 
 * You, directly in person, by telephone, text, electronic document transmission, or email, and via our website and wiki  
 * Third party with your consent (e.g., your bank)  
-* Third party communications applications such as Slack   
-* Google, when you choose to sign in to the q1 Network app with your Google account (see Section 4.5)  
+* Third party communications applications  
+* Sign-in providers you choose to sign in with (see Section 4.5)  
 * Data analytics providers  
 * Government entities  
 * Operating systems and platforms  
@@ -84,7 +84,7 @@ For EEA Data Subjects: The below list does not apply to special category persona
 * Statutory returns.  
 * Ensuring safe working practices, staff administration and assessments.  
 * Marketing our services \[and those of selected third parties\] to: Existing and former customers, Third parties who have previously expressed an interest in our services, Third parties with whom we have had no previous dealings.  
-* External audits and quality checks, e.g., for ISO or Investors in People accreditation and the audit of our accounts.  
+* External audits and quality checks, e.g., the audit of our accounts.  
 * For the performance of our contract with you or to take steps at your request before entering into a contract.  
 * To comply with our legal and regulatory obligations.  
 * For the performance of our contract with you or to take steps at your request before entering into a contract.  
@@ -109,7 +109,7 @@ We routinely share personal information with:
 * Our insurers and brokers  
 * Our banks
 
-We only allow our service providers to handle your personal information if we are satisfied they take appropriate measures to protect your personal information. We also impose contractual obligations on service providers to ensure they can only use your personal information to provide services to us and to you. We may also share personal information with external auditors, e.g., in relation to ISO or Investors, accreditation, and the audit of our accounts.
+We only allow our service providers to handle your personal information if we are satisfied they take appropriate measures to protect your personal information. We also impose contractual obligations on service providers to ensure they can only use your personal information to provide services to us and to you. We may also share personal information with external auditors, e.g., in relation to the audit of our accounts.
 
 We may disclose and exchange information with law enforcement agencies and regulatory bodies to comply with our legal and regulatory obligations.
 
@@ -133,28 +133,17 @@ In the preceding 12 months, we have disclosed the following categories of person
 * Characteristics of protected classifications under California or federal law \- only citizenship for employment purposes  
 * Professional or employment-related information
 
-### **Section 4.5: The q1 Network App and Signing In With Google**
+### **Section 4.5: Signing In With Google**
 
-The q1 Network app, at q1.is, is hosted on Firebase and Google Cloud, which Google provides to us as a service provider. The app's data, including the personal information described in this section, is stored and processed by Google on our behalf.
+You can sign in to the q1 Network app with your Google account, including when you join, when you claim an existing membership, and when you link a Google account to your membership. When you do:
 
-You can join the q1 Network, sign in, or claim an existing membership with your Google account, and you can link a Google account to your membership in the app's settings. When you do:
+* What we receive from Google: your Google account's identifier, your email address and whether Google has verified it, your name, and the web address of your Google profile photo.
 
-* What we receive from Google: your Google account's identifier, your email address, whether Google has verified that email address, your name, and the web address of your Google profile photo. We ask Google only for this basic profile information (the "openid", "email" and "profile" permissions). We do not receive your Google password, and we do not ask for or receive your contacts, email messages, files, calendar, or any other data in your Google account.
+* How we use it: to sign you in and recognize your Google account when you sign in again; when you join, to fill in your name and email address on the registration form and to use your Google profile photo as your profile image; and to treat your email address as verified.
 
-* How we use it:
-  * To check, on our own servers, that the sign-in came from Google and was meant for our app.
-  * To sign you in to the membership that holds that email address, or to recognize your Google account when you sign in with it again, even if its email address has changed.
-  * If you are joining, to fill in your name and email address on the registration form, which you can change before you submit it. If you stop before you submit it, we do not save these details.
-  * To treat the email address as verified on your membership, because Google has verified it, so we do not send a code to check it.
-  * When you join with Google, to copy your Google profile photo once, as your profile image in the app. You can replace it at any time.
-
-* What we keep: our sign-in service, Firebase Authentication, keeps your Google account's identifier, email address, name and photo address with the sign-in record for that email address, for as long as Google stays linked to it. The name, email address and photo you join with become part of your membership details, and are used and shared as your other membership details are, as described in this policy.
-
-* Unlinking Google: if you also have a password, you can unlink Google from your membership in the app's settings. Our sign-in service then removes the Google account details it kept. Your membership details stay as they are.
+* How we store and share it: our hosting and sign-in service providers store it and process it only on our behalf. They keep your Google account's identifier, email address, name and photo address with your sign-in record for as long as your Google account stays linked to your membership. The name, email address and photo you join with become part of your membership details, which we use, share and keep as described in the rest of this policy.
 
 * Why we use it: to provide the sign-in you ask for, as part of our contract with you or at your request before you enter into one (see Section 4).
-
-* What we do not do: we do not sell information we receive from Google, use it for advertising, or use it to train AI models.
 
 ## **Section 5: How Long Your Personal Information Will Be Kept**
 
@@ -314,7 +303,7 @@ We have appropriate security measures in place to prevent personal information f
 
 ### **Section 8.1: Changes to This Privacy Notice**
 
-This privacy notice was published on December 13, 2024  and last updated on November 14, 2026.
+This privacy notice was published on December 13, 2024  and last updated on November 16, 2026.
 
 We may change this privacy notice from time to time–when we do, we will inform you via our website or other means of contact such as email.
 
