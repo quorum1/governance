@@ -139,9 +139,9 @@ You can sign in to the q1 Network app with your Google account, including when y
 
 * What we receive from Google: your Google account's identifier, your email address and whether Google has verified it, your name, and the web address of your Google profile photo.
 
-* How we use it: to sign you in and recognize your Google account when you sign in again; when you join, to fill in your name and email address on the registration form and to use your Google profile photo as your profile image; and to treat your email address as verified.
+* How we use it: to find the membership that holds your email address and sign you in to it, and to recognize your Google account when you sign in again; when you claim a membership, to confirm the email address is yours in place of a claim code; when you join, to fill in your name and email address on the registration form and to use your Google profile photo as your profile image; and to treat your email address as verified, adding it to your membership if you link a Google account whose email address is not on your membership yet.
 
-* How we store and share it: our hosting and sign-in service providers store it and process it only on our behalf. They keep your Google account's identifier, email address, name and photo address with your sign-in record for as long as your Google account stays linked to your membership. The name, email address and photo you join with become part of your membership details, which we use, share and keep as described in the rest of this policy.
+* How we store and share it: our hosting and sign-in service providers store it and process it only on our behalf. They keep it with your sign-in record for as long as your Google account stays linked to your membership. The name, email address and photo you join with, and an email address added by linking, become part of your membership details, which we use, share and keep as described in the rest of this policy. Your profile image, which can come from Google, and the name you choose to show appear on your member profile, which other members and the public can see.
 
 * Why we use it: to provide the sign-in you ask for, as part of our contract with you or at your request before you enter into one (see Section 4).
 
