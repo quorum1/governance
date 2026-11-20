@@ -141,7 +141,7 @@ You can sign in to the q1 Network app with your Google account, including when y
 
 If you give us your mobile number and agree to receive text messages from the q1 Network app, we use your number to send them. Our text-messaging service provider sends them only on our behalf.
 
-* No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text-message opt-in data and consent are excluded from every category of sharing and disclosure in this policy (including Sections 4.2, 4.3, 4.4 and 7.1) and will not be shared with any third parties, except our text-messaging service provider, which uses them only to send our messages.
+* No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text-message opt-in data and consent are excluded from every category of sharing and disclosure in this policy (including Sections 4.2, 4.3, 4.4 and 7.1) and will not be shared with any third parties, except our text-messaging service provider, which uses them only to send our messages, or where the law requires us to disclose them.
 * Message frequency varies. Message and data rates may apply.
 * Reply HELP for help. Reply STOP at any time to stop receiving text messages.
 * Our [Terms of Service](https://q1.is/terms-of-service/) also apply to our text messages.
