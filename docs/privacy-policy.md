@@ -137,6 +137,15 @@ You can sign in to the q1 Network app with your Google account, including when y
 
 * Why we use it: to provide the sign-in you ask for, as part of our contract with you or at your request before you enter into one (see Section 4).
 
+### **Section 4.6: Text Messages**
+
+If you give us your mobile number and agree to receive text messages from the q1 Network app, we use your number to send them. Our text-messaging service provider sends them only on our behalf.
+
+* We do not share your mobile number or your consent to receive text messages with third parties or affiliates for their marketing or promotional purposes.
+* Message frequency varies. Message and data rates may apply.
+* Reply HELP for help. Reply STOP at any time to stop receiving text messages.
+* Our [Terms of Service](https://q1.is/terms-of-service/) also apply to our text messages.
+
 ## **Section 5: How Long Your Personal Information Will Be Kept**
 
 We will keep your personal information while you have an account with us or while we are providing services to you. Thereafter, we will keep your personal information for as long as is necessary:
