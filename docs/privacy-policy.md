@@ -81,7 +81,7 @@ For EEA Data Subjects: The below list does not apply to special category persona
 * Preventing unauthorized access and modifications to systems.  
 * Statutory returns.  
 * Ensuring safe working practices, staff administration and assessments.  
-* Marketing our services \[and those of selected third parties\] to: Existing and former customers, Third parties who have previously expressed an interest in our services, Third parties with whom we have had no previous dealings.  
+* Marketing our services to: Existing and former customers, Third parties who have previously expressed an interest in our services, Third parties with whom we have had no previous dealings.  
 * External audits and quality checks, e.g., the audit of our accounts.  
 * For the performance of our contract with you or to take steps at your request before entering into a contract.  
 * To comply with our legal and regulatory obligations.  
@@ -89,8 +89,7 @@ For EEA Data Subjects: The below list does not apply to special category persona
   * Making sure that we can keep in touch with our customers about existing orders and new products,  
   * To make sure we are following our own internal procedures and working efficiently so we can deliver the best service to you.  
   * To promote our business to existing and former customers.  
-  * To minimize fraud that could be damaging for us and for you.  
-  * To make sure we are following our own internal procedures so we can deliver the best service to you.
+  * To minimize fraud that could be damaging for us and for you.
 
 ### **Section 4.2: Who We Share Your Personal Information With**
 
@@ -247,7 +246,7 @@ If you would like to exercise any of your rights as described in this Privacy Po
 
 * If you choose to contact us directly by website or email, you will need to provide us with:
 
-* Enough information to identify you \[(e.g., your full name, address and customer or matter reference number)\]
+* Enough information to identify you
 
 * Proof of your identity and address (e.g., a copy of your driving license or passport and a recent utility or credit card bill) –and–
 
